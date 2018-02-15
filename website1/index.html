@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>One Page Wonder - Start Bootstrap Template</title>
+        <!-- Bootstrap Core CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Custom CSS -->
+        <link href="assets/css/style.css?v0.1" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Navigation -->
+    <div id="navbar"></div>
+
+        <!-- Full Width Image Header -->
+        <div id="tagline"></div>
+
+        <!-- Page Content -->
+        <div class="container">
+
+            <!-- First Featurette -->
+            <section id="first_heading"></section>
+            <section id="services"></section>
+            <section id="portfolio"></section>
+            <section id="contact"></section>
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Your Website 2014</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <!-- /.container -->
+
+        <!-- Some aditional fixes -->
+        <script type="text/javascript">
+            window.onload = function(){
+                
+                let pieces = [
+                    { elementId: '#navbar', filePath: 'navbar.html'},
+                    { elementId: '#tagline', filePath: 'tagline.html'},
+                    { elementId: '#first_heading', filePath: 'first_heading.html'},
+                    { elementId: '#services', filePath: 'services.html'},
+                    { elementId: '#portfolio', filePath: 'portfolio.html'},
+                    { elementId: '#contact', filePath: 'contact.html'},
+                ];
+                
+                TemplateManager.loadPieces(pieces);
+            }
+        </script>
+        <script type="text/javascript" src="../templateManager.js"></script>
+        <script type="text/javascript" src="assets/js/fix.js"></script>
+
+    </body>
+</html>
