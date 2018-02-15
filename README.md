@@ -12,10 +12,6 @@ Each working works on a different file, for a different part of the website and 
 $ git clone git@bitbucket.org:codingacademy/git-collaboration-vanilla-js.git
 $ git remote set-url <your new repository>
 ```
-3. Run composer install
-```sh
-$ composer install
-```
 3. Push to your new repository to upload the files.
 
 4. Each student will have to clone your new repository and develop one piece of the website, all the parts are divided in the the **templates/** directory.
