@@ -10,7 +10,7 @@ Each working works on a different file, for a different part of the website and 
 
 2. Then, clone this repository and change the remote to your new repository
 ```sh
-$ git clone git@bitbucket.org:codingacademy/git-collaboration-vanilla-js.git
+$ git clone git@github.com:breatheco-de/exercise-git-collabration.git
 $ git remote set-url <the new repository>
 ```
 3. Push everything to the new respository you have just created.
@@ -29,5 +29,5 @@ $ git push origin master
 
 ## Addional complementary info
 
-This html-template-engine library is being used as template engine.
-[https://github.com/alesanchezr/html-template-engine](https://github.com/alesanchezr/html-template-engine)
+The [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) is being used as template engine for building the landing page.
+
