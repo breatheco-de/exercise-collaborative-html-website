@@ -12,19 +12,19 @@
     <body>
 
         <!-- Navigation -->
-    <div id="navbar"></div>
-
+        <div inclu="navbar"></div>
+        <span require-file="./templates/navbar.html"></span>
         <!-- Full Width Image Header -->
-        <div id="tagline"></div>
+        <span require-file="./templates/tagline.html"></span>
 
         <!-- Page Content -->
         <div class="container">
 
             <!-- First Featurette -->
-            <section id="first_heading"></section>
-            <section id="services"></section>
-            <section id="portfolio"></section>
-            <section id="contact"></section>
+            <span require-file="./templates/first_heading.html"></span>
+            <span require-file="./templates/services.html"></span>
+            <span require-file="./templates/portfolio.html"></span>
+            <span require-file="./templates/contact.html"></span>
             <!-- Footer -->
             <footer>
                 <div class="row">
@@ -36,24 +36,7 @@
 
         </div>
         <!-- /.container -->
-
-        <!-- Some aditional fixes -->
-        <script type="text/javascript">
-            window.onload = function(){
-                
-                let pieces = [
-                    { elementId: '#navbar', filePath: 'navbar.html'},
-                    { elementId: '#tagline', filePath: 'tagline.html'},
-                    { elementId: '#first_heading', filePath: 'first_heading.html'},
-                    { elementId: '#services', filePath: 'services.html'},
-                    { elementId: '#portfolio', filePath: 'portfolio.html'},
-                    { elementId: '#contact', filePath: 'contact.html'},
-                ];
-                
-                TemplateManager.loadPieces(pieces);
-            }
-        </script>
-        <script type="text/javascript" src="../templateManager.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/alesanchezr/html-template-engine/master/dist/html-template-engine.js"></script>
         <script type="text/javascript" src="assets/js/fix.js"></script>
 
     </body>

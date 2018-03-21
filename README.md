@@ -29,15 +29,5 @@ $ git push origin master
 
 ## Addional complementary info
 
-Inside each website, there is a **pieces** variable that contains all the pieces to be loaded, for example:
-
-```js
-    let pieces = [
-        { elementId: '#navbar', filePath: 'navbar.html'},
-        { elementId: '#tagline', filePath: 'tagline.html'},
-        { elementId: '#first_heading', filePath: 'first_heading.html'},
-        { elementId: '#services', filePath: 'services.html'},
-        { elementId: '#portfolio', filePath: 'portfolio.html'},
-        { elementId: '#contact', filePath: 'contact.html'},
-    ];
-```
+This html-template-engine library is being used as template engine.
+[https://github.com/alesanchezr/html-template-engine](https://github.com/alesanchezr/html-template-engine)
