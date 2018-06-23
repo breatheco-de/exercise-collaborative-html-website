@@ -2,7 +2,7 @@
 
 Use this project to practice your students skills in GIT while developing a porfolio website.
 
-Each working works on a different file, for a different part of the website and the teacher can run the entire website. The PHP code will take care of putting all the pieces together.
+Each student works on a different file, for a different part of the website and the teacher can run the entire website. The PHP code will take care of putting all the pieces together.
 
 ## Instructions
 
