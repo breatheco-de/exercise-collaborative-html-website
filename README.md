@@ -6,14 +6,9 @@ Each student works on a different file, for a different part of the website and 
 
 ## Instructions
 
-1. As a teacher, please create a new repository in github.com and invite your students.
-
-2. Then, clone this repository and change the remote to your new repository
-```sh
-$ git clone git@github.com:breatheco-de/exercise-git-collabration.git
-$ git remote set-url <the new repository>
-```
-3. Push everything to the new respository you have just created.
+1. As a teacher, please fork this repository on github.com and invite your students.
+2. Then, clone your new repository.
+3. Students must push any changes to the new respository you have just created, you are going to help them resolve conflicts and follow the github workflow (add, commit, pull push).
 ```sh
 $ git push origin master
 ```
