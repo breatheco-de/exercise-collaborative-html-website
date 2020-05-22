@@ -1,12 +1,12 @@
-# Git Collabotarive
+# Making a website as a team (Git collabotation)
 
-Use this project to practice your students skills in GIT while developing a porfolio website.
+Practice your skills in GIT while developing your porfolio website.
 
-Each student works on a different file, for a different part of the website and the teacher can run the entire website. The Html-Template-Engine library will take care of putting all the pieces together.
+Each student works on a different file, for a different part of the website and the most senior can work as Team Leader (for integration and deployment). The Html-Template-Engine library will take care of putting all the pieces together.
 
 ## Instructions
 
-1. As a teacher, please fork this repository on github.com and invite your students.
+1. The Team Leader should fork this repository on github.com and invite other collaborators.
 2. Then, clone your new repository.
 3. Students must push any changes to the new respository you have just created, you are going to help them resolve conflicts and follow the github workflow (add, commit, pull push).
 ```sh
