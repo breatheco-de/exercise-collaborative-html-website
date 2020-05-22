@@ -16,7 +16,7 @@ Each student works on a different file, for a different part of the website and 
 
 ## Deploy the website
 
-Use Vercel, Netlify or Github pages to depoy the website to the team URL (for example: https://mysuperteam.zeit.sh).
+Use Vercel, Netlify or Github pages to deploy the website to the team URL (for example: https://mysuperteam.zeit.sh).
 
 ## Complementary info
 
