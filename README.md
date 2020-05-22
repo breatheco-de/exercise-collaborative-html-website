@@ -4,7 +4,7 @@ Practice your skills in GIT while developing your porfolio website.
 
 Each student works on a different file, for a different part of the website and the most senior can work as Team Leader (for integration and deployment). The Html-Template-Engine library will take care of putting all the pieces together.
 
-## Instructions
+## 📝 Instructions
 
 1. The Team Leader should fork this repository on github.com and [invite other collaborators to the repo](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif).
 
@@ -17,6 +17,10 @@ Each student works on a different file, for a different part of the website and 
 ## Deploy the website
 
 Use Vercel, Netlify or Github pages to deploy the website to the team URL (for example: https://mysuperteam.zeit.sh).
+
+## Delivery
+
+Everyone delivers the same repo as solution.
 
 ## Complementary info
 
