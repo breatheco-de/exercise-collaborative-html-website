@@ -6,23 +6,19 @@ Each student works on a different file, for a different part of the website and 
 
 ## Instructions
 
-1. The Team Leader should fork this repository on github.com and invite other collaborators.
-2. Then, clone your new repository.
-3. Students must push any changes to the new respository you have just created, you are going to help them resolve conflicts and follow the github workflow (add, commit, pull push).
-```sh
-$ git push origin master
-```
+1. The Team Leader should fork this repository on github.com and [invite other collaborators to the repo](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif).
 
-## Now your students can download your repository and collaborate with you
+2. Pick what website you want to build.
 
-1. Pick what website you want to build with your students.
+3. Each contributor will have to clone the new forked repository and develop one piece of the website you have chosee, each project is divided in pieces inside its **templates/** directory.
 
-2. Each student will have to clone your new repository and develop one piece of the website you have chosee, each project is divided in pieces inside its **templates/** directory.
+4. When each team member finishes, they have to commit and push to the forked repository.
 
-3. When students finish, they have to commit and push to your repository.
+## Deploy the website
 
+Use Vercel, Netlify or Github pages to depoy the website to the team URL (for example: https://mysuperteam.zeit.sh).
 
-## Addional complementary info
+## Complementary info
 
 The [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) is being used as template engine for building the landing page.
 
