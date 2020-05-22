@@ -24,7 +24,7 @@ $ npx browser-sync start -s -w
 
 ## Deploy the website
 
-Use Vercel, Netlify or Github pages to deploy the website to the team URL (for example: https://mysuperteam.zeit.sh).
+Use Vercel, Netlify or Github pages to deploy the website to the team URL (for example: `https://mysuperteam.zeit.sh`).
 
 ## Delivery
 
