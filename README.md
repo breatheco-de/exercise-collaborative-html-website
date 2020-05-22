@@ -14,6 +14,14 @@ Each student works on a different file, for a different part of the website and 
 
 4. When each team member finishes, they have to commit and push to the forked repository.
 
+## 💻 Run the website
+
+In order to watch the website live run the following command:
+
+```bash
+$ npx browser-sync start -s -w
+```
+
 ## Deploy the website
 
 Use Vercel, Netlify or Github pages to deploy the website to the team URL (for example: https://mysuperteam.zeit.sh).
