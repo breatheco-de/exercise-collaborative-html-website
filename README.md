@@ -1,6 +1,6 @@
 # Making a website as a team (Git collabotation)
 
-Practice your skills in GIT while developing your porfolio website.
+Practice your skills in GIT while developing a typical website.
 
 Each student works on a different file, for a different part of the website and the most senior can work as Team Leader (for integration and deployment). The Html-Template-Engine library will take care of putting all the pieces together.
 
