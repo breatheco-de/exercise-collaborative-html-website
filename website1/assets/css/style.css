@@ -1,3 +1,40 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+
+.tagline {
+    background-image: url("/../assets/img/bg.jpg");
+    position: relative;
+    padding-bottom: 22rem;
+    padding-top: 28rem;
+   
+}
+
+.titulo1{
+    padding-left: 17rem;
+    background: white;
+    font-size: 120px;
+    
+}
+.titulo2{
+    padding-left: 21rem;
+    background: white;
+    font-size: 70px;
+}
+
+.head2 {
+    border-radius: 50%;
+    float: left;
+}
+.heisenberg {
+    margin-bottom: 15rem;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-right: 14rem;
+}
+form {
+    margin: 3rem;
+    padding: 1rem;
+    background: rgb(190, 176, 176);
+    
 }
