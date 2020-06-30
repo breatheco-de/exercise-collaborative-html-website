@@ -1,6 +1,9 @@
 body{
     background: white;
+  
 }
+
+
 
 .tagline {
     background-image: url("/../assets/img/bg.jpg");
@@ -38,3 +41,45 @@ form {
     background: rgb(190, 176, 176);
     
 }
+
+  
+
+
+.nav {
+    background: black;
+}
+
+nav a {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.calvo{
+    border-radius:20rem;
+}
+
+.par{
+    overflow: auto;
+    padding: 5rem 5rem 2rem 2rem;
+    border: 1px solid black;
+}
+
+.azul {
+    color: blue;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.parrafo {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+
+
