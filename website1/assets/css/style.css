@@ -1,3 +1,15 @@
 body{
-    background: #BDBDBD;
+    background: #bdbdbd;
 }
+
+div .container-fluid h1{
+    -webkit-text-fill-color: maroon;
+}
+
+
+
+
+
+
+
+
