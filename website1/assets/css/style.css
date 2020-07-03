@@ -6,10 +6,23 @@ div .container-fluid h1{
     -webkit-text-fill-color: maroon;
 }
 
+.navbar{
+    text-transform: uppercase;
+    color: #800020;
+}
 
+.navbar{
+    text-transform: uppercase;
+    color: #800020;
+}
 
+.navbar a:hover {
+  color: #f1003c;
+}
 
-
-
-
-
+#find {
+    background-color: #800020 !important;
+    text-transform: uppercase;
+    color: white;
+    border: 0px;
+}
