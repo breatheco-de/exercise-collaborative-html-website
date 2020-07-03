@@ -1,5 +1,9 @@
 body{
-    background: #BDBDBD;
+    background: #bdbdbd;
+}
+
+div .container-fluid h1{
+    -webkit-text-fill-color: maroon;
 }
 
 .navbar{
@@ -23,6 +27,7 @@ body{
     color: white;
     border: 0px;
 }
+<<<<<<< HEAD
 
 
 .card ul{
@@ -45,3 +50,5 @@ body{
  {
      color: white;
  }
+=======
+>>>>>>> 3cc537fafeac5cf5bbf9ee57367d90e520785d0e
