@@ -4,3 +4,13 @@ body{
 .logo {
     max-width: 300px;
 }
+.btn {
+    background-color: transparent;
+}
+
+input.form-control.mr-sm-2.bg-success {
+    max-height: 30px
+}
+.carousel-item.active {
+    padding: 15px
+}
