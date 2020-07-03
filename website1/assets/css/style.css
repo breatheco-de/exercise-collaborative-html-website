@@ -7,12 +7,13 @@ body{
     color: #800020;
 }
 
-.navbar{
+.navbar-light .navbar-nav .nav-link{
     text-transform: uppercase;
     color: #800020;
 }
 
-.navbar a:hover {
+
+.navbar-light .navbar-nav .nav-link:hover {
   color: #f1003c;
 }
 
@@ -22,3 +23,25 @@ body{
     color: white;
     border: 0px;
 }
+
+
+.card ul{
+ list-style-type: circle;
+}
+
+.card li
+{
+    display: inline-block;
+   
+ }
+
+ .portfolio
+ {
+     background-image: url("https://images.all-free-download.com/images/graphiclarge/wood_grain_highdefinition_picture_3_169735.jpg");
+     background-repeat: repeat;
+ }
+
+ .portfolio h3
+ {
+     color: white;
+ }
