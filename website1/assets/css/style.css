@@ -1,3 +1,6 @@
 body{
     background: #BDBDBD;
 }
+.logo {
+    max-width: 300px;
+}
