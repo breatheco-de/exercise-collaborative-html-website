@@ -14,3 +14,6 @@ input.form-control.mr-sm-2.bg-success {
 .carousel-item.active {
     padding: 15px
 }
+.fa-search:before {
+    color: gray;
+}
