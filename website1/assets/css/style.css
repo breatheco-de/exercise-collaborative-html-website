@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
     background: #BDBDBD;
 }
 
@@ -161,3 +162,58 @@ h7{
     width: 50%;
 }
 
+=======
+    background: #bdbdbd;
+}
+
+div .container-fluid h1{
+    -webkit-text-fill-color: maroon;
+}
+
+.navbar{
+    text-transform: uppercase;
+    color: #800020;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    text-transform: uppercase;
+    color: #800020;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f1003c;
+}
+
+#find {
+    background-color: #800020 !important;
+    text-transform: uppercase;
+    color: white;
+    border: 0px;
+}
+<<<<<<< HEAD
+
+
+.card ul{
+ list-style-type: circle;
+}
+
+.card li
+{
+    display: inline-block;
+   
+ }
+
+ .portfolio
+ {
+     background-image: url("https://images.all-free-download.com/images/graphiclarge/wood_grain_highdefinition_picture_3_169735.jpg");
+     background-repeat: repeat;
+ }
+
+ .portfolio h3
+ {
+     color: white;
+ }
+=======
+>>>>>>> 3cc537fafeac5cf5bbf9ee57367d90e520785d0e
+>>>>>>> 484502ca99d7d29f368eb82d41e0955f29a8952c
