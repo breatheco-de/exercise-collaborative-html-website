@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Oswald:wght@175&display=swap');
+
 body{
-<<<<<<< HEAD
+
     background: #BDBDBD;
 }
 
@@ -162,14 +164,19 @@ h7{
     width: 50%;
 }
 
-=======
-    background: #bdbdbd;
+
+div.container-fluid.tagline{
+    background-color: white;    
+    font-family: 'Oswald', sans-serif;
+    color: maroon;
+      
 }
 
-div .container-fluid h1{
-    -webkit-text-fill-color: maroon;
-}
 
+div.container-fluid.signin{
+    font-family: 'Oswald', sans-serif;
+ 
+}
 .navbar{
     text-transform: uppercase;
     color: #800020;
@@ -191,7 +198,6 @@ div .container-fluid h1{
     color: white;
     border: 0px;
 }
-<<<<<<< HEAD
 
 
 .card ul{
@@ -214,6 +220,4 @@ div .container-fluid h1{
  {
      color: white;
  }
-=======
->>>>>>> 3cc537fafeac5cf5bbf9ee57367d90e520785d0e
->>>>>>> 484502ca99d7d29f368eb82d41e0955f29a8952c
+
