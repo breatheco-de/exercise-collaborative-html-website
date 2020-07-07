@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Oswald:wght@175&display=swap');
+
 body{
+
     background: #bdbdbd;
 }
 
-div .container-fluid h1{
-    -webkit-text-fill-color: maroon;
+div.container-fluid.tagline{
+    background-color: white;    
+    font-family: 'Oswald', sans-serif;
+    color: maroon;
+    
+    
 }
 
+div.container-fluid.signin{
+    font-family: 'Oswald', sans-serif;
+ 
+}
 .navbar{
     text-transform: uppercase;
     color: #800020;
