@@ -1,3 +1,163 @@
 body{
     background: #BDBDBD;
 }
+
+
+
+/*Contact*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.contact-main{
+    heigth:300px;
+    width:100%;
+    background-color: #1b0800;
+}
+.container{
+    /* position: relative; */
+    background-color: #1b0800;
+    margin-top: 80px;
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+/*Tittle Section*/
+.tittle{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-left: 60px;
+    position: absolute;
+    /* width: 90%; */
+    background-color: #1b0800;
+    /* margin-bottom:80px; */
+}
+
+h7{
+    display: block;
+}
+
+.contact, .support, .careers, .giftcards, .fundraising{
+    display: inline-block;
+    font-size: 1.4em;
+    margin-right: 50px; 
+}
+
+/*About Section*/
+
+/* .about-container{
+    /* position: absolute; 
+    width: 80%;
+    heigth: 150px; 
+}*/
+.about, .connect, .download{
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    color: white;
+    background-color: #1b0800;
+    height: 150px;
+}
+.about{
+    /* position: absolute; */
+    margin-left: 60px;
+    margin-top: 120px;  
+    width:50%;
+}
+
+.about1, .about2, .about3, .about4, .about5, .about6, .about7, .about8, .about9{
+    font-family: Nunito,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    display: inline-block;
+    width: 180px;
+}
+
+
+/*Connect Section*/
+
+.connect{
+    
+    margin-top: 120px;
+    width: 15%;
+}
+
+.connect-tittle{
+    
+}
+
+.links-div{
+    margin-top: 20px;
+}
+.link{
+    margin-right: 20px;
+    height: 25%;
+    width: 20%;
+}
+
+/*Download Section*/
+
+.download{
+    margin-left: 20px;
+    margin-top: 80px;
+    width: 27%;
+
+}
+
+.stores-div{
+    margin-top: 20px; 
+}
+
+.playstore-img, .appstore-img{
+
+    width: 140px;
+    height: 42px;
+}
+
+.playstore, .appstore{
+    display: inline-block;
+}
+/* Country Section */
+
+.flag {
+    height:32px;
+    width: 32px;
+    display: flex;
+}
+.country{
+    /* position: absolute; */
+    display: flex;
+    color: white;
+    margin-left: 60px;
+    margin-top: 50px;
+    height: 35px;
+    width: 94%;
+    background-color: #1b0800;
+}
+
+.country-tittle{
+    padding-left: 10px;
+    
+}
+
+
+/* Copyright & Terms Section */
+
+.copyright{
+    margin-left: 60px;
+    width: 94%;
+    
+}
+.copyright1, .copyright2, .copyright3, .copyright4{
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: .65em;
+    margin-right: 4px;
+} 
+
+.copyright1{
+    width: 50%;
+}
+
