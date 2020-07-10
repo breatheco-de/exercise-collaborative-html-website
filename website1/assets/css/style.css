@@ -169,12 +169,14 @@ div.container-fluid.tagline{
     background-color: white;    
     font-family: 'Oswald', sans-serif;
     color: maroon;
+    text-align: center;
       
 }
 
 
-div.container-fluid.signin{
+div.row justify-content-md-center{
     font-family: 'Oswald', sans-serif;
+    background-color: white;
  
 }
 .navbar{
