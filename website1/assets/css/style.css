@@ -1,3 +1,26 @@
 body{
     background: #BDBDBD;
 }
+
+/* navbar & tagline  */
+
+.bgimage{
+    background-image: url("https://github.com/lauredojuan/exercise-collaborative-html-website/blob/317aba19786ce24f1dd4fe5263f1dd47e798d50d/website1/assets/img/bg.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    height: 900px;
+}
+.verticalposition{
+     position: absolute;
+     top: 200px; 
+}
+.text1{
+      font-size: 8vw !important;
+      color:#2d3436;
+}
+.text2{
+    font-size: 3vw !important;
+    color: #2d3436;
+    background: rgb(255, 255, 255);
+}
