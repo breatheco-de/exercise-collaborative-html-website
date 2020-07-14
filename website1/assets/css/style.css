@@ -2,8 +2,6 @@ body{
     background: #BDBDBD;
 }
 
-
-
 /* navbar & tagline  */
 
 .bgimage{
@@ -24,5 +22,5 @@ body{
 .text2{
     font-size: 3vw !important;
     color: #2d3436;
-
-/* end of navbar & tagline  */
+    background: rgb(255, 255, 255);
+}
