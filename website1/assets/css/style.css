@@ -1,3 +1,10 @@
 body{
-    background: #BDBDBD;
+    background: black;
+}
+.tagline-box{
+    background-image: url("../img/bg.jpg");
+    background-color: blue;
+    background-size: cover;
+    height: 30rem;
+    text-align: center;
 }
