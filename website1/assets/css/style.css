@@ -1,4 +1,9 @@
 body{
+master
+    background: #BDBDBD;
+}
+
+
     background: black;
 }
 .tagline-box{
@@ -28,3 +33,7 @@ body{
     background-color: rgba(255, 255, 255, 0.8);
     align-content: center;
 }
+.card-link{
+       text-decoration: none;
+     }
+ master
