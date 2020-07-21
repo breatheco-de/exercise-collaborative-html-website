@@ -1,3 +1,30 @@
 body{
-    background: #BDBDBD;
+    background: black;
+}
+.tagline-box{
+    background-image: url("../img/bg.jpg");
+    background-color: blue;
+    background-size: cover;
+    background-position-x: -6rem;
+    height: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+
+
+.tagline-title {
+    font-size: 7rem;
+}
+
+.tagline-subtitle {
+    font-size:4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 18rem;
+}
+
+.tagline-subtitle, .tagline-title{
+    background-color: rgba(255, 255, 255, 0.8);
+    align-content: center;
 }
