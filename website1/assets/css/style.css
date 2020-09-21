@@ -11,9 +11,14 @@ body{
     background-size: cover;
     height: 900px;
 }
-.verticalposition{
-     position: absolute;
-     top: 200px; 
+.jumbotron{
+    background-image:url(../img/bg.jpg);
+    background-size: cover;
+    height: 400px;
+    
+}
+.jumbotron h1:nth-child(2){
+    font-size: 2em;
 }
 .text1{
       font-size: 8vw !important;
