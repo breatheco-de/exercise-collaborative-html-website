@@ -14,7 +14,7 @@ Each student works on a different file, for a different part of the website and 
 
 4. When each team member finishes, they have to commit and push to the forked repository.
 
-<img height="400" src="https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website1/designs/guide.jpg?raw=true" />
+<img align="right" height="400" src="https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website1/designs/guide.jpg?raw=true" />
 
 ## 💻 Run the website
 
