@@ -1,3 +1,8 @@
 body{
     background: #BDBDBD;
 }
+.container-tagline{
+    background-image:url(/workspace/exercise-collaborative-html-website/website1/assets/img/bg.jpg);
+    background-size: cover;
+    height: 400px;
+}
