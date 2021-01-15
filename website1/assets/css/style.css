@@ -1,3 +1,11 @@
-body{
-    background: #BDBDBD;
+
+
+#keyboard {
+    width: 55px;
+    height: 20px;
+    margin-top: 100px;
+}
+
+img {
+  border-radius: 50%;
 }
