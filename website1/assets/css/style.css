@@ -8,4 +8,15 @@
 
 img {
   border-radius: 50%;
+body{
+    background: #BDBDBD;
+}
+.tagline{
+    background-image:url(../img/bg.jpg);
+    background-size: cover;
+    height: 980px;
+}
+
+.lighter-navbar-color {
+    color: rgba(255,255,255,.5) !important;
 }
