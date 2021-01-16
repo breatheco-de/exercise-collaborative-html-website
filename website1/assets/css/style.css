@@ -2,9 +2,9 @@ body{
     background: #BDBDBD;
 }
 .tagline{
-    background-image:url(./assets/img/bg.jpg);
+    background-image:url(../img/bg.jpg);
     background-size: cover;
-    height: 400px;
+    height: 980px;
 }
 
 .lighter-navbar-color {
