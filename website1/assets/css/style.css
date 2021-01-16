@@ -10,3 +10,11 @@ body{
 .lighter-navbar-color {
     color: rgba(255,255,255,.5) !important;
 }
+h1{
+    font-size: 130px;
+    color: black;
+}
+h2{
+    font-size:75px;
+    color: black;
+}
