@@ -1,3 +1,4 @@
+
 body{
     background: white;
 }
@@ -10,6 +11,13 @@ body{
 .lighter-navbar-color {
     color: rgba(255,255,255,.5) !important;
 }
+
+
+.services-img {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  } 
+
 h1{
     font-size: 130px;
     color: black;
@@ -19,6 +27,8 @@ h2{
     color: black;
 }
 
+
 hr {
     width: 75%;
 }
+
