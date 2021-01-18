@@ -26,6 +26,10 @@ h2{
     font-size:75px;
     color: black;
 }
+.col-8 h2 {
+    font-size:40px;
+    color: black;
+}
 
 hr {
     width: 75%;
