@@ -18,3 +18,7 @@ h2{
     font-size:75px;
     color: black;
 }
+
+hr {
+    width: 75%;
+}
