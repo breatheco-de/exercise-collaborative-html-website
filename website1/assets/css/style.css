@@ -4,7 +4,9 @@ body{
 .tagline{
     background-image:url(../img/bg.jpg);
     background-size: cover;
-    height: 980px;
+    background-position: 0px  -200px;
+    background-repeat: no-repeat;
+    width:100%;
 }
 
 .lighter-navbar-color {
