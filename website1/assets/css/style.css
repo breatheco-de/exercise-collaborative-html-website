@@ -1,3 +1,38 @@
+
 body{
-    background: #BDBDBD;
+    background: white;
+}
+.tagline{
+    background-image:url(../img/bg.jpg);
+    background-size: cover;
+    background-position: 0px  -200px;
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+.lighter-navbar-color {
+    color: rgba(255,255,255,.5) !important;
+}
+
+
+.services-img {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  } 
+
+h1{
+    font-size: 130px;
+    color: black;
+}
+h2{
+    font-size:75px;
+    color: black;
+}
+.col-8 h2 {
+    font-size:40px;
+    color: black;
+}
+
+hr {
+    width: 75%;
 }
