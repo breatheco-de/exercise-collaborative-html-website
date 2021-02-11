@@ -6,21 +6,30 @@
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<form class="justify-content-center">
+<form>
+  <div class="container" style="width: 80%; height: 40%;">
   <div class="form-group">
   	<h1>Contact</h1>
 	<p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-	<div class="jumbotron jumbotron-fluid" style="width: 80%;">
-  		<div class="container">
-		    <label for="exampleInputEmail1" style="width: 60%;">Your E-mail</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
-		  </div>
-		  <div class="form-group">
-		    <label for="exampleInputPassword1">Your Message</label>
-		    <textarea name="comentarios"  placeholder="Please enter your message here..." style="width: 60%; height: 200px;"> </textarea>
-		  </div>
-		  <button type="submit" class="btn btn-primary" style="float: right;">Submit</button>
-  		</div>
+	<div class="jumbotron" style="width: 80%;">  			
+  		<div class="row">  			
+  			<div class="col-sm-12 col-md-12 col-12 col-xl-12">
+  				<div class="d-flex p-2 bd-highlight">
+		    		<label for="exampleInputEmail1">Your E-mail</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    		<input type="email" class="form-control" style="width: 60%;" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
+		    	</div>
+		  	</div>		  		
+		  	<div class="col-sm-12 col-md-12 col-12 col-xl-12">
+		  		<div class="d-flex p-2 bd-highlight">
+		    		<label for="exampleInputPassword1">Your Message</label>&nbsp;
+		    		<textarea class="form-control" style="width: 60%; height: 200px; padding-right: 10px;" 
+		    		placeholder="Please enter your message here..."></textarea>
+		    	</div>
+		   	</div>	  
+		</div>		  	
+		  	<button type="submit" class="btn btn-primary" style="transform: translate(680%, 0%);">Submit</button>		  		
   	</div>
+  </div>
+  </div>
 </form>
-<p>Hello, I'm contact.html</p>
+
