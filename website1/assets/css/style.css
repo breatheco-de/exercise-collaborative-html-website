@@ -5,5 +5,6 @@ body{
 .tagline{
     background: url(https://browser-amaranth-skink-k2rlax59.ws-us03.gitpod.io/workspace/exercise-collaborative-html-website/website1/assets/img/bg.jpg);
     background-size: cover;
-    min-height: 600px;
+    background-repeat: no-repeat;
+    height: 600px;
 }
