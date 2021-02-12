@@ -8,6 +8,7 @@ div{
     background: url(../img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 600px;
+    min-height: 900px;
+    
 }
 
