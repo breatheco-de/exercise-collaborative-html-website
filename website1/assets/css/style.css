@@ -1,10 +1,13 @@
 body{
     background: white;
 }
-
+div{
+    font-family: 'Poppins', sans-serif;
+}
 .tagline{
-    background: url(https://browser-olive-koala-x4j0az0d.ws-us03.gitpod.io/workspace/exercise-collaborative-html-website/website1/assets/img/bg.jpg);
+    background: url(https://browser-amber-macaw-o37phwac.ws-us03.gitpod.io/workspace/exercise-collaborative-html-website/website1/assets/img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
 }
+
