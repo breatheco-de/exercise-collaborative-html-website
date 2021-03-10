@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 .contenedor{
     position: relative;
     display: inline-block;
@@ -28,7 +29,7 @@
 hr{
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 strong{
     color: rgb(184, 179, 179);
@@ -44,7 +45,22 @@ p{
 .round{
     border-radius: 60%;
     height: 260px;
+    width: 260px;
     float: right;
     position: relative;
-    top: -100px;
+    top: -120px;
+}
+.round-r{
+    border-radius: 60%;
+    height: 260px;
+    width: 260px;
+    float: left;
+    position: relative;
+    top: -140px;
+    
+}
+.container-right{
+   margin-top: 100px;
+  padding-left: 270px;
+
 }
