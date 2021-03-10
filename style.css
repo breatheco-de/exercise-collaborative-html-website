@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 .contenedor{
     position: relative;
     display: inline-block;
@@ -6,8 +7,6 @@
 }
 .texto-encima{
     position: absolute;
-    top: 10px;
-    left: 10px;
     font-size: 55px;
 }
 .centrado{
@@ -18,15 +17,14 @@
     
 }
 .bg-whit{
-background-color: rgba(252, 247, 247, 0.733);
+    background-color: rgba(252, 247, 247, 0.733);
+    width: 100%;
     
 }
 .greycolor{
     color: grey;
 }
-h1{
-    display: inline;
-}
+
 hr{
     margin-left: 10%;
     margin-right: 10%;
@@ -38,4 +36,15 @@ strong{
 .container{
     margin-left: 10%;
     margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    margin-right: 25%;
+}
+.round{
+    border-radius: 60%;
+    height: 260px;
+    float: right;
+    position: relative;
+    top: -100px;
 }
