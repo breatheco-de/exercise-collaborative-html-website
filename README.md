@@ -26,15 +26,12 @@ b) You can clone this repository on your local computer:
 $ git clone https://github.com/breatheco-de/exercise-collaborative-html-website.git
 ```
 
-**REMEMBER: When each team member finishes, they have to commit and push to the forked repository**
-
-## 💻 Run the website
-
 In order to watch the website live run the following command:
 
 ```bash
 $ npx browser-sync start -s -w
 ```
+**REMEMBER: When each team member finishes, they have to commit and push to the forked repository**
 
 ## Deploy the website
 
