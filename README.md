@@ -14,14 +14,24 @@ Each student works on a different file, for a different part of the website and 
 
 3. Each contributor will have to clone the new forked repository and develop one piece of the website you have chosee, each project is divided in pieces inside its **templates/** directory.
 
-4. When each team member finishes, they have to commit and push to the forked repository.
+4. **REMEMBER: When each team member finishes, they have to commit and push to the forked repository**
 
-## 💻 Run the website
+## 🌱  How to start this project
+
+This project comes with the necessary files to start working, but you have two options to start:
+
+a) Use gitpod: open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-collaborative-html-website.git
+
+b) You can clone this repository on your local computer:
+
+```sh
+$ git clone https://github.com/breatheco-de/exercise-collaborative-html-website.git
+```
 
 In order to watch the website live run the following command:
 
 ```bash
-$ npx browser-sync start -s -w
+$ npx --yes http-server -c-1
 ```
 
 ## Deploy the website
