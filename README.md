@@ -31,7 +31,7 @@ $ git clone https://github.com/breatheco-de/exercise-collaborative-html-website.
 In order to watch the website live run the following command:
 
 ```bash
-$ npx browser-sync start -s -w
+$ npx --yes http-server -c-1
 ```
 
 ## Deploy the website
