@@ -15,7 +15,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 3. Cada colaborador tendrá que clonar el nuevo repositorio forkeado y desarrollar una parte del sitio web escogido, cada proyecto está dividivo en partes dentro del directorio **templates/**.
 
-4. **RECUERDA: Una vez que cada mienmbro del equipo termina, debe hacer `commit`y `puch` al repositorio forkeado **
+4. **RECUERDA: Una vez que cada mienmbro del equipo termina, debe hacer `commit` y `push` al repositorio forkeado **
 
 ## 🌱  Cómo iniciar este proyecto
 
@@ -42,7 +42,7 @@ Vercel, Netlify or Github pages permiten publicar tu aplicación web y poder obt
 
 ## Entrega
 
-Todos colaboradores presentan un repositorio como solución.
+Todos participantes del equipo presentan un repositorio como solución.
 
 ## Información complementaria
 La [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) se utiliza como motor para crear plantillas para crear la página de destino.
