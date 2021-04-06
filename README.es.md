@@ -38,7 +38,7 @@ $ npx --yes http-server -c-1
 
 ## Implementar el sitio web
 
-Usa Vercel, Netlify o las páginas de Github para implementar el sitio web en la URL del equipo (for example: `https://mysuperteam.zeit.sh`).
+Vercel, Netlify or Github pages permiten publicar tu aplicación web y poder obtener una url donde cualquier persona pueda verla (por ejemplo: `https://mysuperteam.zeit.sh`).
 
 ## Entrega
 
