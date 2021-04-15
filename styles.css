@@ -1,0 +1,12 @@
+.col-md-2{
+    background-color: brown;
+}
+
+.col-md-3{
+    background-color: burlywood;
+}
+
+img{
+    border-radius: 50%;
+    border:solid 1px 
+}
