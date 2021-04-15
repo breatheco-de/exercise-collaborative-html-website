@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "html-template-engine": "^0.0.5"
+  }
+}
