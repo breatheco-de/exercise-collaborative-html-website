@@ -1,3 +1,40 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+
+.portafolio {
+    background: white;
+}
+
+.card-body h5 {
+    color: rgb(61, 153, 230);
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -93px;
+    margin-left: -127px;
+}
+
+.card {
+    border-color: white;
+}
+
+h4 {
+    font-size: 50px;
+}
+
+.card-title, .card-text {
+    margin-left: -10px;
+    text-align: justify
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.col-12 p{
+    font-size: 23px;
 }
