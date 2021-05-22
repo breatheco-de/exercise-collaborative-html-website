@@ -11,11 +11,9 @@ body{
     font-size: 30px;
 }
 
-.row {
+.row .col-4{
     display: flex;
     flex-wrap: wrap;
-    margin-right: -93px;
-    margin-left: -127px;
 }
 
 .card {
