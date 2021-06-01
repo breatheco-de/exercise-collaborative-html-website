@@ -8,5 +8,6 @@
 	"technologies": ["html", "css", "git", "github"],
 	"syntax": "html",
 	"description" : "Build website among a team of several collaborators",
+	"translations": ["es","us"],
 	"talents": []
 }
