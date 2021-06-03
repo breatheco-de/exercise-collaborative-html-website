@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/breatheco-de/exercise-collaborative-html-website)
+
 # Making a website as a team (Git collaboration)
 
 Practice your skills in GIT while developing a typical website.
