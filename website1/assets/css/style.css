@@ -1,3 +1,15 @@
 body{
     background: #BDBDBD;
 }
+
+.rojo{
+    border:2px solid red
+}
+
+.verde{
+    border: 2px solid seagreen;
+}
+
+.fondo{
+    background-image: url("assets/img/bg.jpg");
+}
