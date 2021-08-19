@@ -1,3 +1,29 @@
 body{
     background: #BDBDBD;
 }
+<<<<<<< HEAD
+=======
+
+.tagline-image {
+        background: url("/website1/assets/img/bg.jpg");
+              background-size: 100% 100%;
+              width: 1920px;
+              height: 750px;
+      }
+
+
+.tagline-h1 {
+    font-size: 125px;
+     text-align: center;
+    background-color: rgba(255, 255, 255, 0.8)
+    
+}
+
+.tagline-h2
+{font-size: 75px;
+          text-align: center;
+    background-color: rgba(255, 255, 255, 0.8)
+
+}
+
+>>>>>>> 03a6f6bbacb83b8b6b7271439a80cea30c40c3f7
