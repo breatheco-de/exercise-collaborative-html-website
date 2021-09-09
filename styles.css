@@ -1,0 +1,17 @@
+.background-pic {
+    height: 700px;
+    background-image: url('../exercise-collaborative-html-website/website1/assets/img/bg.jpg');
+    background-size:cover;
+}
+
+.header-div {
+    display: flex; flex-direction: column; width: 97%;
+}
+
+.heading-1 {
+    height: 190px; font-size: 150px; background-color: white; margin-top: -200px; text-align: center;
+}
+
+.heading-2 {
+    font-size: 100px; background-color: white; margin-top: 10px; text-align: center;
+}
