@@ -22,11 +22,17 @@ This project comes with the necessary files to start working, but you have two o
 
 a) Use Gitpod (recomended): open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-collaborative-html-website.git
 
+COMPAÑEROS! AQUI DEBERÍA IR EN VEZ DE breatheco-de QUE ES EL ORIGINAL, DEBEMOS PONER hcoagithub QUE ES EL USUARIO DE HECTOR, ASI TRABAJAMOS EN NUESTRO REPO
+
+A MI NO ME FUNCIONÓ, USE EL DE ABAJO-->
+
 b) You can clone this repository on your local computer:
 
 ```sh
 $ git clone https://github.com/breatheco-de/exercise-collaborative-html-website.git
 ```
+ESTE USÉ PERO CAMBIANDO breatheco-de POR hcoagithub (o lo que es mas fácil, escribiendo en mi consola git clone y pegando el link que entrega en el boton verde "codigo" en la repo). Eso crea una carpeta que se puede abrir en visual estudio code, trabajar los archivos y ya sea con la consola de visual estudio code o con las herramientas de git a la izquierda, se puede subir
+
 
 In order to watch the website live run the following command:
 
