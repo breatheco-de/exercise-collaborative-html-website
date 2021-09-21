@@ -15,7 +15,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 3. Cada colaborador tendrá que clonar el nuevo repositorio forkeado y desarrollar una parte del sitio web escogido, cada proyecto está dividivo en partes dentro del directorio **templates/**.
 
-4. **RECUERDA: Una vez que cada mienmbro del equipo termina, debe hacer `commit` y `push` al repositorio forkeado **
+4. **RECUERDA: Una vez que cada miembro del equipo termina, debe hacer `commit` y `push` al repositorio forkeado **
 
 ## 🌱  Cómo iniciar este proyecto
 
