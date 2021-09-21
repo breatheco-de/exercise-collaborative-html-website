@@ -1,3 +1,11 @@
 body{
     background: #BDBDBD;
 }
+
+.tagline-bg {
+    background-image: url("../img/bg.jpg");
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
