@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+.img-walter-heading {
+    height: 280px;
+    background-image: url("https://comicstores.es/imagenes/4260250/426025007903.JPG");
+    width: 280px;
+    background-position: center;
+
+}
