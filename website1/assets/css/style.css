@@ -1,3 +1,9 @@
 body{
     background: #BDBDBD;
 }
+.black {color:black}
+.grey {color:grey}
+#big-padd{
+    margin-left: 20%;
+    margin-right: 20%;
+}
