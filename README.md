@@ -6,11 +6,11 @@ Each student works on a different file, for a different part of the website, and
 
 ## 📝 Instructions
 
-<img align="right" height="400" src="https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website1/designs/guide.jpg?raw=true" />
+<img align="right" height="400" src="https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/guide.jpg?raw=true" />
 
 1. The Team Leader should fork this repository on github.com and [invite other collaborators to the repo](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif). Give access to the others on the newly forked GitHub repository to other team members, and make sure they are cloning from this new repository, not the original!
 
-2. We are going to be building [this design](https://raw.githubusercontent.com/breatheco-de/exercise-collaborative-html-website/master/website1/designs/thumb.jpg), and [this is how you can split with the students](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website1/designs/guide.jpg?raw=true)
+2. We are going to be building [this design](https://raw.githubusercontent.com/breatheco-de/exercise-collaborative-html-website/master/website/designs/thumb.jpg), and [this is how you can split with the students](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/guide.jpg?raw=true)
 
 3. Each contributor will have to clone the new forked repository and develop a part of the website that is coordinated with the group; each project is divided in pieces inside the **templates/** directory (located in website/templates). Once everyone has their editor open, run the project in the terminal with this command:
 
