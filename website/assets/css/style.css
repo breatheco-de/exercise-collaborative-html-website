@@ -30,3 +30,8 @@ body{
     margin-left: 10px;
     margin-top: 20px;
 }
+
+#img_services {
+    width: 200px;
+    height: 200px; 
+}
