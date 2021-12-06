@@ -1,3 +1,20 @@
 body{
     background: #BDBDBD;
 }
+
+.jumbotron {
+    background-image: url("https://i.picsum.photos/id/421/1920/1080.jpg?hmac=Gnli2YQHiOKz_MtRW--3GUsvc7Hg_8ICnqBrQKBj5-8");
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+.title {
+    font-size:10rem;
+    background-color: white;
+}
+
+.subtitle{
+    font-size:6rem;
+    background-color: white;
+}
