@@ -1,3 +1,17 @@
 body{
     background: #BDBDBD;
 }
+.bg-image{
+    background-image: url("../img/bg.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-service{
+    background-image: url("../img/2.jpg");
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
