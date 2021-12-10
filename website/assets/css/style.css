@@ -1,3 +1,40 @@
+*,
+*::after,
+*::before {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
 body{
-    background: #BDBDBD;
+    background: #fff;
+}
+
+.card > img {
+    max-width: 100%;
+}
+
+.services-img > img {
+    width: 320px;
+    border-radius: 50%;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form > form {
+    width: 60%;
+    padding: 10px 10px 10px 100px;
+    background-color: #ddd;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form button {
+    align-self: flex-end;
 }
