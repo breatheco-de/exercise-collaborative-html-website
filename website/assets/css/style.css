@@ -13,3 +13,8 @@ body{
 .card > img {
     max-width: 100%;
 }
+
+.services-img > img {
+    width: 320px;
+    border-radius: 50%;
+}
