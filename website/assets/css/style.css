@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.container-fluid{
+    padding: 0px;
+}
+
+.navbar{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 body{
     background: white;
 }
