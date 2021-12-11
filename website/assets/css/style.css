@@ -20,3 +20,32 @@ body{
 .navbar-brand{
     color: rgba(255,255,255,.5) !important;
 }
+
+.jumbotron{
+    background-image: url(imagenproject.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% auto;
+	color:white !important;
+	height:700px;
+}
+ 
+ .banner-title{
+	 background-color: #ffffff;
+	 font-size: 7rem;
+	 text-align: center;
+	 width: 98%;
+	 color:#343233;
+	 font-weight: bold;
+	 margin-left:1%;
+ }
+ 
+  .banner-subtitle{
+	 background-color: #ffffff;
+	 font-size: 4rem;
+	 text-align: center;
+	 width: 98%;
+	 color:#343233;
+	 font-weight: bold;
+	 margin-left:1%;
+ }
