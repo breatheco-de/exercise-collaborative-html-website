@@ -22,12 +22,13 @@ body{
 }
 
 .jumbotron{
-    background-image: url(assets/img/imagenproject.jpg);
+    background-image: url(../img/imagenproject.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% auto;
 	color:white !important;
 	height:700px;
+    padding-top: 50px;
 }
  
  .banner-title{
