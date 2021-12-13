@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-.container-fluid{
-    padding: 0px;
+body{
+    background: white;
 }
 
 .navbar{
@@ -13,40 +13,71 @@
     padding-right: 10px;
 }
 
-body{
-    background: white;
-}
-
 .navbar-brand{
     color: rgba(255,255,255,.5) !important;
 }
 
-.jumbotron{
-    background-image: url(../img/imagenproject.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100% auto;
-	color:white !important;
-	height:700px;
-    padding-top: 50px;
+.container-fluid{
+    padding: 0px;
 }
- 
- .banner-title{
-	 background-color: #ffffff;
-	 font-size: 7rem;
-	 text-align: center;
-	 width: 98%;
-	 color:#343233;
-	 font-weight: bold;
-	 margin-left:1%;
- }
- 
-  .banner-subtitle{
-	 background-color: #ffffff;
-	 font-size: 4rem;
-	 text-align: center;
-	 width: 98%;
-	 color:#343233;
-	 font-weight: bold;
-	 margin-left:1%;
- }
+
+.container-banner {
+	position: relative;
+	text-align: center;
+	color: white;
+  }
+  
+.image-banner {
+	width: 100%;
+}
+  
+.banner-text{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	width: 98%;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+}
+   
+.banner-title{
+	width: 100%;
+	font-size: 7em;
+	background-color: #ffffff;
+	text-align: center; 
+	color:#343233;
+}
+
+.banner-subtitle{
+	width: 100%;
+	margin-top: 20px;
+	font-size: 4em;
+	background-color: #ffffff;
+	text-align: center;	
+	color:#343233;
+}
+
+@media screen and (min-width: 1201px) {
+	.container-banner {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+	.container-banner {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+	.container-banner {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container-banner{
+		font-size: 4px;
+	}
+}
+  
