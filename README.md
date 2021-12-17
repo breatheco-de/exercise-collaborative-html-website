@@ -26,23 +26,29 @@ You will be given an option to open in browser, and have options to view the new
 
 ## 🌱  How to start this project
 
-This project comes with the necessary files to start working, but you have two options to start:
+**If you are a student:**
 
-Gitpod: 
+Wait on your instructor to advise you how to start the project!
 
-a) Use Gitpod (recomended): open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-collaborative-html-website.git
+**If you are an instructor or team leader:**
 
-b) You can clone this repository on your local computer:
+This project comes with the necessary files to start working, which can be found in the following github repository:
+https://github.com/breatheco-de/exercise-collaborative-html-website
 
-```sh
-$ git clone https://github.com/breatheco-de/exercise-collaborative-html-website.git
-```
+a) Navigate to and fork the repository in Github
 
-In order to watch the website live run the following command:
+b) Invite your students or team members as collaborators to your forked repository (see the gif manual in it)
+
+c) Have your students or team members clone your forked repository (not the original above)
+
+**Both students and instructors:**
+
+To load and watch the website live, run the following command:
 
 ```bash
 $ npx http-server --yes -c-1
 ```
+
 
 ## Deploy the website
 
