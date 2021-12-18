@@ -19,18 +19,26 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 ## 🌱  Cómo iniciar este proyecto
 
+
+**Si eres un estudiante:**
+
+Espera a que tu profesor te indique como iniciar este proyeto.
+
+**Si eres profesor o líder de equipo:**
+
+
 Este proyecto viene con los archivos necesarios para empezar a trabajar, pero tienes dos opciones para empezar:
 
-a) Abrir este enlace con Gitpod (recomendado) en tu navegador: https://gitpod.io#https://github.com/breatheco-de/exercise-collaborative-html-website.git
+a) Dirígete al repositorio y clónalo (haz una copia del mismo) en Github.
 
-b) Clonar este repositorio localmente en tu computador:
-```sh
-$ git clone https://github.com/breatheco-de/exercise-collaborative-html-website.git
-```
 
-💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
+b) Invita a tus estudiantes o a los miembros de tu equipo a que colaboren con tu repositorio recién clonado (referirse al gif).
 
-Para poder ejecutar tu sitio web usa este comando en la terminal:
+c) Indícale a tus estudiantes o a los miembros de tu equipo que clonen tu repositorio ( y no el original).
+
+**Tanto estudiantes como profesores:**
+
+Para cargar y ver tu sitio web live, ejecuta el siguiente comando:
 
 ```bash
 $ npx http-server --yes -c-1
