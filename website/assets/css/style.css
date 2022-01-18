@@ -2,22 +2,8 @@ body{
 
 }
 
-.fs-7 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8em;
-}
-
-.fs-8 {
-    font-size: 4em;
-}
-
-.Maintitle {
-    height: 1.2em;
-}
-
-.img1 {
+.jumbotron {
+    background-size: cover;
+    height: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-
 }
