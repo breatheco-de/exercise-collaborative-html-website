@@ -1,15 +1,12 @@
-body{
-    background: #BDBDBD;
+.h1{
+    font-size: 120px;
 }
 
-.tagline{
-    background-image: url(../img/bg.jpg);
-    background-size: 1200px;
-
+.h2{
+    font-size: 100px;
 }
 
-.titulo{
-    font-size: 150px;
-    background-color: rgb(236, 243, 243);
-    margin: 0 auto;
+.color-row{
+    background-color: aliceblue;
 }
+
