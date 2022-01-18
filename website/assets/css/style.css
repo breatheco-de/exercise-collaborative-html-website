@@ -1,9 +1,6 @@
-body{
-
-}
-
 .jumbotron {
+    height: 700vh; 
     background-size: cover;
-    height: 100%;
     background-repeat: no-repeat;
+    background-image: url('/website/assets/img/bg.jpg');
 }
