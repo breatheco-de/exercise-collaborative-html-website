@@ -1,2 +1,9 @@
 body{
+
+}
+
+.jumbotron {
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
 }
