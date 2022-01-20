@@ -1,3 +1,24 @@
 body{
     background: #BDBDBD;
+    width: 1425px;
+    
+}
+.first_heading{
+    width: 1400px;
+    background-image: url("/website/assets/img/bg.jpg");
+    background-position: left;
+    background-size: cover;
+    text-align: center;
+    
+}
+.first_heading h1{
+    background-color: rgba(255, 255, 255, 0.746);
+    margin: 10px;
+    
+}.first_heading h2{
+    background-color: rgba(255, 255, 255, 0.746);
+    margin: 10px;
+}
+.container {
+    align-items: center;
 }
