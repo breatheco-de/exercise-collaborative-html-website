@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     height:600px;
     background-position: center;
-    object-fit: fill;
+    
 }
 
 .h1{
@@ -25,6 +25,15 @@
     
     .h2{
         font-size: 20px;
+    }
+
+    .image{
+        background-size: 100% 400px;
+        background-repeat: no-repeat;
+        height:400px;
+        background-position: center;
+        background-size:cover;
+        
     }
     
     
