@@ -1,12 +1,32 @@
-.h1{
-    font-size: 120px;
+
+.image{
+    background-image: url(../img/bg.jpg);
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    height:600px;
+    background-position: center;
+    object-fit: fill;
 }
 
-.h2{
+.h1{
     font-size: 100px;
 }
 
-.color-row{
-    background-color: aliceblue;
+.h2{
+    font-size: 70px;
 }
 
+@media (max-width: 768px) {
+    /* Estos estilos solo se aplicarán hasta el tamaño indicado */
+
+    .h1{
+        font-size: 30px;
+    }
+    
+    .h2{
+        font-size: 20px;
+    }
+    
+    
+
+}
