@@ -1,1 +1,43 @@
+#imgsize {
+    width: 380px;
+  height: 300px;
+}
 
+.image{
+    background-image: url(../img/bg.jpg);
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    height:600px;
+    background-position: center;
+    
+}
+
+.h1{
+    font-size: 100px;
+}
+
+.h2{
+    font-size: 70px;
+}
+
+@media (max-width: 768px) {
+    /* Estos estilos solo se aplicarán hasta el tamaño indicado */
+
+    .h1{
+        font-size: 30px;
+    }
+    
+    .h2{
+        font-size: 20px;
+    }
+
+    .image{
+        background-size: 100% 400px;
+        background-repeat: no-repeat;
+        height:400px;
+        background-position: center;
+        background-size:cover;
+        
+    }
+    
+}
