@@ -1,3 +1,39 @@
 body{
     background: #BDBDBD;
 }
+.fondo-bg{
+    background-image: url(/website/assets/img/bg.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.bg-white{
+    background-color: white;
+}
+body{
+    background: white;
+}
+.first-heading{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: auto;
+    
+}
+.image1{
+    border-radius: 200px;
+}
+
+.second-heading{
+    
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 450px;
+   
+}
+.image-2{
+    border-radius: 200px;
+}
