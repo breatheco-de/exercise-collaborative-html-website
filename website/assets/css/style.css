@@ -1,3 +1,31 @@
 body{
     background: #BDBDBD;
 }
+.fondo {
+    background-image: url(/website/assets/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin: 0;
+    height: 500px;
+    display: flex;
+    padding-top: 60px;
+    flex-direction: column;
+    
+  
+    
+}
+.textogrande {
+    font-size: 85px;
+    background-color: white;
+    
+    
+}
+.textomediano {
+    font-size: 55px;
+    background-color: white;
+}
+.footer{
+    background-color: white;
+    font-size: xx-small;
+}
