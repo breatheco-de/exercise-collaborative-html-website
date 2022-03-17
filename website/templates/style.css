@@ -1,13 +1,20 @@
 html {
     box-sizing: border-box;
 }
-body {
-display: flex;
+.inicio {
+display: flex; 
+flex-direction: column;
 justify-content: center;
 align-items: center;
+margin: auto;
+width: 100%;
 }
-.overlay {
+.cajacontacto {
     display: flex;
+    flex-direction: column;
 justify-content: center;
 align-items: center;
+margin: auto;
+width: 50%;
+background-color: gainsboro;
 }
