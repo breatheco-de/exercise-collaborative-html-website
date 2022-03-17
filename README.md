@@ -22,7 +22,7 @@ You will be given an option to open in browser, and have options to view the new
 
 4. **To start, each member should put their name in the file they have been assigned, push back to the repository, and pull to see the others changes. Maintaining clear communication about the files being used will make the project run smooth :)**
 
-5. Once everyone understands how to modify their part of the project and push, use the seach feature and examples within https://getbootstrap.com/ to quickly build using bootstrap components, then modify accordingly.
+5. Once everyone understands how to modify their part of the project and push, use the search feature and examples within https://getbootstrap.com/ to quickly build using bootstrap components, then modify accordingly.
 
 ## 🌱  How to start this project
 
