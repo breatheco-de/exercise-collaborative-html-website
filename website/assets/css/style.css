@@ -1,3 +1,23 @@
 body{
     background: #BDBDBD;
 }
+html {
+    box-sizing: border-box;
+}
+.inicio {
+display: flex; 
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+width: 100%;
+}
+.cajacontacto {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+width: 50%;
+background-color: gainsboro;
+}
