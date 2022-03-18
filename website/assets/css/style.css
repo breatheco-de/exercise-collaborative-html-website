@@ -1,3 +1,14 @@
 body{
     background: #BDBDBD;
 }
+
+#hola{
+    background-image: url(../img/bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#bg-hide {
+    visibility: hidden;
+}
