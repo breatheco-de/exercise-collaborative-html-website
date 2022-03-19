@@ -1,0 +1,23 @@
+.flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+        align-content: stretch;
+        height: 400px;
+}
+  .heading-text{
+      text-align: none;
+  }
+  .imagebox{
+    height: 400px;
+  }
+  img{
+      height: 400px;
+      width: 400px;
+      border-radius: 50%;
+  }
+  .headingText1{
+    font-size: 45px;
+  }
