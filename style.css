@@ -10,6 +10,7 @@
 	align-items: center;
 	align-content: stretch;
     width: 100%;
+    background-color: aliceblue;
   }
   img{
       width: 100%;
@@ -20,4 +21,5 @@ h2{
 }
 .header{
     padding: 30px;
+    background-color: aliceblue;
 }
