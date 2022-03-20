@@ -2,13 +2,34 @@ body{
     background: #BDBDBD;
 }
 
-#hola{
+.navbar-dark .navbar-brand, #about  {
+    color:  rgba(255,255,255,.55);
+}
+
+.navbar-dark .navbar-brand:hover, #about:hover {
+    color:  rgba(255,255,255,.75)
+}
+
+#fondo-container{
     background-image: url(../img/bg.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
+    height: 40em;
 }
 
-#bg-hide {
-    visibility: hidden;
+#fondo-row {
+    height: 100%;
 }
+
+#fondo > h1 {
+    font-size: 7em;
+    margin-bottom: 0.2em; 
+    background-color:  white;
+}
+
+#fondo > h2 {
+    font-size: 3.8em;
+    margin-bottom: 3em;
+    background-color:  white;
+}
+
