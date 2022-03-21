@@ -1,19 +1,20 @@
 .taglineOre{
-  height:600px;
+  height:800px;
 width: auto;
-  background-image: url(../assets/img/taglinephoto.jpg);
+  background-image: url(../assets/img/bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     margin-top: 1%;
+   
   
 }
 h1{
-    color: aliceblue;
+   
      text-align: center; 
-      color: rgb(199, 43, 43);
+      color: rgb(12, 11, 11);
       font-size: 120px;
-      background-color: rgba(109, 109, 110, 0.486);
-      text-shadow:  0.1em 0.1em 0.2em black;
+      background-color: rgb(255, 255, 255);
+      
 }
 a{
 text-decoration: none;
@@ -22,3 +23,12 @@ text-decoration: none;
    padding-top: 4%;
 }
 
+h3{
+
+     text-align: center; 
+      color: rgb(7, 1, 1);
+      font-size: 75px;
+      background-color: rgba(255, 255, 255, 0.979);
+     
+
+}
