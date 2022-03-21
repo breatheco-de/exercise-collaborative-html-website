@@ -34,4 +34,35 @@ body{
 .pruebaimagenfondo {
   background: url(/website/assets/img/bg.jpg);
   height:100%;
+    background: #BDBDBD;
+}
+
+.nav-link {
+    color: gainsboro;
+}
+.tagline {
+    position: relative;
+    background-image: url(../img/bg.jpg);
+    height: 455px;
+    background-size: cover;
+}
+
+.eslogan{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 8%;
+    
+    
+}
+
+.eslogan h1, .eslogan h2{
+    width: 957px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size:300%
+    
 }
