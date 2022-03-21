@@ -17,8 +17,9 @@ body{
   width: 100%;
 }
 .heading {
-  margin: 0 auto;
-  padding:3%;
+  padding-top: 5%;
+  margin: 3% auto;
+  
   border-top: 3px solid rgb(219, 219, 219);
   border-bottom: 3px solid rgb(219, 219, 219); 
 }
