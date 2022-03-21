@@ -24,7 +24,7 @@ body{
     
 }
 
-.eslogan h1, h2{
+.eslogan h1, .eslogan h2{
     width: 957px;
     background-color: aliceblue;
     text-align: center;
