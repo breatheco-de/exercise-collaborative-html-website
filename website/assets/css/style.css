@@ -6,8 +6,13 @@ body{
     color:  rgba(255,255,255,.55);
 }
 
+.navbar {
+    margin-left: -0.72em;
+    margin-right: -0.72em;
+}
+
 .navbar-dark .navbar-brand:hover, #about:hover {
-    color:  rgba(255,255,255,.75)
+    color:  rgba(255,255,255,.75);
 }
 
 #fondo-container{
@@ -25,11 +30,15 @@ body{
     font-size: 7em;
     margin-bottom: 0.2em; 
     background-color:  white;
+    margin-left: -0.21em;
+    margin-right: -0.21em;
 }
 
 #fondo > h2 {
     font-size: 3.8em;
     margin-bottom: 3em;
     background-color:  white;
+    margin-left: -0.4em;
+    margin-right: -0.4em;
 }
 
