@@ -1,4 +1,39 @@
 body{
+    background: white;
+}
+
+.imgFirstHeading {
+  border-radius: 50%;
+  height: 90%;
+  width: 90%;
+}
+.HeadingTituloGris {
+  color:grey;
+}
+.rounded {
+  object-fit:fill;
+  border-radius: 50% !important;
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  margin: 0 auto;
+  padding:3%;
+  border-top: 3px solid rgb(219, 219, 219);
+  border-bottom: 3px solid rgb(219, 219, 219); 
+}
+.tituloHeading {
+  font-size: 3em;
+}
+
+.services {
+  margin: 0 auto;
+  padding: 3%;
+  border-bottom: 3px solid rgb(219, 219, 219);
+}
+.pruebaimagenfondo {
+  background: url(/website/assets/img/bg.jpg);
+  height:100%;
     background: #BDBDBD;
 }
 
