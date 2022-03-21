@@ -44,25 +44,35 @@ body{
 .tagline {
     position: relative;
     background-image: url(../img/bg.jpg);
-    height: 455px;
+    height: 900px;
     background-size: cover;
 }
 
 .eslogan{
     height: inherit;
-    width: inherit;
+    width: 100%;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
     margin-top: 8%;
      
+    padding-left: 1%;
+    padding-right: 1%;
+    
+    
 }
 
 .eslogan h1, .eslogan h2{
-    width: 957px;
+    width: 100%;
     background-color: aliceblue;
     text-align: center;
-    font-size:300%
-    
+}
+
+.eslogan h1 {
+    font-size: 900%;
+}
+
+.eslogan h2 {
+    font-size: 600%;
 }
