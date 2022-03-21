@@ -1,5 +1,6 @@
 body{
-    background: #BDBDBD;
+
+        background: white;
 }
 
 .navbar-dark .navbar-brand, #about  {
@@ -41,4 +42,3 @@ body{
     margin-left: -0.4em;
     margin-right: -0.4em;
 }
-
