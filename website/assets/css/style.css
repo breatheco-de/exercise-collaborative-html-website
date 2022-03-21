@@ -10,7 +10,7 @@ body{
 .HeadingTituloGris {
   color:grey;
 }
-.rounded {
+.Imagenrounded {
   object-fit:fill;
   border-radius: 50% !important;
   height: 100%;
