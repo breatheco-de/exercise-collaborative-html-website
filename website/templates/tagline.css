@@ -1,0 +1,24 @@
+.taglineOre{
+  height:600px;
+width: auto;
+  background-image: url(../assets/img/taglinephoto.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 1%;
+  
+}
+h1{
+    color: aliceblue;
+     text-align: center; 
+      color: rgb(199, 43, 43);
+      font-size: 120px;
+      background-color: rgba(109, 109, 110, 0.486);
+      text-shadow:  0.1em 0.1em 0.2em black;
+}
+a{
+text-decoration: none;
+}
+.titleintothefilm{
+   padding-top: 4%;
+}
+
