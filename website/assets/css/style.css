@@ -1,3 +1,36 @@
 body{
     background: #BDBDBD;
 }
+.headernav {
+    display: grid;
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 239px;
+    position: relative;
+
+}
+.centered1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 130px;
+    color: rgb(65, 63, 63);
+    background-color: rgb(233, 242, 243);
+    padding-left: 15px;
+    width: 73%;
+    display: flex;
+    justify-content: center;
+}
+.centered2 {
+    position:absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: rgb(65, 63, 63);
+    background-color: rgb(233, 242, 245);
+    width: 73%;
+    display: flex;
+    justify-content: center;
+}
