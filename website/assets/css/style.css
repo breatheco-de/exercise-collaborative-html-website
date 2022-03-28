@@ -1,8 +1,9 @@
-body{
+body, html{
     background: #BDBDBD;
+    margin: 0;
+    padding: 0;
 }
 .containerag{
-    border: 1px solid red;
     max-width: 100%;
 }
 .containerag img{
@@ -13,10 +14,10 @@ body{
     position: absolute;
     top: 20%;
     height: 25%;
-    width: 97%;
+    width: 98%;
     display: flex;
-    margin-left: 10px;
-    margin-right: 5px;
+    margin-left: 1%;
+    
 }
 .box1 h1{
     font-size: 150px;
@@ -31,11 +32,10 @@ body{
     position: absolute;
     top: 50%;
     height: 15%;
-    width: 97%;
+    width: 98%;
+    margin-left: 1%;
     padding-left: 20%;
     padding-top: 15px;
-    margin-left: 10px;
-    margin-right: 5px;
 }
 .box2 h2{
     font-size: 80px;    
