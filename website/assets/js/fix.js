@@ -5,6 +5,7 @@ function offsetAnchor() {
   }
 }
 
+
 // Captures click events of all <a> elements with href starting with #
 var links = document.querySelectorAll('a[href^="#"]');
 for (var i = 0, len = links.length; i < len; i++) {
