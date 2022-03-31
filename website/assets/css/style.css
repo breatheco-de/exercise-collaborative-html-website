@@ -1,37 +1,17 @@
 body{
-    background: #BDBDBD;
-}
-.contenedor{
-    margin: 6% 0% 0% 1%;
-    background-color: white;
-    padding-bottom: 56px;
-}
-.heading{
-    text-align: left;
-    margin: 0px 0px 0px 248px;
-}
-
-#img1{
-    float: right;
-    margin: -138px 139px 0px 0px;
-    border: 2px solid;
-    border-radius: 100px;
-}
-.contenedor2{
-    margin: 6% 0% 0% 1%;
-    background-color: white;
-    padding-bottom: 56px;
-}
-.heading2{
-    text-align: left;
-    margin: 70px 0px 0px 241px;
+    background: white;
 }
 
 
-#img2{
-    float: left;
-    margin: -145px 0px 0px 49px;
-    border: 2px solid;
-    border-radius: 100px;
-
+.bg-image {
+    background-size: cover;
+}
+.jumbotron .container h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.jumbotron .container h3 {
+    font-size: 60px;
+    font-weight: bold;
 }
