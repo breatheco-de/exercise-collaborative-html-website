@@ -1,3 +1,11 @@
-body{
+/* body{
     background: #BDBDBD;
+} */
+
+.img-heading{
+    width: 100%;
+}
+
+.container-header{
+    height: 100vh;
 }
