@@ -32,10 +32,10 @@ Wait on your instructor to advise you how to start the project!
 
 **If you are an instructor or team leader:**
 
-This project comes with the necessary files to start working, which can be found in the following github repository:
+This project comes with the necessary files to start working, which can be found in the following GitHub repository:
 https://github.com/breatheco-de/exercise-collaborative-html-website
 
-a) Navigate to and fork the repository in Github
+a) Navigate to and fork the repository in GitHub
 
 b) Invite your students or team members as collaborators to your forked repository (see the gif manual in it)
 
@@ -52,7 +52,7 @@ $ npx http-server --yes -c-1
 
 ## Deploy the website
 
-Use Vercel, Netlify or Github pages to deploy the website to the team URL (for example: `https://mysuperteam.zeit.sh`).
+Use Vercel, Netlify or GitHub pages to deploy the website to the team URL (for example: `https://mysuperteam.zeit.sh`).
 
 ## Delivery
 
