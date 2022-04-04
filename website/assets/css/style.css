@@ -1,11 +1,20 @@
-/* body{
+body{
     background: #BDBDBD;
-} */
+    
+}
 
-.img-heading{
+#backimage {
+    background-image: url("../img/bg.jpg");
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
     width: 100%;
 }
 
-.container-header{
-    height: 100vh;
+#jumbo {
+    font-size: 20vh;
+}
+
+#jumbo2{
+    font-size: 9vh;
 }
