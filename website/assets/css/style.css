@@ -1,3 +1,7 @@
 body{
     background: #BDBDBD;
 }
+
+.msg, .msg2 {
+    text-align: right;
+}
