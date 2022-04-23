@@ -1,3 +1,14 @@
 body{
     background: #BDBDBD;
 }
+.bgimg{
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.h1-bg{
+    font-size: 70px;
+}
+.h2-bg{
+    font-size: 40px;
+}
