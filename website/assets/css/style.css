@@ -1,3 +1,13 @@
 body{
     background: #BDBDBD;
 }
+.plg {
+    font-size: large;
+}
+.cat {
+    height:50px
+   }
+   img {
+    width: 80%; 
+    max-height: 100%; 
+   }
