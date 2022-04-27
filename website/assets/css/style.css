@@ -1,3 +1,36 @@
+
 body{
     background: #BDBDBD;
+}
+
+.container-fluid{
+    width: 769px;
+    background-color: white;
+    padding: 0;   
+}
+
+/* tagline */
+.tag-container{
+position: relative;
+text-align: center;
+}
+
+.tagLine{
+background-image: url(../img/bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 400px;
+margin: 0
+}
+
+.tittle{
+    background-color: #F9FAFC;
+    text-align: center;
+}
+
+
+/* Footer */
+footer{
+    font-size: small;
+    padding: 0 10%
 }
