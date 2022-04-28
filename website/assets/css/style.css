@@ -1,6 +1,10 @@
 body{
     background: #BDBDBD;
 }
+
+.msg, .msg2 {
+    text-align: right;
+}
 .bgimg{
     background: url("../img/bg.jpg");
     background-size: cover;
