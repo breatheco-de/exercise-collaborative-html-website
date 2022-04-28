@@ -1,13 +1,24 @@
 body{
     background: #BDBDBD;
 }
+.bgimg{
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.h1-bg{
+    font-size: 70px;
+}
+.h2-bg{
+    font-size: 40px;
+}
 .plg {
     font-size: large;
 }
 .cat {
     height:50px
-   }
-   img {
+ }
+img {
     width: 80%; 
     max-height: 100%; 
-   }
+}
