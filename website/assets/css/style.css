@@ -12,3 +12,13 @@ body{
 .h2-bg{
     font-size: 40px;
 }
+.plg {
+    font-size: large;
+}
+.cat {
+    height:50px
+ }
+img {
+    width: 80%; 
+    max-height: 100%; 
+}
