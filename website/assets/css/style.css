@@ -11,7 +11,7 @@ body{
 #fondo { 
     width: 1000px;
     height: 500px;
-    background-image: url(/workspace/exercise-collaborative-html-website/website/assets/img/bg.jpg);
+    background-image: url(bg.jpg);
     background-size: cover;
 
 }
