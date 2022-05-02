@@ -11,7 +11,7 @@ body{
 #fondo { 
     width: 1000px;
     height: 500px;
-    background-image: url(bg.jpg);
+    background-image: url("https://www.linkpicture.com/q/bg_26.jpg");
     background-size: cover;
 
 }
