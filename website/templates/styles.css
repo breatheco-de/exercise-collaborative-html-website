@@ -1,0 +1,22 @@
+.navbar{
+    background-color: rgb(42, 42, 42);
+    color: white;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: rgb(219, 217, 217);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1em;
+
+}
