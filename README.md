@@ -62,9 +62,9 @@ Everyone delivers the same repo as solution.
 
 The [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) is being used as template engine for building the landing page.
 
-Components:
+## Components
 Josue -> Navbar and Hero
-Sebastian -> First heading and service
+Isaac -> First heading
+Sebastian -> Service
 Roberto -> Portfolio
 Carlos -> Contact
-
