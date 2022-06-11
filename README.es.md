@@ -46,7 +46,7 @@ $ npx http-server --yes -c-1
 
 ## Implementar el sitio web
 
-Vercel, Netlify o Github pages permiten publicar tu aplicación web y poder obtener una url donde cualquier persona pueda verla (por ejemplo: `https://mysuperteam.zeit.sh`).
+Vercel, Netlify o Github pages permiten publicar tu aplicación web y poder obtener una URL donde cualquier persona pueda verla (por ejemplo: `https://mysuperteam.zeit.sh`).
 
 ## Entrega
 
