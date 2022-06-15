@@ -1,3 +1,20 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+h1 {
+    font-size: 60px;
+}
+.carousel-caption {
+    position: absolute;
+    top: 10%;
+}
+.container-lg {
+    margin-top: 7%;
+}
+img {
+    width: 300px;
+    float: right;
+}
+.texto {
+    
 }
