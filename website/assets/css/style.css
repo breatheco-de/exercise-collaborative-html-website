@@ -1,20 +1,32 @@
 body{
-    background: white;
+    background: #BDBDBD;
 }
-h1 {
-    font-size: 60px;
+.navbar-dark .navbar-brand {
+    color: gray;
 }
-.carousel-caption {
+
+.start-50 {
+    left: 50%!important;
+    width: 98%;
+    text-align: center;
+}
+b, strong {
+    font-weight: bolder;
+    font-size: 125px;
+}
+.fs-1 {
+    font-size: 84px !important;
+}
+.first-heading {
     position: absolute;
-    top: 10%;
+    bottom: -455px;
+    left: 13%;
+    display: flex;
 }
-.container-lg {
-    margin-top: 7%;
+.rounded-circle {
+    border-radius: 50%!important;
+    width: 60%;
 }
-img {
-    width: 300px;
-    float: right;
-}
-.texto {
-    
+.primero {
+    margin-top: 150px;
 }
