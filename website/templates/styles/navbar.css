@@ -1,0 +1,31 @@
+.navbar {
+    padding: 0px;
+}
+
+.navbar-brand {
+    padding-left: 0.8em;
+}
+
+.btn-icon-navbar {
+    padding-right: 0.8em;
+}
+
+.icon-burguer {
+    color: rgb(187, 187, 187);
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.container-navbar {
+    background-color: rgb(34, 34, 34);
+}
+
+.color-font-navbar {
+    color: rgb(187, 187, 187);
+}
+
+.navbar-collapse {
+    padding-left: 0.8em;
+}
