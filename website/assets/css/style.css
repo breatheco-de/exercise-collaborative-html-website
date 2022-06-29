@@ -1,3 +1,6 @@
 body{
     background: #BDBDBD;
 }
+.round{
+    border-radius: 50%;
+}
