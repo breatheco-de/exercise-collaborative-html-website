@@ -4,3 +4,6 @@ body{
 .round{
     border-radius: 50%;
 }
+.formulario{
+    width: 900px;
+}
