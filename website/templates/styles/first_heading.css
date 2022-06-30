@@ -1,0 +1,31 @@
+
+.first-heading{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.container-img-first-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-first-heading {
+    border-radius: 100%;
+    max-width: 10vw;
+    min-width: 5rem;
+    margin: auto;
+}
+.container-first-heading {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-text-first-heading{
+    color: black;
+}
+.second-text-first-heading{
+    color: rgb(133, 133, 133);
+}
+.title-first-heading h6{
+    display: inline;
+}
+
