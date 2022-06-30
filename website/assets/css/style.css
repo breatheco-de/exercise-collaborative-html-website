@@ -3,6 +3,8 @@ body{
 }
 .round{
     border-radius: 50%;
+    height: 250px;
+    width: 250px;
 }
 .formulario{
     width: 900px;
