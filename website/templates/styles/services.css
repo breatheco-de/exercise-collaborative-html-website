@@ -1,0 +1,36 @@
+.services{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.title-services h6{
+    display: inline;
+}
+
+.text-container-services{
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitle-services{
+    color: rgb(133, 133, 133);
+}
+
+.container-img-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+
+}
+
+.img-services{
+    max-width: 10vw;
+    min-width: 5rem;
+    border-radius: 100%;
+    margin: auto;
+}
