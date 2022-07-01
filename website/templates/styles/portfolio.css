@@ -4,6 +4,15 @@
     padding-right: 10%;
 }
 
+.card_portfolio{
+    max-width: 18vw;
+    min-width: 18rem;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
 .title-portfolio {
 
 }
