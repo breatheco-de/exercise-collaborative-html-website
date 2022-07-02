@@ -20,13 +20,13 @@ b, strong {
 .first-heading {
     position: absolute;
     bottom: -455px;
-    left: 13%;
+    left: 25%;
     display: flex;
 }
 .rounded-circle {
     border-radius: 50%!important;
     width: 60%;
 }
-.primero {
-    margin-top: 150px;
+.segundo {
+    max-width: 400px;
 }
