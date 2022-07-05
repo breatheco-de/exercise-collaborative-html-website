@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.background-img {
+    background: url(/website/assets/img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-header,
+.sub-header {
+    background-color: #fff;
+    color: #343232;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.main-header {
+    font-size: 4rem;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
