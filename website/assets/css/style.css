@@ -1,3 +1,30 @@
 body{
-    background: #BDBDBD;
+    background: white;
+    width: 75%;
+    margin: auto;
+}
+
+/*
+.tagline-bg img {
+    object-fit: cover;
+} */
+
+.nav {
+    align-items: center;
+}
+
+.card-img-overlay {
+    padding: 5rem 1rem;
+}
+
+.big-h1 {
+    font-size: 130px;
+}
+
+.big-h2 {
+    font-size: 80px;
+}
+
+.borde-foto {
+    border: 0;
 }
