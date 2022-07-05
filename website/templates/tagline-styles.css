@@ -14,7 +14,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
 }
 
 .main-header,
@@ -29,4 +28,12 @@ body {
     font-size: 4rem;
     margin-top: 80px;
     margin-bottom: 10px;
+}
+
+.landing-size {
+    height: 100vh;
+}
+
+#landing-subtitle {
+    display: block;
 }
