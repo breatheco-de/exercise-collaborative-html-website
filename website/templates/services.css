@@ -1,0 +1,27 @@
+#servicesCont {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-bottom: 2px solid;
+    border-color: rgb(134, 133, 133, 0.26);
+
+}
+.contenido {
+    width:600px;
+}
+h2 {
+    display: inline-block;
+}
+#segundo {
+    color: grey;
+    display: inline-flex;
+}
+p {
+    display:inline-block
+}
+.foto {
+    width: 300px;
+    border-radius: 100%;
+}
