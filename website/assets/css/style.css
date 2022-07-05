@@ -1,3 +1,30 @@
 body{
     background: #BDBDBD;
 }
+#tagLine {
+    height: 400px;
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat:no-repeat ;
+    text-align: center;
+}
+
+.h1Class {
+    font-size: 60px;
+    background-color: white;
+    padding-bottom: 10px;
+
+    
+}
+
+.h3Class {
+    font-size: 40px;
+    background-color: white;
+    
+}
+
+#titulares {
+    position: relative;
+    top: 40px;
+}
