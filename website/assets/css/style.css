@@ -1,3 +1,22 @@
 body{
     background: #BDBDBD;
 }
+.div-portfolio{
+    margin: 120px;
+}
+.div-flex{
+    display: flex;
+}
+.div-columns{
+    flex-direction: column;
+}
+h3{
+    color: #4A6682;
+}
+.div-columns p{
+    font-size: 13px;
+}
+img{
+    width: 400px;
+    height: 250px;
+}
