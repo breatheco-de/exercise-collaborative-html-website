@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+}
+
+.title {
+    margin: 20px;
+    margin-left: 35px;
+}
+
+.maintext {
+    margin-left: 35px;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+#content1 img {
+    width: 700px;
+    height: 400px;
+    justify-items: center;
+    padding: 5px;
+    display: flex;
+    margin-top: 0px;
+
+}
+
+.imagesandtext div{
+    margin-top: 0px;
+    padding: 15px;
+    padding-top: 0px;
+    justify-content:center;
+    justify-items: center;
+    margin: 20px;
+
+}
+
+.imagesandtext h1{
+    color: cornflowerblue;
+    font-size: 22px;
+    margin-top: 5px;
+}
