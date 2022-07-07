@@ -1,0 +1,35 @@
+body {background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box {width: 1400px;
+background-color: white;
+display: flex;
+border-top: 1px gray;
+border-bottom: 1px gray;}
+
+#h1color{color: gray;}
+.contenido {
+    width: 800px;
+}
+.div h1 { width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;}
+
+.div-p {width: 800px;
+    padding-left: 55px;
+text-align: left;
+font-size: 18px;}
+
+.img {display: flex;
+width: 500px;
+}
+
+img {border-radius: 100%;
+margin: 3px;
+height: 400px;
+width: 400px;
+}
