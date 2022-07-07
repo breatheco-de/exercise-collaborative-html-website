@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: content-box; */
+}
+
+.nav-title {
+    font-size: 1.4rem;
+}
+
+.navbar {
+    background-color: #222222;
+    color: grey;
+    padding: 0;
+}
+
+/* nav bar list */
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.nav-list-item {
+    display: inline-block;
+    list-style: none;
+    margin: 0 13px;
+    padding: 10px 0;
+}
