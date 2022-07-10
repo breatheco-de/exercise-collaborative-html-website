@@ -1,3 +1,46 @@
 body{
     background: #BDBDBD;
 }
+.FH, .Cntc{
+    margin: 0 5%;
+}
+.FH-flex {
+    display: flex;
+}
+.FH-texto {
+    margin-right: 50px;
+    float: left;
+}
+#FH-texto2 {
+    color: gray;
+}
+.FH img {
+    border-radius:50%;
+}
+.Ctnc-info {
+    background-color: lightgray;
+	width: 60%;
+	height: 300px;
+	margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Ctnc-I1 {
+    margin: 4% 3% 2% 3%;
+}
+.Ctnc-I2 {
+    margin: 1% 3%;
+}
+.Cntc-button button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    float: right;
+    margin-bottom: 4%;
+}
+.Cntc-button{
+    margin: 1% 3%;
+    position: sticky;
+}
