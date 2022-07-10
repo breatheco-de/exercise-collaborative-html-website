@@ -1,3 +1,25 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+.services1{
+    display: flex;
+    justify-content: center;
+    
+}
+img {
+    border-radius: 100%;
+    margin-right: 10px;
+    width: 250px;
+    height: 250px;
+}
+p{
+    margin-right: 50px;
+    width: 700px;
+}
+.color2{
+    color: grey;
+}
+.col-lg-12{
+    font-size: small;
+    padding-left: 450px;
 }
