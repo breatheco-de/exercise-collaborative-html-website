@@ -65,3 +65,27 @@ body{
     margin: 1% 3%;
     position: sticky;
 }
+
+body{
+    background: #BDBDBD;
+}
+
+.Caja{
+    display: flex;
+    justify-content: space-between;
+}
+
+#imagenes img{
+    background-color: grey;
+}
+
+#TituloEnpie{
+    color: aqua;
+}
+
+.texto_centro{
+    position: absolute;
+    top: 46%;
+    left: 45%;
+}
+
