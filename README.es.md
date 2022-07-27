@@ -41,7 +41,7 @@ c) Indícale a tus estudiantes o a los miembros de tu equipo que clonen tu repos
 Para cargar y ver tu sitio web live, ejecuta el siguiente comando:
 
 ```bash
-$ npx http-server --yes -c-1
+$ 
 ```
 
 ## Implementar el sitio web
@@ -54,3 +54,4 @@ Todos participantes del equipo presentan un repositorio como solución.
 
 ## Información complementaria
 La [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) se utiliza como motor para crear plantillas para crear la página de destino.
+npx http-server --yes -c-1
