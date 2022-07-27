@@ -1,3 +1,20 @@
 body{
     background: #BDBDBD;
 }
+.container__tagline {
+    height: 700px;
+    background-image: url("https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.textcontainer__tagline {
+    position: relative;
+    top: 80px;
+}
+.text__tagline {
+    text-align: center;
+    background-color: white;
+    
+}
