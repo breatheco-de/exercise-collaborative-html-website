@@ -3,6 +3,12 @@ body{
     }
 
 .Tagline__CoverIMG {
-    background-image: url("https://www.turismosevilla.org/sites/default/files/2020-12/sevilla-torre%20oro-02.jpg");
+    background-image: url(../assets/img/bg.jpg);
     background-size: auto;
         }
+
+.tagline_Foto {
+    z-index: -1;
+    object-fit: contain;
+    width: 100%;
+}
