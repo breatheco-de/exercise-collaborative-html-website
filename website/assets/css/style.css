@@ -1,13 +1,19 @@
 body{
     background: #BDBDBD;
 }
+.container-fluid__navbar {
+    background-color: black;
+}
 .container__tagline {
-    height: 700px;
+    height: 800px;
     background-image: url("https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
     position: relative;
+    margin-left: -1%;
+    
+
 }
 .textcontainer__tagline {
     position: relative;
