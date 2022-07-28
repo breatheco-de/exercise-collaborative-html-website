@@ -1,3 +1,6 @@
 body{
     background: #BDBDBD;
 }
+.container-fluid__navbar {
+    background-color: black;
+}
