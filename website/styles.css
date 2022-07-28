@@ -1,0 +1,17 @@
+/* 
+body{
+    background-color: white;
+}
+*/
+
+.Heading1{
+display: flex; padding: 3%;
+}
+
+.Heading2{
+    display: flex; padding: 3%;
+}
+
+.img_circle{
+    width: 200px; height: 200px; border-radius: 100px;
+}
