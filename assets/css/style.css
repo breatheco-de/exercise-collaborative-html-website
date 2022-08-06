@@ -1,3 +1,24 @@
 body{
     background: #BDBDBD;
 }
+
+.my-bg img{
+    object-fit: cover;
+    position: relative;
+}
+
+.my-bg span{
+    background-color: white;
+    position:absolute;
+    text-align: center;
+}
+
+.my-bg .header1{
+    top: 20%;
+    font-size: 8vw;
+}
+
+.my-bg .header2{
+    top: 60%;
+    font-size: 5vw;
+}
