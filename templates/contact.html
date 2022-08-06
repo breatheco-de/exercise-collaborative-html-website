@@ -1,2 +1,23 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="row container-fluid d-flex justify-content-center">
+                      <!--HEADING ADN TEXT-->
+  <h3>Contact</h3>
+  <p>Hello! Do you have a problem or a question? Don't hesitate to contact us. Fill the contact form and we will reach you in less than 24 hours.</p>
+                     <!--CONTACT FORM-->
+  <form class="col-8 d-flex flex-column my-4 mx-0 bg-light shadow-sm px-4 py-2">
+              <!--EMAIL -->
+      <div class="contactEmail form-group my-2 d-flex">
+        <label for="exampleInputEmail1" class="">Your E-mail</label>
+        <input type="email" class="form-control px-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
+      </div>
+                <!--TEXT AREA -->
+      <div class="contactMessage form-group my-2 d-flex align-items-start">
+          <label for="exampleFormControlTextarea1">Your message</label>
+          <textarea class="form-control px-2 justify-content-start" id="exampleFormControlTextarea1" rows="5" placeholder="Please enter your message here"></textarea>
+      </div>
+                 <!--BUTTON -->
+      <div class="align-self-end">
+      <button type="submit" class="btn btn-primary mx-2">Submit</button>
+      </div>
+    </form>
+
+</div>
