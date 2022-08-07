@@ -20,13 +20,22 @@ b, strong {
 .first-heading {
     position: absolute;
     bottom: -455px;
+<<<<<<< HEAD
     left: 25%;
+=======
+    left: 13%;
+>>>>>>> master
     display: flex;
 }
 .rounded-circle {
     border-radius: 50%!important;
     width: 60%;
 }
+<<<<<<< HEAD
 .segundo {
     max-width: 400px;
+=======
+.primero {
+    margin-top: 150px;
+>>>>>>> master
 }
