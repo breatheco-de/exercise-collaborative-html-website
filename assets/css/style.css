@@ -48,3 +48,11 @@ img {
     border-radius: 50%;
     height: 400px;
 }
+
+.contactMessage>input{
+    height: 10em;   
+}
+
+label{
+    width: 15em;
+}
