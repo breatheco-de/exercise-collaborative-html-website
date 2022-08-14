@@ -33,4 +33,18 @@ body{
     position:absolute;
     bottom:10px;
     right:10px;
+    background: white;
+}
+
+h1 {
+  text-align: left; 
+}
+
+p {
+
+    width: 850px;
+}
+img {
+    border-radius: 50%;
+    height: 400px;
 }
