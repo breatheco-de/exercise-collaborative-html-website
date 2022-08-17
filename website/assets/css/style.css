@@ -1,3 +1,47 @@
-body{
+body {
     background: #BDBDBD;
+}
+
+.d1 {
+    width: 5000px;
+    background-image: url("/website/assets/img/bg.jpg");
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.div.d2.h1 {
+    width: 100%;
+    background-color: white;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 5px;
+    justify-content: center;
+
+}
+
+.div.d3.h2 {
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    margin: auto;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 1px;
+}
+
+h1 {
+    padding-left: 8%;
+    background-color: white;
+}
+
+h2 {
+    padding-left: 8%;
+    background-color: white;
+
+
 }
