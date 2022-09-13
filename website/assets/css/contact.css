@@ -1,17 +1,24 @@
 .container-sm{
+    width: 100%;
     background-color: white;
-    padding: 40px;
+    padding: 1rem;
+
+    
+
+    
 }
 
 .contact-button{
     position: absolute;
     right: 0;
-    margin-right: 23rem;
+    margin-right: 22rem;
     
 }
 
 .contact-form{
-    padding: 3rem;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 6rem;
     margin-left: 10rem;
     margin-right: 15rem;
     background-color: whitesmoke;
