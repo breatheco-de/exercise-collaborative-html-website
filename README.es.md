@@ -9,7 +9,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 <img align="right" height="400" src="https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/guide.jpg?raw=true" />
 
-1. El líder del equipo debe hacerle fork a este repositorio de github.com e [invitar a otros colaboradores a ese repositorio](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif).
+1. El líder del equipo debe hacerle fork a esta repositorio de github.com e [invitar a otros colaboradores a ese repositorio](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif).
 
 2. Vamos a realizar [este diseño](https://raw.githubusercontent.com/breatheco-de/exercise-collaborative-html-website/master/website1/designs/thumb.jpg), y [de este forma pueden dividirlo entre los estudiantes](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website1/designs/guide.jpg?raw=true)
 
