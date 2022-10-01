@@ -13,3 +13,7 @@ body{
   .two-toned{
     color:#6e6868
   }
+
+  .main-container{
+    background-color: whitesmoke;
+  }
