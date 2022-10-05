@@ -1,3 +1,10 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#cardTitle {
+   color: rgb(30, 126, 200);
+}
+h1 {
+    font-weight: bold;
 }
