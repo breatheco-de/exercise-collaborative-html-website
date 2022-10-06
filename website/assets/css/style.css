@@ -1,10 +1,19 @@
+#cardTitle {
+   color: rgb(30, 126, 200);
+}
+
+h1 {
+    font-weight: bold;
+}
+
 body{
     background: #BDBDBD;
 }
 
-  .centered {
+.centered {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-      }
+}
+
