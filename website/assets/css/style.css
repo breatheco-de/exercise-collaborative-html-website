@@ -1,3 +1,18 @@
 body{
     background: #BDBDBD;
 }
+.circular--square {
+    border-radius: 50%;
+  }
+ 
+.bk {
+    background-image: url(../img/bg.jpg);
+    background-size: 100% 100%;
+    background-position:top;
+    background-repeat: no-repeat;
+    height: 500px;
+   }
+   .personal {
+     height: 500px;
+    
+  }
