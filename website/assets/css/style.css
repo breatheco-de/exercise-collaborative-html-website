@@ -1,3 +1,7 @@
 body{
     background: #BDBDBD;
 }
+.imgheight{
+    height: auto;
+    width: auto;
+}
