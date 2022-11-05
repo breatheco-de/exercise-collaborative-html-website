@@ -24,7 +24,6 @@ body{
     max-width: none;
     background-color: white;
     min-height: 400px;
-    padding-top: 50px;
 }
 h1 {
     font-size: 92px;
@@ -40,7 +39,20 @@ h2 {
     background-color: white;
     color: #35332E;
 }
-container-fluid {
+.container-fluid-2 {
     display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: center;
+    height: 500px;
+}
+.heading-1 {
+    width: 70%;
+    padding-right: 10%;
+}
+.heading-2 {
+    width: 30%;
+}
+img {
     width: 100%;
 }
