@@ -1,3 +1,5 @@
 body{
     background: #BDBDBD;
 }
+
+ #divfondo {background-image: url("../img/bg.jpg"); height: 450px; background-size: cover; background-repeat: no-repeat;background-position: bottom; } 
