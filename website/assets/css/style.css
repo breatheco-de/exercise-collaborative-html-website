@@ -11,7 +11,7 @@ body{
     color: #767676 !important;
 }
 
-.col-12 {
+.image-section {
     width: 100vw;
     height: 100vh;
     background-image: url(../img/bg.jpg);
