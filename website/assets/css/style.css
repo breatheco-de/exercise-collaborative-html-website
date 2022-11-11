@@ -10,3 +10,31 @@ body{
 .color-nav a {
     color: #767676 !important;
 }
+
+.col-12 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-sec {
+    width: 100%;
+    height: fit-content;
+    background-color: #fbfbfb;
+    text-align: center;
+}
+
+.first-text {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 130px;
+}
+
+h2 {
+    font-size: 60px;
+}
