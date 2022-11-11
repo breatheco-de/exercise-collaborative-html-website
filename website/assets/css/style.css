@@ -1,3 +1,7 @@
 body{
     background: #ffffff;
 }
+.image-first-heading img{
+    width:175px; 
+    height:175px;
+}
