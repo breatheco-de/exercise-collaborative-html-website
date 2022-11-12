@@ -1,3 +1,13 @@
 body{
     background: #BDBDBD;
 }
+.card-text {
+    color: rgb(65, 183, 252);
+}
+.header {
+    padding-bottom: 2%;
+}
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
