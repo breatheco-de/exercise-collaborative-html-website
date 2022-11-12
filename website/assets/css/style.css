@@ -47,12 +47,19 @@ body{
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    background-image: url(../img/1.jpg);
     background-size: contain;
 }
 
+.first-image {
+    background-image: url(../img/1.jpg);
+}
+
+.second-image{
+    background-image: url(../img/2.jpg);
+}
+
 .firstHeadingSection {
-    padding: 7.5% 15% 15% 7.5%;
+    padding: 7.5% 15% 2% 7.5%;
 }
 
 .line-sec {
@@ -68,4 +75,16 @@ body{
 .FHcontainer-one {
     text-align: start;
     padding-right: 50px;
+}
+
+.service-container {
+    padding-left: 150px;
+}
+
+.col-9 p {
+    font-size: 20px;
+}
+
+.line-secTwo {
+    padding-top: 7.5%;
 }
