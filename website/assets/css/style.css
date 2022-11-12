@@ -1,5 +1,5 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
 }
 
 .color-nav {
@@ -9,6 +9,10 @@ body{
 
 .color-nav a {
     color: #767676 !important;
+}
+
+.grey-title {
+    color: #767676;
 }
 
 .image-section {
@@ -31,10 +35,37 @@ body{
     margin-bottom: 20px;
 }
 
-h1 {
+.first-text h1 {
     font-size: 130px;
 }
 
-h2 {
+.text-sec h2 {
     font-size: 60px;
+}
+
+.image-container{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(../img/1.jpg);
+    background-size: contain;
+}
+
+.firstHeadingSection {
+    padding: 7.5% 15% 15% 7.5%;
+}
+
+.line-sec {
+    width: 90%;
+    padding-bottom: 7.5%;
+}
+
+.line-sec hr {
+    width: 1100px;
+}
+
+
+.FHcontainer-one {
+    text-align: start;
+    padding-right: 50px;
 }
