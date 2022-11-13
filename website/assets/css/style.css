@@ -1,11 +1,20 @@
+
 body{
-    background: #BDBDBD;
+    background: ;
+}
+
+
+.container{
+    background: antiquewhite !important;
+    width: 800px !important;
+    margin:auto !important;
 }
 #foto-second{
-    float: left;;
-    padding-left: 0%;
-    margin: none;
+    width: 200px !important;
+    height: 200px !important;
+    
 }
-#title{
-    margin-top: 100px;
+#grey{
+    color: lightgrey !important;
+    
 }
