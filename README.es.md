@@ -22,7 +22,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 **Si eres un estudiante:**
 
-Espera a que tu profesor te indique como iniciar este proyeto.
+Espera a que tu profesor te indique cómo iniciar este proyeto.
 
 **Si eres profesor o líder de equipo:**
 
