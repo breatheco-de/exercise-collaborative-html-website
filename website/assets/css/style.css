@@ -94,11 +94,11 @@ body{
 .header {
     padding-bottom: 2%;
 }
-.container {
+/* .container {
     margin-left: 15%;
     margin-right: 15%;
     background: #ffffff;
-}
+} */
 
 .color-nav {
     background-color: #222222 !important; 
