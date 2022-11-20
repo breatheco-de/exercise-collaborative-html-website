@@ -1,3 +1,16 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+    margin: 0%;
+    padding: 0%;
+}
+.head-images {
+width: 300px;
+height: 300px;
+}
+.container-fluid {
+    padding: 0%;
+    margin: 0%;
+}
+.navbar {
+    margin: 0%;
 }
