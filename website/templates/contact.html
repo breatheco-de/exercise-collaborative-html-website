@@ -1,2 +1,54 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>contact</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/6e04df82a0.js" crossorigin="anonymous"></script> 
+    </head>
+    <br>
+    <body>
+    <div class="container">
+        <h3 >¿Tienes un Favorito para el mundial?</h3>
+        <br>
+        <p>¡<strong>PlayStation</strong> y <strong>4Geeks Academy</strong> te llevan a la copa del Mundo Qatar 2022!</p>
+        <p>Cuentanos quien crees que va a ser el campeon de Qatar 2022 y participa por una Playstation 5 <i class="fa-brands fa-playstation"></i> y dos tickets para la final de la copa del mundo <i class="fa-sharp fa-solid fa-plane-departure"></i>!!</p>
+        <br>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/UHBL7GUQ2ZG3PEZJQTQ7YXY6CM.jpg" class="img-fluid background-img"git alt="img">
+            </div>
+            <form class="col-4" >
+                
+               <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="Correo" placeholder="email">
+                <label for="Correo">Registra tu Dirección de Correo</label>
+               </div>
+               <div class="form-floating">
+                <textarea class="form-control" placeholder="Comentarios" id="Comentario" style="height: 150px"></textarea>
+                <label for="Comentario">Haz Tu Predicción</label>
+               </div>
+               <br>
+               <button class="btn bg-danger" data-bs-toggle="modal" data-bs-target="#Win"><strong>Submit</strong></button>
+               
+            </form>
+    </div>
+            <!--Concurso-->
+            <div class="modal fade" id="Win" tabindex="-1" aria-labelledby="WinLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fs-5" id="WinLabel">¡¡¡¡¡Ya te encuentras participando!!!!!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>                      
+                      <img src="https://media.tenor.com/aufLpWfT1NcAAAAC/%D9%84%D8%B9%D9%91%D9%8A%D8%A8-laeeb.gif" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </body>
+</html>
