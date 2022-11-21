@@ -6,11 +6,14 @@ body{
 .head-images {
 width: 300px;
 height: 300px;
+margin-bottom: 10%;
+margin-top: 2%;
+padding: 0%;
 }
 .container-fluid {
     padding: 0%;
-    margin: 0%;
+    margin-bottom: 0%;
 }
-.navbar {
-    margin: 0%;
+div.row {
+    margin-top: 10px;
 }
