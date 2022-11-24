@@ -1,3 +1,38 @@
 body{
     background: #BDBDBD;
 }
+
+.hero {
+    width: 100vw;
+    height: 60vh;
+}
+
+.img-bg {
+    width: 100vw;
+    height: 100px;
+}
+
+.hero-text {
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+.hero-text h2 {
+    font-size: 50rem;
+}
+.hero-title {
+    font-size: 6rem;
+}
+.hero-subtitle {
+    font-size: 3rem;
+}
+/* .walter {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.flex-container {
+    width: 60%;
+    display: flex;
+} */
