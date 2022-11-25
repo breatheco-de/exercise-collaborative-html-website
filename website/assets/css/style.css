@@ -25,6 +25,21 @@ body{
 }
 
 /*Style for tagline*/
-#tagline-image{
-    width: 100%;
+.tagline{
+    background-image:url("https://picsum.photos/seed/picsum/1500/500");
+    height: 60vh;
+}
+.tagline h1{
+    background: rgba(255, 255, 255, 0.724);
+    text-align: center;
+    font-size: 8vw;
+    position: relative;
+    top: 15%;
+}
+.tagline h2{
+    background: rgba(255, 255, 255, 0.724);
+    text-align: center;
+    font-size: 4.5vw;
+    position: relative;
+    top: 20%;
 }
