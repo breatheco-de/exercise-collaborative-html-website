@@ -25,9 +25,38 @@ body{
 }
 
 /*Style for tagline*/
-#tagline-image{
-    width: 100%;
+.tagline{
+    background-image:url("https://picsum.photos/seed/picsum/1500/500");
+    height: 60vh;
 }
+.tagline h1{
+    background: rgba(255, 255, 255, 0.724);
+    text-align: center;
+    font-size: 8vw;
+    position: relative;
+    top: 15%;
+}
+.tagline h2{
+    background: rgba(255, 255, 255, 0.724);
+    text-align: center;
+    font-size: 4.5vw;
+    position: relative;
+    top: 20%;
+}
+.rounded-circle{
+    float: left;
+    width: 40%;
+    margin: 5%;
+    margin-right: 5%;
+}
+.container{
+    margin: 5%;
+    width: 80%!important;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 200;
+    line-height: 1.2;
+}   
 
 /*Style for contact*/
 .container-fluid .contact-header{
