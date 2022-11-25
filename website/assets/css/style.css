@@ -28,3 +28,17 @@ body{
 #tagline-image{
     width: 100%;
 }
+.rounded-circle{
+    float: left;
+    width: 40%;
+    margin: 5%;
+    margin-right: 5%;
+}
+.container{
+    margin: 5%;
+    width: 80%!important;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 200;
+    line-height: 1.2;
+}   
