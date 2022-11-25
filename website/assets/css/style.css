@@ -28,3 +28,33 @@ body{
 #tagline-image{
     width: 100%;
 }
+
+/*Style for contact*/
+.container-fluid .contact-header{
+    width: 90%;
+    margin: 5%;
+    text-align: justify;
+}
+.container-fluid .contact-header form{
+    width: 55%;
+    margin: auto;
+    padding: 1%;
+}
+.container-fluid .contact-header label{
+    width: 25%;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 3%;
+}
+.mb-3{
+    display: flex;
+}
+.container-fluid .contact-header button{
+    position: relative;
+    float:right;
+}
+/*Style for footer*/
+footer{
+    width: 90%;
+    margin: auto;
+}
