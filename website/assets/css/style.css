@@ -52,10 +52,8 @@ body{
     margin-right: 5%;
 }
 .container{
-    margin: 5%;
-    width: 80%!important;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    width: 95%!important;
+    margin:auto;
     font-weight: 200;
     line-height: 1.2;
 }   
