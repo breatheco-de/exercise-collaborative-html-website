@@ -27,6 +27,8 @@ body{
 /*Style for tagline*/
 .tagline{
     background-image:url("https://picsum.photos/seed/picsum/1500/500");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 60vh;
 }
 .tagline h1{
