@@ -1,21 +1,10 @@
 body{
     background: white;
-
 }
-
-.ss {
-   background-image: url("../img/bg.jpg");
-   height: 1000px;
-   
-}
-.texto-1 {
-    font-size: 160px;
-}
-.texto-2 {
-    font-size: 100px;
-}
-
-
+    
+    .h1 {
+        font-size: 100px;
+    }
 
 
 
