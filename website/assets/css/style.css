@@ -1,28 +1,50 @@
 body{
     background: white;
 }
-.container C{
-    text-align: left;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: auto;
-    max-width:100%;
-    max-height:100%;
-}
-.contactForm{
-    background: white;
+.Heading {
+    padding: 40px;
 
 }
-.body-form {
-    background: rgb(238, 237, 236);
-    align-items: center;
-}
+.col-md-8-H {
+    text-align: justify left;
+    float: left;
+    font: size 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;color: rgb(167, 163, 163) ;
 
-.form-label{
-    text-align: left;
 }
+.col-md-4-H{
+    float:right;
+    height:150px;
+    width: 150px;
+    position: relative;
+   
+}
+.img-rounded-circle-H{
+    border-radius: 50%;
+    position: absolute;
+    width:200%;
+    height:200%;
+ }
 
-.label{
-    width: 25%;
-    margin: 0.5rem;
-    text-align: left;
+.Services {
+    padding: 40px; 
 }
+.col-md-8-S {
+    text-align:justify right;
+    font: size 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;color: rgb(167, 163, 163) ;
+}
+.col-md-4-S {
+    float:left;
+    height: 150px;
+    width: 150px;
+    align-content:inherit;
+}
+.img-rounded-circle-S{
+    border-radius: 50%;
+    position: relative;
+    width:200%;
+    height:200%;
+ }
