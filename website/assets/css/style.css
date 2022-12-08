@@ -1,50 +1,73 @@
 body{
     background: white;
 }
+.container_h{
+    height: 400px;
+    max-width: 950px;
+}
 .Heading {
-    padding: 40px;
+    padding: 10px;
+    border-top: solid 1px green;
+    border-bottom:solid 1px green;
+}
+.col-md-8_h{
+    text-align: left;
+    font-size:  20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;color: rgb(167, 163, 163) ;
+    height:0px;
+    width: 700px;
+    padding:20px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+.col-md-4_h{
+    height:200px;
+    width: 200px;
+    float: right ; 
+  
 
 }
-.col-md-8-H {
-    text-align: justify left;
+.img-rounded-circle_h{
+    border-radius: 50%;
+    position: relative;
+    width: 150%;
+    height: 150%;
+    padding-left: 20px; 
+    object-position: 100% 1%;
+}
+.container_s{
+    height: 400px;
+    max-width: 950px;
+}
+ .Services {
+    padding: 10px;
+    border-top: solid 1px green;
+    border-bottom:solid 1px green;
+}
+.col-md-4_s {
+    height: 200px;
+    width: 200px;
     float: left;
-    font: size 20px;
+}
+.col-md-8_s  {
+    margin: left 30px;
+    text-align: right;
+    font-size:  20px;
     font-family:Arial, Helvetica, sans-serif;
     font-style: normal;color: rgb(167, 163, 163) ;
-
+    height:0px;
+    width: 700px;
+    padding:20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.col-md-4-H{
-    float:right;
-    height:150px;
-    width: 150px;
-    position: relative;
-   
-}
-.img-rounded-circle-H{
-    border-radius: 50%;
-    position: absolute;
-    width:200%;
-    height:200%;
- }
-
-.Services {
-    padding: 40px; 
-}
-.col-md-8-S {
-    text-align:justify right;
-    font: size 20px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-style: normal;color: rgb(167, 163, 163) ;
-}
-.col-md-4-S {
-    float:left;
-    height: 150px;
-    width: 150px;
-    align-content:inherit;
-}
-.img-rounded-circle-S{
+.img-rounded-circle_s {
     border-radius: 50%;
     position: relative;
-    width:200%;
-    height:200%;
+    width:180%;
+    height:180%;
+    padding-right: 20px; 
+    object-position: 100% 1%;
+
  }
