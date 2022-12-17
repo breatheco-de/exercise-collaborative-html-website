@@ -1,5 +1,5 @@
 body{
-    background: #BDBDBD;
+      background: #FFF;
 }
 #services-image {
     object-fit: cover;
@@ -16,3 +16,6 @@ body{
 h2 {
     font-size: 225%;
 }
+
+  
+
