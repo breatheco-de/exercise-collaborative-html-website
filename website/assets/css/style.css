@@ -2,21 +2,7 @@ body{
       background: #FFF;
       color:red;
 }
-#services-image {
-    object-fit: cover;
-    position: center;
-    width: 250px;
-    height: 250px;
-}
-#heading-image {
-    object-fit: cover;
-    position: center;
-    width: 250px;
-    height: 250px;
-}
-h2 {
-    font-size: 225%;
-}
+
 
   
 
