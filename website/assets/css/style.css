@@ -1,21 +1,148 @@
-body{
-      background: #FFF;
-}
-#services-image {
-    object-fit: cover;
-    position: center;
-    width: 250px;
-    height: 250px;
-}
-#heading-image {
-    object-fit: cover;
-    position: center;
-    width: 250px;
-    height: 250px;
-}
-h2 {
-    font-size: 225%;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Permanent+Marker&display=swap");
+
+body {
+	background: darkblue;
 }
 
-  
+form {
+	display: flex;
+	flex-direction: column;
+	height: 90%;
+}
 
+fieldset {
+	border: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+}
+
+input {
+	background: seashell;
+	border: none;
+	border-bottom: 1px solid rgba(155, 155, 155, 0.5);
+	margin: 0;
+	padding: 5px 0;
+}
+
+input[type="submit"] {
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px 25px;
+	border-radius: 70px;
+	background-color: blue;
+	color: white;
+	margin-bottom: 20px;
+}
+
+input::placeholder {
+	padding-left: 5px;
+}
+
+button {
+	background: darkslateblue;
+	border-radius: 4px;
+	color: white;
+	margin-top: 15px;
+	padding: 10px;
+}
+
+button:hover {
+	background: navy;
+	cursor: pointer;
+}
+
+#border {
+	border: 3px dashed red;
+	padding: 20px;
+}
+
+.postcard {
+	background: seashell;
+	border: 10px solid lightblue;
+	margin: auto;
+	padding: 15px;
+	width: 600px;
+}
+
+.postcard-header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.postcard-header h1 {
+	font-family: "Permanent Marker", Arial, sans-serif;
+	font-size: 24px;
+	margin: 0;
+	width: 550px;
+}
+
+.postcard-header img {
+	height: 50px;
+	width: 50px;
+}
+
+.postcard-header span {
+	color: navy;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	font-family: "Dancing Script";
+	font-size: 20px;
+	margin-top: 0;
+	padding: 10px 50px 0 0;
+	text-align: justify;
+	text-indent: 25px;
+	width: 60%;
+}
+
+.body-left h2 {
+	margin: 0;
+}
+
+.body-left h2 span {
+	color: navy;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+	padding: 5px 0 0 0;
+}
+
+.body-left .kisses,
+.body-left .signature {
+	font-size: 24px;
+	margin-right: 50px;
+	text-align: right;
+}
+
+.body-left .kisses {
+	color: navy;
+}
+
+.body-left .signature {
+	margin-right: 25px;
+	color: darkblue;
+}
+
+.body-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px 0 35px 0;
+}
+
+.body-right .border-2 {
+	border: 1px dotted grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+	padding: 5px;
+}
