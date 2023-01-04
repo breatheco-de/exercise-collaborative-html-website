@@ -1,4 +1,4 @@
-# Making a website as a team (Git collaboration)
+# Making a website as a team (Git collaboration-2)
 
 Practice your skills in GIT while developing a typical website.
 
