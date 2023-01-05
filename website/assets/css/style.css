@@ -1,3 +1,31 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+
+.header-image{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-overlay {
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 108px;
+    width: 98%;
+    top: 8rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-subtitle{
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 72px;
+    width: 98%;
+    top: 16rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
