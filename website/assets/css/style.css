@@ -1,5 +1,11 @@
 body{
-    background: #BDBDBD;
+    margin: 0px;
+}
+
+.no_padding{
+    padding-left: 0px;
+    padding-right: 0px;
+
 }
 .header-image{
     position: relative;
@@ -28,66 +34,3 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-img{
-    width: 100%;
-    height: auto;
-    }
-    .content{
-        margin-top: 100px;
-    }
-    
-    .contain {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        align-items: center;
-        padding: 20px 0px 20px 0px;
-    }
-    
-.contact,
-.data {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.data {
-    background-color: #f1ebeb;
-    width: 50vw;
-    height: 300px;
-}
-
-.contact div {
-    width: 80vw;
-}
-.data div label {
-    display: flex;
-}
-
-.button {
-    background-color: rgb(33, 33, 245);
-    width: 80px;
-    height: 40px;
-    border: none;
-    border-radius: 5%;
-    color: #ffff;
-}
-.divbutton{
-    display: flex;
-    justify-content: end;
-}
-label p{
-    width: 30%;
-}
-label input, label textarea{
-    width: 70%;
-}
-label{
-    margin-bottom: 20px;
-}
-.contain .contact div h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
