@@ -1,6 +1,33 @@
 body{
     background: #BDBDBD;
 }
+.header-image{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-overlay {
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 18.0vh;
+    width: 98%;
+    top: 15vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-subtitle{
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 7vh;
+    width: 98%;
+    top: 31.5vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 img{
     width: 100%;
@@ -63,3 +90,4 @@ label{
 .contain .contact div h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
