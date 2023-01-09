@@ -1,5 +1,12 @@
 body{
     background: #BDBDBD;
+    margin: 0px;
+}
+
+.no_padding{
+    padding-left: 0px;
+    padding-right: 0px;
+
 }
 .header-image{
     position: relative;
