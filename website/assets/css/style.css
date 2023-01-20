@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+
+
+.portimg{
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+}
