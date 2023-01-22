@@ -1,5 +1,6 @@
 /*---------------------------------*/
-/*CSS GENERAL PARA TODA LA WEB*/
+/*CSS GENERAL PARA TODA LA WEB.*/
+/*Para tener los mismos colores de fondo*/
 /*---------------------------------*/
 :root {
     --primary-color: #010712;
@@ -26,39 +27,23 @@
 .form-col {
     background: var(--bg-color);
     padding: 2%;
-
 }
 
-h1,
-label,
-button,
-.description {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.1rem;
-}
-
-h1 {
+.h1form {
     color: var(--h1-color);
     text-transform: uppercase;
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
     font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-p {
+.pform {
     color: var(--secondary-color);
     font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.01rem;
-    width: 40vw;
     margin: 0.25rem 0;
-}
-
-label,
-.description {
-    color: var(--secondary-color);
-    text-transform: uppercase;
-    font-size: 0.90rem;
 }
 
 form {
@@ -70,24 +55,14 @@ form {
 input,
 textarea,
 label {
-    width: 40vw;
+    width: 30vw;
     display: block;
 }
 
-p,
 placeholder,
 input,
 textarea {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-input::placeholder,
-textarea::placeholder {
-    color: var(--primary-color);
-}
-
-input,
-textarea {
     color: var(--primary-color);
     font-weight: 500;
     background: var(--bg-color);
@@ -98,7 +73,7 @@ textarea {
     outline: none;
 }
 
-button {
+.buttonform {
     text-transform: uppercase;
     font-weight: 300;
     background: var(--button-color);
@@ -113,19 +88,25 @@ button {
 
 input:hover,
 textarea:hover,
-button:hover {
+.buttonform:hover {
     opacity: 0.5;
 }
 
-button:active {
+.buttonform:active {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 980px) {
-    .img-col {
-        display: none;
+    .img-col {}
+}
+
+@media screen and (max-width: 980px) {
+    .form-col {
+        display: block;
+        padding-left: 10%;
     }
 }
+
 
 @media screen and (max-width: 980px) {
     .form-col {
