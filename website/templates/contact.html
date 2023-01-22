@@ -1,2 +1,25 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!--Para centrar el contenido--> <!--<div class="container">-->
+<div class="container-contact">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="img-col col-md-4"><!--img bg chocobo--></div>
+        <div class="form-col col-md-6">
+            <h1>Contáctanos</h1><br>
+            <p>Si quieres contactar con nuestros chocobos, rellena el siguiente Choco-Formulario...</p>
+            <form id="contact-form" method="get">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required>
+                <label for="mensaje">Mensaje</label>
+                <textarea rows="4" placeholder="Tu Mensaje" id="mensaje" name="mensaje" required></textarea>
+                <img
+                    src="https://raw.githubusercontent.com/stromcer/exercise-collaborative-html-website/master/imagenes_chocobo/FF2Chocobo.webp">
+                <button type="submit" id="submit" name="submit">Enviar</button>
+                <img src="https://raw.githubusercontent.com/stromcer/exercise-collaborative-html-website/master/imagenes_chocobo/FF2Chocobo.webp"
+                    style="transform: scaleX(-1);">
+            </form>
+        </div>
+    </div>
+</div>
+<!--</div>-->
