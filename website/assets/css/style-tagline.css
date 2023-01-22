@@ -1,3 +1,22 @@
 .header-background-image {
     background-image: url("../img/bg.jpg");
+    height: 450px;
+    background-size: 100%;
+    background-position-y: 75%;
+}
+.titulo{
+    text-align:center;
+    border:1px; 
+    padding:8px;
+    background-color: white;
+}
+.subtitulo {
+    text-align:center;
+    border:1px; 
+    padding:8px;
+    background-color: white; 
+    margin-top: 10px;
+}
+.texto {
+    padding-top: 100px;
 }
