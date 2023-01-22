@@ -10,14 +10,26 @@
     --h1-color: #3F444C;
 }
 
+
 /*---------------------------------*/
 /* CSS FOOTER*/
 /*---------------------------------*/
-.footer-bg{
-    background: var(--secondary-color);  
+.footer-bg {
+    background: var(--secondary-color);
 }
 
-<<<<<<< HEAD
+.pfooter {
+    color: var(--bg-color);
+}
+
+/*---------------------------------*/
+/*CSS CONTACT FORM*/
+/*---------------------------------*/
+.container-contact {
+    background: var(--bg-color);
+    padding: 2%;
+}
+
 .img-col {
     background-image: url("https://raw.githubusercontent.com/stromcer/exercise-collaborative-html-website/master/imagenes_chocobo/Chocobo_FFXIV_Art.webp");
     background-size: contain;
@@ -107,12 +119,6 @@ textarea:hover,
     }
 }
 
-
-@media screen and (max-width: 980px) {
-    .form-col {
-        display:block;
-    }
-}
 /*---------------------------------*/
 /* FIN CSS CONTACT FORM*/
 /*---------------------------------*/
@@ -121,20 +127,16 @@ textarea:hover,
 /*---------------------------------*/
 /* CSS PORTFOLIO
 /*---------------------------------*/
-.portimg{
+.portimg {
     height: 400px;
     width: 700px;
     object-fit: cover;
 }
 
-.portfoliohead{
+.portfoliohead {
     font-weight: 520;
 }
+
 /*---------------------------------*/
 /* FIN CSS PORTFOLIO*/
-/*---------------------------------*/
-=======
-.pfooter {
-    color: var(--bg-color);
-}
->>>>>>> add-footer
+/*---------------------------------*
