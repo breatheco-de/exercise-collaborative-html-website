@@ -11,13 +11,13 @@
 }
 
 /*---------------------------------*/
-/*CSS CONTACT FORM*/
+/* CSS FOOTER*/
 /*---------------------------------*/
-.container-contact {
-    background: var(--bg-color);
-    padding: 2%;
+.footer-bg{
+    background: var(--secondary-color);  
 }
 
+<<<<<<< HEAD
 .img-col {
     background-image: url("https://raw.githubusercontent.com/stromcer/exercise-collaborative-html-website/master/imagenes_chocobo/Chocobo_FFXIV_Art.webp");
     background-size: contain;
@@ -133,3 +133,8 @@ textarea:hover,
 /*---------------------------------*/
 /* FIN CSS PORTFOLIO*/
 /*---------------------------------*/
+=======
+.pfooter {
+    color: var(--bg-color);
+}
+>>>>>>> add-footer
