@@ -11,32 +11,23 @@
 }
 
 /*---------------------------------*/
-/* CSS FOOTER */
-/*---------------------------------*/
-.footer-bg {
-    background: var(--secondary-color);
-}
-
-.pfooter {
-    color: white;
-    text-align: justify;
-}
-
-/*---------------------------------*/
-/* FIN CSS FOOTER */
-/*---------------------------------*/
-
-/*---------------------------------*/
 /* CSS CONTACT-FORM */
 /*---------------------------------*/
+.container-contact {
+    background: var(--bg-color);
+    padding: 2%;
+}
 
-.media-bg {
-    background: black;
+.img-col {
+    background-image: url("https://raw.githubusercontent.com/stromcer/exercise-collaborative-html-website/master/imagenes_chocobo/Chocobo_FFXIV_Art.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .form-col {
     background: var(--bg-color);
     padding: 2%;
+
 }
 
 .h1form {
@@ -138,3 +129,23 @@ textarea:hover,
 /*---------------------------------*/
 /* FIN CSS PORTFOLIO*/
 /*---------------------------------*
+
+/*---------------------------------*/
+/* CSS FOOTER */
+/*---------------------------------*/
+.footer-bg {
+    background: var(--secondary-color);
+}
+
+.pfooter {
+    color: white;
+    text-align: justify;
+}
+
+.media-bg {
+    background: black;
+}
+
+/*---------------------------------*/
+/* FIN CSS FOOTER */
+/*---------------------------------*/
