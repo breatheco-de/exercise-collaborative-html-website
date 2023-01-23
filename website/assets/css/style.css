@@ -10,30 +10,28 @@
     --h1-color: #3F444C;
 }
 
-
 /*---------------------------------*/
-/* CSS FOOTER*/
+/* CSS FOOTER */
 /*---------------------------------*/
 .footer-bg {
     background: var(--secondary-color);
 }
 
 .pfooter {
-    color: var(--bg-color);
+    color: white;
+    text-align: justify;
 }
 
 /*---------------------------------*/
-/*CSS CONTACT FORM*/
+/* FIN CSS FOOTER */
 /*---------------------------------*/
-.container-contact {
-    background: var(--bg-color);
-    padding: 2%;
-}
 
-.img-col {
-    background-image: url("https://raw.githubusercontent.com/stromcer/exercise-collaborative-html-website/master/imagenes_chocobo/Chocobo_FFXIV_Art.webp");
-    background-size: contain;
-    background-repeat: no-repeat;
+/*---------------------------------*/
+/* CSS CONTACT-FORM */
+/*---------------------------------*/
+
+.media-bg {
+    background: black;
 }
 
 .form-col {
