@@ -1,6 +1,6 @@
 /*Original content*/
 body{
-    background: whitesmoke;
+    background: white;
 }
 /*tagline css*/
 .tagline__background{
@@ -8,6 +8,7 @@ body{
     background-size:  cover;
     background-repeat: no-repeat;
     height:650px;
+    
 }
 .tagline-primary__textsize{
     font-size: 650%;
