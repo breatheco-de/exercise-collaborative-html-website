@@ -1,3 +1,27 @@
+/*Original content*/
 body{
-    background: #BDBDBD;
+    background: white;
+}
+/*tagline css*/
+.tagline__background{
+    background-image: url('../../assets/img/bg.jpg');
+    background-size:  cover;
+    background-repeat: no-repeat;
+    height:650px;
+    
+}
+.tagline-primary__textsize{
+    font-size: 650%;
+}
+.tagline-secondary__textsize{
+    font-size: 400%;
+}
+.taglinerow-initial{
+    height: 100px;   
+}
+.taglinerow-medium{
+    height: 100px;   
+}
+.taglinerow-bottom{
+    height: 100px;   
 }
