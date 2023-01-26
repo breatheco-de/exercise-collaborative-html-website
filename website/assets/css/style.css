@@ -4,10 +4,19 @@
 /*---------------------------------*/
 :root {
     --primary-color: #010712;
-    --secondary-color: #818386;
+    --secondary-color: #f7f7ff;
     --bg-color: #FCFDFD;
     --button-color: #3B3636;
     --h1-color: #3F444C;
+}
+
+.logoNavBar img{
+    width: 100px;
+}
+
+h2{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*---------------------------------*/
@@ -36,7 +45,6 @@
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
     font-weight: 200;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .pform {
@@ -51,12 +59,14 @@ form {
     position: relative;
     margin-top: 2rem;
     padding: 2%;
+     margin: 0 auto; /*para centrar el formulario en la pantalla */
 }
 
 input,
 textarea,
 label {
-    width: 30vw;
+    /* width: 30vw; */
+    width: 100%; /* para que los campos ocupen el 100% del ancho del formulario */
     display: block;
 }
 
@@ -97,16 +107,26 @@ textarea:hover,
     opacity: 0.8;
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
     .img-col {}
 }
 
 @media screen and (max-width: 980px) {
     .form-col {
         display: block;
+        margin: 0 auto;
         padding-left: 10%;
     }
-}
+} */
+
+@media only screen and (max-width: 600px) {
+    form {
+      width: 100%; /* para que el formulario ocupe todo el ancho de la pantalla en dispositivos pequeños */
+    }
+    label {
+      display: block; /* para mostrar los etiquetas por encima de los campos en dispositivos pequeños */
+    }
+  }
 
 /*---------------------------------*/
 /* FIN CSS CONTACT FORM*/
@@ -138,12 +158,20 @@ textarea:hover,
 }
 
 .pfooter {
-    color: white;
+    color: black;
     text-align: justify;
 }
 
 .media-bg {
     background: black;
+}
+
+.marginGif {
+    margin-top: 5%;    
+}
+
+.marginGif, img {
+    border-radius: 50%;
 }
 
 /*---------------------------------*/

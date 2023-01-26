@@ -1,22 +1,30 @@
 .header-background-image {
-    background-image: url("../img/bg.jpg");
-    height: 450px;
+    /* background-image: url("../img/bg.jpg"); */
+    background-image: url(https://images5.alphacoders.com/498/498691.jpg);
+    height: 650px;
     background-size: 100%;
-    background-position-y: 75%;
+    background-repeat: no-repeat;
+    /* background-position-y: 75%; */
 }
-.titulo{
-    text-align:center;
-    border:1px; 
-    padding:8px;
-    background-color: white;
+
+.titulo {
+    text-align: center;
+    border: 1px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.33);
+    /* background-image: url("../img/chocoboTitle.png");
+    background-repeat: no-repeat; */
+    /* background-color: rgba(255, 255, 255, 0.216); */
 }
+
 .subtitulo {
-    text-align:center;
-    border:1px; 
-    padding:8px;
-    background-color: white; 
+    text-align: center;
+    border: 1px;
+    padding: 8px;
+    background-color: white;
     margin-top: 10px;
 }
+
 .texto {
     padding-top: 100px;
 }
