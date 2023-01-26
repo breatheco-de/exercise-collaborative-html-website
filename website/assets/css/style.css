@@ -10,15 +10,6 @@
     --h1-color: #3F444C;
 }
 
-.logoNavBar img{
-    width: 100px;
-}
-
-h2{
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 /*---------------------------------*/
 /* CSS CONTACT-FORM */
 /*---------------------------------*/
@@ -59,14 +50,16 @@ form {
     position: relative;
     margin-top: 2rem;
     padding: 2%;
-     margin: 0 auto; /*para centrar el formulario en la pantalla */
+    margin: 0 auto;
+    /*para centrar el formulario en la pantalla */
 }
 
 input,
 textarea,
 label {
     /* width: 30vw; */
-    width: 100%; /* para que los campos ocupen el 100% del ancho del formulario */
+    width: 100%;
+    /* para que los campos ocupen el 100% del ancho del formulario */
     display: block;
 }
 
@@ -121,12 +114,15 @@ textarea:hover,
 
 @media only screen and (max-width: 600px) {
     form {
-      width: 100%; /* para que el formulario ocupe todo el ancho de la pantalla en dispositivos pequeños */
+        width: 100%;
+        /* para que el formulario ocupe todo el ancho de la pantalla en dispositivos pequeños */
     }
+
     label {
-      display: block; /* para mostrar los etiquetas por encima de los campos en dispositivos pequeños */
+        display: block;
+        /* para mostrar los etiquetas por encima de los campos en dispositivos pequeños */
     }
-  }
+}
 
 /*---------------------------------*/
 /* FIN CSS CONTACT FORM*/
@@ -157,6 +153,11 @@ textarea:hover,
     background: var(--secondary-color);
 }
 
+.h2footer {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .pfooter {
     color: black;
     text-align: justify;
@@ -167,10 +168,10 @@ textarea:hover,
 }
 
 .marginGif {
-    margin-top: 5%;    
+    margin-top: 5%;
 }
 
-.marginGif, imggif {
+.imggif {
     border-radius: 50%;
 }
 

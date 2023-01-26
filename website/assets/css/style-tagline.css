@@ -1,7 +1,7 @@
 .header-background-image {
     background-image: url("../img/bg.jpg");
     /* background-image: url(https://images5.alphacoders.com/498/498691.jpg); */
-    height: 650px;
+    height: 450px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: 75%;
@@ -10,8 +10,8 @@
 .titulo {
     text-align: center;
     border: 1px;
-    padding: 8px;
-    background-color: rgba(255, 255, 255, 0.33);
+    padding: 10px;
+    background-color: white;
     /* background-image: url("../img/chocoboTitle.png");
     background-repeat: no-repeat; */
     /* background-color: rgba(255, 255, 255, 0.216); */
