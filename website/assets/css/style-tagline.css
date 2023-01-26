@@ -1,10 +1,10 @@
 .header-background-image {
-    /* background-image: url("../img/bg.jpg"); */
-    background-image: url(https://images5.alphacoders.com/498/498691.jpg);
+    background-image: url("../img/bg.jpg");
+    /* background-image: url(https://images5.alphacoders.com/498/498691.jpg); */
     height: 650px;
     background-size: 100%;
     background-repeat: no-repeat;
-    /* background-position-y: 75%; */
+    background-position-y: 75%;
 }
 
 .titulo {
