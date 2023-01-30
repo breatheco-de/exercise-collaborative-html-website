@@ -1,4 +1,6 @@
+<!--hide-->
 # Sitio Web colaborativo (Git collaboration)
+<!--endhide-->
 
 Practica tus habilidades en GIT mientras desarrollas un típico sitio web.
 
@@ -22,7 +24,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 **Si eres un estudiante:**
 
-Espera a que tu profesor te indique como iniciar este proyeto.
+Espera a que tu profesor te indique como iniciar este proyecto.
 
 **Si eres profesor o líder de equipo:**
 
@@ -34,7 +36,7 @@ a) Dirígete al repositorio y clónalo (haz una copia del mismo) en Github.
 
 b) Invita a tus estudiantes o a los miembros de tu equipo a que colaboren con tu repositorio recién clonado (referirse al gif).
 
-c) Indícale a tus estudiantes o a los miembros de tu equipo que clonen tu repositorio ( y no el original).
+c) Indícale a tus estudiantes o a los miembros de tu equipo que clonen tu repositorio (y no el original).
 
 **Tanto estudiantes como profesores:**
 

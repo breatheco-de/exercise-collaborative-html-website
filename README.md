@@ -1,8 +1,10 @@
+<!--hide-->
 # Making a website as a team (Git collaboration)
+<!--endhide-->
 
 Practice your skills in GIT while developing a typical website.
 
-Each student works on a different file, for a different part of the website, and the most senior can work as Team Leader (for integration and deployment), unless the teacher prefers to be the team leader of the whole class. The Html-Template-Engine library will take care of putting all the pieces together.
+Each student works on a different file, for a different part of the website, and the most senior can work as Team Leader (for integration and deployment) unless the teacher prefers to be the team leader of the whole class. The Html-Template-Engine library will take care of putting all the pieces together.
 
 ## 📝 Instructions
 
@@ -12,13 +14,13 @@ Each student works on a different file, for a different part of the website, and
 
 2. We are going to be building [this design](https://raw.githubusercontent.com/breatheco-de/exercise-collaborative-html-website/master/website/designs/thumb.jpg), and [this is how you can split with the students](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/guide.jpg?raw=true)
 
-3. Each contributor will have to clone the new forked repository and develop a part of the website that is coordinated with the group; each project is divided in pieces inside the **templates/** directory (located in website/templates). Once everyone has their editor open, run the project in the terminal with this command:
+3. Each contributor will have to clone the newly forked repository and develop a part of the website that is coordinated with the group; each project is divided into pieces inside the **templates/** directory (located in website/templates). Once everyone has their editor open, run the project in the terminal with this command:
 
 ```bash
 $ npx http-server --yes -c-1
 ```
 
-You will be given an option to open in browser, and have options to view the new site, what it should look like, and a reference to each part of the page. If you receive an error, wait a moment and refresh.
+You will be given the option to open in browser and have options to view the new site, what it should look like, and a reference to each part of the page. If you receive an error, wait a moment and refresh.
 
 4. **To start, each member should put their name in the file they have been assigned, push back to the repository, and pull to see the others changes. Maintaining clear communication about the files being used will make the project run smooth :)**
 
@@ -28,14 +30,14 @@ You will be given an option to open in browser, and have options to view the new
 
 **If you are a student:**
 
-Wait on your instructor to advise you how to start the project!
+Wait on your instructor to advise you on how to start the project!
 
 **If you are an instructor or team leader:**
 
 This project comes with the necessary files to start working, which can be found in the following github repository:
 https://github.com/breatheco-de/exercise-collaborative-html-website
 
-a) Navigate to and fork the repository in Github
+a) Navigate to and fork the repository on Github
 
 b) Invite your students or team members as collaborators to your forked repository (see the gif manual in it)
 
@@ -56,9 +58,9 @@ Use Vercel, Netlify or Github pages to deploy the website to the team URL (for e
 
 ## Delivery
 
-Everyone delivers the same repo as solution.
+Everyone delivers the same repo as the solution.
 
 ## Complementary info
 
-The [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) is being used as template engine for building the landing page.
+The [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) is being used as a template engine for building the landing page.
 
