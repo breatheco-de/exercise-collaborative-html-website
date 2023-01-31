@@ -1,20 +1,51 @@
 <!-- your html code here -->
-<div class="container border gap pt-3">
-    <div class="row">
-        <div class="col-5 text-start fw-bold">
-            <p>
-               Card # 
+<div class="container-fluid" id="Contact">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <h1 class="fw-bolder text-start">
+                Contact
+            </h1>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <p class="text-start">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor tristique facilisis.
+                Cras vel nulla dui. Donec fermentum, nisl ut tempus aliquet, arcu lectus fringilla nibh, eu pellentesque
+                felis metus in arcu.
+                Integer nec lorem eget odio interdum tristique vel eu sapien. Maecenas luctus ac massa quis lobortis.
+                Proin in nibh orci.
             </p>
         </div>
-        <div class="col text-start fw-bold">
-            <p>
-                CVC #
-            </p>
-        </div>
-        <div class="col text-start fw-bold">
-            <p>
-                Amount
-            </p>
+    </div>
+    <div class="row justify-content-center p-5">
+        <div class="col-8 bg-light border rounded pt-3">
+            <div class="row justify-content-end">
+                <div class="col-2 text-end">
+                    <p class="fw-bolder">
+                        Your E-mail
+                    </p>
+                </div>
+                <div class="col-9">
+                    <input class="form-control" type="text" name="email" id="email" placeholder="Your email">
+                </div>
+            </div>
+            <div class="row justify-content-end pt-3">
+                <div class="col-2 text-end">
+                    <p class="fw-bolder">
+                        Your message
+                    </p>
+                </div>
+                <div class="col-9">
+                    <textarea class="form-control" rows="6"></textarea>
+                </div>
+            </div>
+            <div class="row justify-content-end py-3">
+                <div class="col-2 text-end">
+                    <button type="button" class="btn btn-primary"> Submit</button>
+                </div>
+                
+            </div>
         </div>
     </div>
 </div>
