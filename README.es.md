@@ -7,7 +7,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 ## 📝 Instrucciones
 
-<img align="right" height="400" src="https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website1/designs/guide.jpg?raw=true" />
+<img align="right" height="400" src="https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/guide.jpg?raw=true" />
 
 1. El líder del equipo debe hacerle fork a este repositorio de github.com e [invitar a otros colaboradores a ese repositorio](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif).
 
