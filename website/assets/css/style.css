@@ -4,16 +4,41 @@ body{
 .services {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
 }
 
-img, svg {
+.img-services {
     vertical-align: middle;
     height: 250px;
     border-radius: 140px;
     width: 260px;
 }
 
+.porfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.porfolio-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -70px;;
+}
+
+.porfolio-img {
+    display: flex;
+}
+
 .contact {
     display: flex;
     flex-direction: column;
+}
+
+
+.copyright {
+    margin-left: 50px;
 }
