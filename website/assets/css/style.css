@@ -1,3 +1,19 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+.services {
+    display: flex;
+    align-items: flex-start;
+}
+
+img, svg {
+    vertical-align: middle;
+    height: 250px;
+    border-radius: 140px;
+    width: 260px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
 }
