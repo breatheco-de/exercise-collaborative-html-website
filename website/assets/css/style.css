@@ -4,6 +4,7 @@ body{
 .services {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
 }
 
 img, svg {
@@ -16,4 +17,8 @@ img, svg {
 .contact {
     display: flex;
     flex-direction: column;
+}
+
+.copyright {
+    margin-left: 50px;
 }
