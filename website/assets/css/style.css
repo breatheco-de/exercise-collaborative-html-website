@@ -26,18 +26,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: -70px;;
+    margin-left: -55px;;
 }
 
 .porfolio-img {
     display: flex;
 }
-
-.contact {
-    display: flex;
-    flex-direction: column;
+.card {
+    margin: 10px;
 }
-
 
 .copyright {
     margin-left: 50px;
