@@ -3,7 +3,7 @@
     width: 100%;
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 1652px 700px;
+    background-size: 100% 700px;
 }
 
 #htext1 {
