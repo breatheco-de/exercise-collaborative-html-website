@@ -3,8 +3,8 @@ body {
 	margin: 0;
 }
 div.container {
-    border: 20px;
-    border-style: solid;
+    border: 10px;
+    border-style: groove ;
     border-color: red;
     background: silver;
 }
