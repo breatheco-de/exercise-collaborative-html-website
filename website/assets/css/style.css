@@ -1,3 +1,10 @@
-body{
-    background: #BDBDBD;
+body {
+	background: gray;
+	margin: 0;
+}
+div.container {
+    border: 10px;
+    border-style: groove ;
+    border-color: red;
+    background: silver;
 }
