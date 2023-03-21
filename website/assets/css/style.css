@@ -1,3 +1,42 @@
-body{
-    background: #BDBDBD;
+div[class=container-fluid] {
+    background-color: rgb(255, 255, 255);
+}
+
+hr {
+    color: rgb(142, 142, 142);
+    width: 82%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgb(35, 35, 35);
+}
+
+.navbar-collapse a {
+    color: rgb(166, 165, 165);
+}
+
+/* TAGLINE */
+.jumbotron {
+    font-family: sans-serif;
+    background-image: url(../img/bg.jpg);
+    background-size: 103%;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-color: #7FB5DB;
+    height: 650px;
+}
+
+.jumbotron h1 {
+    font-weight: 600;
+    font-size: 130px;
+}
+
+.jumbotron h3 {
+    font-weight: 600;
+    font-size: 75px;
 }
