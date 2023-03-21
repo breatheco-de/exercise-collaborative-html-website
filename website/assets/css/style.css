@@ -26,6 +26,8 @@ hr {
     background-size: 103%;
     background-position-x: center;
     background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-color: #7FB5DB;
     height: 650px;
 }
 
