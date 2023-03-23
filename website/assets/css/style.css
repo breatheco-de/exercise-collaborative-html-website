@@ -4,10 +4,16 @@ div[class=container-fluid] {
 
 hr {
     color: rgb(142, 142, 142);
-    width: 82%;
+    width: 85%;
     margin: auto;
     margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 60px;
 }
 
 /* NAVBAR */
