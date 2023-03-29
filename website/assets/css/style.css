@@ -1,3 +1,13 @@
 body{
     background: #BDBDBD;
 }
+
+h2{
+    display: inline-block;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
