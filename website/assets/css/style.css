@@ -1,8 +1,32 @@
 body{
     background: #BDBDBD;
 }
+.border{
+    border: none;
+}
 
 body {
     background: white;
+}
+
+.btn-primary {
+    margin: 10px;
+}
+
+.footer {
+    text-align: right;
+}
+.container-fluid1 {
+    background: rgb(216, 215, 215);
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+.col-md-3 {
+    width: 18%;
+    text-align: center;
+}
+.col-md-9 {
+    width: 70%;
 }
 
