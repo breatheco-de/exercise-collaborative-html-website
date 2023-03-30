@@ -1,5 +1,5 @@
 body{
-    background: #BDBDBD;
+    background:white;
 }
 .border{
     border: none;
@@ -8,6 +8,7 @@ body{
 body {
     background: white;
 }
+
 
 .btn-primary {
     margin: 10px;
@@ -31,4 +32,3 @@ body {
     width: 70%;
     padding: none;
 }
-
