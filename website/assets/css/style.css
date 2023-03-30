@@ -17,7 +17,7 @@ body {
     text-align: right;
 }
 .container-fluid1 {
-    background: rgb(216, 215, 215);
+    background: rgb(237, 237, 237);
     padding: 15px;
     width: 100%;
     text-align: center;
@@ -25,8 +25,10 @@ body {
 .col-md-3 {
     width: 18%;
     text-align: center;
+    padding: none;
 }
 .col-md-9 {
     width: 70%;
+    padding: none;
 }
 
