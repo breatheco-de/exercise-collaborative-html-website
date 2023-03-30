@@ -26,8 +26,8 @@ Espera a que tu profesor te indique como iniciar este proyeto.
 
 **Si eres profesor o líder de equipo:**
 
-
 Este proyecto viene con los archivos necesarios para empezar a trabajar, pero tienes dos opciones para empezar:
+https://github.com/breatheco-de/exercise-collaborative-html-website
 
 a) Dirígete al repositorio y clónalo (haz una copia del mismo) en Github.
 
