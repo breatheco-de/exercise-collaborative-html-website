@@ -1,3 +1,57 @@
 body{
     background: #BDBDBD;
 }
+
+header {
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    margin-top: 0px;
+}
+
+.bg-image-full {
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+  
+@media (max-width: 767px) {
+    .bg-image-full {
+      height: 300px;
+      background-position: center top;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 991px) {
+    .bg-image-full {
+      height: 400px;
+      background-position: center top;
+    }
+}
+  
+@media (min-width: 992px) and (max-width: 1199px) {
+    .bg-image-full {
+      height: 450px;
+      background-position: center bottom;
+    }
+}
+  
+@media (min-width: 1200px) {
+    .bg-image-full {
+      height: 500px;
+      background-position: center bottom;
+    }
+}
+
+h1 {
+    background-color: rgb(255, 255, 255, .5);
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 700;
+    color: rgb(44, 44, 44);
+}
+
+h2 {
+    background-color: rgb(255, 255, 255, .5);
+    font-weight: 700;
+    color: rgb(44, 44, 44);
+}
