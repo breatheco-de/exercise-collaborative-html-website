@@ -11,3 +11,15 @@ img{
     height: 200px;
     object-fit: fill;
 }
+
+.portfolio {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.portfolio-header {
+    color: blue;
+}
+.portfolio-image {
+    margin-bottom: 25px;
+}
