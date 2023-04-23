@@ -50,7 +50,7 @@ Vercel, Netlify o Github pages permiten publicar tu aplicación web y poder obte
 
 ## Entrega
 
-Todos participantes del equipo presentan un repositorio como solución.
+Todos los participantes del equipo presentan un repositorio como solución.
 
 ## Información complementaria
 La [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) se utiliza como motor para crear plantillas para crear la página de destino.
