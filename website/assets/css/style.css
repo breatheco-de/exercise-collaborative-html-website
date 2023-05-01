@@ -1,3 +1,19 @@
 body{
-    background: #BDBDBD;
+    background: white;
+    padding: 10%;
+
+}
+
+.card {
+
+    border-color: white;
+    
+}
+
+.img-fluid  {
+
+}
+
+label{
+    border-color: grey;
 }
