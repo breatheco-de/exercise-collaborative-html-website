@@ -1,5 +1,14 @@
-body {
-    background: #BDBDBD;
+body{
+    background: #FFFFFF;
+}
+
+.services{
+    background: white;
+}
+
+.breakingbad{
+    width: 350px;
+    height: auto;
 }
 
 .centered {
@@ -8,7 +17,3 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
-
-
