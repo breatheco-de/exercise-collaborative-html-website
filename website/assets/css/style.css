@@ -2,6 +2,9 @@ body{
     background: #FFFFFF;
 }
 .services{
+    background: white;
+}
+.breakingbad{
     width: 350px;
     height: auto;
 }
