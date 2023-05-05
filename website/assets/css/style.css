@@ -4,10 +4,10 @@ body{
 
 /* tagline css */
 .Tag-container{
-    background-image: url("website/assets/img/bg.jpg");
-    background-size: cover;
-    height: 600px;
-    padding-top: 50px;
+    background-image: url("../img/bg.jpg");
+    background-size: contain;
+    height: 500px;
+    padding-top: 40px;
 }
 
 .tagline1,
@@ -17,9 +17,10 @@ body{
 }
 
 .tagline1{
-    font-size: larger;
+    font-size: 100px;
+    
 }
 
 .tagline2{
-    font-size: large;
+    font-size: 55px;
 }

@@ -4,7 +4,7 @@ body{
 
 /* tagline css */
 .Tag-container{
-    background-image: url("website/assets/img/bg.jpg");
+    background-image: url("../img/bg.jpg");
     background-size: cover;
     height: 600px;
     padding-top: 50px;
