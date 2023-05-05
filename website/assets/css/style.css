@@ -5,9 +5,10 @@ body{
 /* tagline css */
 .Tag-container{
     background-image: url("../img/bg.jpg");
-    background-size: contain;
+    background-size: cover;
     height: 500px;
-    padding-top: 40px;
+    padding-top: 50px;
+    
 }
 
 .tagline1,
