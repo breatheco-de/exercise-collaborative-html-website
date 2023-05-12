@@ -1,3 +1,23 @@
 body{
     background: #BDBDBD;
 }
+.nav-traits{
+    background-image: url(https://i.redd.it/epyedyen9ne51.jpg);
+    height: 500px; width: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.settingsParent{
+  display:flex;
+}
+.containerText{
+  padding: 3rem;
+}
+.img{
+  width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
