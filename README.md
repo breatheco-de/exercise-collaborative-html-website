@@ -35,11 +35,11 @@ Wait on your instructor to advise you how to start the project!
 This project comes with the necessary files to start working, which can be found in the following github repository:
 https://github.com/breatheco-de/exercise-collaborative-html-website
 
-a) Navigate to and fork the repository in Github
+a) Navigate to and fork the repository in Github.
 
-b) Invite your students or team members as collaborators to your forked repository (see the gif manual in it)
+b) Invite your students or team members as collaborators to your forked repository (see the gif manual in it).
 
-c) Have your students or team members clone your forked repository (not the original above)
+c) Have your students or team members clone your forked repository (not the original above).
 
 **Both students and instructors:**
 
