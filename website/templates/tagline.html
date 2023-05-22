@@ -1,3 +1,49 @@
 <!-- your html code here -->
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<style>
+    .imagen{
+      background-image: url("https://www.vacacionesnuevayork.com/wp-content/uploads/2021/11/skyline-nueva-york.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    justify-content: center;
+    }
+    
+    .container1 {
+      display: flex;
+      margin-top: 100px;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .fondo1{
+        background-color: white;
+        width: 100%;
+
+    }
+    .fondo2{
+        background-color: white;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .texto1{
+                font-size: 120px;
+    }
+    .texto2{
+                font-size: 70px;
+    }
+</style>
+<div class="imagen">
+    <div class="container1">
+      <div class="fondo1" style="text-align: center;">
+        <h1 class="texto1">One Page Wonder</h1>
+      </div>
+      <div class="fondo2" style="text-align: center;">
+        <h2 class="texto2">Will Knock Your Socks Off</h2>
+      </div>
+    </div>
+</div>
