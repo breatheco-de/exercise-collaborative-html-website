@@ -1,3 +1,8 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
+
+.margenSide{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
