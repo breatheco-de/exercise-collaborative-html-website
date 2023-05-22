@@ -3,16 +3,15 @@ body{
     background: hsl(0, 0%, 100%)0%, 100%);
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    margin-top: -10rem;
+#t2{
+    margin-top: -100rem;
  
   }
 
-  p {
-    margin-top: 6rem;
-  }
 
-  .display-1 {
+
+  #titular {
     font-size: 9rem;
+    margin-top: 6rem;
   }  
 
