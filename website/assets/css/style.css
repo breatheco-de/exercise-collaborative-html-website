@@ -7,7 +7,7 @@ body{
 }
 #tagline-image{
     width: 100%;
-    background-image: url(./bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom left;
