@@ -2,7 +2,7 @@
 
 ## Building a website collaborative
 
-### Group 2
+### Group 1
 
 1. contact.html - Ayoze Gómez
 
