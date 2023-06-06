@@ -32,7 +32,7 @@ Actualizar mi rama remota (desde Codespace a Github) mediante `git push origin m
 
 Solicitar `pull request` en GitHub (desde mi rama a la rama master).
 
-Luego de que autoricen el pull reques solicitado, actualizar mi rama master local desde la rama remota a la local mediante `git pull ...`
+Luego de que autoricen el pull request solicitado, actualizar mi rama master local desde la rama remota a la local mediante `git pull ...`
 
 Nota: Puedo actualizar mi rama local master tantas veces como lo desee (... cuando un compañero actualice su feature).
 
