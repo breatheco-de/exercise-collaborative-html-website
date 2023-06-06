@@ -28,7 +28,7 @@ Modificar el archivo de mi feature en Codespace.
 
 Actualizar mi rama local `git add .` y `git commit -m "mi mensaje"`
 
-Actualizar mi rama remota (desde Codespace a Github) mediante `git push orogin mi-rama`
+Actualizar mi rama remota (desde Codespace a Github) mediante `git push origin mi-rama`
 
 Solicitar `pull request` en GitHub (desde mi rama a la rama master).
 
