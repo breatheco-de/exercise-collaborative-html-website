@@ -56,7 +56,7 @@ Use Vercel, Netlify or Github pages to deploy the website to the team URL (for e
 
 ## Delivery
 
-Everyone delivers the same repo as solution.
+Everyone delivers the same repository as solution.
 
 ## Complementary info
 
