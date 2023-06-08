@@ -28,7 +28,7 @@ You will be given an option to open in browser, and have options to view the new
 
 **If you are a student:**
 
-Wait on your instructor to advise you how to start the project!
+Wait on your instructor to advise you on how to start the project!
 
 **If you are an instructor or team leader:**
 
