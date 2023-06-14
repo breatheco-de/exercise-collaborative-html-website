@@ -1,4 +1,6 @@
 .container {
-    background-image: url bg.jpg"
-    height: 50%;
+    background-image: url (bg.jpg);
+    height: 50px;
+    background-position:center;
+    background-size: cove;
 }
