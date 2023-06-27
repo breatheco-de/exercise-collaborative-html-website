@@ -1,3 +1,28 @@
 body{
-    background: #BDBDBD;
+    background: #ffebeb;
+}
+.gris{
+    color: gray;
+}
+img{
+  
+    border-radius:100%;
+    width: 300px;
+    height: 300px;
+    float: right; 
+    
+    
+}
+.col-8{
+    margin-left: 60px;
+   margin-right: 50px;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    text-align: justify;
+}
+.container-fluid{
+    align-content: space-evenly;
 }
