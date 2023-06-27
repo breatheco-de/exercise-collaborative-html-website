@@ -1,3 +1,26 @@
 body{
     background: #BDBDBD;
 }
+
+.Wonder{
+    font-size: 650%;
+    font-style: normal;
+    
+}
+
+.Will{
+    font-size: 400%;
+}
+
+.ciudad{
+ background: no-repeat center/120% url("../img/bg.jpg");
+ z-index: 100;
+}
+
+.height{
+    height: 600px;
+}
+
+.fila{
+    display: flex;
+}
