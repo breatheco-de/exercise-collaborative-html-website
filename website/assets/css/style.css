@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background: #BDBDBD;
 }
@@ -9,4 +15,43 @@ body{
 }
 .row{
     margin: 35px;
+    background: black;
+}
+
+.tagline{
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 50px;
+    margin-top: 0px;
+    
+    
+  
+}
+.onepagewonder{
+    background-color: white;
+    background-size: 250px;
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    height: 90px;
+    font-size: 75px;
+    padding-top: 2px;
+   
+}
+
+.yoursocksoff{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 55px;
+    font-size: 50px;
+   
+}
+
+.footer{
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
