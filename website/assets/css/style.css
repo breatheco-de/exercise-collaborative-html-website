@@ -1,3 +1,12 @@
 body{
     background: #BDBDBD;
 }
+.title-grey{
+    color: grey;
+}
+.card-text{
+    font-size: x-small;
+}
+.row{
+    margin: 35px;
+}
