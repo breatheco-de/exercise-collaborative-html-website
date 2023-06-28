@@ -5,6 +5,16 @@
 }
 
 body{
+    background: #BDBDBD;
+}
+.title-grey{
+    color: grey;
+}
+.card-text{
+    font-size: x-small;
+}
+.row{
+    margin: 35px;
     background: black;
 }
 
@@ -44,5 +54,4 @@ body{
     margin: auto;
     display: flex;
     justify-content: center;
-
 }
