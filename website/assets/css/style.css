@@ -41,7 +41,7 @@ p{
 }
 
 .ciudad{
- background: no-repeat center/120% url("../img/bg.jpg");
+ background: no-repeat center/120% url('../img/bg.jpg');
  z-index: 100;
 }
 
