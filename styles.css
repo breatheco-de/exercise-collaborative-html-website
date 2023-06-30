@@ -1,0 +1,10 @@
+#taglineContainer {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+#taglineImage {
+    z-index: -1;
+}
