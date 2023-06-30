@@ -1,6 +1,6 @@
 body{
 
-    background: white;
+    background: rgb(255, 255, 255);
 }
 .gris{
     color: gray;
@@ -27,7 +27,7 @@ p{
 .container-fluid{
     align-content: space-evenly;
 
-    background: #BDBDBD;
+    background: #fffefe;
 }
 
 .Wonder{
