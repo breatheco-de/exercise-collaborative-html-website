@@ -7,6 +7,6 @@ body {
 .nav-wrapper a, .nav-wrapper a:hover {
     color: #ccc;
 }
-.nav-link .active {
-    color: white !important;
+.navbar-nav .nav-link.active {
+    color: #ccc !important;
 }
