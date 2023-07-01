@@ -1,6 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
+  background: #BDBDBD;
 }
 .circle-image {
   display: block;
@@ -14,6 +15,6 @@ body, html {
   padding: 0 10rem;
 }
 
-
-
-
+#bg-image{
+    background-color: blueviolet !important;
+}
