@@ -1,3 +1,14 @@
 .form-label {
     text-align: left;
 }
+
+#contactHeading {
+    text-align: center;
+    margin: 20%;
+}
+#contactCard {
+    width: 75%;
+}
+#buttonContact {
+    align-content: end;
+}
