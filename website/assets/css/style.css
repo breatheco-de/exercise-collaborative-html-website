@@ -1,3 +1,6 @@
 body{
     background: #BDBDBD;
 }
+#bg-image{
+    background-color: blueviolet !important;
+}
