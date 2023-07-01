@@ -3,12 +3,14 @@
 }
 
 #contactHeading {
-    text-align: center;
-    margin 20px 200px;
+    text-align: left;
+    margin: auto;
 }
 #contactCard {
     width: 50%;
 }
 #buttonContact {
-    align-content: end;
+    padding-left: 90%;
+    
+
 }
