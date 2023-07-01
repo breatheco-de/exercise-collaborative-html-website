@@ -4,10 +4,10 @@
 
 #contactHeading {
     text-align: center;
-    margin: 20%;
+    margin 20px 200px;
 }
 #contactCard {
-    width: 75%;
+    width: 50%;
 }
 #buttonContact {
     align-content: end;
