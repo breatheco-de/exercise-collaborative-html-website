@@ -5,6 +5,42 @@
     
 }
 
-#taglineImage {
-    z-index: -1;
+.container {
+    position: relative;
+  }
+  
+  .text-block-big {
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    right: 80px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
+    height: 110px;
+  }
+
+  .text-block-small {
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    right: 80px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
+    height: 110px;
+  }
+
+#bigheader {
+    font-size: 100px;
+    margin-top: 0;
+}
+
+#smallheader {
+    font-size: 90px;
+    margin-top: 0;
 }
