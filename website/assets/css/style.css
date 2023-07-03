@@ -3,6 +3,30 @@ body, html {
   margin: 0;
   background: #BDBDBD;
 }
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background: #BDBDBD;
+  }
+  .circle-image {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+  }
+  
+  .wrapper {
+    padding: 0 10rem;
+  }
+  
+  #bg-image{
+      background-color: blueviolet !important;
+  }
+  
+=======
 .circle-image {
   display: block;
   width: 300px;
@@ -18,3 +42,4 @@ body, html {
 #bg-image{
     background-color: blueviolet !important;
 }
+
