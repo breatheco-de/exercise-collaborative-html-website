@@ -67,29 +67,30 @@ body{
     font-size: 20px;
 }
 
+.letrasnath1{
+    font-size: 40px
+    
+}
 
 .pamela{
     margin: 0px;
     width: 103%;
     padding-bottom: 150px;
-    padding-right: 0%;
 }
-.imagenpamela{
-    margin-top: 0%;
-    padding-top: 103px;
-    padding-left:200px;
-    
- }
+
 .pameee{
     justify-content: center;
 }
-.letraspame{
-padding-top: 30%;
-font-size: 40px
+
+.letraspame {
+    font-size: 40px
+    
 }
+
 .letraspamedos{
     font-size: 20px
 }
+
 .footer{
     margin: auto;
     display: flex;
