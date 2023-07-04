@@ -5,6 +5,27 @@
 }
 
 body{
+    background: #BDBDBD;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.card-title {
+    color:rgb(58, 58, 207)
+}
+.title-grey{
+    color: grey;
+}
+.card-text{
+    font-size: x-small;
+}
+.row{
+    margin: 35px;
     background: black;
 }
 
@@ -39,11 +60,37 @@ body{
     font-size: 50px;
    
 }
-
+.natalia{
+    margin: 0px;
+}
+.letrasnata{
+    font-size: 20px;
+}
+.pamela{
+    margin: 0px;
+    width: 100%;
+    padding-bottom: 200px;
+}
+.imagenpamela{
+    padding-top: 105px;
+    padding-left: 105px;
+    
+ }
+.pameee{
+    justify-content: center;
+}
+.letraspame{
+padding-top: 30%;
+font-size: 40px
+}
+.letraspamedos{
+    font-size: 20px
+}
 .footer{
     margin: auto;
     display: flex;
     justify-content: center;
+
 
 }
 .box{
@@ -52,4 +99,5 @@ body{
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 30px;
+
 }
