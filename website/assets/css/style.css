@@ -90,4 +90,14 @@ font-size: 40px
     margin: auto;
     display: flex;
     justify-content: center;
+
+
+}
+.box{
+    background-color: rgb(246, 244, 244);
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+
 }
