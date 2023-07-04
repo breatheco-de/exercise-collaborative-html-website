@@ -60,7 +60,32 @@ body{
     font-size: 50px;
    
 }
-
+.natalia{
+    margin: 0px;
+}
+.letrasnata{
+    font-size: 20px;
+}
+.pamela{
+    margin: 0px;
+    width: 100%;
+    padding-bottom: 200px;
+}
+.imagenpamela{
+    padding-top: 105px;
+    padding-left: 105px;
+    
+ }
+.pameee{
+    justify-content: center;
+}
+.letraspame{
+padding-top: 30%;
+font-size: 40px
+}
+.letraspamedos{
+    font-size: 20px
+}
 .footer{
     margin: auto;
     display: flex;
