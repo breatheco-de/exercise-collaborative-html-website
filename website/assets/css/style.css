@@ -36,13 +36,13 @@ body{
     height: 500px;
     padding-top: 50px;
     margin-top: 0px;
-    
+   
     
   
 }
 .onepagewonder{
     background-color: white;
-    background-size: 250px;
+    background-size: 255px;
     color: black;
     text-align: center;
     margin-top: 70px;
@@ -66,14 +66,18 @@ body{
 .letrasnata{
     font-size: 20px;
 }
+
+
 .pamela{
     margin: 0px;
-    width: 100%;
-    padding-bottom: 200px;
+    width: 103%;
+    padding-bottom: 150px;
+    padding-right: 0%;
 }
 .imagenpamela{
-    padding-top: 105px;
-    padding-left: 105px;
+    margin-top: 0%;
+    padding-top: 103px;
+    padding-left:200px;
     
  }
 .pameee{
@@ -100,4 +104,16 @@ font-size: 40px
     padding-right: 10px;
     padding-bottom: 30px;
 
+}
+.card1{
+justify-content: center;
+}
+
+
+.glenda1{
+    padding-left: 15px;
+}
+
+.glenda2{
+    padding-left: 15px;
 }
