@@ -19,13 +19,3 @@ header .btn-primary:active {
     background: #ff5d2c;
 }
 
-#btn-back-to-top {
-    bottom: 10px;
-    right: 20px;
-    opacity: 0.6;
-    background: #fe6e42;
-    border: 1px solid #ff5d2c;
-}
-#btn-back-to-top:hover {
-    opacity: 1;
-}
