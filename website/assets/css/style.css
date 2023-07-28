@@ -1,5 +1,5 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
 .subtitulo{
     font-size: large;
@@ -19,4 +19,13 @@ section{
 }
 .card-title{
     color: blue;
+}
+.titulo{
+    color: gray;
+}
+.is-pre{
+    font-size: x-large;
+}
+.texto-services{
+    padding-right: 500px;
 }
