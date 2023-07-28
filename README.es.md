@@ -11,7 +11,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 1. El líder del equipo debe hacerle fork a este repositorio de github.com e [invitar a otros colaboradores a ese repositorio](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif).
 
-2. Vamos a realizar [este diseño](https://raw.githubusercontent.com/breatheco-de/exercise-collaborative-html-website/master/website1/designs/thumb.jpg), y [de este forma pueden dividirlo entre los estudiantes](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website1/designs/guide.jpg?raw=true)
+2. Vamos a realizar [este diseño](https://raw.githubusercontent.com/breatheco-de/exercise-collaborative-html-website/master/website1/designs/thumb.jpg), y [de este forma pueden dividirlo entre los estudiantes](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website1/designs/guide.jpg?raw=true).
 
 3. Cada colaborador tendrá que clonar el nuevo repositorio forkeado y desarrollar una parte del sitio web escogido, cada proyecto está dividido en partes dentro del directorio **templates/**.
 
@@ -22,7 +22,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 **Si eres un estudiante:**
 
-Espera a que tu profesor te indique como iniciar este proyeto.
+Espera a que tu profesor te indique cómo iniciar este proyeto.
 
 **Si eres profesor o líder de equipo:**
 
@@ -34,7 +34,7 @@ a) Dirígete al repositorio y clónalo (haz una copia del mismo) en Github.
 
 b) Invita a tus estudiantes o a los miembros de tu equipo a que colaboren con tu repositorio recién clonado (referirse al gif).
 
-c) Indícale a tus estudiantes o a los miembros de tu equipo que clonen tu repositorio ( y no el original).
+c) Indícale a tus estudiantes o a los miembros de tu equipo que clonen tu repositorio (y no el original).
 
 **Tanto estudiantes como profesores:**
 
@@ -50,7 +50,7 @@ Vercel, Netlify o Github pages permiten publicar tu aplicación web y poder obte
 
 ## Entrega
 
-Todos participantes del equipo presentan un repositorio como solución.
+Todos los participantes del equipo presentan un repositorio como solución.
 
 ## Información complementaria
 La [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) se utiliza como motor para crear plantillas para crear la página de destino.
