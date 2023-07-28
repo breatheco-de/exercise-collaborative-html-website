@@ -5,10 +5,18 @@ body{
     font-size: large;
     padding-bottom: 10px;
     padding-top: 10px;
+    font-style: oblique;
 }
 p{
     font-size: small;
 }
 section{
     padding: 100px;
+}
+
+.card-text{
+    font-style: italic;
+}
+.card-title{
+    color: blue;
 }
