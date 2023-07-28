@@ -2,3 +2,14 @@ body{
     background: #fff;
     padding: 0;
 }
+    background: #BDBDBD;
+}
+.titulo-tagline{
+    font-size: 8em;
+   }
+   .subtitulotagline{
+       font-size: 5em;  
+   }
+   .bg-image{
+        min-height: 800px;
+   }
