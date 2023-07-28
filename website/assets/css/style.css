@@ -1,6 +1,8 @@
 body{
-    background: #BDBDBD;
+    background: #fff;
+    padding: 0;
 }
+
 .titulo-tagline{
     font-size: 8em;
    }
