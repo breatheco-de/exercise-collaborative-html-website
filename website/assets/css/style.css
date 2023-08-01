@@ -1,5 +1,5 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
 }
 
 
@@ -9,6 +9,11 @@ body{
     justify-content: center;
     align-items: center;
    
+}
+
+.imgBG{
+    background-color: aqua;
+    width: max-content;
 }
 
 .text1{
@@ -76,7 +81,7 @@ body{
     padding: 0px !important;
 }
 
-.footer{
+.container_contact{
     margin: 10px;
     padding: 30px;
     margin-bottom: 10px;
@@ -84,7 +89,7 @@ body{
 }
   
 .form{
-    background-color: #BDBDBD;
+    background-color: #9195bd;
     border: solid 1px black;
     padding: 5px;
     width: 60%;
