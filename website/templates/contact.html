@@ -1,2 +1,35 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<div class="container bootstrap snippets bootdey">
+    <section id="contact" class="gray-bg padding-top-bottom">
+    	<div class="container bootstrap snippets bootdey">
+            <div class="row">
+				<form id="Highlighted-form" class="col-sm-6 col-sm-offset-3" action="contact.php" method="post" novalidate="">
+					
+					<div class="form-group">
+					  <h1>Contact</h1>
+                      <p>Feel free to send us any request!</p>
+					  
+					</div><!-- End name input -->
+					
+					<div class="form-group">
+					  <label class="control-label" for="contact-mail">Email</label>
+					  <div class=" controls">
+						<input id="contact-mail" name="email" placeholder="Your email" class="form-control requiredField Highlighted-label" data-new-placeholder="Your email" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+						<i class="fa fa-envelope"></i>
+					  </div>
+					</div><!-- End email input -->
+					<div class="form-group">
+					  <label class="control-label" for="contact-message">Message</label>
+						<div class="controls">
+							<textarea id="contact-message" name="comments" placeholder="Your message" class="form-control requiredField Highlighted-label" data-new-placeholder="Your message" rows="6" data-error-empty="Please enter your message"></textarea>
+							<i class="fa fa-comment"></i>
+						</div>
+					</div><!-- End textarea -->
+					<p><button name="submit" type="submit" class="btn btn-info btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-location-arrow"></i>Send Message</button></p>
+					<input type="hidden" name="submitted" id="submitted" value="true">	
+				</form><!-- End Highlighted-form -->
+			</div>	
+		</div>	
+	</section>
+    </div>                    
