@@ -75,3 +75,18 @@ body{
 .card-body{
     padding: 0px !important;
 }
+
+.footer{
+    margin: 10px;
+    padding: 30px;
+    margin-bottom: 10px;
+   
+}
+  
+.form{
+    background-color: #BDBDBD;
+    border: solid 1px black;
+    padding: 5px;
+    width: 60%;
+    margin-left: 20em;
+}
