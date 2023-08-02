@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+
+.jumbotron {
+    background-image: url("/website/assets/img/bg.jpg");
+    background-size: cover;
+    background-position:bottom;
+    height: 550px;
+}
