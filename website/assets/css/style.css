@@ -3,6 +3,8 @@ body{
 }
 
 .jumbotron {
-    background-image: "/website/assets/img/bg.jpg";
+    background-image: url("/website/assets/img/bg.jpg");
     background-size: cover;
+    background-position:bottom;
+    height: 550px;
 }
