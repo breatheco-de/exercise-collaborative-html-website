@@ -1,3 +1,8 @@
 body{
     background: #BDBDBD;
 }
+
+.imagen-bg{
+    background-image: url(https://images.pexels.com/photos/534219/pexels-photo-534219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+} 
