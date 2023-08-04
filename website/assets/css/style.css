@@ -4,3 +4,28 @@ body{
 .nav-link,.navbar-brand{
     color: gray;
 }
+.circular-portrait{
+  
+  width: 300px;
+  height: 310px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circular-portrait img{
+  width: 100%;
+  height: auto;
+}
+.circular-landscape{
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular-landscape img{
+  width: auto;
+  height: 100%;
+  
+}
