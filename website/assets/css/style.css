@@ -6,8 +6,8 @@ body{
 }
 .circular-portrait{
   
-  width: 300px;
-  height: 310px;
+  width: 500px;
+  height: 512px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -18,8 +18,8 @@ body{
 .circular-landscape{
   display: inline-block;
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   overflow: hidden;
   border-radius: 50%;
 }
