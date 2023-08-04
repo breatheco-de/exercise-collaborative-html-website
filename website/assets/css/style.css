@@ -29,3 +29,24 @@ body{
   height: 100%;
   
 }
+.con-text{
+    width: 97%;
+}
+.text1,.text2{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.text1{
+    font-size: 100px;
+}
+.text2{
+    font-size: 60px;
+}
+#container{
+    max-width: none;
+    max-height:none ;
+}
+#container > img{
+    width: 100%;
+}
