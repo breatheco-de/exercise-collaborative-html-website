@@ -5,9 +5,8 @@ body{
     color: gray;
 }
 .circular-portrait{
-  
-  width: 400px;
-  height: 412px;
+  width: 500px;
+  height: 512px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -16,9 +15,8 @@ body{
   height: auto;
 }
 .circular-landscape{
-  
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   overflow: hidden;
   border-radius: 50%;
 }
