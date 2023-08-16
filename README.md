@@ -12,17 +12,17 @@ Each student works on a different file, for a different part of the website, and
 
 2. We are going to be building [this design](https://raw.githubusercontent.com/breatheco-de/exercise-collaborative-html-website/master/website/designs/thumb.jpg), and [this is how you can split it with the students](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/guide.jpg?raw=true).
 
-3. Each contributor will have to clone the new forked repository and develop a part of the website that is coordinated with the group; each project is divided in pieces inside the `templates/` directory (located in `website/templates/`). Once everyone has their editor open, run the project in the terminal with this command:
+3. Each contributor will have to clone the new forked repository and develop a part of the website that is coordinated with the group; each project is divided in pieces inside the `website/templates/` directory. Once everyone has their editor open, run the project in the terminal with this command:
 
 ```bash
 $ npx http-server --yes -c-1
 ```
 
-You will be given an option to open in browser, and have options to view the new site, what it should look like, and a reference to each part of the page. If you receive an error, wait a moment and refresh.
++ You will be given an option to open in browser, and have options to view the new site, what it should look like, and a reference to each part of the page. If you receive an error, wait a moment and refresh.
 
-4. To start, each member should put their name in the file they have been assigned, push back to the repository, and pull to see the others changes. Maintaining clear communication about the files being used will make the project run smooth 🙂
+4. To start, each member should put their name in the file they have been assigned, `push` back to the repository, and `pull` to see the others changes. Maintaining clear communication about the files being used will make the project run smooth 🙂
 
-5. Once everyone understands how to modify their part of the project and push, use the search feature and examples within https://getbootstrap.com/ to quickly build using bootstrap components, then modify accordingly.
+5. Once everyone understands how to modify their part of the project and `push`, use the search feature and examples within https://getbootstrap.com/ to quickly build using bootstrap components, then modify accordingly.
 
 ## 🌱 How to start this project
 
