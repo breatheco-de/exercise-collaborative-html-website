@@ -19,9 +19,9 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 $ npx http-server --yes -c-1
 ```
 
-+ Se te ofrecerá una opción para abrirlo en el navegador y tendras botones para ver el sitio en vivo, cómo debeía verse y las referencias sobre cada parte del sitio web. Si recibes un error, espera un momento y refresca la página.
++ Se te ofrecerá una opción para abrirlo en el navegador y tendrás botones para ver el sitio en vivo, cómo debería verse y las referencias sobre cada parte del sitio web. Si recibes un error, espera un momento y refresca la página.
 
-4. Para empezar, cada miembro del equipo deberá poner su nombre en los archivos de las partes que le fueron asignadas, haz `git push` y `git pull` para subir tus cambios ver los de los demás. Mantener una clara comunicación sobre qué archivos está editando cada quién hará que el proyecto avance sin contratiempos 🙂
+4. Para empezar, cada miembro del equipo deberá poner su nombre en los archivos de las partes que le fueron asignadas, haz `git push` y `git pull` para subir tus cambios y ver los de los demás. Mantener una clara comunicación sobre qué archivos está editando cada quien hará que el proyecto avance sin contratiempos 🙂
 
 5. En cuanto todos entiendan cómo modificar sus archivos y hacer `push` de sus cambios, pueden empezar a buscar ejemplos de componentes en https://getbootstrap.com/ para armar la página según se está pidiendo.
 
@@ -29,11 +29,11 @@ $ npx http-server --yes -c-1
 
 **Si eres un estudiante:**
 
-Espera a que tu profesor te indique como iniciar este proyeto.
+Espera a que tu profesor te indique como iniciar este proyecto.
 
 **Si eres profesor o líder de equipo:**
 
-Este proyecto viene con los archivos necesarios para empezar a trabajar, el cuál se puede encontrar en el siguiente repositorio:
+Este proyecto viene con los archivos necesarios para empezar a trabajar, el cual se puede encontrar en el siguiente repositorio:
 
 ```text
 https://github.com/breatheco-de/exercise-collaborative-html-website
