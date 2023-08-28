@@ -1,7 +1,9 @@
 body{
     background: white;
-    padding: 0%;
-    margin: 0;
+    
 }
 
+.tagine{
+    background-image: url('/website/assets/img/bg.jpg');
+}
 
