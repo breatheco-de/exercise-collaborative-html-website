@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+
+.container_image{
+    background-size: cover;
+    height:65vh;
+    background-repeat: no-repeat;
+    background-image: url(https://img.andrewprokos.com/MID_MANH_PAN_DSK_1000PX-500x201@2x.jpg);
+}
