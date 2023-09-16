@@ -1,3 +1,18 @@
 body{
     background: #BDBDBD;
 }
+.fila1{
+    display: flex;
+}
+.iz{
+    margin-left: 25%;
+}
+.ff{
+    margin-right: 25%;
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+}
+span{
+    color: #5f5f5f;
+}
