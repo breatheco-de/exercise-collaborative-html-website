@@ -31,4 +31,13 @@ span{
 .parrafo{
     margin-left: 1%;
     width: 65%;
+.container_image{
+    background-size: cover;
+    height:65vh;
+    background-repeat: no-repeat;
+    background-image: url(https://img.andrewprokos.com/MID_MANH_PAN_DSK_1000PX-500x201@2x.jpg);
+.formulario{
+    border: 3px solid rgba(212, 203, 203, 0.884);
+    padding: 15px;
+    background-color: rgb(212, 203, 203, 0.884);
 }
