@@ -7,12 +7,28 @@ body{
 .iz{
     margin-left: 25%;
 }
+.der{
+    margin-right: 25%;
+}
 .ff{
     margin-right: 25%;
     border-radius: 50%;
     width: 10%;
     height: 10%;
 }
+.f2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 25%;
+}
 span{
     color: #5f5f5f;
+}
+.p2{
+    margin-left: 1%;
+}
+.parrafo{
+    margin-left: 1%;
+    width: 65%;
 }
