@@ -1,3 +1,19 @@
 body{
-    background: #BDBDBD;
+    background: rgb(20, 20, 20);
+}
+.container-fluid{
+   width: 800px;
+   height: auto;
+}
+.container-tag{
+
+  background-image: url("/website/assets/img/bg.jpg");
+  height: 400px;
+  background-size: cover;
+}
+.nav-item{
+ font-size: xx-small;
+}
+.nav-item1{
+    font-size: x-small;
 }
