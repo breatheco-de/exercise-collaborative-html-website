@@ -1,13 +1,11 @@
 .container-tag {
 
-    /* background-image: url("/website/assets/img/bg.jpg");
+    background-image: url("/website/assets/img/bg.jpg");
     height: 700px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
-    */
-
+       
 }
 
 .nav-item {
@@ -16,4 +14,7 @@
 
 .nav-item1 {
     font-size: larger;
+}
+.titulos{
+    padding: 35px 20px;
 }
