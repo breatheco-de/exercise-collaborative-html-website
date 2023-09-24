@@ -1,19 +1,19 @@
-body{
-    background: rgb(20, 20, 20);
-}
-.container-fluid{
-   width: 800px;
-   height: auto;
-}
-.container-tag{
+.container-tag {
 
-  background-image: url("/website/assets/img/bg.jpg");
-  height: 400px;
-  background-size: cover;
+    /* background-image: url("/website/assets/img/bg.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    */
+
 }
-.nav-item{
- font-size: xx-small;
+
+.nav-item {
+    font-size: medium;
 }
-.nav-item1{
-    font-size: x-small;
+
+.nav-item1 {
+    font-size: larger;
 }
