@@ -1,3 +1,27 @@
 body{
-    background: #BDBDBD;
+    background: #f7f7f7;
+}
+
+.heading{
+    width:300px;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.container{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.border{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.head-gris{
+    color: #797979;
+}
+
+h1{
+    display: inline-block;
 }
