@@ -1,6 +1,12 @@
 body{
-    background: #f7f7f7;
+
+    background: #BDBDBD;
 }
+.navbar {
+    margin-right: -12px;
+    margin-left: -12px;
+  }
+
 
 .heading{
     width:300px;
@@ -25,3 +31,4 @@ body{
 h1{
     display: inline-block;
 }
+
