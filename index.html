@@ -8,42 +8,32 @@
         
 </head>
     <body> 
-      <div class="container-fluid">
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container">
-            <a class="navbar-brand text-white" href="#">SRCD Homes</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <!-- END OF NAVBAR -->
+    <!-- Navbar Starts Here-->
+    <nav class="navbar navbar-expand-sm bg-dark pl-5 fixed-top">
+      <h4 class="p-2 m-2 text-secondary">Start Bootstrap</h4>
+          <ul class="navbar-nav pl-5 p-2 custom nav">
+              <li class="navitem"><a href="#About" class="nav-link text-secondary">About</a></li>
+              <li class="navitem"><a href="#Services" class="nav-link text-secondary">Services</a></li>
+              <li class="navitem"><a href="#Portfolio" class="nav-link text-secondary">Portfolio</a></li>
+              <li class="navitem"><a href="#Contact" class="nav-link text-secondary">Contact</a></li>
+          </ul>
+      </div>
+    </nav>
+  <!-- Navbar Ends Here -->
 
-        <!-- Header Jumbotron -->
-        <header class="jumbotron back-image" style="background-image: url();">
-          <div class="text-center" style="margin-top: 120px">
-              <h1 class="'text-uppercase text-w font-weight-bold"> Shaznay Rochelle Carlos & Davis Homes</h1>
-              <h5 class="font-italic font-weight-bold st">Building your dream home</h5>
-              <a href="#contact" class="btn btn-outline-success mr-4"><strong>Contact</strong></a>
-              <a href="#portfolio" class="btn btn-outline-success mr-4"><strong>Portfolio</strong></a>
+  <!-- Header Jumbotron -->
+  <header class="position-relative">
+    <img src="./website/assets/img/bg.jpg" class="jumbotron back-image img-fluid"/>
+      <div class="text-center position-absolute top-50 start-50 translate-middle">
+          <div class="jumbotron-header-first m-3 p-2 bg-white">
+              <h1 class="heading-1" style="font-size: 100px;">One Page Wonder</h1>
           </div>
-      </header>
-
-        
+          <div class="jumbotron-header-second m-3 p-2 bg-white">
+              <h3 class="heading-2" style="font-size: 50px;">Will Knock Your Socks Off</h3>
+          </div>
+      </div>
+  </header>
+  <!-- Jumbotron Ends Here -->
         
 
       <!-- PORTFOLIO -->
@@ -133,7 +123,25 @@
         </section>
         <!-- END OF CONTACT FORM -->
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Footer Starts Here -->
+    <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 12px; color: white;">
+      <div class="container">
+          <div class="row py-3">
+              <div class="col-md-6">
+                  <div class="text-white">
+                      <span> Follow Us</span>
+                      <a href="https://www.facebook.com/GeekyShow" target="_blank"><i class="fab fa-facebook-f px-3"></i></a>
+                      <a href="https://twitter.com/Geekyshow1" target="_blank"><i class="fab fa-twitter pr-3"></i></a>
+                      <a href="https://www.youtube.com/user/GeekyShow1" target="_blank"><i class="fab fa-youtube pr-3"></i></a>
+                      <a href="#" target="_blank"><i class="fab fa-google-plus-g pr-3"></i></a>
+                  </div>
+              </div>
+              <div class="col-md-6 text-right">
+                  <small> Designed By </small> <a href="#">Team RO</a>
+              </div>
+          </div>
       </div>
+  </footer>
+  <!-- Footer Ends Here -->
     </body>
 </html>
