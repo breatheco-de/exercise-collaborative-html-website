@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+    color: #333;
+}
+
+.navbar .nav-link {
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #fff;
+}
+
+/* Header Jumbotron */
+.jumbotron {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+.jumbotron .jumbotron-header-first,
+.jumbotron .jumbotron-header-second {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Content Styles */
+.right-header {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.right-header img {
+    margin: 20px 0;
+}
+
+/* About Section */
+.left-about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.left-about img {
+    margin: 20px 0;
+}
+
+/* Portfolio Styles */
+.portfolio .card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Contact Form */
+.contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+.contact .form-control {
+    border-radius: 0;
+    border: 1px solid #ccc;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px 0;
+}
+
+footer a {
+    color: #aaa;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.portfolio .card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card */
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+
+/* Adjust Image Positioning */
+.right-header {
+    text-align: right; /* Adjusts the text and image to the right */
+}
+
+.left-about {
+    text-align: left; /* Adjusts the text and image to the left */
+}
+
+/* Additional styles for better visual spacing */
+.right-header img, .left-about img {
+    margin: 20px;
+}
+
+.right-header, .left-about {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically center align the items */
+    gap: 20px; /* Space between image and text */
+}
