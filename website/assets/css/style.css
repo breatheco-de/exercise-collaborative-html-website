@@ -8,3 +8,18 @@ body{
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
+/** Parte hecha por Jose morillo **/
+#intro {
+    background-image: url(/website/assets/img/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+#tagline-heading1 {
+    font-size: 110px;
+}
+#tagline-heading2 {
+    font-size: 60px
+}
+/** Parte hecha por Jose morillo **/
