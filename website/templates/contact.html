@@ -1,20 +1,20 @@
 <!-- your html code here -->
-<div class="p-3 mb-2 bg-white text-dark">
-    <div class="container-fluid mb-3">
+<div class="container-fluid p-3 mb-2 bg-white text-dark">
+    <div class="mb-3">
         <h2>Contact</h2>
         <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel sceleriscque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <form class="container bg-light text-dark form-control w-75 pt-2 pb-3 px-2 border">
+            <div class="d-flex mb-3 w-75 me-auto">
+                <label for="exampleFormControlInput1" class="form-label"><strong>Your E-Mail</strong></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
+            </div>
+            <div class="d-flex mb-3 w-75 me-auto">
+                <label for="exampleFormControlTextarea1" class="form-label"><strong>Your message</strong></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Please enter your message here..."></textarea>
+            </div>
+            <div class="mb-3 d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
     </div>
-    <form class="container border-white bg-light text-dark ">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"><strong>Your E-Mail</strong></label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"><strong>Your message</strong></label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Please enter your message here..."></textarea>
-        </div>
-        <div class="col-12 mb-3">
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-    </form>
 </div>
