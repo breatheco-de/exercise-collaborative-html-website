@@ -1,3 +1,35 @@
 <!-- your html code here -->
-<p>Hello, I'm the services.html</p>
-<p>Hello, I'm the services section and I was loaded using ajax from templates/services.html</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+      .services-container {
+    display: flex;
+    align-items: center;
+    padding-top: 20px; /*  padding-top  */
+}
+
+.service-image {
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.service-content {
+    flex: 1;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="services-container">
+        <img src="https://i.imgur.com/Oc40YgG.png" alt="Circular Image" class="service-image">
+        <div class="service-content">
+            <h2>The Second Heading <span style="color: #3498db;">is Pretty Cool Too</span> </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
