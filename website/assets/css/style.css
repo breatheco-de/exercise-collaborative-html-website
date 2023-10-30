@@ -1,6 +1,39 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
 }
+
+.m-main{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.headings{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    border-bottom: 1px solid grey;
+}
+
+.flex{
+ display:flex;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.al-center{
+    align-items: center;
+}
+
+.first-heading-second-line {
+    color:grey;
+}
+
+.image-1 {
+    width:20vw;
+    border-radius: 50%
+}
+
 .nav-link, a{
     color: white;
 }
