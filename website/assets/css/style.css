@@ -1,3 +1,24 @@
 body{
     background: #BDBDBD;
 }
+
+.flex{
+ display:flex;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.al-center{
+    align-items: center;
+}
+
+.first-heading-second-line {
+    color:grey;
+}
+
+.image-1 {
+    width:20vw;
+    border-radius: 50%
+}
