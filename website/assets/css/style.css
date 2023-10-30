@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+.formulary{
+    margin: auto;
+    width: 700px;
+    padding: 20px;
+    font-size: 13px;
+    background-color: lightgray;
+}
