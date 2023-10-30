@@ -1,16 +1,28 @@
 <!-- your html code here -->
+<div class="bottoms">
 <h1><b>Contact</b></h1>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit eligendi voluptate beatae corrupti quaerat? Porro
     excepturi rem tenetur. Debitis porro quidem, eligendi accusamus dolorum animi corporis eius ullam? Harum, iusto.</p>
 
-    <form class="col-md-6 justify-content-center bg-color-secondary" >
-    <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">your E-mail</label>
-        <input type="email" placeholder="your email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Your Message</label>
-        <input type="text" placeholder="please enter your message here..." class="form-control" id="exampleInputPassword1">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+
+    <form class="col-md-6 bg-color-secondary formulary headings">
+        <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label"><b>Your E-mail</b></label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" placeholder="your email" id="inputPassword">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label"><b>Your message</b></label>
+            <div class="col-sm-10">
+                <textarea class="form-control" placeholder="please enter your message here..." id="exampleFormControlTextarea1" rows="3"></textarea>
+                <!-- <input type="text" class="form-control" placeholder=""
+                    id="inputPassword"> -->
+            </div>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" type="button">Submit</button>
+
+          </div>
+    </form>
+</div>

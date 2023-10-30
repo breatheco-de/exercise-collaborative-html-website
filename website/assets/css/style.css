@@ -1,41 +1,32 @@
+
 body{
-
-
-    background: #ffffff;
+    background: #FFFFFF;
 }
-
 .m-main{
     padding-left: 10vw;
     padding-right: 10vw;
 }
-
 .headings{
     padding-top: 10vh;
     padding-bottom: 10vh;
     border-bottom: 1px solid grey;
 }
-
 .flex{
  display:flex;
 }
-
 .j-center{
     justify-content: center;
 }
-
 .al-center{
     align-items: center;
 }
-
 .first-heading-second-line {
     color:grey;
 }
-
 .image-1 {
     width:20vw;
     border-radius: 50%;
 }
-
 .nav-link, a{
     color: white;
 }
@@ -55,4 +46,19 @@ body{
 }
 .fontp{
     font-size: 70px;
+}
+
+
+.formulary{
+    margin: auto;
+    width: 700px;
+    padding: 20px;
+    font-size: 13px;
+    background-color: lightgray;
+}
+
+.bottoms{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
 }
