@@ -31,9 +31,26 @@ body{
 
 .image-1 {
     width:20vw;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .nav-link, a{
     color: white;
+}
+.colorback{
+    background: whitesmoke;
+}
+.fondo{
+    /* background: red; */
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+.fonth1{
+    font-size: 120px;
+    margin-bottom: 35px;
+}
+.fontp{
+    font-size: 70px;
 }
