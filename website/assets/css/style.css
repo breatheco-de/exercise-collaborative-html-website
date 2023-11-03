@@ -1,3 +1,17 @@
 body{
     background: #BDBDBD;
 }
+.bg-image {
+    background-image: url('/website/assets/img/bg.jpg');
+    height: 600px;
+    background-position: 50% 80%;
+}
+.hero-text {
+    --bs-bg-opacity: 0.7;
+}
+.hero-h1 {
+    font-size: 120px;
+}
+.hero-h2 {
+    font-size: 65px;
+}
