@@ -1,5 +1,5 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
 }
 .bg-image {
     background-image: url('/website/assets/img/bg.jpg');
@@ -14,4 +14,8 @@ body{
 }
 .hero-h2 {
     font-size: 65px;
+}
+
+.container-fluid {
+    padding: 0;
 }
