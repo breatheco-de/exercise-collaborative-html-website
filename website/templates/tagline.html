@@ -1,3 +1,45 @@
 <!-- your html code here -->
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<style>
+    div {
+        margin: 0;
+        padding: 0;
+    }   
+
+    .jumbotron {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        height: 1000px;
+        background-image: url('https://www.blogdelfotografo.com/wp-content/uploads/2020/06/lok-yiu-cheung-o6k0ZH1eOwg-unsplash.webp');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .jumbotron h1,
+    .jumbotron h2 {
+        width: 100%; /* Asegurar que el texto ocupe todo el ancho del contenedor */
+        box-sizing: border-box; /* Incluir el padding y border en el ancho total */
+        background: rgba(255, 255, 255, 0.75); /* Fondo semi-transparente para mejorar la legibilidad */
+        text-align: center;
+    }
+
+    .jumbotron h1 {
+        font-size: 10rem;
+        margin-top: 100px;
+    }
+
+    .jumbotron h2 {
+        font-size: 6rem;
+        margin-top: 30px;
+    }
+</style>
+
+<div class="container-fluid p-0 m-0">
+    <div class="jumbotron jumbotron-fluid bg-cover">
+        <h1 class="display-1 fw-bold  p-3">One Page Wonder</h1>
+        <h2 class="display-4 fw-bold  p-3">Will Knock Your Socks Off</h2>
+    </div>
+</div>
