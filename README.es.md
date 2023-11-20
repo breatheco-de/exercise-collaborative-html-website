@@ -15,7 +15,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 ```bash
 $ npx http-server --yes -c-1
-```
+```git
 
 + Se te ofrecerá una opción para abrirlo en el navegador y tendrás botones para ver el sitio en vivo, cómo debería verse y las referencias sobre cada parte del sitio web. Si recibes un error, espera un momento y refresca la página.
 
