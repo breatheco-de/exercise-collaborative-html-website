@@ -5,3 +5,7 @@ body{
 .container-fluid {
     padding: 0;
 }
+
+.navImage {
+    height: 30px;
+}
