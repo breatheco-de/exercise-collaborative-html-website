@@ -1,3 +1,25 @@
 body{
-    background: #BDBDBD;
+    background:white;
+}
+.imagen{
+    width: 300px;
+    height: 175px;
+    padding-bottom: 10px;
+}
+h2{
+    color: blue;
+}
+
+#botones{
+    padding-top: px;
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+
+.formulario{
+    margin: 5%;
+    border: 1px solid gray;
+    padding: 50px;
+    border-radius: 5px;
+
 }
