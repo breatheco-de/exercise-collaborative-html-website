@@ -1,3 +1,53 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<style>
+    .tagline-container {
+      position: relative;
+      width: 100%;
+    }
+
+    .background-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .title-overlay {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      text-align: center;
+      margin-top: -750px; 
+    }
+
+    .title-overlay2 {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      text-align: center;
+      margin-top: 3px; 
+    }
+
+    .title {
+      font-size: 96px;
+      font-weight: bold;
+    }
+
+    .title2 {
+      font-size: 76px;
+      font-weight: bold;
+    }
+  </style>
+
+<div class="tagline-container">
+    <img class="background-image" src="https://cdn.discordapp.com/attachments/1163524764309147730/1177787210913812490/bg.jpg?ex=6573c6d1&is=656151d1&hm=743d0b7ed39671719a08b8c5b190cada1c4fc1ae2906c08a076754df2b16a567&" alt="bg">
+    <div class="title-overlay">
+      <h1 class="title">One Page Wonder</h1>
+    </div>
+
+    <div class="title-overlay2">
+        <h1 class="title2">Will Knock Your Socks Off</h1>
+      </div>
+  </div>

@@ -1,2 +1,33 @@
-<!-- your html code here -->
-<p>Hello, I'm the navbar.html</p>
+<style>
+    .navbar {
+      background-color: #222222 !important;
+    }
+
+    .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+      color: #9d9d9d;
+    }
+
+    .navbar-brand {
+      font-size: 18px;
+    }
+    .navbar-nav {
+      font-size: 14px; 
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light w-100">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><strong>Start Bootstrap</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="templates/first_heading">About</a>
+          <a class="nav-link" href="templates/services">Services</a>
+          <a class="nav-link" href="templates/portfolio">Portfolio</a>
+          <a class="nav-link" href="templates/contact">Contact</a>
+      </div>
+      </div>
+  </div>
+</nav>
