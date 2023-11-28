@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+#Tagline{
+    
+    width: auto;
+    height:600px;
+    background-image: url("./../../designs/bg.jpg");
+    background-size: 100% 600px;
+}
