@@ -1,3 +1,29 @@
 body{
     background: #BDBDBD;
 }
+
+.first-heading{
+    background-color: white;   
+    padding: 40px;
+}
+
+.first-heading-text{
+    width: 60%;
+    float: left;   
+    color: #7B7B7B;
+}
+
+strong{
+    color: #3C3C3C;
+}
+
+
+.first-heading-text p{
+    font-size: 20px;
+}
+
+.first-heading-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
