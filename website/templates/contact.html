@@ -1,2 +1,22 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="bg-white p-5" id="contact">
+  <div class="p-3">
+      <h2>Contact</h2>
+  </div>
+  <div class="d-flex justify-content-center"> 
+      <form  class="bg-light p-3 rounded w-75">
+          <div class="mb-3 d-flex">
+              <label for="formControl" class="form-label text-end w-25"><strong>E-mail</strong></label>
+              <input type="email" class="form-control vw-50 ms-5" id="formControl"
+                  placeholder="Your email">
+          </div>
+          <div class="mb-3 d-flex">
+              <label for="formControl" class="form-label text-end w-25">
+                  <strong>Your message</strong></label>
+              <textarea class="form-control vw-50 ms-5" id="formControl" rows="3"
+                  placeholder="Please enter your message here..."></textarea>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+      </form>
+</div>
