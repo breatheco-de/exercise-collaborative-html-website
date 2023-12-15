@@ -2,35 +2,10 @@ body{
     background: #BDBDBD;
     width: 100%;
 }
-
-.jumbotron{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+.background-image{
+    background-image: url(https://images.unsplash.com/photo-1540270776932-e72e7c2d11cd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9yaXpvbnRhbCUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D);
+    height: 600px;
+    background-repeat: no-repeat;
     width: 100%;
-}
-.Imagen{
-    width: 100%;
-    z-index: -1;
-    
-}
-.titulo{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    width: 100%;
-    font-size: 150px;
-    margin-top: 100px;
-}
-.subtitulo{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    width: 100%;
-    font-size: 90px;
-    margin-top: 200px;
+    background-size: 100% 100%;
 }
