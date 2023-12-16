@@ -9,6 +9,7 @@
 	"syntax": "html",
 	"description" : "Build website among a team of several collaborators",
 	"translations": ["es","us"],
+	"solution": "https://github.com/breatheco-de/exercise-collaborative-html-website/tree/solution",
 	"talents": [],
     "autoPlay": false,
     "projectType": "project"
