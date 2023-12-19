@@ -1,2 +1,26 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Form</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore blanditiis, id minus vero explicabo quis unde odit sapiente ad ipsum veniam eos quibusdam rem itaque aperiam! Ipsam aperiam veritatis ducimus.</p>
+    <form action="submit_contact_form.php" method="POST">
+      <div class="form-group">
+        <label for="email">Your Email:</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message:</label>
+        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
