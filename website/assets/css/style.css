@@ -1,3 +1,10 @@
 body{
-    background: #BDBDBD;
+    /* background: #BDBDBD; */
+    background-color: F7F7F7
+}
+.breaking_bad{
+    object-fit: cover;
+    object-position: top;
+    width: 299px;
+    height: 300px;
 }

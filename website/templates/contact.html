@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-  <div class="container w-50 position-relative">
+  <div class="container w-50 position-relative mt-4">
     <h2>Contact Form</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore blanditiis, id minus vero explicabo quis unde odit sapiente ad ipsum veniam eos quibusdam rem itaque aperiam! Ipsam aperiam veritatis ducimus.</p>
     <form action="submit_contact_form.php" method="POST" class="bg-light">
@@ -17,7 +17,9 @@
         <label for="message">Your Message:</label>
         <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
       </div>
-      <button type="submit" class="btn btn-primary position-absolute bottom-0 end-0">Submit</button>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
     </form>
   </div>
 
