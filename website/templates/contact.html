@@ -1,3 +1,47 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
-<h1>Hola soy Jorge</h1>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>contact html</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="d-flex justify-content-center w-100 m-5">
+        <ul class="list-group list-group-flush">
+            <!--Título-->
+                <h1 id="scrollspyHeading1">Contact</h1>
+            <!--Parrafo-->
+                <p> Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. 
+                    Praesent commodo cursus <br> magna, vel scelerisque nisl consectus. 
+                    Fusce dapibus, tellus ac cursus commodo.</p>
+            <!--Cuadro-->
+            <li class="list-group-flush d-flex justify-content-center">
+                <div class="col-8 card bg-light w-75">
+                    <div class="card-body">
+                          <div class="row mb-3 justify-content-end">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label"><strong>Your E-mail</strong></label>
+                            <div class="col-sm-9">
+                              <input type="email" class="form-control" id="colFormLabel" placeholder="Your email">
+                            </div>
+                          </div>
+                          <div class="row mb-3 justify-content-end">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label p-xl-0"><strong>Your message</strong></label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control" placeholder="Please enter your message here..." id="floatingTextarea2" style="height: 100px"></textarea>
+                            </div>
+                          </div>
+                          <!--button-->
+                          <div class="d-grid gap-2 d-md-flex justify-content-md-end">    
+                            <button class="btn btn-primary" type="button">Submit</button>
+                          </div>
+                    </div>
+                  </div>
+            </li>
+            <!--Abajo-->
+            <div class="mt-5 pt-5">
+                <p><small>Copyright © Your Website 2014</small></p>
+            </div>     
+          </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
