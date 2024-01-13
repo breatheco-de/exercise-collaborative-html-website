@@ -1,2 +1,35 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="contact" style="background-color: white; margin-top: 50px; margin-bottom: 70px;" >
+    <div class="contendor" style="margin: 50px 100px 30px; padding-top: 50px">
+        <h1 class="display-5"><b>Contact</b></h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, officiis? Magnam eos est magni impedit vitae ullam ex optio illum vero totam sint quaerat, iure voluptatem, quam assumenda ea. Laborum.</p>
+    </div>
+
+   
+    <form>
+           <div class="container bg-light border" >
+                <form action="/action_page.php">
+                    <div class="container-fluid" style="margin-top: 20px;">
+                        <div class="row gy-3">
+                            <div class="col-3 d-md-flex justify-content-md-end" >
+                                <label for="emailPut"><b>Your E-mail</b></label>
+                            </div>
+                            <div class="col-9">
+                                <input type="email" class="form-control" id="emailPut" name="email" placeholder="Your email" >
+                            </div> 
+                            <div class="col-3 d-md-flex justify-content-md-end">
+                                <label for="subject"><b>Your message</b></label>
+                            </div>
+                            <div class="col-9">
+                                <textarea id="subject" class="form-control" name="subject" placeholder="Please enter your message here..." style="height:200px"></textarea>
+                            </div>
+                    </div>
+                    
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end" style="margin-top: 20px; margin-bottom: 25px;">
+                        <button class="btn btn-primary me-md-2" type="button">Submit</button>
+                    </div>
+                </form>
+            </div>
+      </form>
+    
+</div>
