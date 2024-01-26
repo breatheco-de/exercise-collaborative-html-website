@@ -1,0 +1,35 @@
+body {
+    background: black ;
+}
+header {
+    background: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.post {
+    height: 600px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+
+}
+img {
+    height: 100px;
+    width: 100px;
+
+}
+.image-container1 {
+    float: left;
+    margin-left: 10px;
+}
+.image-container2 {
+    float: right;
+    margin-right: 10px;
+}
+
