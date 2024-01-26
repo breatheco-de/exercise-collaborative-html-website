@@ -9,3 +9,8 @@ body{
 .sub-title{
     font-weight: 500;
 }
+
+.img-teclado {
+    width: 150px;
+    height: 150px;
+}
