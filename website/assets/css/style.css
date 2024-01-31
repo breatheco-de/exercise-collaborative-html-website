@@ -1,3 +1,19 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+
+
+.services-img img{
+    border-radius: 200px;
+    width: 300px;
+}
+.services-img{
+    flex: 0 0 auto;
+    width: 14.9%!important;
+}
+.services-h2-inline{
+    display: inline;
+}
+.services-content{
+    margin-left: 2rem!important;
 }
