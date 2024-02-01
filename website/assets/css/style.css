@@ -1,3 +1,23 @@
 body{
     background: #BDBDBD;
 }
+
+.contenedor_imagen {
+    position: relative;
+}
+
+.contenedor_hijo {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    display: inline-block;
+    width: 100%;
+}
+
+.contenedor_hijo2 {
+    position: absolute;
+    left: 0;
+    top: 250px;
+    display: inline-block;
+    width: 100%;
+}
