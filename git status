@@ -1,0 +1,255 @@
+[33mcommit 3438ec3b2166aad58d22a3d2df14dec2d4b7db0b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Alvaro Ponce Marin <147168257+superteclas@users.noreply.github.com>
+Date:   Mon Feb 5 23:32:53 2024 +0000
+
+    primer codigo que se parece a la foto
+
+[33mcommit 09ae65906559c35c85f9f88d26c1a338e1a64f64[m
+Author: Diana024 <154326533+Diana024@users.noreply.github.com>
+Date:   Mon Feb 5 11:25:26 2024 +0000
+
+    diseño contacto clase
+
+[33mcommit a79ec97130499bb273aafb9ff6780c52c8a13d89[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu Aug 31 15:44:43 2023 -0400
+
+    Update learn.json
+
+[33mcommit 5f12499755a342d7b90d9e5ba0ed9946c40fa37c[m
+Merge: e639709 dd64b31
+Author: Tomas Gonzalez <56565994+tommygonzaleza@users.noreply.github.com>
+Date:   Wed Aug 23 14:39:25 2023 -0400
+
+    Merge pull request #626 from josemoracard/jose2-remove-image
+    
+    removed image
+
+[33mcommit dd64b3111ac144ebe10a40f2bca619e5f28fba18[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 23 14:43:42 2023 +0200
+
+    Update README.es.md
+
+[33mcommit 779d69ec62b747e34e8b4517dbb7855f585673bd[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 23 14:43:17 2023 +0200
+
+    Update README.md
+
+[33mcommit e639709d7e3738ab945115bd16aa7d3330650985[m
+Merge: 7615672 3f6fdd6
+Author: Tomas Gonzalez <56565994+tommygonzaleza@users.noreply.github.com>
+Date:   Wed Aug 16 17:03:54 2023 -0400
+
+    Merge pull request #621 from josemoracard/jose1-README
+    
+    fixed text README
+
+[33mcommit 3f6fdd660082f59c99a516d569dc12a7cb29a914[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 13:19:41 2023 +0200
+
+    Update README.es.md
+
+[33mcommit aaa068e79b36c9cdc1b7484b0058f36e92831f8c[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 13:14:14 2023 +0200
+
+    Update README.md
+
+[33mcommit 5356b89b5278ca5cbc878fe5bf2d1134b1c00669[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 13:12:23 2023 +0200
+
+    Update README.es.md
+
+[33mcommit 39a01c1b56a6ad17a7c5fd997d90289343e91eea[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 13:01:31 2023 +0200
+
+    Update README.md
+
+[33mcommit dc4c88ca54c43ba3a0c0496aa77fe999f37ad528[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 12:35:45 2023 +0200
+
+    Update README.md
+
+[33mcommit 0762417e7b13ac458fe9152bb95fe26133b25c78[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 12:31:41 2023 +0200
+
+    Update README.md
+
+[33mcommit 761567284984fd382e5fa11b50ecac7ffea6216d[m
+Merge: 87c7232 b5b37b3
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu May 18 10:39:32 2023 -0400
+
+    Merge pull request #532 from mobilerevamp/patch-1
+    
+    Updated periods to README.md
+
+[33mcommit b5b37b3b9e41eea6a444eea0a8db465590de3a70[m
+Author: Nick Shwaery <nick@mobilerevamp.com>
+Date:   Wed May 17 19:03:20 2023 -0400
+
+    Update README.md
+    
+    Just added some periods to the list items
+
+[33mcommit 87c72325b27d80aa7a1343e2b8a05d792971e606[m
+Merge: 14cf428 6c1151e
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Sun Apr 2 20:11:05 2023 -0400
+
+    Merge pull request #475 from breatheco-de/collaborative-html-website
+    
+    the footnotes were added
+
+[33mcommit 6c1151ea995997f05b0409c2c2c1f4c332b6c99a[m
+Author: Lorenagubaira <lgubaira@4geeksacademy.com>
+Date:   Sun Apr 2 13:11:34 2023 +0000
+
+    the footnotes were added
+
+[33mcommit 14cf42841041b1ceeba4151cb7900adc031b0890[m
+Merge: 20729ad 9d8fbcc
+Author: Lorenagubaira <102861577+Lorenagubaira@users.noreply.github.com>
+Date:   Fri Sep 23 09:11:25 2022 -0400
+
+    Merge pull request #276 from danielmoret/patch-1
+    
+    Update README.es.md
+
+[33mcommit 20729ad1042f12c5d754922d3867bfed257a8e01[m
+Author: Tomas <gonzalez.tommy2001@gmail.com>
+Date:   Wed Sep 14 14:29:12 2022 -0400
+
+    Github action validating integrity
+
+[33mcommit e9882a5ab41852b43dd5895dfd89f54e3de07912[m
+Author: Tomas <gonzalez.tommy2001@gmail.com>
+Date:   Wed Sep 14 14:18:35 2022 -0400
+
+    Github action validating integrity
+
+[33mcommit c83696cf3d0373eb3b9dbaf223de996926702c63[m
+Author: Tomas <gonzalez.tommy2001@gmail.com>
+Date:   Wed Sep 14 14:15:57 2022 -0400
+
+    Github action validating integrity
+
+[33mcommit 9d8fbccbc64183c5ce8d9cf7264b46bd12df50bb[m
+Author: danielmoret <110257534+danielmoret@users.noreply.github.com>
+Date:   Sat Aug 27 16:56:45 2022 +0200
+
+    Update README.es.md
+    
+    The img tag of the README.es.md file was updated because it is not being shown in the preview
+
+[33mcommit 2dfa3619574ba72a8af1a996d71a6b303587d5b4[m
+Merge: e83ca8f 10dd630
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Mon Mar 28 09:33:58 2022 -0700
+
+    Merge pull request #154 from AbreuY/master
+    
+    Updated bootstrap to the latest version available
+
+[33mcommit 10dd630c9780fc651d5ab0494b71828e2dbfc6f7[m
+Author: AbreuY <yolfran12@gmail.com>
+Date:   Fri Mar 25 19:27:58 2022 -0500
+
+    Updated bootstrap to the latest version available
+
+[33mcommit 4710d73966a638ebe73acb4fe2ce2f9620539c67[m
+Author: AbreuY <yolfran12@gmail.com>
+Date:   Fri Mar 25 19:27:42 2022 -0500
+
+    Updated bootstrap to the latest version available
+
+[33mcommit e83ca8fd837ffd8e111b185ad34929084ce04c6b[m
+Merge: 9ecc743 1f521fa
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu Mar 17 02:30:59 2022 -0400
+
+    Merge pull request #125 from jsoares07/patch-1
+    
+    Update README.md
+
+[33mcommit 1f521fa8bd525957275a342aaa3923d6e1d86b55[m
+Author: jsoares07 <50368271+jsoares07@users.noreply.github.com>
+Date:   Mon Mar 14 15:32:34 2022 +0000
+
+    Update README.md
+    
+    Just noticed a misspell word.
+
+[33mcommit 9ecc7430aee3d8b4c49991458dc10d50e6324983[m
+Merge: 5670d67 eb10f30
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Wed Jan 26 15:12:51 2022 -0300
+
+    Merge pull request #111 from ljavierrodriguez/master
+    
+    Update Index Structure
+
+[33mcommit eb10f3031a7cd4bee319cbfdf19a405ff570972f[m
+Author: Luis J. Rodriguez O <ljavierrodriguez@gmail.com>
+Date:   Tue Jan 18 12:47:36 2022 -0300
+
+    Update Index Structure
+
+[33mcommit 5670d6756563aafeab811fcb44783704946e7337[m
+Merge: f502fe7 59d917e
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Sat Dec 18 12:49:29 2021 -0300
+
+    Merge pull request #104 from learnpack/master
+    
+    https://github.com/breatheco-de/exercise-collaborative-html-website/pull/103
+
+[33mcommit 59d917e72cb0293ec76ded20a1596e0fa402d3e2[m
+Author: Elvira Quiroz <elvira.quiroz.dp@gmail.com>
+Date:   Sat Dec 18 15:47:47 2021 +0000
+
+    https://github.com/breatheco-de/exercise-collaborative-html-website/pull/103
+
+[33mcommit f502fe7f8556b95f9f5539df423a87541713fe92[m
+Merge: 04d192b ec07491
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Fri Dec 17 19:10:19 2021 -0300
+
+    Merge pull request #103 from gmihov001/patch-1
+    
+    Corrected conflicting info in How to start this project
+
+[33mcommit ec074912f35d1d64dbc8759426c37cff5f553b8f[m
+Author: George Mihov <53583283+gmihov001@users.noreply.github.com>
+Date:   Fri Dec 17 12:22:15 2021 -0500
+
+    Corrected conflicting info in How to start this project
+    
+    We only do this project in class and the students need to clone the repository forked by their instructor, not the original repo of the project. Corrected How to start this project  to match the Instructions.
+
+[33mcommit 04d192b000f4de22c17ae77e7373ac269126cf24[m
+Merge: bea23ec b7c2dcd
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Sun Dec 12 13:15:40 2021 -0300
+
+    Merge pull request #101 from kant/patch-1
+    
+    Minor fixes (paragraph 05, 16, 41)
+
+[33mcommit b7c2dcd11cd74e6029247ddf8d39e7693752155c[m
+Author: Darío Hereñú <magallania@gmail.com>
+Date:   Sat Dec 11 22:45:25 2021 -0300
+
+    Minor fixes (paragraph 05, 16, 41)
+
+[33mcommit bea23ec2536d900723d14b44cfac56bdfb0e76e8[m
+Merge: a492418 1f17405
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date
