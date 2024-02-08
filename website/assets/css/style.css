@@ -1,3 +1,10 @@
-body{
-    background: #BDBDBD;
+
+h1 {
+    font-weight: bolder;
+    font-size: 7rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 4rem;
 }
