@@ -1,19 +1,22 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
 <div class="container">
-    <form class="col-10">
-        <div class="col-10 row">
-            <label for="inputPassword" class="col-3 col-form-label">Your E-mail</label>
-            <div class="col-9">
-                <input class="form-control">
+    <h1>Contact</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur lectus et nisi aliquam posuere. Mauris eget tincidunt orci, sit amet euismod nisl. Suspendisse potenti.</p>
+    <div class="d-flex justify-content-center">
+        <form class="col-9 d-flex align-items-end flex-column border border-secondary-subtle p-2" style="background-color: #e8e8e8;">
+            <div class="col-10 row mb-3">
+                <label class="col-3 col-form-label text-end"><strong>Your E-mail</strong></label>
+                <div class="col-9">
+                    <input class="form-control" placeholder="Your email">
+                </div>
             </div>
-        </div>
-        <div class="col-10 row">
-            <label class="col-3 col-form-label">Your message</label>
-            <div class="col-9">
-                <textarea class="form-control"></textarea>
+            <div class="col-10 row mb-3">
+                <label class="col-3 col-form-label text-end"><strong>Your message</strong></label>
+                <div class="col-9">
+                    <textarea class="form-control" placeholder="Please enter your message here..." style="height: 150px;"></textarea>
+                </div>
             </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
 </div>
