@@ -1,3 +1,20 @@
 body{
     background: #BDBDBD;
 }
+
+.tagline{
+    background-image: url(https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?cs=srgb&dl=pexels-pixabay-290595.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 80vh;
+    width: 100%;
+}
+.tagline-text {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.tagline-text h1 {
+    font-size: 8vw;
+}
+.tagline-text h2 {
+    font-size: 5vw;
+}
