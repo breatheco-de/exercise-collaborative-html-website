@@ -1,3 +1,18 @@
-body{
-    background: #BDBDBD;
+.content {
+    margin: 2em 8em;
+}
+.sizeImg {
+    aspect-ratio: 500/300;
+    object-fit: cover;
+    width: 100%;
+}
+.photoTommy {
+    object-position: 80% 16%;
+}
+.img1h {
+    border-radius: 50%;
+    object-fit: cover;
+}
+.tagline {
+    background: url('website/assets/img/bg.jpg');
 }
