@@ -1,21 +1,17 @@
-body{
-    background-color: white;
+body {
+	background-color: white;
 }
-
-
-.card-img-top{
-    max-width: 100%;
-    height: 400px;
-    object-fit: contain;
-    object-position: center;
+.card-img-top {
+	max-width: 100%;
+	height: 400px;
+	object-fit: contain;
+	object-position: center;
 }
-
-
 .img-fluid {
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-    max-height: 400px;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	max-height: 400px;
 }
