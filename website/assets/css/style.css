@@ -11,5 +11,48 @@
     object-fit: cover;
 }
 .tagline {
-    background: url('website/assets/img/bg.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_640.jpg');
+    background-size: cover;
+    height: 800px;
 }
+.textazo {
+    height: 400px;
+}
+.one {
+    font-size: 180px;
+}
+.will {
+    font-size: 110px;
+}
+@media (max-width:500px) {
+    .one {
+        font-size: 40px;
+    }
+}
+@media (max-width:500px) {
+    .will {
+        font-size: 27px;
+    }
+}
+@media (min-width:501px) and (max-width:900px) {
+    .one {
+        font-size: 120px;
+    }
+}
+@media (min-width:501px) and (max-width:900px) {
+    .will {
+        font-size: 90px;
+    }
+}
+@media (min-width:901px) and (max-width:1520px) {
+    .one {
+        font-size: 120px;
+    }
+}
+@media (min-width:901px) and (max-width:1520px) {
+    .will {
+        font-size: 100px;
+    }
+}
+
+
