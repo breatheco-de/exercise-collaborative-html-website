@@ -6,3 +6,7 @@
 .photoTommy {
     object-position: 80% 16%;
 }
+.img1h {
+    border-radius: 50%;
+    object-fit: cover;
+}
