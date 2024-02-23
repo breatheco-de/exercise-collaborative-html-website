@@ -10,6 +10,9 @@
     border-radius: 50%;
     object-fit: cover;
 }
+.container-fluid {
+    
+}
 .tagline {
     background-image: url('https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_640.jpg');
     background-size: cover;
