@@ -28,30 +28,39 @@
     .one {
         font-size: 40px;
     }
-}
-@media (max-width:500px) {
     .will {
         font-size: 27px;
     }
+    .whitebox1 {
+        height: 50px;
+    }
+    .whitebox2 {
+        height: 50px;
+    }
+    .tagline {
+        height: 400px;
+    }
+   
 }
-@media (min-width:501px) and (max-width:900px) {
+
+@media (min-width:501px) and (max-width:1080px) {
+    .one {
+        font-size: 80px;
+    }
+}
+@media (min-width:501px) and (max-width:1080px) {
+    .will {
+        font-size: 60px;
+    }
+}
+@media (min-width:1081px) and (max-width:1520px) {
     .one {
         font-size: 120px;
     }
 }
-@media (min-width:501px) and (max-width:900px) {
+@media (min-width:1081px) and (max-width:1520px) {
     .will {
         font-size: 90px;
-    }
-}
-@media (min-width:901px) and (max-width:1520px) {
-    .one {
-        font-size: 120px;
-    }
-}
-@media (min-width:901px) and (max-width:1520px) {
-    .will {
-        font-size: 100px;
     }
 }
 
