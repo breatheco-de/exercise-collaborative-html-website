@@ -1,3 +1,4 @@
+
 body {
 	background-color: white;
 }
@@ -14,4 +15,46 @@ body {
 	height: auto;
 	width: auto;
 	max-height: 400px;
+
+
+
+
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.mb-6 {
+    margin-bottom: 16rem;
+}
+
+@media (max-width: 768px) {
+    .mt-6 {
+        margin-top: 4rem;
+    }
+    .mb-6 {
+        margin-bottom: 8rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    .mb-6 {
+        margin-bottom: 24rem; 
+    }
+}
+
+.tagline{
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2019/11/urban-city-town-buildings-skyscraper_1574938344.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tagline-text {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.tagline-text h1 {
+    font-size: 8vw;
+}
+.tagline-text h2 {
+    font-size: 5vw;
+
 }
