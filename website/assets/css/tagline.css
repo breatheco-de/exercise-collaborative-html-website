@@ -1,0 +1,19 @@
+.bg {
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    background-image: url("https://img.freepik.com/foto-gratis/ciudad-nueva-york_649448-46.jpg?w=996&t=st=1709781486~exp=1709782086~hmac=1f736279a169055985bc7e63d5c91e6518050c19b9325cf3de5173467147eea1");
+    background-position: center;
+    background-size: cover;
+  }
+  .text {
+    margin-top: 70px;
+  }
+
+  h1 {
+    font-size: 130px;
+
+  }
+  h2 {
+    font-size: 70px;
+  }
