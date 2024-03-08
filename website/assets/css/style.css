@@ -1,0 +1,24 @@
+body {
+    background: #BDBDBD;
+}
+
+#tagline {
+
+    background-image: url(https://media.admagazine.com/photos/61e5acc706c10ae95c71b902/master/pass/New-York-skyline.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 50%;
+
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    font-size: 70px;
+    top: 130px;
+    color: black;
+    opacity: 0.9;
+    width: 100%;
+}
