@@ -1,2 +1,30 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Contact</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem aut incidunt quae vel, iusto corporis et
+                repellat, saepe veniam minima doloremque tempora quam inventore nesciunt, porro expedita! Saepe, esse
+                error.</p>
+        </div>
+        <form class="col-md-8 mt-2 mx-auto border  bg-light p-3">
+            <div class="row mb-2 ms-4">
+                <label for="emailText" class="form-label col-md-2 fw-bolder text-end">Your E-mail</label>
+                <div class="col-md-10">
+                    <input type="email" class="form-control" id="emailText" placeholder="Your email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                </div>
+            </div>
+            <div class="row mb-2 ms-4">
+                <label for="messageText" class="form-label col-md-2 fw-bolder text-end">Your message</label>
+                <div class="col-md-10">
+                    <textarea type="email" class="form-control" id="messageText" placeholder="Please enter your message"
+                        rows="5"></textarea>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <button class="btn btn-primary float-end mt-2" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
