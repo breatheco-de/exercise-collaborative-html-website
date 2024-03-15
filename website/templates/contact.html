@@ -1,2 +1,24 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container-fluid py-5">
+    <div class="row d-flex flex-column">
+        <div class="col-12 col-sm-10 col-md-10 align-self-center">
+            <h3>Contact</h3>
+            <p>Hola queridos programadores, aquí os dejo el formulario chulo para poner vuestro email y algún mensajito guapo para darnos un poco más de información antes de mandaros info o ponernos en contacto contigo.</p>
+        </div>    
+        <form class="col-11 col-sm-8 col-lg-7 col-xl-6 bg-light border rounded p-3 mx-sm-5 align-self-center">
+            <div class="mb-3 row">
+                <label class="col-form-label col-sm-3 fw-bold text-sm-end" for="email">Your E-Mail:</label>
+                <div class="col-sm-9">
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Your E-Mail">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-form-label col-sm-3 fw-bold text-sm-end" for="textarea">Your message:</label>
+                <div class="col-sm-9">
+                    <textarea class="form-control" name="textarea" id="textarea" rows="5" placeholder="Please enter your message here..."></textarea>
+                </div>
+            </div>
+            <button class="btn btn-primary float-end" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
