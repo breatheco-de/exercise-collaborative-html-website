@@ -1,3 +1,13 @@
 body{
     background: #BDBDBD;
 }
+
+.nav-link{
+    color:#BDBDBD;
+}
+.navbar-brand{
+    color:#BDBDBD;
+}
+.navbar-toggler-icon{
+    background-color: #BDBDBD;
+}
