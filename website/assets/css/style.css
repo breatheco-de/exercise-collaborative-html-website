@@ -1,3 +1,17 @@
+ navbar
+body{
+    background: #BDBDBD;
+}
+
+.nav-link{
+    color:#BDBDBD;
+}
+.navbar-brand{
+    color:#BDBDBD;
+}
+.navbar-toggler-icon{
+    background-color: #BDBDBD;
+
 body, html {
     margin: 0;
     padding: 0;
@@ -50,4 +64,5 @@ h2 {
     font-size: 95px;
     margin-top: 20px;
     opacity: 0.9;
+ master
 }
