@@ -1,5 +1,5 @@
 img{
-    width: 900px;
+    width: 500px;
     height: auto;
   }
 
@@ -71,4 +71,8 @@ div.ladoizq{
 
 .fa-solid{
   font-size: 30px;
+}
+
+.nav-bar{
+  width: 100vw;
 }
