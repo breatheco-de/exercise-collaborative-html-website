@@ -16,7 +16,7 @@ img{
     width: 650px;
   }
 
-h2,h3,h4{
+h2,h3{
   font-family: sans-serif;
   border-bottom: 1.5rem;
 }
@@ -71,4 +71,37 @@ div.ladoizq{
 
 .fa-solid{
   font-size: 30px;
+}
+
+img.Descargaapp{
+  width: 30vw;
+  height: 95vh;
+  border-radius: 8%;
+}
+
+img.tpv,.comandero,.carta,.reserva{
+  width: 10vw;
+  height: 19vh;
+ 
+}
+
+div.grid{
+  margin-top: 100px;
+  display: flex;
+}
+
+img{
+  margin: 0 auto;
+}
+
+.textoejemplo{
+  margin-top:25px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.tituloimagenes{
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 900 ;
+
 }
