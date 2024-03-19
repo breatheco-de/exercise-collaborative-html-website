@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Reservas</title>
+</head>
+<style type="text/tailwindcss">
+    @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+
+
+        .nav-bar{
+          
+          width: 100vw;
+        }
+
+        .br{
+         
+          display: flex;
+          align-items: center;
+        }
+        .br1{
+          
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        
+        width: 50%;
+        }
+        .txt{
+         
+          width: 50%;
+        }
+
+        .fotolog{
+          
+          justify-content: center;
+          padding-top: 10%;
+          flex-direction: column;
+          display: flexx
+        }
+        .column{
+        
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: 5%;
+        }
+        .space{
+          padding-top: 10%;
+        }
+        img{
+    width: 500px;
+    height: auto;
+  }
+
+  body{
+    background-color: rgb(255 237 213);
+  }
+
+  .ladoizq{
+    width: 700px;
+    display: flex;
+  }
+
+  .titulos{
+    width: 650px;
+  }
+
+h2,h3,h4{
+  font-family: sans-serif;
+  border-bottom: 1.5rem;
+}
+
+div.ladoizq{
+
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 90px;
+  width: 630px;
+}
+
+
+.buttons{
+  height: 50px;
+  margin-top: 20px;
+}
+
+.bottom{
+  border-bottom-width: thin;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+
+.button1{
+  color: white;
+  font-family: serif;
+  height: 45px;
+  border-radius: 10px;
+  width: 180px;
+  margin-right: 10px;
+}
+
+.Anthony{
+  margin-top: 15px;
+}
+
+.bottomtitulos{
+  border-bottom-width: thin;
+  border-bottom-color: #FB923C;
+  border-bottom-style: solid;
+  border-width: 10px;
+  border-top-width: thin;
+  border-top-style: solid;
+  border-top-width: 10px;
+  border-top-color: #FB923C;
+}
+
+.fa-solid{
+  font-size: 30px;
+}
+
+.nav-bar{
+  width: 100vw;
+}
+
+
+      </style>
+  
+<body>
+  <div class="container">
+    <div class="nav-bar">
+      <nav class="bg-orange-400">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button type="button"
+                class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                aria-controls="mobile-menu" aria-expanded="false">
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only">Open main menu</span>
+                <!--
+                  Icon when menu is closed.
+      
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                  aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <!--
+                  Icon when menu is open.
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                  aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex flex-shrink-0 items-center">
+                <img class="h-12 w-auto"
+                  src="./imagen//Creative_and_Fun_Design_for_Art_Studio_Logo-removebg-preview (1).png"
+                  alt="Your Company">
+              </div>
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  <a href="carta.html" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Carta Digital</a>
+                  <a href="#"
+                    class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Comanderos</a>
+                  <a href="#"
+                    class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Reservas</a>
+                  <a href="index.html"
+                    class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                    Home</a>
+                </div>
+              </div>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+             
+
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="sm:hidden" id="mobile-menu">
+      <div class="space-y-1 px-2 pb-3 pt-2">
+        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+        <a href="carta.html" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+          aria-current="page">Reservas</a>
+        <a href="#"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Comanderos</a>
+        <a href="#"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Reservas</a>
+        <a href="index.html"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Home</a>
+      </div>
+    </div>
+    </nav>
+
+  </div>
+  <!-- TERMINA NAV BAR Y COMIENZA EL CUERPO -->
+    <div class="column">
+        <div class="fotolog br ">
+          <div class="flex row">
+            <div class="txt column">
+    
+              <h1 class="text-5xl font-serif pb-12">Sistema de reservas online<br> para hostelería</h1>
+              <h2 class="text-4xl"></h2>
+              <h2 class="text-4xl"></h2>
+              <h3 class="Anthony text-2xl italic">Gestiona las reservas desde el TPV online <br> permite a los clientes hacer reservas desde tu propia web o carta digital</h3>
+              <h4 class="text-2xl italic"></h4>
+            </div>
+            <div class="ladoder br1">
+              <img src="https://cdn-icons-png.freepik.com/512/9150/9150506.png" alt="">
+            </div>
+          </div>
+          <div class="flex row space">
+            <div class="txt column">
+    
+              <h1 class="text-5xl font-serif ">Software de reservas para hostelería con una interfaz sencila y amigable</h1>
+              <h2 class="text-4xl"></h2>
+              <h2 class="text-4xl"></h2>
+              <h3 class="Anthony text-2xl italic">
+    
+                📱Autoreservas: Permite a tus clientes realizar sus propias reservas desde tu página web o la carta digital<br>
+                
+                ⚙️Configuración: Configura tus turnos y añade la capacidad de comensales a cada turno<br>
+                
+                ‍💸Sin comisiones: Sin coste de comisiones por reservas<br>
+                
+                📢Sistema de avisos: Recibe una notificación cada vez que un cliente haga una reserva</h3>
+              <h4 class="text-2xl italic"></h4>
+            </div>
+            <div class="ladoder br1">
+              <img src="https://cdn-icons-png.flaticon.com/512/2460/2460877.png" alt="">
+            </div>
+          </div>
+    
+          <div class="flex row space">
+            <div class="txt column">
+    
+              <h1 class="text-5xl font-serif pb-12">Fideliza a tus clientes y envíales promociones por email</h1>
+              <h2 class="text-4xl"></h2>
+              <h2 class="text-4xl"></h2>
+              <h3 class="Anthony text-2xl italic">Gracias a la carta digital, puedes obtener los emails y teléfonos de los clientes y formar tu propia base de datos de clientes, para realizar campañas de email marketing y enviarles ofertas o promociones por correo o por mensaje de texto o Whatsapp.
+
+              </h3>
+              <h4 class="text-2xl italic"></h4>
+            </div>
+            <div class="ladoder br1">
+              <img src="https://cdn-icons-png.flaticon.com/512/2574/2574830.png" alt="">
+            </div>
+          </div>
+    
+    
+          </div>
+    
+    
+        </div>
+      </div>
+    
+    
+      </div>
+</body>
+</html>
