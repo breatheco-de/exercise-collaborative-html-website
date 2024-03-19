@@ -1,4 +1,4 @@
- navbar
+
 body{
     background: #BDBDBD;
 }
@@ -11,8 +11,8 @@ body{
 }
 .navbar-toggler-icon{
     background-color: #BDBDBD;
-
-body, html {
+}
+body,html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -64,5 +64,10 @@ h2 {
     font-size: 95px;
     margin-top: 20px;
     opacity: 0.9;
- master
+}
+
+.imagenredonda {
+    max-width: 100%;
+    height: 150px;
+    width: 150px;
 }
