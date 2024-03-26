@@ -1,4 +1,18 @@
-body, html {
+
+body{
+    background: #BDBDBD;
+}
+
+.nav-link{
+    color:#BDBDBD;
+}
+.navbar-brand{
+    color:#BDBDBD;
+}
+.navbar-toggler-icon{
+    background-color: #BDBDBD;
+}
+body,html {
     margin: 0;
     padding: 0;
 }
@@ -52,6 +66,14 @@ h2 {
     font-size: 60px;
     margin-top: 20px;
     opacity: 0.9;
+ jpaliaga10/tagline
     overflow: hidden; /* Con esto evito que mis h1,h2 se salgan del contendedor*/
     white-space: nowrap;
+}
+
+.imagenredonda {
+    max-width: 100%;
+    height: 150px;
+    width: 150px;
+  master
 }
