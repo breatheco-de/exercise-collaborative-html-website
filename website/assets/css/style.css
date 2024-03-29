@@ -17,34 +17,15 @@ body,html {
     padding: 0;
 }
 
-.image-container {
-    position: relative;
-  }
-  
-  .text-container {
-    position: absolute;
-    width: 100%; 
-    top: 20%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    text-align: center; 
-  }
-
-  .box {
-    background-color: rgb(237, 242, 244);
-    width: auto;
-    opacity: 0.7;
-    size: 5vh;
-  }
-
 h1 {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 500;
-    font-size: 6vw;  
+    font-size: 8vw;
+    top: 5%; 
 }
 h2 {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 500;
     font-size: 3vw;
-    margin-top: 20px;
+    top: 23%;
 }
