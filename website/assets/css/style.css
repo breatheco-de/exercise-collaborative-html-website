@@ -3,53 +3,34 @@ body, html {
     padding: 0;
 }
 
-.containertag {
-    background: url('tesla-model-3-2018-p.jpg');
-    background-size: cover;
-    background-position: center center;
-    width: auto;
-    height: 100vh; 
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
-}
-
-.box1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(25, 68, 128, 0.075);
-    width: 100%; 
-    max-width: 100%; 
-    height: auto;
-    padding: 10px;
+.image-container {
+    position: relative;
+  }
   
-}
-
-.box2 {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(25, 68, 128, 0.075);
+  .text-container {
+    position: absolute;
     width: 100%; 
-    margin-top: 10px; 
-    max-width: 100%; 
-    height: auto;
-    padding: 10px;
-}
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+  }
+
+  .box {
+    background-color: rgb(237, 242, 244);
+    width: auto;
+    opacity: 0.7;
+    size: 5vh;
+  }
 
 h1 {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 500;
-    font-size: 6vw;
-    opacity: 0.9;   
+    font-size: 6vw;  
 }
 h2 {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 500;
     font-size: 3vw;
     margin-top: 20px;
-    opacity: 0.9;
 }
