@@ -47,18 +47,4 @@ h2 {
     font-weight: 500;
     font-size: 3vw;
     margin-top: 20px;
-<<<<<<< HEAD
-=======
-    opacity: 0.9;
- jpaliaga10/tagline
-    overflow: hidden; /* Con esto evito que mis h1,h2 se salgan del contendedor*/
-    white-space: nowrap;
-}
-
-.imagenredonda {
-    max-width: 100%;
-    height: 150px;
-    width: 150px;
-  master
->>>>>>> 697e2616a7aaf3e5689d2511760eb032738fd3f1
 }
