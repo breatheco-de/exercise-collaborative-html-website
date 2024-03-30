@@ -1,4 +1,10 @@
 body{
     background: #BDBDBD;
 }
-
+.clearfix{
+    padding: 1px;
+    background-color: aliceblue;
+    width: 850px;
+   
+    
+}
