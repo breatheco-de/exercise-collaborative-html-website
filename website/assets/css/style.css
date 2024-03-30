@@ -1,25 +1,3 @@
 body{
     background: #BDBDBD;
 }
-.container{
-    font-size: x-small;
-    background-color: white;
-    align-items: center;
-    justify-content: center;
-    
-    padding: 20px;
-    
-}
-.card-title{
-    color: rgb(0, 140, 255);
-}
-.card-img-top{
-    width: auto;
-    height: 188px;
-}
-.card-text{
-    color: black;
-}
-#letra{
-    color: #ee0f0f;
-}
