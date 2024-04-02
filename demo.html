@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link data-default-icon="Project" rel="icon" sizes="" href="./imagen/Logo.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    </style>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Proyecto AJRM</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <nav class="bg-orange-400">
+                <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                    <div class="relative flex h-16 items-center justify-between">
+                        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                            <!-- Mobile menu button-->
+                            <button type="button"
+                                class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                                aria-controls="mobile-menu" aria-expanded="false">
+                                <span class="absolute -inset-0.5"></span>
+                                <span class="sr-only">Open main menu</span>
+                                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+                                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                            <div class="flex flex-shrink-0 items-center">
+                                <img class="h-12 w-auto"
+                                    src="./imagen/Electric_Blue_Gradient_Cube_Modern_Company_Business_Technology_Logo-removebg-preview.png"
+                                    alt="Your Company">
+                            </div>
+                            <div class="hidden sm:ml-6 sm:block">
+                                <div class="flex space-x-4">
+                                    <a href="carta.html"
+                                        class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Carta
+                                        Digital</a>
+                                    <a href="comanderos.html"
+                                        class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Comanderos</a>
+                                    <a href="reservas.html"
+                                        class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Reservas</a>
+                                    <a href="demo.html"
+                                        class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                                        aria-current="page">
+                                        Demo</a>
+                                    <a href="index.html"
+                                        class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                                        aria-current="page">
+                                        Home</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+            <div class="space-y-1 px-2 pb-3 pt-2">
+                <a href="carta.html" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+                    aria-current="page">Carta Digital</a>
+                <a href="#"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Comanderos</a>
+                <a href="#"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Reservas</a>
+                <a href="index.html"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Home</a>
+            </div>
+        </div>
+        </nav>
+    </div>
+    <div class="containerDemo">
+        <div class="left_container">
+            <div class="order_container">
+                <div class="order_title h1">Tu pedido.</div>
+                <div class="food_title">Entrante</div>
+                <div class="selection">
+                    <div id="starter_img" class="food_img  cart_anchor"></div>
+                    <div id="starter_info" class="food_info font-weight-bold"></div>
+                </div>
+                <div class="food_title">Plato principal</div>
+                <div class="selection">
+                    <div id="main_img" class="food_img cart_anchor1"></div>
+                    <div id="main_info" class="food_info font-weight-bold"></div>
+                </div>
+                <div class="food_title">Bebida</div>
+                <div class="selection">
+                    <div id="drink_img" class="food_img cart_anchor2"></div>
+                    <div id="drink_info" class="food_info font-weight-bold"></div>
+                </div>
+                <div class="food_title">Postre</div>
+                <div class="selection">
+                    <div id="dessert_img" class="food_img cart_anchor3"></div>
+                    <div id="dessert_info" class="food_info font-weight-bold"></div>
+                </div>
+                <div class="button_space d-grid gap-2">
+                    <button id="boton" class="col-6 btn btn-warning" type="button">
+                        Enviar Pedido
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="right_container">
+            <div class="menu_container">
+                <div id="entrante_form" class="form">
+                    <h1 class="order_title h1">Selecciona tu entrante:</h1>
+                    <div id="entrante_options" class="options">
+                        <div class="option">
+                            <img src="img/Cesar.png" alt="Entrante 1" />
+                            <div class="description">
+                                <p>
+                                    <b>Ensalada César.</b> <br />Con el mejor Pollo Rebozado,
+                                    Mezclum, Cherrys y nuestra Salsa César Especial.
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart"
+                                onclick="setTimeout(function(){ selectEntrante(1); }, 580);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                        <div class="option">
+                            <img src="img/Bravas.png" />
+                            <div class="description">
+                                <p>
+                                    <b>Patatas bravas.</b> <br />Recién cortadas, con Mayonesa y
+                                    junto a la indiscutible Salsa Brava de la Casa.
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart"
+                                onclick="setTimeout(function(){ selectEntrante(2); }, 580);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                        <div class="option">
+                            <img src="img/Alitas.png" alt="Entrante 3" />
+                            <div class="description">
+                                <p>
+                                    <b>Alitas picantes.</b> <br />100% de corral, con la salsa
+                                    picante heredada de nuestra fundadora Mexicana.
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart"
+                                onclick="setTimeout(function(){ selectEntrante(3); }, 580);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="primeros_form" class="form">
+                    <h1 class="order_title h1">Selecciona tu primero:</h1>
+                    <div id="primero_options" class="options">
+                        <div class="option">
+                            <img src="img/Pasta.png" alt="Primero 1" />
+                            <div class="description">
+                                <p>
+                                    <b>Spaghetti a la Bolognesa.</b><br />Pasta italiana, con
+                                    salsa Bolognesa casera Della Mamma y Parmigiano.
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart1"
+                                onclick="setTimeout(function(){ selectPrimero(1); }, 580);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                        <div class="option">
+                            <img src="img/Burger.png" alt="Primero 2" />
+                            <div class="description">
+                                <p>
+                                    <b>Boss Burger con Patatas.</b><br />Pura receta New York,
+                                    con Lechuga, Tomate, Cebolla, Queso y Pepinillo.
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart1"
+                                onclick="setTimeout(function(){ selectPrimero(2); }, 580);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                        <div class="option">
+                            <img src="img/Burrito.png" alt="Primero 3" />
+                            <div class="description">
+                                <p>
+                                    <b>Burrito Mexicano.</b><br />Desde lo mas profundo del
+                                    Yucatán, con Pimiento, Cebolla, Salsa de Queso y Chile
+                                    Habanero.
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart1"
+                                onclick="setTimeout(function(){ selectPrimero(3); }, 580);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="bebidas_form" class="form">
+                    <h1 class="order_title h1">Selecciona tu bebida:</h1>
+                    <div id="bebida_options" class="options">
+                        <div class="option">
+                            <img src="img/Coke.png" alt="Bebida 1" />
+                            <div class="description">
+                                <p>
+                                    <b>Coca-Cola Original.</b>
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart2"
+                                onclick="setTimeout(function(){ selectBebida(1); }, 580);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                        <div class="option">
+                            <img src="img/Sprite.png" alt="Bebida 2" />
+                            <div class="description">
+                                <p>
+                                    <b>Sprite.</b>
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart2"
+                                onclick="setTimeout(function(){ selectBebida(2); }, 580);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                        <div class="option">
+                            <img src="img/Agua.png" alt="Bebida 3" />
+                            <div class="description">
+                                <p>
+                                    <b>Agua Cabreiroá.</b>
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart2"
+                                onclick="setTimeout(function(){ selectBebida(3); }, 580);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="postres_form" class="form">
+                    <h1 class="order_title h1">Selecciona tu postre:</h1>
+                    <div id="postre_options" class="options">
+                        <div class="option">
+                            <img src="img/Brownie.png" alt="Postre 1" />
+                            <div id="postre1" class="description">
+                                <p>
+                                    <b>Brownie de Chocolate con Nata y Topping.</b><br />Nuestro
+                                    mejor chute de Energía.
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart3"
+                                onclick="setTimeout(function(){ selectPostre(1); }, 700);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                        <div class="option">
+                            <img src="img/Crepe.png" alt="Postre 2" />
+                            <div id="postre2" class="description">
+                                <p>
+                                    <b>Crepe de Chocolate con Frutos Rojos.</b><br />El
+                                    equilibrado pero Delicioso.
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart3"
+                                onclick="setTimeout(function(){ selectPostre(2); }, 700);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                        <div class="option">
+                            <img src="img/Helado.png" alt="Postre 3" />
+                            <div id="postre3" class="description">
+                                <p>
+                                    <b>Helado de Vainilla con Galleta y Brownie.</b><br />Sube
+                                    la temperatura... No Problem!
+                                </p>
+                            </div>
+                            <button href="javascript:void(0);" class="btn btn-success add-to-cart3"
+                                onclick="setTimeout(function(){ selectPostre(3); }, 700);">
+                                <b>¡Lo<br />quiero!</b>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="post_menu" class="post_menu">
+                    <h1 class="order_title h1">¡ Buen Provecho !</h1>
+                    <button id="boton" class="col-12 btn btn-warning mb-3" type="button">
+                        Enviar Pedido
+                    </button>
+                    <a href="demo.html">
+                        <button class="col-12 btn btn-success mb-3">
+                            Volver a empezar pedido.
+                        </button></a>
+                    <a href="index.html">
+                        <button class="col-12 btn btn-danger mb-3">
+                            Volver a Home.
+                        </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -2,66 +2,15 @@
 <html lang="en">
 
 <head>
+  <link data-default-icon="Project" rel="icon" sizes=""
+  href="./imagen/Logo.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style type="text/tailwindcss">
-    @layer utilities {
-          .content-auto {
-            content-visibility: auto;
-          }
-        }
-
-
-        .nav-bar{
-          
-          width: 100vw;
-        }
-
-        .br{
-         
-          display: flex;
-          align-items: center;
-        }
-        .br1{
-          
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        
-        width: 50%;
-        }
-        .txt{
-         
-          width: 50%;
-        }
-
-        .fotolog{
-          
-          justify-content: center;
-          padding-top: 10%;
-          flex-direction: column;
-          display: flex;
-        }
-        .column{
-        
-          display: flex;
-          flex-direction: column;
-          justify-content:flex-start;
-          padding-left: 5%;
-        }
-        .space{
-          padding-top: 10%;
-        }
-
-
-      </style>
+  </style>
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-
-  <title>Document</title>
+  <title>Proyecto AJRM</title>
 </head>
 
 <body>
@@ -77,21 +26,11 @@
                 aria-controls="mobile-menu" aria-expanded="false">
                 <span class="absolute -inset-0.5"></span>
                 <span class="sr-only">Open main menu</span>
-                <!--
-                  Icon when menu is closed.
-      
-                  Menu open: "hidden", Menu closed: "block"
-                -->
                 <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                   aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round"
                     d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
-                <!--
-                  Icon when menu is open.
-      
-                  Menu open: "block", Menu closed: "hidden"
-                -->
                 <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                   aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -106,15 +45,17 @@
               </div>
               <div class="hidden sm:ml-6 sm:block">
                 <div class="flex space-x-4">
-                  <a href="carta.html" class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Carta Digital</a>
-                  <a href="comanderos.html"
-                    class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                  <a href="carta.html"
+                    class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Carta
+                    Digital</a>
+                  <a href="comanderos.html" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
                     aria-current="page">Comanderos</a>
                   <a href="reservas.html"
-
-
-                    
                     class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Reservas</a>
+                  <a href="demo.html"
+                    class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                    aria-current="page">
+                    Demo</a>
                   <a href="index.html"
                     class="text-gray-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
                     Home</a>
@@ -122,15 +63,10 @@
               </div>
             </div>
             <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-
-
             </div>
-
           </div>
         </div>
     </div>
-
-
     <div class="sm:hidden" id="mobile-menu">
       <div class="space-y-1 px-2 pb-3 pt-2">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
@@ -145,23 +81,18 @@
       </div>
     </div>
     </nav>
-
   </div>
   <!-- TERMINA NAV BAR Y COMIENZA EL CUERPO -->
   <div class="column">
     <div class="fotolog br ">
       <div class="flex row">
         <div class="txt column ">
-
           <h1 class="text-5xl font-serif pb-12">Olvídate de tener que estar anotando comandas en papel que se pierden o
             no se entienden.</h1>
-
           <h2 class="text-4xl"></h2>
           <h3 class="Anthony text-2xl italic">Fácil manejo: La aplicación es muy sencilla de utilizar.<br>
-
             Agregados y combinados: Posibilidad de añadir extras a tus productos, así como notas a los pedidos o
             productos.<br>
-
             Gestión del negocio: Permite la separación de pagos y cierre de mesas con efectivo o tarjeta.
           </h3>
           <h4 class="text-2xl italic"></h4>
@@ -172,7 +103,6 @@
       </div>
       <div class="flex row space">
         <div class="txt column">
-
           <h1 class="text-5xl font-serif ">Por qué usar un comandero de hostelería?</h1>
           <h2 class="text-4xl"></h2>
           <h2 class="text-4xl"></h2>
@@ -192,14 +122,12 @@
 
             Seguridad en las ventas: Todo lo que se sirve queda registrado con la identificación del camarero
           </h3>
-
           <h4 class="text-2xl italic"></h4>
         </div>
         <div class="ladoder br1">
           <img src="https://foodeo.es/images/comandero-hosteleria.webp" alt="">
         </div>
       </div>
-
       <div class="flex row space">
         <div class="txt column">
           <h2 class="text-4xl"></h2>
@@ -209,17 +137,10 @@
             la comidad de los camareros para trabajar.</h3>
           <h4 class="text-2xl italic"></h4>
         </div>
-
       </div>
-
-
     </div>
-
-
   </div>
   </div>
-
-
   </div>
 </body>
 
