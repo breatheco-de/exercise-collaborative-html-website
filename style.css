@@ -1,0 +1,29 @@
+
+#middlephoto{
+    float: right;
+    margin-right: 350px;   
+}
+   
+
+#firsttitle {
+     color: black;
+     font-size: 50px;
+     margin-left: 300px;
+     background-color: white;            
+}
+
+#secondtitle{
+    color: grey;
+    font-size: 50px;
+    margin-left: 10px;
+    background-color: white;
+      
+}
+    
+.lead {
+    margin-left: 300px; 
+    margin-top: 25px;     
+}
+
+
+
