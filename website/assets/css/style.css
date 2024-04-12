@@ -1,3 +1,8 @@
 body{
     background: #BDBDBD;
 }
+
+footer {
+    background-color: #212529;
+    color: rgb(222, 226, 230);
+}
