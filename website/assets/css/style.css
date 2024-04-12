@@ -1,3 +1,17 @@
 body{
     background: #BDBDBD;
 }
+
+.hero {
+    background-image: url("https://enkontrol.com/wp-content/uploads/2019/05/Captura-de-pantalla-2019-05-09-a-las-16.42.52-1080x675.png");
+    background-size: cover;
+    min-height: 600px;
+}
+
+.textSize{
+    font-size: 100px;
+}
+
+.textSize2{
+    font-size: 60px;
+}
