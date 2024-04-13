@@ -10,3 +10,8 @@ body{
 p {
     font-size: 12px
 }  
+
+footer {
+    background-color: #212529;
+    color: rgb(222, 226, 230);
+}
