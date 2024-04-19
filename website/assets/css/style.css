@@ -4,3 +4,30 @@ body{
     margin: 0; 
 } 
 
+
+/*Portfolio styles andres*/
+.img-card{
+    width: auto;
+    height: 250px;
+    background-color: darkgray;
+}
+
+/*contact styles andres*/
+.container-form{
+    max-width: 780px;
+    margin: auto;
+}
+
+.form-contact{
+    background-color: #F5F5F5;
+}
+
+.inp-text:focus{
+    outline: none;
+
+}
+
+
+
+
+
