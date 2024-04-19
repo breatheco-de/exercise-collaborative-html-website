@@ -1,3 +1,10 @@
+body{
+    background: white;
+    padding: 0;
+    margin: 0; 
+} 
+
+
 /*Portfolio styles andres*/
 .img-card{
     width: auto;
@@ -19,8 +26,6 @@
     outline: none;
 
 }
-
-
 
 
 
