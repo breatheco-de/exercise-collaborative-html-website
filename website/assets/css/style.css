@@ -2,3 +2,9 @@ body{
     margin: 0;
     padding: 0;
 }
+.tagline {
+    background-image: url(/website/assets/img/bg.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: bottom;
+}
