@@ -1,3 +1,11 @@
 body{
-    background: #BDBDBD;
+   margin: 0;
+   padding: 0;
+   
+}
+.fondo-tagline{
+    background-image: url(/website/assets/img/bg.jpg) ;
+    background-position:bottom;
+    background-size: cover;
+    height: 400px;
 }
