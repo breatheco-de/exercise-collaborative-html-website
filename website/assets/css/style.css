@@ -25,6 +25,13 @@ body{
 .inp-text:focus{
     outline: none;
 
+} 
+
+.jumbotron{ 
+    background-image: url(/website/assets/img/bg.jpg); 
+    height: 400px;
+    background-size: cover;
+    background-position: bottom; 
 }
 
 
