@@ -14,6 +14,7 @@ Each student works on a different file, for a different part of the website, and
 
 ```bash
 $ npx http-server --yes -c-1
+
 ```
 
 + You will be given an option to open in browser, and have options to view the new site, what it should look like, and a reference to each part of the page. If you receive an error, wait a moment and refresh.
