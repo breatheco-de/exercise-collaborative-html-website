@@ -1,52 +1,26 @@
-<style>
-    .contactBox {
-        display: flex;
-        text-align: right;
-        justify-content: space-between;
-        width: 100%; 
-        
-    }
-
- .input-container {
-        width: 100%; 
-    }
-
-    .cuadro {
-        width: 700px; 
-        background-color: #f0f0f0; 
-        border: 2px solid #333; /
-        border-radius: 10px; 
-        padding: 20px; 
-        box-sizing: border-box; 
-    }
-
-    /* Estilos para el formulario */
-    .form-label {
-        font-weight: bold;
-    }
-
-    .btn {
-        margin-top: 10px;
-    }
-</style>
-<h2>Contact</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dolor debitis quos suscipit doloremque eaque nam accusantium, quis placeat animi voluptates iure, nisi facere quia. Quam vitae facilis molestiae earum.</p>
-<div class="cuadro">
-<div class="contactBox">
-    <div class="input-container">
-        <div class="mb-3">
-<h4>Your Email</h4>
-<h4>hola</h4>
+<div class="container-fluid text-light">
+    <h2>Contact</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sequi fugit quas iure ratione dolores,
+        maiores esse deleniti, quia distinctio consequuntur, asperiores magnam corporis laboriosam quasi non tempora
+        expedita soluta.</p>
+    <form class="container p-3 bg-secondary">
+        <div class=" row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Please enter your email here">
+            </div>
         </div>
-    </div>
-    <div class="input-container">
-        <div class="mb-3">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-
-            
+        <div class="row mb-3">
+            <div class="col-sm-2">
+                <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+            </div>
+            <div class="col-sm-10">
+                <textarea class="form-control" id="exampleFormControlTextarea1"
+                    placeholder="Plese enter your message here"></textarea>
+            </div>
         </div>
-        <button type="button" class="btn btn-primary">Send</button>
-    </div>
-</div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary" type="button">Submit</button>
+        </div>
+    </form>
 </div>
