@@ -1,7 +1,19 @@
-<div class="card text-bg-dark">
-    <img width="800px" height="200px" src="https://picsum.photos/200/300?random=1" class="card-img" alt="...">
-    <div class="card-img-overlay d-flex align-items-center justify-content-around flex-column">
-      <h1 class="card-title">ONE PAGE WONDER</h1>
-      <h2 class="card-text"> Will knock your socks off</h2>
-    </div>
+<style>
+  .tl-mimg-hd-container { top:25%; width:100%; }
+  .tl-mimg-hd { background: rgba(255,255,255,0.7); line-height: .93em; }
+  .tl-mimg-hd-sm { font-size:8em; }
+  .tl-mimg-hd-lg { font-size:12em; }
+  @media screen and (max-width: 1200px) {
+      .tl-mimg-hd-sm { font-size:7vw; }
+      .tl-mimg-hd-lg { font-size:10vw; }
+  }
+</style>
+<div id="tagline" class="position-relative m-0 p-0 w-100">
+  <img class="p-0 m-0" width="100%" src="./assets/img/bg.jpg" alt="Murcia"/>
+  <div class="position-absolute tl-mimg-hd-container">
+      <p class="text-center mx-4 fw-bold tl-mimg-hd tl-mimg-hd-lg">Soy un Texto de prueba</p>
+      <p class="text-center mt-5 mx-4 fw-semibold tl-mimg-hd tl-mimg-hd-sm">Soy el texto de abajo</p>
   </div>
+  <div class="position-absolute" style="top:25%; width:100%">
+  </div>
+</div>
