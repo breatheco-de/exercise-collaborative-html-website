@@ -2,9 +2,3 @@ body{
     background: #BDBDBD;
 }
 
-.background-image {
-    background-image: url('fondo.jpg'); /* Ruta relativa a la imagen */
-    background-size: cover; /* Ajustar la imagen de fondo para que cubra todo el body */
-    background-position: center; /* Centrar la imagen de fondo */
-    color: white; /* Color del texto para mejorar la legibilidad */
-}
