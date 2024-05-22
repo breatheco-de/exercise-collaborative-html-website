@@ -1,3 +1,14 @@
-body{
-    background: #BDBDBD;
+body {
+  background: #bdbdbd;
+}
+
+.nav-link {
+  color: gray;
+}
+.nav-link:hover {
+  color: rgb(90, 87, 87);
+}
+.text-small {
+  font-size: small;
+  padding-left: 0.4rem;
 }
