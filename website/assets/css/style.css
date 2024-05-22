@@ -12,3 +12,8 @@ body {
   font-size: small;
   padding-left: 0.4rem;
 }
+
+.imagen-fondo {
+  background-image: url(/website/assets/img/bg.jpg);
+  background-repeat: round;
+}
