@@ -38,7 +38,7 @@ https://github.com/breatheco-de/exercise-collaborative-html-website
 
 a) Navigate to and fork the repository in GitHub.
 
-b) Invite your students or team members as collaborators to your forked repository (see the gif manual in it).
+b) Invite your students or team members as collaborators to your forked repository (see the git manual in it).
 
 c) Have your students or team members clone your forked repository (not the original above).
 
