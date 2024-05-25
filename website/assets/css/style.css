@@ -1,3 +1,49 @@
 body{
-    background: #BDBDBD;
+    background: #f9f9f9;
+    
+
 }
+#scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.row.gx-5.align-items-center{
+    border-top: 1px solid rgb(214, 214, 214);
+    border-bottom: 1px solid rgb(214, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    
+.HMHM{
+    
+    color: gray;
+}
+.display-4{
+    font-weight: 500;
+    font-size:xx-large;
+
+}
+.cont2ainer2.px-5{ 
+    margin-top: 70px;
+    height: auto;
+    
+    
+
+    
+}
+.cont2ainer2.px-5 img{ 
+    height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.container2 .p- img{
+    height:250px;
+    max-width: 250px;
+    border-radius: 50%;
+}
+
