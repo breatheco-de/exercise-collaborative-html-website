@@ -1,3 +1,23 @@
-body{
+/* body{
     background: #BDBDBD;
+} */
+
+/* este estilo esta para cambiar de color del span que esta dentro del h1 */
+.card-title span{
+    font-weight: normal;
+    color: gray
+}
+/* este estilo esta para centrar el texto de las tarjetas */
+.card-body p{
+    text-align: justify;
+    padding-right: 20%;
+}
+/* quita el borde de las cards y asi poder reemplazarlo con los hr */
+.custom-border{
+    border: none;
+}
+/* Estilo para centrar el hr */
+hr{
+    width: 70%;
+    margin: 0 auto;
 }
