@@ -1,3 +1,44 @@
 body{
-    background: #BDBDBD;
+    background: #f9f9f9;
+    
+
+}
+#scroll{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height auto;
+
+}
+#scroll p{
+    
+}
+.row.gx-5.align-items-center{
+    border-top: 1px solid rgb(214, 214, 214);
+    border-bottom: 1px solid rgb(214, 214, 214);
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+    
+    
+.HMHM{
+    
+    color: gray;
+}
+.display-4{
+    font-weight: 500;
+    font-size:xx-large;
+
+}
+.cont2ainer2.px-5{ 
+
+    height: auto;
+    }
+.lineagris{
+    margin-left: 11%;
+    margin-right: 11%;
+    overflow: hidden;
+    color: rgb(221, 221, 222);
 }
