@@ -14,7 +14,7 @@ body{
     border-top: 1px solid rgb(214, 214, 214);
     border-bottom: 1px solid rgb(214, 214, 214);
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
     
@@ -29,21 +29,7 @@ body{
 
 }
 .cont2ainer2.px-5{ 
-    margin-top: 70px;
-    height: auto;
-    
-    
 
-    
-}
-.cont2ainer2.px-5 img{ 
-    height: 100%;
-    max-width: 100%;
-    border-radius: 50%;
-}
-.container2 .p- img{
-    height:250px;
-    max-width: 250px;
-    border-radius: 50%;
-}
+    height: auto;
+    }
 
