@@ -1,3 +1,31 @@
 body{
     background: #BDBDBD;
 }
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text {
+    flex: 1;
+}
+.image img {
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: right;
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.rounded-circle {
+    border-radius: 50%;
+}
