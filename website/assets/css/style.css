@@ -6,16 +6,20 @@ body{
 #scroll{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
-}
+    height auto;
 
+}
+#scroll p{
+    font-size: small;
+}
 .row.gx-5.align-items-center{
     border-top: 1px solid rgb(214, 214, 214);
     border-bottom: 1px solid rgb(214, 214, 214);
     display: flex;
     justify-content:center;
-    align-items: center;
+    align-items: flex-start;
 }
     
     
@@ -32,4 +36,3 @@ body{
 
     height: auto;
     }
-
