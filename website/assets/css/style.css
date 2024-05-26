@@ -36,3 +36,9 @@ body{
 
     height: auto;
     }
+.lineagris{
+    margin-left: 12%;
+    margin-right: 12%;
+    overflow: hidden;
+    color: rgb(221, 221, 222);
+}
