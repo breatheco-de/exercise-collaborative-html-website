@@ -42,3 +42,8 @@ body{
     overflow: hidden;
     color: rgb(221, 221, 222);
 }
+hr {
+    margin-left: 11%;
+    margin-right: 11%;
+
+}
