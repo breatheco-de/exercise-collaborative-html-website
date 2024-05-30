@@ -1,3 +1,8 @@
 body{
-    background: #BDBDBD;
+    background: black;
+}
+
+#tagline {
+        background-image: url("/website/assets/img/bg.jpg");
+        background-size: cover;
 }
