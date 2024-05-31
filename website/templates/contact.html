@@ -10,27 +10,32 @@
     <title>footer</title>
 </head>
 <body>
+  <h1>Contact</h1>
+    <p>Lorem Ipsum es simplemente el texto de relleno de las 
+      imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el ...</p>
   <div class="container">
     <div class="row">
-    <h1>Contact</h1>
-    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el ...</p>
-    <form style="background-color: lightgrey;">
-      <div class="form-group row">
-        <label for="inputEmail3" class="col-sm-4 col-form-label">Your E-mail</label>
-        <div>
-          <input type="email" class="form-control" id="inputEmail3" placeholder="Your e-mail">
+    
+
+    <form class="form-horizontal" action="/action_page.php" style="background-color: lightgrey;">
+      <div class="form-group"><br>
+        <label class="control-label col-sm-2" for="email">Your E-mail</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
         </div>
       </div>
-      <div class="form-group row">
-        <label for="inputPassword3" class="col-sm-4 col-form-label">Your message</label>
-        <div>
+      
+      <div class="form-group">
+        <label for="inputPassword3" class="control-label col-sm-2">Your message</label>
+        <div class="col-sm-10">
           <!--label for="comment">Your message</label-->
-          <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+          <textarea class="form-control " rows="5" id="comment" name="text" placeholder="Enter your message"></textarea>
         </div>
       </div>
-      <div class="form-group row">
-        <div class="col" style="float: right;">
-          <button type="submit" class="btn btn-primary">Sign in</button>
+     
+      <div class="form-group">        
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-primary" style="float: right";>Sign in</button>
         </div>
       </div>
     </form>
