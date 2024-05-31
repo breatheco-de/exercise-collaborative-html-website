@@ -5,4 +5,14 @@ body{
 #tagline {
         background-image: url("/website/assets/img/bg.jpg");
         background-size: cover;
+        margin-bottom: 0 !important;
+        height: 600px;
 }
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+} 
