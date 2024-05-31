@@ -1,3 +1,37 @@
 body{
     background: #BDBDBD;
+
+}
+.image-background{
+    background-image: url("/website/assets/img/bg.jpg");
+    height:700px;
+    background-size: 100%, 50%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.image-background-text{
+    font-weight: bold;
+    width: 95%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+.one{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 125px;
+    height: fit-content; 
+    }
+.socks{
+    display: flex;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 50px;
+    height: fit-content;  
+    justify-content: center;
+    max-height: 80px;
 }
