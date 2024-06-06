@@ -1,3 +1,16 @@
 body{
     background: #BDBDBD;
 }
+.header {
+    background-image: url('https://media.licdn.com/dms/image/C4E1BAQHTqqlCp_9hcQ/company-background_10000/0/1585039486205/airsmoke_iberia_lda__cover?e=2147483647&v=beta&t=c1Csq7R0fUAiTIycI3QKP1TeQkp3yOn04OMmTtdVIto');
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+}
+#titlehead {
+    background-color: rgb(243, 243, 243);
+}
+#titlehead2 {
+    background-color: rgb(243, 243, 243);
+}
