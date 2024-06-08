@@ -1,3 +1,33 @@
 body{
     background: #BDBDBD;
 }
+
+/* css first_heading and services start*/
+
+.header, .services {
+    
+    
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+.info {
+    height: 350px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.marco {
+    background-color: white;
+    border-radius: 10px 100px / 120px;
+    border-style:solid; 
+    border-color: black;
+    padding: 30px;
+    margin-top: 90px;
+    text-align: justify;
+}
+
+
+
+/* css first_heading and services end */
