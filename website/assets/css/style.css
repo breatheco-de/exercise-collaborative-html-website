@@ -1,5 +1,5 @@
 body{
-    background: #BDBDBD;
+    background: #000035;
 }
 
 /* css first_heading and services start*/
@@ -19,13 +19,14 @@ body{
 }
 
 .marco {
-    background-color: white;
+    background-color: rgb(15, 0, 68);
     border-radius: 10px 100px / 120px;
     border-style:solid; 
-    border-color: black;
+    border-color: white;
     padding: 30px;
     margin-top: 90px;
     text-align: justify;
+    color: white;
 }
 
 
