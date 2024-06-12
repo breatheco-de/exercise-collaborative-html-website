@@ -1,2 +1,68 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!-- Michflorez-contact -->
+<style>
+    body {
+        background: white;
+        margin: auto;
+
+    }
+
+
+    div.contact {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .form {
+        border-color: #BDBDBD;
+        margin: auto;
+        border-width: 2px;
+        border-style: solid;
+    }
+
+    form {
+        display: flex;
+    }
+
+    .label {
+        padding: 0%;
+    }
+
+    .btn.btn-primary {
+        justify-content: flex-end;
+
+    }
+</style>
+<div class=" contact">
+    <div class="head">
+        <h1>
+            Contact
+        </h1>
+
+        <p>
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Present
+            commodo cursus
+            magna, vel scelerisque nisi consectetur. Fusce dapibus, tellus ac cursus commodo.
+        </p>
+    </div>
+    <div class="form">
+        <form>
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label"><strong>Your email</strong></label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Your email">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputmessage3" class="col-sm-2 col-form-label"><strong>Your message</strong></label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Your message"></textarea>
+                </div>
+
+
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="align-content: flex-end;">Submit</button>
+        </form>
+    </div>
+</div>
