@@ -2,6 +2,10 @@ body{
     background: #BDBDBD;
 }
 
+.grey-text {
+    color: grey;
+}
+
 .rounded-circle {
     border-radius: 50%;
 }
