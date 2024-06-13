@@ -1,3 +1,7 @@
 body{
     background: #BDBDBD;
 }
+
+.grey-text {
+    color: grey;
+}
