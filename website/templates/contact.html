@@ -4,19 +4,19 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic omnis minima
         officiis aperiam quasi optio error non magni veniam quis, in excepturi architecto,
         commodi sit?</p>
-    <div class="mx-auto" style="width: 100%; border: 1px solid gainsboro; padding: 2%;">
+    <div class="mx-auto bg-light rounded" style="width: 75%; border: 1px solid gainsboro; padding: 2%;">
         <form>
+            <div class="input-group mb-3">
+                <label class="fw-bold col-sm-2 col-form-label" for="your-email-contact">Your E-mail</label>
+                <input id="your-email-contact" type="text" class="form-control" placeholder="Your email" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
             <fieldset class="d-flex align-middle">
-                <label class="" for="email">Your E-mail</label>
-                <input type="mail" name="" id="email" placeholder="Your email">
-            </fieldset>
-            <fieldset class="d-flex align-middle">
-                <label for="message">Your message</label>
-                <textarea cols="50" rows="6" type="text" id="message"
+                <label class="fw-bold col-sm-2 col-form-label" for="message">Your message</label>
+                <textarea class="form-control" cols="50" rows="6" type="text" id="message"
                     placeholder="Please enter your message here..."></textarea>
             </fieldset>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-primary me-md-2" type="button">Submit</button>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-2">
+                <button class="btn btn-primary me-md-2" type="button"  value="Submit">Submit</button>
             </div>
         </form>
     </div>
