@@ -1,3 +1,31 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+
+#contactForm{
+    background-color: rgb(204, 204, 204);
+    border: solid grey;
+}
+#contactForm *{
+    margin:0%;
+    padding:1%;
+}
+
+#comment{
+    width:100%;
+}
+
+#email{
+width:100%;
+}
+#submit{
+    width: 60%;
+    height: 40px;
+}
+label {
+    width: 100%;
+}
+
+#nav *{
+    color:lightgray;
 }
