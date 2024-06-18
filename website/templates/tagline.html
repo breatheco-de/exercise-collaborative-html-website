@@ -7,36 +7,64 @@
     <meta name="viewport" content="width=<div class="jumbotron jumbotron-fluid"> 
     <title>Document</title>
     <style>
-      .hero-image {
-          background-image: url("/website/templates/image/new_york3.jpeg");
-          background-color: #cccccc;
-          height: 500px;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          position: relative;
-          }
-          .hero-text {
-            margin-left: 2%;
-            text-align: center;
-            color: black;
-            background-color: white;
-            width: 96%;
-            padding-bottom: 10px;
+            .hero-text1 {
+              margin-left: 2%;
+              text-align: center;
+              color: black;
+              background-color: white;
+              width: 96%;
+              padding-bottom: 10px;
+              }
+              .hero-text2 {
+              margin-left: 2%;
+              text-align: center;
+              color: black;
+              background-color: white;
+              width: 96%;
+              padding-bottom: 10px;
+              }
+            .bg-img {
+              /* The image used */
+              background-image: url("/website/templates/image/new_york3.jpeg");
+              padding: 20px;
+              min-height: 380px;
+              margin-bottom: 30px;
+              margin-top: 0px;
+
+              /* Center and scale the image nicely */
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              
+              /* Needed to position the navbar */
+              position: relative;
             }
+            @media screen and (max-width: 600px) {
+              .hero-text1{display: none;}
+              .hero-text2{display: none;}
+              .bg-img {margin-top: 30px;}
+              
+          
+        }
+
+              
     </style>
 </head>
 <body>
+   
   
-  <div class="container hero-image">
-
-      <div>
-        <h1 class="hero-text" style="font-size:100px">One Page Wonder</h1>
-        <h3 class="hero-text"style="font-size:50px">Will Knock Your Socks Off</h3>
-   </div>
+  <div class="bg-img">
+      
+        <h1 class="hero-text1" style="font-size:100px">One Page Wonder</h1>
+        <h3 class="hero-text2" style="font-size:50px">Will Knock Your Socks Off</h3>
+  
+  </div>
 
 
 </div>
+<script>
+
+  </script>
     
 </body>
 </html>
