@@ -1,11 +1,10 @@
 body {
-    background: #BDBDBD;
+    background: #f0f0f0;
 }
 
 .contenedor_imagen {
     position: relative;
     width: 100%;
-
 }
 
 .contenedor_hijo {
@@ -13,7 +12,6 @@ body {
     top: 100px;
     width: 97%;
     display: inline-block;
-
 }
 
 .contenedor_hijo2 {
@@ -21,4 +19,120 @@ body {
     top: 210px;
     width: 97%;
     display: inline-block;
+}
+
+#portfolio {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#portfolio h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#portfolio p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-footer small {
+    color: #6c757d;
+}
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background-color: #000;
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay .alert {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0;
+}
+
+.overlay h1, .overlay h2 {
+    color: #000;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd; /* Cambia el color al pasar el cursor */
+}
+
+#contact {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f8f9fa; /* Fondo claro para evitar fondo plomo */
+}
+
+#contact .fs-1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#contact p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.container-fluid .border {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+}
+
+.container-fluid .form-label {
+    font-weight: bold;
+}
+
+.container-fluid .form-control {
+    margin-bottom: 1rem;
+}
+
+.container-fluid .btn-primary {
+    margin-bottom: 1rem;
 }
