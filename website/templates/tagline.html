@@ -1,3 +1,36 @@
 <!-- your html code here -->
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<style>
+    .cover {
+        position: relative;
+        height: 50vh;
+        background: url('https://i0.wp.com/hotbook.mx/wp-content/uploads/2018/08/guia-nyc-portada.jpg?fit=1024%2C576&ssl=1') no-repeat center center;
+        background-size: cover;
+    }
+    .cover-text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; 
+        width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+    }
+    h1, h2 {
+        background-color: rgba(255, 255, 255, 0.7); /* Blanco con 80% de opacidad */
+        width: 100%; /* Ocupa todo el ancho del contenedor padre */
+        margin: 0; /* Elimina márgenes para que no haya espacios no deseados */
+        padding: 10px; /* Añade algo de espacio alrededor del texto */
+    }
+    h1 {
+        margin-bottom: 10px; /* Añade espacio entre h1 y h2 */
+        font-size: 50px;
+    }
+</style>
+</head>
+<body>
+<div class="cover">
+    <div class="cover-text">
+        <h1>One Page Wonder</h1>
+        <h2>Will knock Your Socks Off</h2>
+    </div>
+</div>
