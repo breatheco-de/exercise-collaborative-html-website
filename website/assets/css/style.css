@@ -1,3 +1,4 @@
+
 body{
     background: #BDBDBD;
 }
@@ -26,4 +27,17 @@ img {
     width: 95%;
     top: 420px;
     left: 50px;
+  
+.form-container{
+    background-color: lightgrey;
+}
+.card-form{
+    background-color: lightgrey;
+}
+p{
+    text-align: justify;
+}
+
+.p{
+    text-align: justify;
 }
