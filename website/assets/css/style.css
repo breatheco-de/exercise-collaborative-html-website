@@ -1,3 +1,4 @@
+
 body {
     background: white;
 }
@@ -27,5 +28,43 @@ img {
 .imagen {
     display: flex;
     justify-content: flex-end;
+}
+
+
+.primera-card{
+    width: 80%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    margin: auto;
+   
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    display: flex
+
+    
+}
+
+.global{
+    width: auto;
+}
+.contenido{
+    width: 80%;
+    height: auto;
+ 
+    display: grid;
+    place-items: center;
+    margin: auto;
+
+}
+.contact{
+    background-color: rgb(246, 241, 241);
+    width: 600px;
+    height: 250px;
+    padding: 2%;
+    
 }
 
