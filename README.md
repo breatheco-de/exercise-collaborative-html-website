@@ -13,7 +13,7 @@ Each student works on a different file, for a different part of the website, and
 3. Each contributor will have to clone the new forked repository and develop a part of the website that is coordinated with the group; each project is divided in pieces inside the `website/templates/` directory. Once everyone has their editor open, run the project in the terminal with this command:
 
 ```bash
-$ npx http-server --yes -c-1
+$ 
 ```
 
 + You will be given an option to open in browser, and have options to view the new site, what it should look like, and a reference to each part of the page. If you receive an error, wait a moment and refresh.
@@ -64,3 +64,4 @@ Each student must deliver their team's leader repo as a solution.
 The [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) is being used as template engine for building the landing page.
 
 This and many other projects are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+npx http-server --yes -c-1
