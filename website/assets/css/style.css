@@ -1,6 +1,13 @@
 body{
     background: white;
 }
+strong {
+    color: grey;
+}
+.feature-image {
+    border-radius: 50%;
+    max-width: 250px;
+}
 
 .imagen{
     background-image: url("../img/bg.jpg");
