@@ -1,6 +1,9 @@
-body{
-    background: #BDBDBD;
-}
-span{
+
+.cambiocolor{
     color: rgb(197, 195, 195);
+}
+
+.todo{
+    background-color: rgb(218, 214, 214);
+    font-size: 15px;
 }
