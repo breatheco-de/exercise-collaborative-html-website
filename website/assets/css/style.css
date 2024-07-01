@@ -1,16 +1,31 @@
 body {
-    background: #BDBDBD;
+    background: white;
 }
 
+nav {
+    
+     display: grid;
+     place-items: center;
+     margin: auto;
+}
 
-
-#mi-imagen img {
+img {
     border-radius: 50%;
-   
+    width: 300px;
+    height: 300px; 
+}
+
+.primera-card {
+     width: 80%;
+     height: auto;
+     display: grid;
+     place-items: center;
+     margin: auto;
+    
 }
 
 .imagen {
-display: flex;
-flex-direction: column;
-align-items: self-end;
+    display: flex;
+    justify-content: flex-end;
 }
+
