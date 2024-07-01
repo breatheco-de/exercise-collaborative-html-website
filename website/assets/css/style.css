@@ -1,6 +1,36 @@
-body{
-    background-color: rgb(241, 236, 236);
+
+body {
+    background: white;
 }
+
+nav {
+    
+     display: grid;
+     place-items: center;
+     margin: auto;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px; 
+}
+
+.primera-card {
+     width: 80%;
+     height: auto;
+     display: grid;
+     place-items: center;
+     margin: auto;
+    
+}
+
+.imagen {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 .primera-card{
     width: 80%;
     height: auto;
@@ -37,3 +67,4 @@ img{
     padding: 2%;
     
 }
+
