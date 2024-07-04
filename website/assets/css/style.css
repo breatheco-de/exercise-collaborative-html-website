@@ -1,3 +1,36 @@
+<<<<<<< HEAD
 body{
     background: #ffffff;
 }
+=======
+body {
+    background: white;
+}
+
+.taglineImage{
+    position: relative;
+    width: 100%;
+}
+
+.taglinep1, .taglinep2{
+    position: absolute;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.688);
+    width: 95%;
+    height: fit-content;
+    margin-right: 5%;
+    text-align: center;
+    font-weight: 500;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.taglinep1{
+    font-size: 130px;
+}
+.taglinep2{
+    font-size: 75px;
+    margin-top: 12%;
+}
+>>>>>>> master
