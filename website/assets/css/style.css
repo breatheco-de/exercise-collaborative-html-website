@@ -3,30 +3,28 @@ body {
 }
 
 .taglineImage{
-    position: absolute;
-    width: 1495px;
+    position: relative;
+    width: 100%;
 }
 
 .taglinep1, .taglinep2{
     position: absolute;
     display: block;
     background-color: rgba(255, 255, 255, 0.688);
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 95%;
+    height: fit-content;
+    margin-right: 5%;
     text-align: center;
     font-weight: 500;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .taglinep1{
     font-size: 130px;
-    margin-top: 100px;
-    margin-left: 10px;
-    width: 1475px;
-    height: fit-content;
 }
 .taglinep2{
     font-size: 75px;
-    width: 1475px;
-    height: fit-content;
-    margin-top: 300px;
+    margin-top: 12%;
 }
