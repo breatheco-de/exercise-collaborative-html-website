@@ -1,3 +1,22 @@
 body{
     background: #BDBDBD;
 }
+
+.background-img {
+  background-image: url('/website/assets/img/bg.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.tagline_container {
+  height: 40vw; 
+}
+
+.title_big {
+  font-size: 8vw;
+}
+
+.subtitle_big {
+  font-size: 4vw; 
+}
