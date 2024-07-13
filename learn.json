@@ -1,15 +1,15 @@
 {
-	"status": "published",
 	"title" : "Building a Website Collaboratively",
 	"slug" : "collaborative-html-website",
 	"duration" : 3,
 	"difficulty": "easy",
+	"solution": "https://github.com/breatheco-de/exercise-collaborative-html-website/tree/solution/website",
 	"preview": "https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/preview.gif?raw=true",
-	"technologies": ["html", "css", "git", "github"],
+	"technologies": ["html", "css", "git", "github", "bootstrap"],
 	"syntax": "html",
 	"description" : "Build website among a team of several collaborators",
 	"translations": ["es","us"],
 	"talents": [],
-    "autoPlay": false,
-    "projectType": "project"
+	"autoPlay": false,
+	"projectType": "project"
 }
