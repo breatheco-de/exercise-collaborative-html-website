@@ -1,15 +1,18 @@
 {
-	"title" : "Building a Website Collaboratively",
-	"slug" : "collaborative-html-website",
+	"title": {
+		"us": "Building an HTML/CSS Website Collaboratively using Git and GitHub",
+		"es": "Construyendo un website HTML/CSS de forma colaborativa usando Git y GitHub"
+	},
 	"duration" : 3,
-	"difficulty": "easy",
+	"difficulty": "beginner",
 	"solution": "https://github.com/breatheco-de/exercise-collaborative-html-website/tree/solution/website",
 	"preview": "https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/preview.gif?raw=true",
-	"technologies": ["html", "css", "git", "github", "bootstrap"],
-	"syntax": "html",
-	"description" : "Build website among a team of several collaborators",
+	"technologies": ["git", "github", "bootstrap", "html", "css"],
+	"description" : {
+		"us": "Build website among a team of several collaborators",
+		"es": "Practica como usar los Pull Requests de Github.com donde cada miembro de el equipo hace una parte del HTML/CSS de un website landing page y la entrega realizando un Pull Request"
+	}
 	"translations": ["es","us"],
-	"talents": [],
 	"autoPlay": false,
 	"projectType": "project"
 }
