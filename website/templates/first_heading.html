@@ -1,10 +1,11 @@
 <!-- Ricardo first_heading.html -->
 <style>
-    #foto1 {
-        width: 350px;
-        border-radius: 50%;
+    .round-img {
+        width: 100%;
+        max-width: 350px;
         height: 350px;
-
+        border-radius: 50%;
+        object-fit: cover;
     }
 
     section {
@@ -16,21 +17,29 @@
         margin-top: 25px;
     }
 </style>
-<hr class="w-90 m-5">
-<section class="content-section">
-    <div class="container container-custom">
-        <div class="row align-items-center">
-            <div class="col-lg-8">
-                <div class="d-flex">
-                <h2><b>This First Heading</b></h2><h2 class="text-secondary ms-2">Will Catch Your Eye</h2>
-            </div>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quas voluptate.
-                    Provident nemo neque at nostrum nisi consectetur eligendi ipsum, impedit alias vero illum eos.</p>
-            </div>
-            <div class="col-lg-4 image">
-                <img id="foto1" src="https://i.ytimg.com/vi/EFX_xdQat2s/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWxYi1o19VqDZZUlvJW1LJMud-kw"
-                    alt="">
+<title>Responsive Section</title>
+</head>
+
+<body>
+
+    <hr class="w-90 my-5">
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                    <div class="d-flex flex-wrap">
+                        <h2><b>This First Heading</b></h2>
+                        <h2 class="text-secondary ms-2">Will Catch Your Eye</h2>
+                    </div>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quas voluptate.
+                        Provident nemo neque at nostrum nisi consectetur eligendi ipsum, impedit alias vero illum eos.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12 image text-center">
+                    <img class="round-img"
+                        src="https://i.ytimg.com/vi/EFX_xdQat2s/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWxYi1o19VqDZZUlvJW1LJMud-kw"
+                        alt="image">
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
