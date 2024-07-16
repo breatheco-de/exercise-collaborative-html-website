@@ -11,7 +11,7 @@
 	"description" : {
 		"us": "Build website among a team of several collaborators",
 		"es": "Practica como usar los Pull Requests de Github.com donde cada miembro de el equipo hace una parte del HTML/CSS de un website landing page y la entrega realizando un Pull Request"
-	}
+	},
 	"translations": ["es","us"],
 	"autoPlay": false,
 	"projectType": "project"
