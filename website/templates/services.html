@@ -1,3 +1,83 @@
-<!-- your html code here -->
-<p>Hello, I'm the services.html</p>
-<p>Hello, I'm the services section and I was loaded using ajax from templates/services.html</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .servicesDiv {
+            background-color: white;
+            width: 100vw;
+            max-width: 100vw;
+            padding: 0 ;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .img-container {
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin-right: 5px;
+            flex-shrink: 0;
+        }
+        .img-container img {
+            border-radius: 50%;
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+            margin-right: 20px;
+        }
+
+        .second_header {
+            margin: 0 auto;
+            max-width: 800px;
+            display: flex;
+            align-items: center;
+        }
+
+        .servicesbody {
+            flex-grow: 1;
+        }
+
+        .second_header h2,
+        .second_header p {
+            margin-left: 20px;
+            margin-bottom: 0;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="servicesDiv">
+        <div class="second_header">
+            <div class="img-container">
+                <img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto,f_auto/https://www.gcu.edu/sites/default/files/images/articles/0c192d48c06d9c7216c30d82d22bee425e599712.jpg"
+                    alt="Person programming" class="nofocus" tabindex="0" aria-label="Person programming" role="link"
+                    data-bm="4">
+            </div>
+            <div class="servicesBody">
+                <div class="servicesBodyDiv">
+                    <h2>The Second Heading is Pretty Cool Too.</h2>
+                    <p>Learning how to create websites from HTML is very entertaining. I am grateful to be able to
+                        learn the necessary skills to become a programmer and developer.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
