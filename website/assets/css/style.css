@@ -1,3 +1,11 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+
+.fondo-blanco{
+    background-color: white;
+}
+
+.texto-gris{
+    color: rgb(113, 113, 113);
 }

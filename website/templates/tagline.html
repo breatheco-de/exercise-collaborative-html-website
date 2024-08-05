@@ -1,3 +1,24 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<div class="container pb-5">
+  <div id="carouselExampleControls" class="carousel slide tagline" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/seed/picsu2/600/300" class="w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/600/300?grayscale" class=" w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/seed/picsum/600/300" class="w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div class="container"><hr style="color: #a6a8a9;" /></div>
