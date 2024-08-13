@@ -1,3 +1,10 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+
+.custom-bg {
+    background-image: url(https://th.bing.com/th/id/R.a6999cbb0178b58e3234fd4057d51e99?rik=nb2UnOxxJ%2fWSsg&pid=ImgRaw&r=0);
+    background-size: contain;
+    padding-bottom: 100px;
+    padding-top: 30px;  
 }
