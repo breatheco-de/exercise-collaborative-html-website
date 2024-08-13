@@ -1,3 +1,15 @@
 body{
     background: #BDBDBD;
 }
+.custom-bg{
+    background-image: url(https://img.freepik.com/foto-gratis/gran-ciudad_1127-3102.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722816000&semt=sph) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.display-4 {
+    font-size: 150px;
+}
+.lead {
+    font-size: 80px;
+}
