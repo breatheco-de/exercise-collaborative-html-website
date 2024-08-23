@@ -1,6 +1,7 @@
 <!-- your html code here -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,65 +10,38 @@
 </head>
 
 <body>
-    
-    <style>
-        .circle-image {
-            border-radius: 50%;
-            object-fit: cover;
-            width: 200px;
-            height: 200px;
-        }
 
-        .content-section {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 3rem;
-        }
 
-        .content-section:nth-child(odd) {
-            flex-direction: row-reverse;
-        }
-    </style>
-</head>
+    <div class="container my-5 border-top border-bottom border-ligth pt-2 pb-2">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="row justify-content-around align-items-center w-75 g-0">
+                <div class="col-8 align-items-start" style="margin-bottom: 150px;">
+                    <h3 class="m-0 w-75">
+                        This First Heading <span class="text-secondary">Will Catch Your Eye</span>
+                    </h3>
+                    <p class="m-0">
+                        Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Present commodo cursus magna, vel scelerisque nisi consectetur.
+                        Fusce dapibus, tellus ac cursus commodo.
+                    </p>
+                </div>
+                <div class="col-4 p-0 m-0 d-flex align-items-center">
+                    <img src="assets/img/1.jpg" alt="" class="img-fluid rounded-circle w-100">
+                </div>
 
-<body>
-    <div class="container my-5">
-        <!-- Primera Sección -->
-        <div class="content-section">
-            <div class="text-center">
-                <img class="circle-image" src="assets/img/1.jpg" alt="circle-image">
-            </div>
-            <div class="text-content ms-4">
-                <h2 class="display-6">This First Heading <strong>Will Catch Your Eye</strong></h2>
-                <p class="lead">
-                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. 
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-                </p>
+
             </div>
         </div>
 
-        <!-- Segunda Sección -->
-        <div class="content-section">
-            <div class="text-center">
-                <img class="circle-image" src="assets/img/2.jpg" alt="circle-image">
-            </div>
-            <div class="text-content ms-4">
-                <h2 class="display-6"><strong>The Second Heading</strong> Is Pretty Cool Too.</h2>
-                <p class="lead">
-                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. 
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-                </p>
-            </div>
-        </div>
     </div>
 
 
-    
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
 </body>
-</html>
 
+</html>
