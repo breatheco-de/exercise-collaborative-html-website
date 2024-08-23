@@ -1,66 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <title>Texto sobre Imagen</title>
-    <style>
-        body {
-            margin: 0; 
-            height: 100vh; 
-            overflow: hidden; 
-            background-color: black; 
-        }
-        .container-fluid {
-        padding: 0;
-        }
 
-        .caja {
-            position: relative;
-            width: 100vw;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        img {
-            width: 100%;
-            padding: 0px;
-            margin: 0px;
-            height: 90%;
-            position: absolute; 
-            top: 0; 
-        }
-
-        .texto {
-            position: absolute;
-            left: 2.5%; 
-            width: 95%; 
-            color: black; 
-            background-color: white; 
-            text-align: center; 
-        }
-
-        .titulo {
-            top: 10%; 
-            font-size: 100px; 
-            font-weight: bold; 
-        }
-
-        .subtitulo {
-            top: 35%; 
-            font-size: 60px; 
-            font-weight: normal; 
-        }
-    </style>
-</head>
-<body>
-
-<div class="caja">
-    <img src="assets/img/bg.jpg" alt="Descripción de la imagen">
-    <div class="texto titulo">One Page Wonder</div>
-    <div class="texto subtitulo">Will Knock Your Socks Off</div>
+    
+<div class="container-fluid p-0">
+    <div class="caja">
+        <img src="assets/img/bg.jpg" alt="Descripción de la imagen" class="img-fluid">
+        <div class="texto titulo">One Page Wonder</div>
+        <div class="texto subtitulo">Will Knock Your Socks Off</div>
+    </div>
 </div>
-
-</body>
-</html>
