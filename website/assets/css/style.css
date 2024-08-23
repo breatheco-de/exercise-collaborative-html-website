@@ -1,24 +1,20 @@
 body{
     background: #ffffff;
 }
-button{
+.button-submit{
     margin-top: 1rem;  
 }
-h1{
+.titulo-contacto{
     margin-left: 1rem;
 }
-.card {
+.cuerpo-contacto {
     padding: 1rem;
     margin-bottom: 2rem;
 }
-.form-label{
+.label-input {
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
-.row{
+.altura-row{
     padding-top: 1rem;
-}
-.container-fluid{
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
