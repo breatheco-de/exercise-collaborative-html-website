@@ -1,3 +1,24 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+button{
+    margin-top: 1rem;  
+}
+h1{
+    margin-left: 1rem;
+}
+.card {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.form-label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.row{
+    padding-top: 1rem;
+}
+.container-fluid{
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
