@@ -1,6 +1,10 @@
 body{
     background: #ffffff;
+    overflow-x: hidden;
 }
+
+
+
 .button-submit{
     margin-top: 1rem;  
 }
