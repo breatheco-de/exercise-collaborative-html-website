@@ -1,15 +1,13 @@
-body{
-    background: #ffffff;
-}
 .button-submit{
     margin-top: 1rem;  
 }
 .titulo-contacto{
+    margin-top: 4rem;
     margin-left: 1rem;
 }
 .cuerpo-contacto {
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .label-input {
     font-weight: bold;
