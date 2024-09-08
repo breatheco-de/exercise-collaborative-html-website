@@ -1,0 +1,24 @@
+#bg-img{
+    height: 600px;
+    background-image: url(../img/NY.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: #66999;
+
+}
+
+#bg-img .container{
+    padding-top: 3vw;
+}
+
+#bg-img h1{
+    background-color: aliceblue;
+    font-size: 8vw;
+    margin: 1vw;
+}
+
+#bg-img h2{
+    background-color: aliceblue;
+    font-size: 5vw;
+    margin: 1vw;
+}
