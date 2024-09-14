@@ -68,4 +68,4 @@ This and many other projects are built by students as part of the 4Geeks Academy
 
 Miguel. First Heading Services
 Andreine. navbar
-Enrique. contact, tagline
+Enrique Lopez. contact, tagline
