@@ -3,3 +3,26 @@ body{
 }
 
 
+
+
+
+
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+.tagLine {
+    height: 400px;
+    width:100%;
+}
+
+.imgTagLine{
+    height: 400px;
+    border-radius: 0%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
