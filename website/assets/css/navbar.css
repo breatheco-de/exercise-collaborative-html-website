@@ -1,9 +1,9 @@
-img {
+img {  /* Logo */
     width: 56px ;
     margin-right: -12px ;
     height: 56px ;
 }
 
-a {
+a {  /* Color Enlaces */
     color: gray !important;
 }
