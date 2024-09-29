@@ -1,3 +1,41 @@
 body{
     background: #BDBDBD;
 }
+
+
+.firstHead img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.services img {
+    width: 300px;
+    height: 300px ;
+    margin: 10px;
+    border-radius: 100px;
+    object-fit: cover;
+
+}
+.firstHead span {
+    color: grey;
+}
+
+.services span {
+    color: grey;
+}
+.firstHead{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+
+.services{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+
+}
