@@ -3,7 +3,11 @@ body{
 }
 
 
+
 .services {
+
+
+
     display: flex;
     justify-content: center;
     margin: 80px;
@@ -20,3 +24,13 @@ body{
 .services span {
     color: grey;
 }
+
+
+
+
+
+
+
+
+
+
