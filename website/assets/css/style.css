@@ -11,11 +11,10 @@ body{
 .firstHead img {
     width: 400px;
     height: 400px;
-   margin: 15px;
-    /* margin-top: 70px; */
     border-radius: 100%;
     object-fit: cover;
 }
+
 .firstHead span {
     color: grey;
 }
