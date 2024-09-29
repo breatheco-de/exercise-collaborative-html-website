@@ -1,3 +1,29 @@
 body{
     background: #BDBDBD;
 }
+
+.firstHead{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.firstHead img {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.firstHead span {
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
