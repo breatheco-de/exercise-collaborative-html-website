@@ -1,18 +1,33 @@
 <style>
-    .container{
-        background-image: url('https://fastly.picsum.photos/id/234/600/600.jpg?hmac=ZtH7WetR36tYWzqG4tstXD_c4WcHTt0lEr2Ij9_LSS4');
-        background-size: cover;
-        background-position: center;
-        height:400px;
-        width: 100%;
-    }
-    .image-text{
-        margin: 15px;
-        background-color: white;
-        padding: 15px;
-    }
+  .container
+  {
+   height: 800px;
+  }
+  .carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .carousel-caption{
+    border-radius: 8px;
+    margin-bottom: 12rem;
+    position: absolute;
+  
+  }
+  h1{
+    font-size: 3.5rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
 </style>
-<div class=" container image-text d-flex-column align-items-center justify-content-center text-center ">
-  <h1 class="bg-white ">One Page Wonder</h1>
-  <h2 class="bg-white ">will knock your socks off</h2>
+<div id=" container carousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img src="https://fastly.picsum.photos/id/74/800/300.jpg?hmac=hEGyL5j4-HSLVOqrQ-mxkvEduW8d8TboaOXn2oOuNjI" class="d-block w-100 img-fluid" alt="skyline">
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center ">
+        <h1 class="text-dark bg-white p-3">One Page Wonder</h1>
+        <h2 class="text-dark bg-white p-1 ">will knock your socks off</h2></div>
+    </div>
+  </div>
 </div>
