@@ -10,27 +10,25 @@
 }
 
 #FirstHeader { /* Primer titulo */
+    text-align: center;
     background-color: white;
-    padding: 0 25%;
     margin-top: 3%;
     font-size: 58px;
 }
 
 #SecondHeader{ /* Titulo Segundario */
     background-color: white;
-    padding: 0 31%;
+    text-align: center;
     font-size: 36px;
 }
 
 @media (max-width: 480px) { /* Responsive Movil */
     #FirstHeader {
         margin-top: 13px;
-        padding: 0px 50px;
         font-size: 27px;
     }
     #SecondHeader {
         margin-top: -5px;
-        padding: 0px 87px;
         font-size: 16px;
     }
 
@@ -40,37 +38,49 @@
     }
 }
 
-@media (min-width: 480px) and (max-width: 767px) { /* Moviles Medianos */
+@media (min-width: 480px) and (max-width: 700px) { /* Moviles Medianos */
     #FirstHeader {
         margin-top: 13px;
-        padding: 0px 64px;
         font-size: 36px;
     }
     #SecondHeader {
         margin-top: -5px;
-        padding: 0px 87px;
         font-size: 25px;
     }
 
     #back-img {
         width: 100%;
-        height: 349px;
+        height:290px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) { /* Tabletas */
+@media (min-width: 700px) and (max-width: 850px) {
     #FirstHeader {
-        margin-top: 24px;
-        padding: 0px 194px;
-        font-size: 40px;
+        margin-top: 13px;
+        font-size: 36px;
     }
     #SecondHeader {
-        margin-top: 24px;
-        padding: 0px 226px;
-        font-size: 27px;
+        margin-top: -5px;
+        font-size: 25px;
+    }
 
     #back-img {
         width: 100%;
-        height: 380px;
+        height: 310px;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1024px) { /* Tabletas */
+    #FirstHeader {
+        margin-top: 13px;
+        font-size: 45px;
+    }
+    #SecondHeader {
+        margin-top: -5px;
+        font-size: 32px;
+    }
+    #back-img {
+        width: 100%;
+        height: 329px;
     }
   }
