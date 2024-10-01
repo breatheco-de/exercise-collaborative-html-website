@@ -1,4 +1,10 @@
 # Sitio Web colaborativo (Git collaboration)
+Nombre:                                  Rol:
+Alex Manuel Gomez Salazar            Tagline and Service    
+María José Fonseca Castro            Contact and Footer
+Maria Andrea de la Rocha             Navbar, first heading
+Jessica Raya                         porfolio
+
 
 Practica tus habilidades en Git mientras desarrollas un sitio web típico.
 
