@@ -1,5 +1,11 @@
 # Making a website as a team (Git collaboration)
 
+Nombre:                       Rol: 
+Alex Manuel Gomez Salazar    Tagline and Service
+María José Fonseca Castro    Contact and Footer 
+Maria Andrea de la Rocha     Navbar, first heading 
+Jessica Raya                 porfolio
+
 Practice your skills in Git while developing a typical website.
 
 Each student works on a different file, for a different part of the website, and the most senior can work as Team Leader (for integration and deployment), unless the teacher prefers to be the team leader of the whole class. The Html-Template-Engine library will take care of putting all the pieces together.
