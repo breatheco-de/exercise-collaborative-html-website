@@ -1,5 +1,11 @@
 # Sitio Web colaborativo (Git collaboration)
 
+Nombre:                       Rol: 
+Alex Manuel Gomez Salazar    Tagline and Service
+María José Fonseca Castro    Contact and Footer 
+Maria Andrea de la Rocha     Navbar, first heading 
+Jessica Raya                 porfolio
+
 Practica tus habilidades en Git mientras desarrollas un sitio web típico.
 
 Cada alumno trabajará en un archivo diferente para cada parte diferente del sitio web y aquel con más experiencia puede trabajar como líder de equipo (para integración y despliegue), a menos que el profesor prefiera ser el líder de equipo de toda la clase. La librería Html-Template-Engine se encargará de juntar todas las piezas.
