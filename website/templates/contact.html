@@ -1,13 +1,35 @@
 <div class="container bg-light">
-    <h3>Contact</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate neque dicta earum quod obcaecati commodi vitae architecto laborum similique asperiores, dolorum accusantium consequatur eaque. Accusamus, neque?</p>
-    <div>
-    <form>
-        <label for="email">E-mail</label>
-        <input type="email" placeholder="Your email" name="email" id="email">
-        <label for="message">Your message</label>
-        <input type="text" placeholder= "Your message here..."  name="message" id="message">
-        <input type="button" value="Submit">
+    <div class="row">
+        <div class="col-12 mt-5">
+            <h3>Contact</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate neque dicta earum quod obcaecati
+                commodi
+                vitae architecto laborum similique asperiores, dolorum accusantium consequatur eaque. Accusamus, neque?
+            </p>
+        </div>
     </div>
-</form>
+    <div class="row">
+        <div class="col-lg-10">
+            <form class="form control p-5 m-5 bg-secondary-subtle border rounded-3">
+                <div class="row mb-3">
+                    <label for="emailinput" class="form-label col-lg-2 col-form-label text-end">E-mail</label>
+                    <input type="email" class="form-control col lg-10" placeholder="Your email here" name="email"
+                        id="emailinput" />
+                </div>
+                <div class="row mb-3">
+                    <label for="messageinput" class="form-label col-lg-2 text-end">Your message</label>
+                    <textarea rows="3" class="text col lg-10" placeholder="Your message here..." name="message"
+                        id="messageinput">
+                    </textarea>
+
+
+                </div>
+                <div class="row mb-3">
+                    <div class="d-md-flex justify-content-md-end">
+                    <input class="btn btn-primary" type="submit" value="Submit" />
+                </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
