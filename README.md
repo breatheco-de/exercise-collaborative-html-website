@@ -1,10 +1,17 @@
 # Making a website as a team (Git collaboration)
 
-Nombre:                       Rol: 
-Alex Manuel Gomez Salazar    Tagline and Service
-María José Fonseca Castro    Contact and Footer 
-Maria Andrea de la Rocha     Navbar, first heading 
-Jessica Raya                 porfolio
+                  
+#Nombre: Alex Manuel Gomez Salazar     Rol:  Tagline and Service
+
+#Nombre: María José Fonseca Castro     Rol: Contact and Footer 
+
+#Nombre: Maria Andrea de la Rocha      Rol: Navbar, first heading 
+
+#Nombre: Jessica Raya                  Rol: porfolio
+
+
+
+
 
 Practice your skills in Git while developing a typical website.
 
