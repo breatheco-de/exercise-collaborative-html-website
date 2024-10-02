@@ -2,12 +2,11 @@ body{
     background: #BDBDBD;
 }
 .card-img-overlay{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50rem;
-
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50rem;
+}
     
-  }
 .card-title1{
     font-size: 7rem;
     margin-bottom: 1.5rem;
