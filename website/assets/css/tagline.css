@@ -4,9 +4,9 @@
 
 #back-img { /* imagen fondo */
     max-width: 100%;
-    height: 379px;
+    height: 60vh;
     background-size: cover;
-    background-image: url('https://factoryfy.es/wp-content/uploads/UC_CLINICA-webfactoryfy.jpg');
+    background-image: url(/website/assets/img/bg-dentist.png);
 }
 
 #FirstHeader { /* Primer titulo */

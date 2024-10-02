@@ -38,3 +38,25 @@ p{
 .titlePortfolio{
     color: rgb(24, 24, 126);
 }
+
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+  .form-container h2 {
+    margin-bottom: 1.5rem;
+    color: #007bff;
+  }
+  .btn-custom {
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
+  .btn-custom:hover {
+    background-color: #0056b3;
+    color: whitesmoke;
+  }
