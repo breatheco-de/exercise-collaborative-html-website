@@ -1,3 +1,15 @@
 body{
     background: #BDBDBD;
 }
+
+.card-container {
+    max-width: 700px;
+    min-width: 700px;
+    max-height: 400px;
+    min-height: 400px;
+   
+}
+.card {
+    --bs-card-bg: none(--bs-body-bg);
+    border: none
+}
