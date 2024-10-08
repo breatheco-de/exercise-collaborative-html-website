@@ -1,6 +1,24 @@
 body{
     background: #BDBDBD;
 }
+.container-tagline {
+    background-image: url("./../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    padding-top: 180px;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+.container-tagline h1 {
+    font-size: 11rem;
+    font-weight: bold;
+}
+.container-tagline h2 {
+    font-size: 7rem;
+}
 
 .card-container {
     max-width: 700px;
