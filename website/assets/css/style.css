@@ -7,15 +7,15 @@ body{
     background-position: center;
     height: 100vh;
     display: flex;
-    align-items: center;
+    padding-top: 180px;
     justify-content: center;
     text-align: center;
     margin: 0;
 }
 .container-tagline h1 {
-    font-size: 4rem;
+    font-size: 11rem;
     font-weight: bold;
 }
 .container-tagline h2 {
-    font-size: 1.5rem;
+    font-size: 7rem;
 }
