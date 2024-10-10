@@ -28,3 +28,6 @@ body{
 .card-body {
     text-align: start;
 }
+.card-row {
+    margin: 80px;
+}
