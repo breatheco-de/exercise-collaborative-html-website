@@ -1,15 +1,30 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+.container-tagline {
+    background-image: url("./../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    padding-top: 180px;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+.container-tagline h1 {
+    font-size: 9vw;
+    font-weight: bold;
+}
+.container-tagline h2 {
+    font-size: 5vw;
 }
 
 .card {
     --bs-card-bg: none(--bs-body-bg);
     border: none
 }
-.row img {
-    width: 700px;
-    height: 400px;
-}
-.text-center {
-    text-align:start !important;
+
+.card-body {
+    text-align: start;
 }
