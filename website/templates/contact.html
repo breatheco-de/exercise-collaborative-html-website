@@ -1,23 +1,32 @@
-<!-- BernardoNurvia-contact.html -->
-<div class="container">
-    <h2>Contact</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic omnis minima
-        officiis aperiam quasi optio error non magni veniam quis, in excepturi architecto,
-        commodi sit?</p>
-    <div class="mx-auto bg-light rounded" style="width: 75%; border: 1px solid gainsboro; padding: 2%;">
+<!-- your html code here ---  Bernardo -->
+<div class="container pb-5">
+    <div class="letters">
+        <h1 id="contact">Contact</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat tempore nisi illum ut nam quibusdam, ex
+            voluptas rerum,
+            tempora numquam non autem magni cupiditate. Quaerat reiciendis saepe voluptate hic necessitatibus.</p>
+    </div>
+    <div class="area-contact">
         <form>
-            <div class="input-group mb-3">
-                <label class="fw-bold col-sm-2 col-form-label" for="your-email-contact">Your E-mail</label>
-                <input id="your-email-contact" type="text" class="form-control" placeholder="Your email" aria-label="Username" aria-describedby="basic-addon1">
-              </div>
-            <fieldset class="d-flex align-middle">
-                <label class="fw-bold col-sm-2 col-form-label" for="message">Your message</label>
-                <textarea class="form-control" cols="50" rows="6" type="text" id="message"
-                    placeholder="Please enter your message here..."></textarea>
-            </fieldset>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-2">
-                <button class="btn btn-primary me-md-2" type="button"  value="Submit">Submit</button>
+            <div class="row mb-3">
+                <label for="colFormLabel" class="col-sm-2 col-form-label"><strong>Your Email</strong></label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="colFormLabel" placeholder="Your email">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label"><strong>Your
+                        message</strong></label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Please enter your message here...."></textarea>
+                </div>
+            </div>
+            <!--buttom-->
+            <div class="col-12 justify-content-end d-flex">
+                <button type="submit" class="btn btn-primary">Submit</button>
             </div>
         </form>
+
     </div>
-</div>
