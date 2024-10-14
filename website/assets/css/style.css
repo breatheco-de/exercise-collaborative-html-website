@@ -1,15 +1,33 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+.container-tagline {
+    background-image: url("./../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    padding-top: 180px;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+.container-tagline h1 {
+    font-size: 9vw;
+    font-weight: bold;
+}
+.container-tagline h2 {
+    font-size: 5vw;
 }
 
-.card-container {
-    max-width: 700px;
-    min-width: 700px;
-    max-height: 400px;
-    min-height: 400px;
-   
-}
 .card {
     --bs-card-bg: none(--bs-body-bg);
     border: none
+}
+
+.card-body {
+    text-align: start;
+}
+.card-row {
+    margin: 80px;
 }
