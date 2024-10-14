@@ -22,7 +22,9 @@ body{
 
 .card {
     --bs-card-bg: none(--bs-body-bg);
-    border: none
+    border: none ;
+  
+    
 }
 
 .card-body {
@@ -31,3 +33,9 @@ body{
 .card-row {
     margin: 80px;
 }
+.card-img-top {
+width: 700px;
+height: 400px;
+object-fit: cover;
+}
+
