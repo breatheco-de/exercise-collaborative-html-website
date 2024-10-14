@@ -2,31 +2,27 @@ body{
     background: white;
 }
 .container-tagline {
-    background-image: url("./../img/bg.jpg");
+    background-image: url("https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2024/07/mejores-series-max-3742309.jpg?tf=1200x");
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100vw;
     display: flex;
-    padding-top: 180px;
+    padding-top: 80vh;
     justify-content: center;
     text-align: center;
-    margin: 0;
 }
-.container-tagline h1 {
-    font-size: 9vw;
+.container-tagline p {
+    font-size: 25px;
     font-weight: bold;
+    color: white;
 }
-.container-tagline h2 {
-    font-size: 5vw;
-}
-
 .card {
     --bs-card-bg: none(--bs-body-bg);
     border: none ;
   
     
 }
-
 .card-body {
     text-align: start;
 }
