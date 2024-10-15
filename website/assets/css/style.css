@@ -2,18 +2,18 @@ body{
     background: white;
 }
 .container-tagline {
-    background-image: url("https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2024/07/mejores-series-max-3742309.jpg?tf=1200x");
+    background-image: url("https://beam-images.warnermediacdn.com/2024-08/MAX_Quilt_fullsize_SPA.jpg?host=wbd-dotcom-drupal-prd-us-east-1.s3.amazonaws.com&w=2000");
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100vw;
     display: flex;
-    padding-top: 80vh;
+    padding-top: 30vh;
     justify-content: center;
     text-align: center;
 }
 .container-tagline p {
-    font-size: 25px;
+    font-size: 5vh;
     font-weight: bold;
     color: white;
 }
@@ -28,9 +28,7 @@ body{
     text-align: start;
 }
 .card-row {
-<<<<<<< HEAD
     margin: 80px;
-=======
     margin: 70px;
   ;
 }
@@ -38,7 +36,6 @@ body{
 width: 700px;
 height: 400px;
 object-fit: cover;
->>>>>>> refs/remotes/origin/master
 }
 
 
