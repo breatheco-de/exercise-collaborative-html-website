@@ -28,9 +28,6 @@ body{
     text-align: start;
 }
 .card-row {
-<<<<<<< HEAD
-    margin: 80px;
-=======
     margin: 70px;
   }
   
@@ -38,7 +35,6 @@ body{
 width: 700px;
 height: 400px;
 object-fit: cover;
->>>>>>> refs/remotes/origin/master
 }
 
 
