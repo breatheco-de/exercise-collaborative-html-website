@@ -28,10 +28,9 @@ body{
     text-align: start;
 }
 .card-row {
-    margin: 80px;
-    margin: 70px;
-  ;
-}
+   margin: 70px;
+  }
+  
 .card-img-top {
 width: 700px;
 height: 400px;
