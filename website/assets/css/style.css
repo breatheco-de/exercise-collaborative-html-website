@@ -8,7 +8,7 @@ a{
     color: whitesmoke;
 }
 nav{
-    background-color: black;
+    background-color:black;
 }
 .navbar-padding{
     padding-left: 0;
@@ -36,3 +36,6 @@ h2{
     font-size: 2.5em;
     background-color: white;
 } 
+.material-symbols-outlined{
+    color:whitesmoke
+}
