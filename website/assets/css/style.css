@@ -1,3 +1,38 @@
-body{
-    background: #BDBDBD;
+html, body{
+    background:whitesmoke;
 }
+a{
+  color: whitesmoke;
+}
+.nav-link{
+    color: whitesmoke;
+}
+nav{
+    background-color: black;
+}
+.navbar-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-container{
+    padding: inherit;
+}
+img{
+    width: 100%;
+}
+.text-overlay{
+    position: absolute;
+top: 30%; left: 50%; transform: translate(-50%, -50%);
+}
+.text-overlay2{
+    position: absolute;
+top: 42%; left: 50%; transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 4em;
+    background-color: white;
+}
+h2{
+    font-size: 2.5em;
+    background-color: white;
+} 
