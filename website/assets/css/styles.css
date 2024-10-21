@@ -1,0 +1,62 @@
+body {
+    background: #ffffff;
+}
+
+#first_heading img {
+    object-fit: cover;
+    width: 60%;
+    height: 60%;
+}
+
+#services img {
+    object-fit: cover;
+    width: 60%;
+    height: 60%;
+}
+
+p{
+    font-size: 1em;
+}
+
+.card {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.titlePortfolio{
+    color: rgb(24, 24, 126);
+}
+
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+  .form-container h2 {
+    margin-bottom: 1.5rem;
+    color: #007bff;
+  }
+  .btn-custom {
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
+  .btn-custom:hover {
+    background-color: #0056b3;
+    color: whitesmoke;
+  }
