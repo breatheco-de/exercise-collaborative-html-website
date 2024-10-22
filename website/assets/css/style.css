@@ -35,16 +35,38 @@ h1{
     bottom: 115px;
     align-items: center;
     background-color: white;
+    z-index: 1;
 }
 h2{
     font-size: 1.5em;
     background-color: white;
     display: flex;
     position: relative;
-    bottom: 143px;
+    bottom: 120px;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 } 
 .material-symbols-outlined{
     color:whitesmoke
 }
+h1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;         
+    right: -100%;        
+    bottom: 0;
+    background-color:white;
+    z-index: -1;       
+  }
+  h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;         
+    right: -100%;        
+    bottom: 0;
+    background-color:white;
+    z-index: -1;       
+  }
