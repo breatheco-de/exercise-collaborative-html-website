@@ -1,3 +1,6 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+.form,.text-box>*::placeholder{
+    font-size: 14px;
 }
