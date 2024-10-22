@@ -48,3 +48,6 @@ h2{
 .material-symbols-outlined{
     color:whitesmoke
 }
+.form,.text-box>*::placeholder{
+    font-size: 14px;
+}
