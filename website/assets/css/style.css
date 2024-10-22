@@ -4,3 +4,7 @@ body{
 .navbar{
     color:white ;
 }
+
+.container {
+    background-color: white;
+}
