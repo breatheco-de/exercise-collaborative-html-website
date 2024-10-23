@@ -1,6 +1,72 @@
-body{
-    background: white;
+html, body{
+    background:whitesmoke;
 }
-.form,.text-box>*::placeholder{
-    font-size: 14px;
+a{
+  color: whitesmoke;
 }
+.nav-link{
+    color: whitesmoke;
+}
+nav{
+    background-color:black;
+}
+.navbar-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-container{
+    padding: inherit;
+}
+img{
+    width: 100%;
+}
+.text-overlay{
+    position: absolute;
+top: 30%; left: 50%; transform: translate(-50%, -50%);
+}
+.text-overlay2{
+    position: absolute;
+top: 42%; left: 50%; transform: translate(-50%, -50%);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 115px;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+}
+h2{
+    font-size: 1.5em;
+    background-color: white;
+    display: flex;
+    position: relative;
+    bottom: 120px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+} 
+.material-symbols-outlined{
+    color:whitesmoke
+}
+h1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;         
+    right: -100%;        
+    bottom: 0;
+    background-color:white;
+    z-index: -1;       
+  }
+  h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;         
+    right: -100%;        
+    bottom: 0;
+    background-color:white;
+    z-index: -1;       
+  }
