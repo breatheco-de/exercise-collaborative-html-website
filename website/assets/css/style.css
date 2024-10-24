@@ -20,53 +20,9 @@ nav{
 img{
     width: 100%;
 }
-.text-overlay{
-    position: absolute;
-top: 30%; left: 50%; transform: translate(-50%, -50%);
+.text-container .img-title{
+    font-size: 10vw;
 }
-.text-overlay2{
-    position: absolute;
-top: 42%; left: 50%; transform: translate(-50%, -50%);
+.text-container .img-subtitle{
+    font-size: 6vw;
 }
-h1{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 115px;
-    align-items: center;
-    background-color: white;
-    z-index: 1;
-}
-h2{
-    font-size: 1.5em;
-    background-color: white;
-    display: flex;
-    position: relative;
-    bottom: 120px;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-} 
-.material-symbols-outlined{
-    color:whitesmoke
-}
-h1::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;         
-    right: -100%;        
-    bottom: 0;
-    background-color:white;
-    z-index: -1;       
-  }
-  h2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;         
-    right: -100%;        
-    bottom: 0;
-    background-color:white;
-    z-index: -1;       
-  }
