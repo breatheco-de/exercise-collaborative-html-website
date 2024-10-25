@@ -1,3 +1,31 @@
-body{
-    background: #BDBDBD;
+html, body{
+    background:whitesmoke;
+}
+a{
+  color: whitesmoke;
+}
+.nav-link{
+    color: whitesmoke;
+}
+nav{
+    background-color:black;
+}
+.navbar-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-container{
+    padding: inherit;
+}
+img{
+    width: 100%;
+}
+.text-container .img-title{
+    font-size: 10vw;
+}
+.text-container .img-subtitle{
+    font-size: 6vw;
+}
+.web-part>.container{
+    margin-top: 100px;
 }
