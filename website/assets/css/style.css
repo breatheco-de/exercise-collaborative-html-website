@@ -26,3 +26,6 @@ img{
 .text-container .img-subtitle{
     font-size: 6vw;
 }
+.web-part>.container{
+    margin-top: 100px;
+}
