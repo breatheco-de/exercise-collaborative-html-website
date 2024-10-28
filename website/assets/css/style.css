@@ -1,7 +1,19 @@
 body{
-    background: #BDBDBD;
-}
-
-.bg-image {
-    height: 400px;
-}
+    <<<<<<< tagline
+        background: #BDBDBD;
+    }
+    
+    .bg-image {
+        height: 400px;
+    =======
+        background: white;
+    }
+    
+    .container-fluid{
+        padding: 0;
+    }
+    
+    footer{
+        margin: 0;
+    >>>>>>> master
+    }
