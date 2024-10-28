@@ -10,3 +10,7 @@ body{
 .container-fluid {
     padding:0;
 }
+
+footer{
+    margin: 0;
+}
