@@ -1,3 +1,7 @@
 body{
     background: #BDBDBD;
 }
+
+.bg-image {
+    height: 400px;
+}
