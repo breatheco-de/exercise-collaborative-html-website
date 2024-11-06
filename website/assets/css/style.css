@@ -6,6 +6,10 @@ body{
     background-image: url('../img/bg.jpg'); 
     background-repeat: no-repeat; 
     background-size: cover; 
-    background-position: center;
+    background-position: center bottom;
     min-height: 600px;
+}
+
+.container-fluid {
+    padding: 0;
 }
