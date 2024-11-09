@@ -1,3 +1,70 @@
-body{
-    background: #BDBDBD;
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+.navbar {  
+    background-color: #333;  
+    display: flex; /* Cambiado a flex para alinear los elementos */  
+    justify-content: flex-start; /* Alinea los enlaces a la izquierda */  
+    padding: 10px 20px; /* Padding para un mejor espaciado */  
+}  
+
+.navbar a {  
+    color: #ccc; /* Color gris claro */  
+    text-align: center;  
+    padding: 14px 16px;  
+    text-decoration: none;  
+    transition: color 0.3s; /* Animación suave para el cambio de color */  
+}  
+
+.navbar a:hover {  
+    color: #fff; /* Color de texto blanco al pasar el ratón */  
 }
+body, html {  
+    margin: 0;  
+    padding: 0;  
+    height: 100%;  
+}  
+
+.hero {  
+    background-image: url('../img/bg.png'); /* Reemplaza con la ruta de tu imagen */  
+    background-size: cover;  
+    background-position: center;  
+    height: 100vh; /* Altura de vista completa */  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    color: rgb(43, 42, 42);  
+    text-align: center;  
+    position: relative;  
+    z-index: 1;  
+}  
+
+.tagline {  
+    width: 100%;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center; /* Centra los elementos dentro de la tagline */  
+    margin: 0; /* Sin márgenes en la tagline */    
+}  
+
+.header-container, .sub-header-container {  
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */  
+    padding: 20px;  
+    width: 100%;  
+    margin: 10px;
+}  
+
+h1 {  
+    font-size: 100px;  
+    margin: 0; 
+    font-weight: bold;   
+}  
+
+h2 {  
+    font-size: 50px;   
+    margin: 0;   
+    font-weight: bold; 
+}  
