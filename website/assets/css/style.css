@@ -23,6 +23,8 @@ body {
     color: #fff; /* Color de texto blanco al pasar el ratón */  
 }
 body, html {  
+    font-family: Arial, sans-serif;  
+    background-color: #f0f0f0;  
     margin: 0;  
     padding: 0;  
     height: 100%;  
@@ -64,7 +66,59 @@ h1 {
 }  
 
 h2 {  
-    font-size: 50px;   
+    font-size: 60px;   
     margin: 0;   
     font-weight: bold; 
 }  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Fondo gris claro */
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction:row; /* Cambia a columna para alinear los h2 verticalmente */
+    gap: 10px; /* Espacio entre los dos encabezados */
+}
+
+h2 {
+    margin: 0; /* Elimina el margen por defecto de los h2 */
+}
+
+.titulo-negro {
+    color: black; /* Color negro para el primer h2 */
+    font-size: 40px;
+}
+
+.titulo-gris {
+    color: gray; /* Color gris para el segundo h2 */
+    font-size: 40px;
+}
+
+p {
+    margin:8px 0 0 0; /* Ajusta el margen superior del párrafo para que coincida con los h2 */
+    margin-left: 15px;
+}
+
+.image {
+    flex: 0 0 auto; /* No permite que la imagen crezca */
+    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 300px;
+    border-radius: 50%; /* Hace que la imagen tenga un borde circular */
+    background-image: url('../img/1.png'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra el contenedor */
+    background-position: left; /* Centra la imagen en el contenedor */
+    margin-right: 200px;
+}
