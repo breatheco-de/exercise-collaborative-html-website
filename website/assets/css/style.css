@@ -122,3 +122,71 @@ p {
     background-position: left; /* Centra la imagen en el contenedor */
     margin-right: 200px;
 }
+
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f4f4f4;  
+    margin: 0;  
+    padding: 20px;  
+}  
+
+h2 {  
+    color: #000000;
+    font-size: 40px;
+}  
+
+p {  
+    color: #000000;  
+    margin-bottom: 20px;  
+}  
+
+form {  
+    background: #e8e8e8; /* Color de fondo gris claro */ 
+    padding: 20px;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 10px rgb(110, 110, 110);  
+    max-width: 500px; /* Establecer un ancho máximo para el formulario */  
+    margin: auto; /* Centrar el formulario */  
+}  
+
+.form-group {  
+    display: flex;  
+    align-items: center; /* Centra verticalmente los elementos */  
+    margin-bottom: 15px; /* Espaciado entre grupos */  
+}  
+
+.label {  
+    width: 150px; /* Ancho fijo para las etiquetas */  
+    font-weight: bold;  
+}  
+
+input[type="email"],  
+textarea {  
+    width: calc(100% - 160px); /* Ajusta el ancho para espacio de etiqueta */  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+    box-sizing: border-box;  
+}  
+
+input[type="submit"] {  
+    background-color: #367894c6; /* Azul claro mate */  
+    color: white;  
+    padding: 10px 15px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    float: right; /* Alinea el botón a la derecha */  
+}  
+
+input[type="submit"]:hover {  
+    background-color: #367894;/* Color más oscuro en hover */  
+}  
+
+/* Para limpiar el flotado */  
+form::after {  
+    content: "";  
+    display: table;  
+    clear: both;  
+}
