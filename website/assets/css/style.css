@@ -1,3 +1,7 @@
 body{
-    background: #BDBDBD;
+    background: #f8f8f8;
+}
+
+p.text-seccion2{
+    font-size:14px;
 }
