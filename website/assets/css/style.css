@@ -6,21 +6,21 @@ body {
 
 .navbar {  
     background-color: #333;  
-    display: flex; /* Cambiado a flex para alinear los elementos */  
-    justify-content: flex-start; /* Alinea los enlaces a la izquierda */  
-    padding: 10px 20px; /* Padding para un mejor espaciado */  
+    display: flex;  
+    justify-content: flex-start; 
+    padding: 10px 20px;  
 }  
 
 .navbar a {  
-    color: #ccc; /* Color gris claro */  
+    color: #ccc; 
     text-align: center;  
     padding: 14px 16px;  
     text-decoration: none;  
-    transition: color 0.3s; /* Animación suave para el cambio de color */  
+    transition: color 0.3s; 
 }  
 
 .navbar a:hover {  
-    color: #fff; /* Color de texto blanco al pasar el ratón */  
+    color: #fff;  
 }
 body, html {  
     font-family: Arial, sans-serif;  
@@ -31,10 +31,10 @@ body, html {
 }  
 
 .hero {  
-    background-image: url('../img/bg.png'); /* Reemplaza con la ruta de tu imagen */  
+    background-image: url('../img/bg.png'); 
     background-size: cover;  
     background-position: center;  
-    height: 100vh; /* Altura de vista completa */  
+    height: 100vh;  
     display: flex;  
     justify-content: center;  
     align-items: center;  
@@ -48,12 +48,12 @@ body, html {
     width: 100%;  
     display: flex;  
     flex-direction: column;  
-    align-items: center; /* Centra los elementos dentro de la tagline */  
-    margin: 0; /* Sin márgenes en la tagline */    
+    align-items: center;   
+    margin: 0;    
 }  
 
 .header-container, .sub-header-container {  
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */  
+    background-color: rgba(255, 255, 255, 0.8);  
     padding: 20px;  
     width: 100%;  
     margin: 10px;
@@ -74,7 +74,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4; /* Fondo gris claro */
+    background-color: #f4f4f4;
 }
 
 .contenedor {
@@ -89,37 +89,37 @@ body {
 
 .encabezado {
     display: flex;
-    flex-direction:row; /* Cambia a columna para alinear los h2 verticalmente */
-    gap: 10px; /* Espacio entre los dos encabezados */
+    flex-direction:row; 
+    gap: 10px; 
 }
 
 h2 {
-    margin: 0; /* Elimina el margen por defecto de los h2 */
+    margin: 0; 
 }
 
 .titulo-negro {
-    color: black; /* Color negro para el primer h2 */
+    color: black; 
     font-size: 40px;
 }
 
 .titulo-gris {
-    color: gray; /* Color gris para el segundo h2 */
+    color: gray; 
     font-size: 40px;
 }
 
 p {
-    margin:8px 0 0 0; /* Ajusta el margen superior del párrafo para que coincida con los h2 */
+    margin:8px 0 0 0; 
     margin-left: 15px;
 }
 
 .image {
-    flex: 0 0 auto; /* No permite que la imagen crezca */
-    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    flex: 0 0 auto; 
+    width: 300px; 
     height: 300px;
-    border-radius: 50%; /* Hace que la imagen tenga un borde circular */
-    background-image: url('../img/1.png'); /* Reemplaza con la ruta de tu imagen */
-    background-size: cover; /* Asegura que la imagen cubra el contenedor */
-    background-position: left; /* Centra la imagen en el contenedor */
+    border-radius: 50%; 
+    background-image: url('../img/1.png'); 
+    background-size: cover; 
+    background-position: left; 
     margin-right: 200px;
 }
 
@@ -142,28 +142,28 @@ p {
 }  
 
 form {  
-    background: #e8e8e8; /* Color de fondo gris claro */ 
+    background: #e8e8e8; 
     padding: 20px;  
     border-radius: 5px;  
     box-shadow: 0 2px 10px rgb(110, 110, 110);  
-    max-width: 500px; /* Establecer un ancho máximo para el formulario */  
-    margin: auto; /* Centrar el formulario */  
+    max-width: 500px;  
+    margin: auto;   
 }  
 
 .form-group {  
     display: flex;  
-    align-items: center; /* Centra verticalmente los elementos */  
-    margin-bottom: 15px; /* Espaciado entre grupos */  
+    align-items: center;
+    margin-bottom: 15px;
 }  
 
 .label {  
-    width: 150px; /* Ancho fijo para las etiquetas */  
+    width: 150px; 
     font-weight: bold;  
 }  
 
 input[type="email"],  
 textarea {  
-    width: calc(100% - 160px); /* Ajusta el ancho para espacio de etiqueta */  
+    width: calc(100% - 160px);
     padding: 10px;  
     border: 1px solid #ccc;  
     border-radius: 4px;  
@@ -171,20 +171,20 @@ textarea {
 }  
 
 input[type="submit"] {  
-    background-color: #367894c6; /* Azul claro mate */  
+    background-color: #367894c6;  
     color: white;  
     padding: 10px 15px;  
     border: none;  
     border-radius: 5px;  
     cursor: pointer;  
-    float: right; /* Alinea el botón a la derecha */  
+    float: right;  
 }  
 
 input[type="submit"]:hover {  
-    background-color: #367894;/* Color más oscuro en hover */  
+    background-color: #367894; 
 }  
 
-/* Para limpiar el flotado */  
+
 form::after {  
     content: "";  
     display: table;  
@@ -196,21 +196,21 @@ form::after {
 }  
 
 .imagen {  
-    background-image: url('../img/2.jpg'); /* Reemplaza con la ruta de tu imagen */  
-    background-size: cover; /* Permite que la imagen cubra el área del div */  
-    background-position: center; /* Centra la imagen en el div */  
-    border-radius: 50%; /* Borde circular */  
-    width: 300px; /* Ajusta el tamaño del contenedor de la imagen */  
-    height: 300px; /* Asegúrate de que sea igual al width para que sea circular */  
-    margin-right: 20px; /* Espacio entre la imagen y el texto */  
+    background-image: url('../img/2.jpg'); 
+    background-size: cover;   
+    background-position: center; 
+    border-radius: 50%; 
+    width: 300px; 
+    height: 300px;  
+    margin-right: 20px; 
 }  
 
 .texto {  
-    max-width: 600px; /* Ancho máximo del texto */  
+    max-width: 600px; 
 }  
 
 .gris {  
-    color: gray; /* O cualquier color gris que prefieras */  
+    color: gray; 
 }  
 body {  
     font-family: Arial, sans-serif;  
@@ -243,7 +243,7 @@ h2 {
     background: #e4e4e4;  
     width: 32%;  
     border-radius: 5px;  
-    text-align: left;  /* Cambiado de center a left */  
+    text-align: left;    
     padding: 10px;  
     box-sizing: border-box;  
 }  
