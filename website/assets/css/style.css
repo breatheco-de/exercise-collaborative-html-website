@@ -190,3 +190,82 @@ form::after {
     display: table;  
     clear: both;  
 }
+.container {  
+    display: flex;  
+    align-items: center;  
+}  
+
+.imagen {  
+    background-image: url('../img/2.jpg'); /* Reemplaza con la ruta de tu imagen */  
+    background-size: cover; /* Permite que la imagen cubra el área del div */  
+    background-position: center; /* Centra la imagen en el div */  
+    border-radius: 50%; /* Borde circular */  
+    width: 300px; /* Ajusta el tamaño del contenedor de la imagen */  
+    height: 300px; /* Asegúrate de que sea igual al width para que sea circular */  
+    margin-right: 20px; /* Espacio entre la imagen y el texto */  
+}  
+
+.texto {  
+    max-width: 600px; /* Ancho máximo del texto */  
+}  
+
+.gris {  
+    color: gray; /* O cualquier color gris que prefieras */  
+}  
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+    margin: 0;  
+    padding: 20px;  
+    background-color: #f4f4f4;  
+}  
+
+.containers {  
+    max-width: 800px;  
+    margin: auto;  
+    padding: 20px;  
+    background: #fff;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+h2 {  
+    color: #333;  
+}  
+
+.projects {  
+    display: flex;  
+    justify-content: space-between;  
+    margin-top: 20px;  
+}  
+
+.project {  
+    background: #e4e4e4;  
+    width: 32%;  
+    border-radius: 5px;  
+    text-align: left;  /* Cambiado de center a left */  
+    padding: 10px;  
+    box-sizing: border-box;  
+}  
+
+.project .imagenq {  
+    width: 100%;  
+    height: 200px;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    background: #ccc;  
+    font-weight: bold;  
+    color: #777;  
+    margin-bottom: 10px;  
+}  
+
+.project h3 {  
+    color: #007bff;  
+    margin: 10px 0;  
+}  
+
+.project p {  
+    font-size: 14px;  
+    color: #555;  
+}
