@@ -1,23 +1,13 @@
-body{
+body {
     background: white;
 }
 
-#start {
-    font-size:20px;
-    margin-left: 10px;
-}
-
-.container-fluid {
-    padding:0;
-}
-
-footer{
-    margin: 0;
-}
-
 .bg-image {
-    height: 400px;
-    background-image: url('../img/bg.jpg');
+    background-image: url('../img/bg.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center bottom;
+    min-height: 600px;
 }
 
 #start {
