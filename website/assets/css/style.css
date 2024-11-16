@@ -1,3 +1,19 @@
 body{
     background: #BDBDBD;
 }
+.conteiner2 {
+    width: 50%;
+    height: 50%;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+h1 {
+    padding: 50px;
+    color: aliceblue;
+}
+h2{
+    padding: 50px;
+    color: aliceblue;
+}
