@@ -19,6 +19,14 @@ body{
     /* Ajusta el padding según tus necesidades */
     
 }
+#primerParrafoTagline {
+    height: 80px;
+    ;
+}
+#segundoParrafoTagline {
+    height: 60px;
+    
+}
 .port-folio{
     width: 100%;
     background-color: black;
