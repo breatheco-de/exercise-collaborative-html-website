@@ -7,7 +7,7 @@ body{
     min-height: 100vh;
     justify-content: center;
     background-image: url('/website/assets/img/bg.jpg'); /* La imagen de ciudad, necesario ir añadiendo capas una a una de la ruta relativa */
-    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-size: cover; /* para ajustar la imagen al tamaño del contenedor */
     background-position: center; 
     background-repeat: repeat;
     height: 300px; 
@@ -48,7 +48,4 @@ body{
     letter-spacing: 1.5px; 
     padding-top: 10px;
     padding-bottom: 10px;
-}
-.custom-margin { 
-    margin-top: 0px;  
 }
