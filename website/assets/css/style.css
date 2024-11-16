@@ -1,3 +1,16 @@
 body{
     background: #BDBDBD;
+    margin: auto;
+}
+
+.bg-image { 
+    justify-content: center;
+    background-image: url('/website/assets/img/bg.jpg'); /* La imagen de ciudad, necesario ir añadiendo capas una a una de la ruta relativa */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 400px; /* Ajusta la altura según tus necesidades */ 
+    width: 100%; /* Asegúrate de que ocupe todo el ancho */ 
+    position: relative; /* Para que los elementos hijos se posicionen correctamente */
+    color: black; /* Color del texto */
 }
