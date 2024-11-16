@@ -4,9 +4,6 @@ body{
 }
 
 .bg-image {
-
-    
-   
     min-height: 100vh;
     justify-content: center;
     background-image: url('/website/assets/img/bg.jpg'); /* La imagen de ciudad, necesario ir añadiendo capas una a una de la ruta relativa */
@@ -15,11 +12,9 @@ body{
     background-repeat: repeat;
     height: 300px; 
     width: 100%; 
-    position: relative; /* Para que los elementos hijos se posicionen correctamente */
-    color: black;/* Color del texto */
-    text-align: center; /* Alinea el texto al centro */
-   
-    
+    position: relative; /* Para que los elementos hijos se posicionen*/
+    color: black;
+    text-align: center; /* Alinea el texto al centro */   
 }
 #primerParrafoTagline {
     margin-top: 0px;
