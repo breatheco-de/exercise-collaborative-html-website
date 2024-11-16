@@ -18,7 +18,7 @@ body{
     position: relative; /* Para que los elementos hijos se posicionen correctamente */
     color: black;/* Color del texto */
     text-align: center; /* Alinea el texto al centro */
-    word-spacing: 1vw ; /* Ajusta la dist. entre palabras */
+   
     
 }
 #primerParrafoTagline {
@@ -42,11 +42,18 @@ body{
 }
 .custom-display { 
     font-size: 8rem;
-    ; /* Ajusta este valor según tus necesidades */ 
+    letter-spacing: 2px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 } 
 .custom-lead { 
-    font-size: 4rem; /* Ajusta este valor según tus necesidades */ 
+    font-size: 4rem;  
+    letter-spacing: 1.5px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .custom-margin { 
-    margin-top: 0px; /* Ajusta este valor según tus necesidades */ 
+    margin-top: 0px;  
 }
