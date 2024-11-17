@@ -1,3 +1,59 @@
 body{
-    background: #BDBDBD;
+    background:black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+      
+}
+
+.bg-image {
+    
+    min-height: 100vh;
+    justify-content: center;
+    background-image: url('/website/assets/img/bg.jpg'); /* La imagen de ciudad, necesario ir añadiendo capas una a una de la ruta relativa */
+    background-size: cover; /* para ajustar la imagen al tamaño del contenedor */
+    background-position: center; 
+    background-repeat: repeat;
+    height: 400px; 
+    width: 100%; 
+    position: relative; /* Para que los elementos hijos se posicionen*/
+    color: black;
+    text-align: center; /* Alinea el texto al centro */   
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#primerParrafoTagline {
+    margin-top: 65px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+}
+#segundoParrafoTagline {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.port-folio{
+    width: 100%;
+    background-color: black;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0%;
+    
+}
+.custom-display { 
+    font-size: 8rem;
+    letter-spacing: 2px; 
+     
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+} 
+.custom-lead { 
+    font-size: 5rem;  
+    letter-spacing: 1.5px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
