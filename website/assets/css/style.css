@@ -1,6 +1,4 @@
-body{
-    background: #BDBDBD;
-}
+
 .featurette-heading {
     font-size: 40px;
     font-weight: bold;
@@ -15,10 +13,10 @@ img.rounded-circle {
     max-width: 80%;
     border: 5px solid #fff;
 }
-
+body{
     background:black;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 0px;
       
 }
