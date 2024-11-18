@@ -1,3 +1,17 @@
 body{
     background: #BDBDBD;
 }
+.featurette-heading {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.featurette-heading .text-muted {
+    font-weight: normal;
+    color: #6c757d;
+}
+
+img.rounded-circle {
+    max-width: 80%;
+    border: 5px solid #fff;
+}
