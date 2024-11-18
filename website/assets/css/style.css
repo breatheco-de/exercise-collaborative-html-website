@@ -13,9 +13,9 @@ img.rounded-circle {
     border: 5px solid #fff;
 }
 body {
-    background:black;
-    padding-left: 25px;
-    padding-right: 25px;
+    background:#000000;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 0px;
       
 }
