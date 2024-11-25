@@ -52,6 +52,7 @@ $ npx http-server --yes -c-1
 
 
 ## Deploy the website
+line 54 change
 
 Use Vercel, Netlify or GitHub pages to deploy the website and get a URL where anyone can see the results (for example: `https://mysuperteam.zeit.sh`).
 
