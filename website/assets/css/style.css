@@ -1,3 +1,22 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+.button-submit{
+    margin-top: 1rem;  
+}
+.titulo-contacto{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+.cuerpo-contacto {
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+.label-input {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.altura-row{
+    padding-top: 1rem;
 }
