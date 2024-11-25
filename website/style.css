@@ -1,0 +1,26 @@
+.bg-image {
+    background-image: url("https://github.com/RofinhoOo/exercise-collaborative-html-website/blob/master/website/assets/img/bg.jpg?raw=true");
+    background-size: cover;
+    background-position: center center;
+    height: 500px; /* establece la altura deseada */
+}
+
+
+
+
+.container h1 {
+    font-size: 80px;
+    
+   
+    
+}
+.container h2 {
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.contact{
+    margin-bottom: 1rem;
+}
+
+
