@@ -1,3 +1,180 @@
-body{
-    background: #BDBDBD;
+/*---------------------------------*/
+/*CSS GENERAL PARA TODA LA WEB.*/
+/*Para tener los mismos colores de fondo*/
+/*---------------------------------*/
+:root {
+    --primary-color: #010712;
+    --secondary-color: #f7f7ff;
+    --bg-color: #FCFDFD;
+    --button-color: #3B3636;
+    --h1-color: #3F444C;
 }
+
+/*---------------------------------*/
+/* CSS CONTACT-FORM */
+/*---------------------------------*/
+.container-contact {
+    background: var(--bg-color);
+    padding: 2%;
+}
+
+.img-col {
+    background-image: url("https://raw.githubusercontent.com/stromcer/exercise-collaborative-html-website/master/imagenes_chocobo/Chocobo_FFXIV_Art.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.form-col {
+    background: var(--bg-color);
+    padding: 2%;
+
+}
+
+.h1form {
+    color: var(--h1-color);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 200;
+}
+
+.pform {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.01rem;
+    margin: 0.25rem 0;
+}
+
+form {
+    position: relative;
+    margin-top: 2rem;
+    padding: 2%;
+    margin: 0 auto;
+    /*para centrar el formulario en la pantalla */
+}
+
+input,
+textarea,
+label {
+    /* width: 30vw; */
+    width: 100%;
+    /* para que los campos ocupen el 100% del ancho del formulario */
+    display: block;
+}
+
+placeholder,
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-color);
+    font-weight: 500;
+    background: var(--bg-color);
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.buttonform {
+    text-transform: uppercase;
+    font-weight: 300;
+    background: var(--button-color);
+    color: var(--bg-color);
+    width: 10rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+input:hover,
+textarea:hover,
+.buttonform:hover {
+    opacity: 0.5;
+}
+
+.buttonform:active {
+    opacity: 0.8;
+}
+
+/* @media screen and (max-width: 980px) {
+    .img-col {}
+}
+
+@media screen and (max-width: 980px) {
+    .form-col {
+        display: block;
+        margin: 0 auto;
+        padding-left: 10%;
+    }
+} */
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100%;
+        /* para que el formulario ocupe todo el ancho de la pantalla en dispositivos pequeños */
+    }
+
+    label {
+        display: block;
+        /* para mostrar los etiquetas por encima de los campos en dispositivos pequeños */
+    }
+}
+
+/*---------------------------------*/
+/* FIN CSS CONTACT FORM*/
+/*---------------------------------*/
+
+
+/*---------------------------------*/
+/* CSS PORTFOLIO
+/*---------------------------------*/
+.portimg {
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+}
+
+.portfoliohead {
+    font-weight: 520;
+}
+
+/*---------------------------------*/
+/* FIN CSS PORTFOLIO*/
+/*---------------------------------*
+
+/*---------------------------------*/
+/* CSS FOOTER */
+/*---------------------------------*/
+.footer-bg {
+    background: var(--secondary-color);
+}
+
+.h2footer {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pfooter {
+    color: black;
+    text-align: justify;
+}
+
+.media-bg {
+    background: black;
+}
+
+.marginGif {
+    margin-top: 5%;
+}
+
+.imggif {
+    border-radius: 50%;
+}
+
+/*---------------------------------*/
+/* FIN CSS FOOTER */
+/*---------------------------------*/
