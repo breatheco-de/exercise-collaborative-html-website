@@ -1,3 +1,48 @@
 body{
     background: #BDBDBD;
 }
+
+
+/* tagline css */
+.Tag-container{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    height: 500px;
+    padding-top: 50px;
+    
+}
+
+.tagline1,
+.tagline2{
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.tagline1{
+    font-size: 100px;
+    
+}
+
+.tagline2{
+    font-size: 55px;
+/* 
+.nav-traits{
+    background-image: url(https://i.redd.it/epyedyen9ne51.jpg);
+    height: 500px; width: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.settingsParent{
+  display:flex;
+}
+.containerText{
+  padding: 3rem;
+}
+.img{
+  width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    object-fit: cover;
+} */
