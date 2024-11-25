@@ -1,3 +1,25 @@
 body{
     background: #BDBDBD;
 }
+
+=======
+    background: white;
+}
+
+.texto-service{
+    display: inline !important;
+    font-family:  Arial, sans-serif;
+}
+
+.image-service{
+    margin-left: 109px;
+}
+
+.container-service{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.texto-service-font{
+    font-family:  Arial, sans-serif;
+}
