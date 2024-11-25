@@ -1,3 +1,23 @@
+
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+.lotr {
+    height: 180px;
+    margin-top: 100px;
+    background-color: rgba(223, 223, 13, 0.387);
+    background: linear-gradient(#eadb080a, #eaf20187, #eadb080a);
+
+}
+.lotr-caption {
+    height: 100px;
+    background-color: rgba(223, 223, 13, 0.387);
+    background: linear-gradient(#eadb080a, #eaf20187, #eadb080a);
+   
+}
+.lotr h1 {
+    vertical-align: middle;
+}
+.lotr-caption h2 {
+    vertical-align: middle;
 }

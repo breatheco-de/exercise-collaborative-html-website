@@ -1,2 +1,72 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+  <div class="header pb-3">
+    <div class=" d-flex align-items-center">
+      <div class="icon me-1">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAHH0lEQVR4nO1ZfYgVVRSf3awM9717zrwtKK3NMPe9c9/uhmJJmUtFkJgfhVoUBWmfVmT/RJQi2fYBFloQJqZBYBYSllGYUVZmWuofWUZSrSFmKJppfresce6cmTdv3sy8mbcff4QHLuy7c+/5nd+9595zzl3LOiP/H6nPFOyrlMZ5inC10rARCH8Dws+zhA9w47+5j785Y/AZnsNzawFUBTWZW++YP9I6GzTcDRp/AY2na2lK4++g4TFrmHVuUthccy6jCHZx4797xAHzWFQatntGEf4KhAt4lczutKjLQMMEINxsmoYJ3Gfn7dFmNQkXmjkeIfjRJpuSYAPhAh/ugppJKLKnKIKjYsB2pdWtlmXV1aCqXnT9ZHQRHBFd0dgtaiQQdgHhv9K6uC81MhZxPBCeclYEFltNTQOtHsqQ0UPOA4IlssonkfCm0IFTrbOAcItDGl/jJruyhb8lBsy05JoVwTFR9KzVy6IIO9ydyVJ2WMV3rWZ5rsgXBuHqkmuqWUlx6pTGL2Xim71NwjOW8C3B+MzvrqjxYqXhsBA9ZryC8JS3sBoO85gEAPYUmfAHjkTVZ0RaFCoNfxqsorrF7QeNq8SdVyqNr/p2ZiH3ye9VVQF4hXgwFvHBwKd6JLwDNHwKGg/wCinC70HDbP/VyH9znyLcJqu4HwjWosbbgxcFEDzs+D6s9Qi6K9+sLs0W7RtLRNT13Cc7dTSeRAGaQGM3b5/fON4ZBouLEdiCLVCEVideRMQTgjX2MDvr16sIjjCm3WIPESK7zUISXtIwvKHRnZvJZ3JiHxPZFUtEkT1VDHvfvxOyC8bdFKl7Gq5oOJ9vICQcozR8LDfKXtOccR/xNx7DY1XRnq407HHJ+HdGEX7oGGdPcXbJua2yOjfKIuscl4jVbg3Ikn2l6PgunojGF2TgXG/VjDvJmQk/ZHVA8IZv1ZeExRo5xIZMVuNtnhcQzJXFe16IvCdn5OZcc+4iV29jvvFCE3jl/MQScQ9TtoDTfH3ObhTt6ZETm5oGKoJvQMOmuHijtD1DyH7i9mULOM1vHGh4WcY8Uvrm7BgQPCpjX4ologg2iH+OKRHBA9zHLmL1UAa1DrpADNvv9iHhGPH7DQZPjHVSG3jHl9q8rQhfcUnGAoHGnWZSqxrq6+s2Puq6S7s1AAgmKsL7oQDXRmS19VCAsWYMwUSeI/11Yli3O1C1qqHSt1OITJTfWyWzOOlrW2VHJsTxYJATBsTnHt5h837DprIbi+DroCKT3pfdarAxSp/V1DRQFusE25ApZC4vv+1gsdNKfWHZgCe+q87b9jBgqTO2gcZlQNipNH5VSQTX8ze+BEw8iSNimb79PvetdyO7ieitaqjZNcn7lIZDsYkrxwDxzW1xRDwpuUsqCdOnnIXh1W/zFsI5C0u9eQRLxb4vYgGwgON893wsMGh4kVNrzpDjdPIBZqOq6iNYYy6ZAo4TIvPcA+8juzAYGuKvRo3LqgHzDSJA98XrxPVB14twrWWO29gz+DdqvEZcq7NEFjsNWY1XxxIBgjlhaXsYMEdslVcjYhWmc60OWe05pqPdGsAB2NiTVyNMkeVcLLururQiWCSMH6oG3BOJcNWZYugiX99sifgflOoReKoqAE8wgwswqb+JqIKaLN6wuuwWJdxXSn1wLyeO1QHMw4Eka/1MJKtzo8TYLf5+76wkORuuuAmd3WYPrgbMksk3DvdnAEHhoMUlcxIidps9WGLEniTjo8WkHebFoit4mCoCojl4JpHsBsK/+M2rQh+n34QHnTGw1v/6EWpYe3L8WEm4InWg4WkDWF4wrWIX4IKJCyWnRpHzVvLvLp7ry7VO99QjQsXno5uD30r5kmdctyJYwXW2Ivw7QMpv/EHngQ5WuImn/zWkAod8BVUIfrjlQSUFmOQaG0VEjNsHRWgvK5YIn5N86pBpplbHDrd0Ff1j3RI2ckfIIRl8501FhGNH8B6vIELYyZmpVaOYao/g58gd0fC6xIqZNRPhaF4WWUMUcVFk9VA4u412LXAzi44w/EQAXq4TUs72RxxhURrvTZrrRUow+0yqiB8IlIbjwYPOfVGZcZQ+TJF9R4pXDxShNQ0RNra3iICGNpn7Q81E3AeGsFymv1yroXR+DtSGH6iZkwLXKjH66uTN4DSXCanxnf84lRcxCYFrkjh9Sp5b2abU+PykE/UakkpRbxCh0He1ZPj8fCm3xbtpgWuRKrfgyoon1cSuRfbjcf9s7N8dQfOSyDalxgeC+ZJnPZEWuBaJvc4JnxTvmJ8aX2lcLpPvTAvcB651lyzq8tT4QLjOmayuSwvc665VUDeIm69LjQ8adphgGFKWplKUUOL02douSAa8IzW++87q/5dY4Ptxbj0zP5k+5H/xOWnKP7XsyLf+R+YK5UUcX+1pNI1U0wfmtR829ZVHnBGrD+U//1SK7eS52/8AAAAASUVORK5CYII=">
+      </div>
+      <div class="h2 mt-4 mb-0">
+        <h2>
+          Contacto
+        </h2>
+      </div>
+    </div>
+      <span>
+        Si Saruman te ha vendido una vara defectuosa, o si tus tierras han sido atacadas por un ejército de orcos, ¡Habla ahora insensato! plasma con la premura de las liebres tus sugerencias en este pergamino mágico. ¡Hasta el más pequeño de los hobbits puede tener una gran historia que contar!
+      </span>
+  </div>
+</div>
+    <div class="container"> 
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="p-4 rounded" style="background-image: url(https://wallpapercave.com/wp/Zs1sbfS.jpg);background-size: cover; background-position: center; background-repeat: no-repeat; ">
+            <form class="form"> 
+              <div class="row mb-3">
+                <label for="email" class="col-sm-4  text-end fw-bold">
+                  Tu correo
+                </label>
+                <div class="col-sm-8 pe-0" >
+                  <input type="email" class="form-control " id="email" placeholder="Sauron_Is_A_Bully@mordor.com" required>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="message" class="col-sm-4  text-end fw-bold">
+                  Tu gran historia
+                </label>
+                <div class="col-sm-8 pe-0" type= "text">
+                  <textarea  class="form-control " id="message" rows="4" placeholder="Un Nazgûl robó mi caballo..." required></textarea>  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 text-end mt-2 pe-0">
+                  <button type="submit" class="btn btn-warning" style="color: black;">
+                    Enviar
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer container pt-4" style="font-size: small;" >
+          <footer>
+              <div class="row pt-5">
+                  <div class="col-lg-12">
+                      <p>Copyright &copy; Unosalegreshobbits 2024</p>
+                  </div>
+              </div>
+            </footer>
+        </div>  
+      </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
