@@ -1,3 +1,6 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+.card-title {
+    color: rgb(69, 118, 151);
 }
