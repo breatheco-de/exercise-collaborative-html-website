@@ -1,3 +1,10 @@
+- ### Gustavo - Nav Bar (navbar.html)
+- ### Oliver - Header (tagline.html)
+- ### Kevin - Heading 1 (first-heading.html)
+- ### Pablo- Heading 2 (services.html)
+- ### Angui - Portafolio (portfolio.html)
+- ### Eduardo - Contact (contact.html)
+
 # Sitio Web colaborativo (Git collaboration)
 
 Practica tus habilidades en Git mientras desarrollas un sitio web típico.

@@ -1,3 +1,9 @@
+Gustavo - Nav Bar (navbar.html)
+Oliver - Header (tagline.html)
+Kevin - Heading 1 (first-heading.html)
+Pablo- Heading 2 (services.html)
+Angui - Portafolio (portfolio.html)
+Eduardo - Contact (contact.html)
 # Making a website as a team (Git collaboration)
 
 Practice your skills in Git while developing a typical website.
