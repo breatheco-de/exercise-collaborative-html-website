@@ -1,3 +1,21 @@
 body{
-    background: #BDBDBD;
+
+    background: hsl(0, 0%, 100%)0%, 100%);
 }
+
+
+
+#t2{
+  margin-top: -9rem;
+
+}
+
+
+
+#titular {
+  font-size: 9rem;
+  margin-top: 6rem;
+}  
+
+
+
