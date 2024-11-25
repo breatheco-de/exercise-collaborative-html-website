@@ -1,3 +1,40 @@
-body{
-    background: #BDBDBD;
+body {
+    background: #ffffff;
+}
+
+#first_heading img {
+    object-fit: cover;
+    width: 60%;
+    height: 60%;
+}
+
+#services img {
+    object-fit: cover;
+    width: 60%;
+    height: 60%;
+}
+
+p{
+    font-size: 1em;
+}
+
+.card {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.titlePortfolio{
+    color: rgb(24, 24, 126);
 }
