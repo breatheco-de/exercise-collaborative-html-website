@@ -1,3 +1,25 @@
-body{
-    background: #BDBDBD;
+label[for="inputPassword3"],
+label[for="inputEmail3"] {
+    text-align-last: end
 }
+
+.container.row-9 {
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 1%;
+    background-color: #f5f3f3;
+    padding: 5px;
+width: 73%;
+
+}
+
+
+.email {
+    padding-top: 10px;
+}
+
+.footerr {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+
