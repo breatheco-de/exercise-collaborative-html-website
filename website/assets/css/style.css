@@ -1,3 +1,33 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
+
+.tagline-container {
+    position: relative;
+    text-align: left;
+    margin-bottom: 4%;
+  }
+  
+.tagline-text {
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+  }
+  
+.tagline-text h1, .tagline-text h2 {
+    color: #242323;
+    margin: 0;
+  }
+  
+.tagline-text h1 {
+    background-color: rgb(255, 255, 255);
+    font-size: 150px;
+    margin-bottom: 10px;
+  }
+  
+.tagline-text h2 {
+    background-color: rgb(255, 255, 255);
+    font-size: 90px;
+    margin-top: 2%;
+  }
