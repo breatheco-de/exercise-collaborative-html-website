@@ -1,3 +1,25 @@
 body{
     background: #BDBDBD;
 }
+
+h2{
+    display: inline-block;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.portfolio {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.portfolio-header {
+    color: blue;
+}
+.portfolio-image {
+    margin-bottom: 25px;
+}
