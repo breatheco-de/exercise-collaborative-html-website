@@ -1,0 +1,23 @@
+#bg-img{
+    height: 600px;
+    background-image: url(../img/NY.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+#bg-img .container{
+    padding-top: 3vw;
+}
+
+#bg-img h1{
+    background-color: rgba(240, 248, 255, 0.237);
+    font-size: 8vw;
+    margin: 1vw;
+}
+
+#bg-img h2{
+    background-color: rgba(240, 248, 255, 0.238);
+    font-size: 5vw;
+    margin: 1vw;
+}
