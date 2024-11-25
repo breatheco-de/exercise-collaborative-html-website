@@ -1,3 +1,9 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
+
+.submit-button{
+    margin-left: auto;
+    display: block;
+}
+
