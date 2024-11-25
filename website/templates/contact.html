@@ -1,2 +1,52 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class = "d-flex justify-content-center" >
+<div class="container m-0 p-5 text-center">
+  <div class="letters">
+    <h1 id="contact">Contact Us</h1>
+    <p>
+      Thank you for visiting us! If you have any questions, doubts, or comments, 
+      please do not hesitate to get in touch with us. Our team is here to help, 
+      and we will respond to you as soon as possible. Please fill out the form with 
+      your email address and message, and we will get back to you at the earliest 
+      convenience. Your feedback is very important to us.
+    </p>
+  </div>
+  <div class="area-contact">
+    <form>
+      <div class="row mb-3">
+        <label for="emailInput" class="col-sm-2 col-form-label"
+          ><strong>Your Email Address</strong></label
+        >
+        <div class="col-sm-10">
+          <input
+            type="email"
+            class="form-control"
+            id="emailInput"
+            placeholder="Your email address"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <label for="messageTextarea" class="col-sm-2 col-form-label"
+          ><strong>Your Message</strong></label
+        >
+        <div class="col-sm-10">
+          <textarea
+            class="form-control"
+            id="messageTextarea"
+            rows="3"
+            placeholder="Please enter your message here..."
+            required
+          ></textarea>
+        </div>
+      </div>
+
+      <!-- Submit button -->
+      <div class="col-12 text-end">
+        <button type="submit" class="btn btn-primary">Send</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
