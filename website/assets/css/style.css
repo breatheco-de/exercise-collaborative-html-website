@@ -1,3 +1,36 @@
 body{
     background: #BDBDBD;
 }
+
+
+
+.services {
+
+
+
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.services img {
+    width: 380px;
+    height: 380px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding-right: 5px;
+}
+
+.services span {
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
