@@ -1,0 +1,86 @@
+.Title {   /* opacidad del fondo */
+    opacity: 0.6;
+}
+
+#back-img { /* imagen fondo */
+    max-width: 100%;
+    height: 379px;
+    background-size: cover;
+    background-image: url('https://factoryfy.es/wp-content/uploads/UC_CLINICA-webfactoryfy.jpg');
+}
+
+#FirstHeader { /* Primer titulo */
+    text-align: center;
+    background-color: white;
+    margin-top: 3%;
+    font-size: 58px;
+}
+
+#SecondHeader{ /* Titulo Segundario */
+    background-color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+@media (max-width: 480px) { /* Responsive Movil */
+    #FirstHeader {
+        margin-top: 13px;
+        font-size: 27px;
+    }
+    #SecondHeader {
+        margin-top: -5px;
+        font-size: 16px;
+    }
+
+    #back-img {
+        width: 100%;
+        height: 262px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 700px) { /* Moviles Medianos */
+    #FirstHeader {
+        margin-top: 13px;
+        font-size: 36px;
+    }
+    #SecondHeader {
+        margin-top: -5px;
+        font-size: 25px;
+    }
+
+    #back-img {
+        width: 100%;
+        height:290px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 850px) {
+    #FirstHeader {
+        margin-top: 13px;
+        font-size: 36px;
+    }
+    #SecondHeader {
+        margin-top: -5px;
+        font-size: 25px;
+    }
+
+    #back-img {
+        width: 100%;
+        height: 310px;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1024px) { /* Tabletas */
+    #FirstHeader {
+        margin-top: 13px;
+        font-size: 45px;
+    }
+    #SecondHeader {
+        margin-top: -5px;
+        font-size: 32px;
+    }
+    #back-img {
+        width: 100%;
+        height: 329px;
+    }
+  }
