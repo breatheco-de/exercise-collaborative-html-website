@@ -1,3 +1,19 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+    margin: 0%;
+    padding: 0%;
+}
+.head-images {
+width: 300px;
+height: 300px;
+margin-bottom: 10%;
+margin-top: 2%;
+padding: 0%;
+}
+.container-fluid {
+    padding: 0%;
+    margin-bottom: 0%;
+}
+div.row {
+    margin-top: 10px;
 }
