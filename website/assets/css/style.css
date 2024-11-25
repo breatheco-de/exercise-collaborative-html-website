@@ -1,3 +1,29 @@
 body{
     background: #BDBDBD;
 }
+
+h1.image-text {
+    font-size: 9vw;
+}
+
+h2.image-text {
+    font-size: 5vw;
+}
+
+div.img-box-1 {
+    margin-top: 6vw;
+}
+
+div.img-box-2 {
+    margin-top: 2vw;
+}
+
+@media only screen and (min-width: 600px) {
+    h1.image-text {
+        font-size: 8vw;
+    }
+    
+    h2.image-text {
+        font-size: 4.5vw;
+    }
+}
