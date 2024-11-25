@@ -1,3 +1,16 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+    margin: 0;
+}
+
+
+.card-title {
+    color: rgb(69, 118, 151);
+}
+
+.imagenes{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+
 }
