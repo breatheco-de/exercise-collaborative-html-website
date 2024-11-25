@@ -1,0 +1,50 @@
+body{
+    background: #BDBDBD;
+}
+
+.landscape{
+    position: relative;
+    padding: 0;
+}
+
+.text{
+    position:absolute;
+    top: 10%;
+    display: block;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.text div{
+    background-color: white;
+    text-align: center;
+}
+
+.text .header1{
+    font-size: 9vw;
+    margin-bottom: 1%;
+}
+
+.text .header2{
+    font-size: 5.5vw;
+}
+.landscape>span{
+    color:yellow;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    background: white;
+}
+
+h1 {
+  text-align: left; 
+}
+
+p {
+
+    width: 850px;
+}
+img {
+    border-radius: 50%;
+    height: 400px;
+}
