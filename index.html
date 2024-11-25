@@ -1,44 +1,89 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Choose a website</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="container">
-            <h1 class="mb-5">GIT & Bootstrap Collaborative Project</h1>
-            <div class="row">
-                <div class="col-sm-4 bg-dark text-center">
-                    <a href="./website/designs/thumb.jpg"><img style="max-height: 400px;" class="img-responsive" src="website/designs/thumb.jpg"></img></a>
-                </div>
-                <div class="col-sm">
-                    <h2>One Page Wonder - Start Bootstrap Template</h2>
-                    <a class="btn btn-primary" href="./website/">Live Version</a>
-                    <a class="btn btn-warning" href="./website/designs/thumb.jpg">How it Should Look</a>
-                    <a class="btn btn-danger" href="./website/designs/guide.jpg">See the Guide</a>
-
-                    <div>
-                        <h2>Tips:</h2>
-                        <p>Copy and tweak components from <a href="https://getbootstrap.com/" target="_blank" >getbootstrap.com</a>.</p>
-                        <p>If you are looking at an example from <a href="https://getbootstrap.com/docs/5.1/examples/" target="_blank">https://getbootstrap.com/docs/5.1/examples/</a>, you can use the inspector (right mouse click to open this panel up) and then select the section you want in the "Elements" tab. Then go to copy, and copy element to quickly add to your project.</p>
-                        <p>To push changes to the website, remember this sequence:</p>
-                            <ul>
-                                <li>git add .</li>
-                                <li>git commit -m "what you modified"</li>
-                                <li>git push</li>
-                            </ul>
-                            <p>To see changes from teammates:</p>
-                                <ul>
-                                    <li>git pull</li>
-                                </ul>
-                                <p>To customize elements, use the style.css file located in assets/css.</p>
-                    </div>
-                </div>
-            </div>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mar_Section</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+  <div class="whole-card d-flex justify-content-center w-75 mx-auto">  
+    <!-- This is the Head -->
+    <!-- Heading and Paragraph-->
+    <div>  
+        <!-- This div is for the whole card -->
+      <div>
+        <h2>Portfolio</h2>
+        <!-- this div is just the text -->
+        <div class="description">
+        <p>
+          Set sail on a creative voyage through my portfolio, where each project
+          is a treasure hidden beneath the waves, waiting to be discovered. The
+          sea of ideas ebbs and flows, guiding you to shores of inspiration.
+        </p>
+      </div>
+      </div>
+      <!-- This is the 3 cards -->
+     <div class="all-cards d-flex mx-auto" >
+      <!-- First Card -->
+      <div class="card one" style="width: 18rem">
+        <img
+          src="https://picsum.photos/id/11/300/200"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title text-info">Misty River's Embrace</h5>
+          <p class="card-text text-secondary">
+            Where the river meets the misty mountains, a quiet serenity flows through the untouched wilderness.
+          </p>
         </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    </body>
+      </div> 
+      <!-- end of first card -->
+      <!-- Second Card -->
+      <div class="card two mx-5" style="width: 18rem">
+        <img
+          src="https://picsum.photos/id/10/300/200"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title text-info">Edge of the Horizon</h5>
+          <p class="card-text text-secondary">
+            Beyond the emerald forest, the endless blue stretches to meet the distant mountains.
+          </p>
+        </div>
+      </div> 
+      <!-- End of Second Card -->
+       <!-- Third Card -->
+      <div class="card three" style="width: 18rem">
+        <img
+          src="https://picsum.photos/id/13/300/200"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title text-info">Whispering Shores</h5>
+          <p class="card-text text-secondary">
+            Where the quiet waves kiss the rocky shore, nature's solitude embraces the distant mountains.
+          </p>
+        </div>
+      </div> 
+      <!-- End of Third Card -->
+      <!-- end of all cards -->
+     </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+ </div>  
+</body>
 </html>
