@@ -1,0 +1,24 @@
+body {
+    background: rgba(0,0,50,1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background-rest {
+    background-image: linear-gradient(180deg, rgba(0,0,50,1) 0%, rgba(2,76,161,1) 100%);
+}
+
+.backgroundimg {
+    background-image: url("../img/img-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 0px 0px 0px;
+}
+
+.marginback {
+    margin: -1px 0px 0px 0px;
+}
+
+.switchlogo {
+    object-fit: cover;
+}
