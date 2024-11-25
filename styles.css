@@ -1,0 +1,12 @@
+body {
+    background: black !important;
+}
+.nav-wrapper {
+    background-color: rgb(39, 39, 39) !important;
+}
+.nav-wrapper a, .nav-wrapper a:hover {
+    color: #ccc;
+}
+.navbar-nav .nav-link.active {
+    color: #ccc !important;
+}
