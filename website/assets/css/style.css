@@ -1,3 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background: #BDBDBD;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.card-title {
+    color:rgb(58, 58, 207)
+}
+.title-grey{
+    color: grey;
+}
+.card-text{
+    font-size: x-small;
+}
+.row{
+    margin: 35px;
+    background: black;
+}
+
+.tagline{
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 50px;
+    margin-top: 0px;
+   
+    
+  
+}
+.onepagewonder{
+    background-color: white;
+    background-size: 255px;
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    height: 90px;
+    font-size: 75px;
+    padding-top: 2px;
+   
+}
+
+.yoursocksoff{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 55px;
+    font-size: 50px;
+   
+}
+.natalia{
+    margin: 0px;
+}
+.letrasnata{
+    font-size: 20px;
+}
+
+.letrasnath1{
+    font-size: 40px
+    
+}
+
+.pamela{
+    margin: 0px;
+    width: 103%;
+    padding-bottom: 150px;
+}
+
+.pameee{
+    justify-content: center;
+}
+
+.letraspame {
+    font-size: 40px
+    
+}
+
+.letraspamedos{
+    font-size: 20px
+}
+
+.footer{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+.box{
+    background-color: rgb(246, 244, 244);
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+
+}
+.card1{
+justify-content: center;
+}
+
+
+.glenda1{
+    padding-left: 15px;
+}
+
+.glenda2{
+    padding-left: 15px;
 }
