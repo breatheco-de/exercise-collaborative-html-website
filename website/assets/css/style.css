@@ -1,3 +1,58 @@
 body{
     background: #BDBDBD;
 }
+. {
+    background-color: black;
+}
+.navbar-brand {
+    color: grey;
+}
+.nav-link {
+    color: grey;
+}
+.nav-link.disabled {
+    color: grey;
+}
+.container {
+    max-width: none;
+    background-image: url(/website/assets/img/bg.jpg);
+    background-size: contain;
+    min-height: 450px;
+    padding-top: 50px;
+}
+.container-heading {
+    max-width: none;
+    background-color: white;
+    min-height: 400px;
+}
+h1 {
+    font-size: 92px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color: #35332E;
+}
+h2 {
+    font-size: 58px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color: #35332E;
+}
+.container-fluid-2 {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: center;
+    height: 500px;
+}
+.heading-1 {
+    width: 70%;
+    padding-right: 10%;
+}
+.heading-2 {
+    width: 30%;
+}
+img {
+    width: 100%;
+}
