@@ -1,2 +1,49 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!-- your html code here - Template Contact -->
+<!-- Se hacen dos contenedores uno con el Heading y otro para el Form -->
+<div class="container-fluid" id="Contact"> 
+    <div class="row d-flex justify-content-center">
+        <div class="col-8">
+            <h1 class="text-start fw-bolder">
+                Contact
+            </h1>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <p class="text-start fs-4">
+                Donec ullamcorper nula metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus
+                magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Creando el Form del Template Contact-->
+<form>
+    <div class="container">
+        <div class="row justify-content-center p-5">
+            <div class="col-8 bg-light border rounded pt-3">
+                <div class="row justify-content-end">
+                    <div class="col-2 text-end">
+                        <label class="form-label fw-bold h-6">Your E-mail</label>
+                    </div>
+                    <div class="col-9">
+                        <input class="form-control" type="email" name="email" id="email" placeholder="Your email">
+                    </div>                     
+                </div>
+                <div class="row justify-content-end pt-3">
+                    <div class="col-2 text-end ">
+                        <label class="form-label fw-bold h-6">Your message</label>
+                    </div>
+                    <div class="col-9">
+                        <textarea class="form-control" rows="6" placeholder="Please enter your message here"></textarea>
+                    </div>                    
+                </div>
+                <div class="row justify-content-end py-3">
+                    <div class="col-2 text-end">
+                        <button type="button" class="btn btn-primary"> Submit</button>
+                    </div>                
+                </div>                
+            </div>
+        </div>"
+    </div>     
+</form>
