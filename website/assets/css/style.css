@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+.back1{
+    height: 400px;
+    background-size: 50% 50%;
+}
+.back2{
+    height: 100%;
+}
