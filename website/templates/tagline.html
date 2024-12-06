@@ -1,3 +1,68 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tagline</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vq/QfHdyNLZ+6AX3i1FqV3GNT+bKwoKzPEzLvzZlquu9UflJ9RkGyGd13B8JtKw" crossorigin="anonymous">
+    <style>
+        .tagline-section {
+            height: 60vh; 
+            background: url(https://www.civitatis.com/f/pois/ChIJ4zGFAZpYwokRGUGph3Mf37k.jpg) no-repeat center center/cover;
+            position: relative;
+        }
+
+        .tagline-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            z-index: 1;
+        }
+
+        .tagline-content {
+            position: relative;
+            z-index: 2; 
+            color: black;
+            text-align: center;
+            width: 100%;
+        }
+
+        .tagline-content h1, 
+        .tagline-content p {
+            width: 100%; /* Ocupa todo el ancho */
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+            margin: 0; /* Elimina márgenes predeterminados */
+            padding: 10px 0; /* Agrega espacio interno */
+            box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
+        }
+
+        .tagline-content h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            
+        }
+
+        .tagline-content p {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 1%;
+            margin-left: 0%;
+
+        }
+    </style>
+</head>
+<body>
+    <header class="tagline-section d-flex align-items-center justify-content-center">
+        <div class="tagline-content">
+            <h1>One Page Wonder</h1>
+            <p>Will Knock Your Socks Off</p>
+        </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AJaWILx05xE6e+Mk43vKv7bW9mH8eY6p3VyhDP4iom72oFOm1tRhjP8cBN9j9" crossorigin="anonymous"></script>
+</body>
+</html>
