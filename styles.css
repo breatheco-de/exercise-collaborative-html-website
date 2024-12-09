@@ -1,0 +1,71 @@
+.tagline{
+   
+    background-image: url(https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.webp);
+    background-size: cover;
+    margin-bottom: 50px;
+    background-color: white;
+    width: 1296px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+img{
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+}
+.texto{
+    background-color: white;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 80px;
+}
+.post{
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.first-heading{
+    margin-top: 70px;
+    width: 1296px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+}
+
+.descripcion{
+    display: inline-block; 
+    text-align: justify;
+    margin-left: 100px;
+    
+}
+
+.foto{
+    margin-right: 100px;
+}
+.foto-2{
+    margin-left: 100px;
+}
+.descripcion-2{
+    display: inline-block; 
+    text-align: justify;
+    margin-right: 100px;
+    
+}
+img{
+    border-radius: 50%;
+    width: 500px;
+    height: 300px;
+}
+
