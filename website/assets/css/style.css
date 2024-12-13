@@ -17,3 +17,16 @@ h2{
     padding: 50px;
     color: aliceblue;
 }
+
+.heading-black {
+    color: black;
+}
+
+.heading-gray {
+    color: gray;
+}
+
+img {
+    height: 100%;
+
+}
