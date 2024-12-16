@@ -4,6 +4,7 @@
 		"es": "Construyendo un website HTML/CSS de forma colaborativa usando Git y GitHub"
 	},
 	"duration" : 3,
+	"template_url": "self",
 	"difficulty": "beginner",
 	"solution": "https://github.com/breatheco-de/exercise-collaborative-html-website/tree/solution/website",
 	"preview": "https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/preview.gif?raw=true",
