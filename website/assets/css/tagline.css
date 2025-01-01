@@ -1,0 +1,17 @@
+
+.jumbotron {
+   background-image: url('../img/bg.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 600px;
+   padding-top: 1%;
+   margin-top: 0%;
+}
+
+h1 {
+   font-size: 90px;
+}
+
+h3{
+   font-size: 58px;
+}
