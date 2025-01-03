@@ -1,20 +1,18 @@
 #heading {
     position: relative;
-    left: 80px;
+    left: 50px;
     top: 10px;
     
     
 }
-
-#bbad{
-    position: relative;
-    right: 60px;
-}
 h3{
-    font-size: 45px;
+    font-size: 35px;
 }
 h5{
-    font-size: 30px;
+    font-size: 20px;
 }
+
+
+
 
 
