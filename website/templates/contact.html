@@ -1,2 +1,57 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container-fluid" style=" display:flex; height:55vh; width: 99vw; flex-direction: column;" >
+
+    <div class="row" style="width: 100%; height: 15%; display: flex;">
+        <!-- Espaciado -->
+        <div class="col-1"></div>
+        <div class="col-2 d-flex">
+            <h2> Contact </h2>
+        </div>
+    </div>
+
+    <div class="row" style="width: 100%; height: 15%; display: flex; overflow-y: hidden;">
+        <!-- Espaciado -->
+        <div class="col-1"></div>
+        <div class="col-10 d-flex" style="font-size: 20px; overflow-y: hidden;">
+            <p > Donec ullamcorper nulla non metus auctor fringilla. 
+                Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+                vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center" style="width: 100%; height: 65%; display: flex; margin-top: 10px;">
+        <!-- Espaciado -->
+        <div class="col-1"></div>
+        <div class="col-6" style="background-color: rgba(238, 236, 236, 0.963); border: solid 1px; border-color: rgb(219, 217, 217);">
+            <form action="index.html" method="post">
+               
+                <!-- Input 1 -->
+                <div class="row d-flex justify-content-end pt-3 ps-2" style="flex-direction: row; align-items: center;">
+                   
+                        <label for="email" style="width: 17%;"><b> Your E-mail</b></label>
+                        <input type="email" id="email" name="email" placeholder="Your email"
+                        style="width: 70%; height: 35px; border: solid 2px; border-color: rgb(219, 217, 217);
+                         margin-right: 20px;">
+                    
+                </div>
+
+                <!-- Input 2 -->
+                <div class="row d-flex justify-content-end pt-3 ps-2" style="flex-direction: row; align-items: center;">
+                   
+                    <label for="mensaje" style="width: 19%;"><b> Your message</b></label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Your message"
+                    style="width: 70%; height: 90px; border: solid 2px; border-color: rgb(219, 217, 217);
+                     margin-right: 20px;"> 
+                    </textarea>
+                
+                </div>
+
+                <!-- boton submit -->
+                <div class="row d-flex justify-content-end pt-3 ps-2 pe-1" style="margin-right: 2px; flex-direction: row; align-items: center;">
+                    <button type="btn btn-primary btn-rounded" style="width: 18%; height: 35px; background-color: rgb(6, 97, 189); 
+                    color: white; border: solid 2px; border-color: rgb(219, 217, 217);">
+                     Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
