@@ -1,3 +1,10 @@
-body{
-    background: #BDBDBD;
+.contacto {
+    background: white;
+
+}
+
+.formulario{
+    width: 800px;
+    background: #edebeb;
+  
 }
