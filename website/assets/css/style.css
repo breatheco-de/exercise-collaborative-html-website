@@ -1,7 +1,3 @@
-body{
-    background: #fcfbfb;
-}
-
 .container-fluid {
     padding-left: 0.15rem; /* Añade un padding a la izquierda del contenedor */
     padding-right: 0.15rem; /* Añade un padding a la derecha del contenedor */
@@ -11,4 +7,3 @@ body{
     box-sizing: border-box; /* Asegura que el padding y border no afecten el tamaño total */
     overflow-x: hidden; /* Evita el desbordamiento horizontal */
 }
-
