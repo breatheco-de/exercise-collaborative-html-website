@@ -1,3 +1,8 @@
 body{
     background: #BDBDBD;
 }
+.bg-image{ 
+     background-image: url("https://i.imgur.com/uw97aRh.jpg");
+     background-size: cover;
+     min-height: 600px; 
+ }
