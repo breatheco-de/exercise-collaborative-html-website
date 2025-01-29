@@ -1,0 +1,24 @@
+.jumbotron {
+    background: url(/website/assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron h1 {
+    --bs-bg-opacity: .5;
+}
+.jumbotron p {
+    --bs-bg-opacity: .5;
+}
+
+.firstline {
+    font-size: 8rem;
+}
+
+.secondline {
+    font-size: 4rem;
+}
