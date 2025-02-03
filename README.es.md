@@ -1,4 +1,6 @@
+<!-- hide -->
 # Sitio Web colaborativo (Git collaboration)
+<!-- endhide -->
 
 Practica tus habilidades en Git mientras desarrollas un sitio web típico.
 
@@ -23,6 +25,8 @@ $ npx http-server --yes -c-1
 
 5. En cuanto todos entiendan cómo modificar sus archivos y hacer `push` de sus cambios, pueden empezar a buscar ejemplos de componentes en https://getbootstrap.com/ para armar la página según se está pidiendo.
 
+<onlyfor saas="false" withBanner="false">
+  
 ## 🌱 Cómo iniciar este proyecto
 
 **Si eres un estudiante:**
@@ -50,6 +54,8 @@ Para cargar y ver tu sitio web en vivo, ejecuta el siguiente comando:
 ```bash
 $ npx http-server --yes -c-1
 ```
+
+</onlyfor>
 
 ## Implementar el sitio web
 
