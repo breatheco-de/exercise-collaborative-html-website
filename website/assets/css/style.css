@@ -1,3 +1,9 @@
 body{
     background: #BDBDBD;
 }
+.navbar-brand, .nav-link{
+    color: grey !important;
+}
+#Navbar-madg26{
+margin-top: -8px;
+}
