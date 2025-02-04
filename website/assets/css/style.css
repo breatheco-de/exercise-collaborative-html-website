@@ -1,3 +1,17 @@
-body{
+body {
     background: #BDBDBD;
+}
+
+.taglineMadg26 {
+    background-image: url("./../img/bg.jpg ");
+    height: 400px;
+    background-size: 100% 400px;
+}
+
+#tagline-Madg26, #tagline-Madg2 {
+    top: 30px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    color: black;
 }
