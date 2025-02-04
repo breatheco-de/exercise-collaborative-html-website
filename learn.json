@@ -4,15 +4,19 @@
 		"es": "Construyendo un website HTML/CSS de forma colaborativa usando Git y GitHub"
 	},
 	"duration" : 3,
+	"template_url": "self",
 	"difficulty": "beginner",
 	"solution": "https://github.com/breatheco-de/exercise-collaborative-html-website/tree/solution/website",
 	"preview": "https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/preview.gif?raw=true",
 	"technologies": ["git", "github", "bootstrap", "html", "css"],
 	"description" : {
-		"us": "Build website among a team of several collaborators",
-		"es": "Practica como usar los Pull Requests de Github.com donde cada miembro de el equipo hace una parte del HTML/CSS de un website landing page y la entrega realizando un Pull Request"
+		"us": "Learn GitHub Pull Requests by building a landing page! Collaborate as a team using Git while each member develops a section of a website with HTML and CSS. Practice version control, teamwork, and project management as you submit changes through Pull Requests.",
+		"es": "Aprende a usar Pull Requests en GitHub creando una landing page. Colabora en equipo mientras cada miembro desarrolla una sección del sitio web con HTML y CSS. Practica control de versiones, trabajo en equipo y gestión de proyectos al enviar cambios con Pull Requests."
 	},
 	"translations": ["es","us"],
 	"autoPlay": false,
-	"projectType": "project"
+	"projectType": "project",
+	"telemetry": {
+		"batch":"https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=192"
+	}
 }
