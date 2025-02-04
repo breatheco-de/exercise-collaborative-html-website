@@ -1,3 +1,4 @@
+
 body {
     background: #BDBDBD;
 }
@@ -15,3 +16,49 @@ body {
     width: 100%;
     color: black;
 }
+
+body{
+    background: #BDBDBD;  
+}
+
+.dfd {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+   
+}
+.ff {
+    
+    width: 50%;
+}
+
+.df {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.f { 
+    width: 50%;
+
+}
+
+img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+
+}
+
+em {
+    color:grey;
+    font-style: normal;
+}
+    
+.navbar-brand, .nav-link{
+    color: grey !important;
+}
+#Navbar-madg26{
+margin-top: -8px;
+
+}
+
