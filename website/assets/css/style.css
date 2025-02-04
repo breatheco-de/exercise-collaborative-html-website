@@ -1,3 +1,20 @@
-body{
-    background: #BDBDBD;
+
+
+.dfd {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+   
 }
+.ff {
+    
+    width: 50%;
+
+}
+
+img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
