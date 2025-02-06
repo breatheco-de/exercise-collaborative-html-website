@@ -13,7 +13,7 @@ Each student works on a different file, for a different part of the website, and
 * Kimberly --> Navbar y Tagline
 * Adonai (Forked Repo owner y capitán del team)--> First Heading y Services 
 * Julian --> Portfolio
-* Alison --> Contact y Readme update
+* Alison --> Contact, index.html y Readme update
 
 ## 📝 Instructions
 

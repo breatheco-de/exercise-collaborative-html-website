@@ -13,7 +13,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 * Kimberly --> Navbar y Tagline
 * Adonai (Forked Repo owner y capitán del team)--> First Heading y Services 
 * Julian --> Portfolio
-* Alison --> Contact y Readme update
+* Alison --> Contact, index.html y Readme update
 
 
 ## 📝 Instrucciones
