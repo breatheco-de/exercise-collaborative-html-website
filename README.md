@@ -1,4 +1,6 @@
+<!-- hide -->
 # Making a website as a team (Git collaboration)
+<!-- endhide -->
 
 Practice your skills in Git while developing a typical website.
 
@@ -22,6 +24,8 @@ $ npx http-server --yes -c-1
 
 5. Once everyone understands how to modify their part of the project and `push`, use the search feature and examples within https://getbootstrap.com/ to quickly build using bootstrap components, then modify accordingly.
 
+<onlyfor saas="false" withBanner="false">
+  
 ## 🌱 How to start this project
 
 **If you are a student:**
@@ -50,6 +54,7 @@ To load and watch the website live, run the following command:
 $ npx http-server --yes -c-1
 ```
 
+</onlyfor>
 
 ## Deploy the website
 
