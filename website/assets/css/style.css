@@ -1,3 +1,14 @@
 body{
-    background: #BDBDBD;
+    background: grey;
+}
+
+.text {
+    background-color: white;
+    text-align: center;
+    
+}
+.city-image {
+    background-image: url("../img/bg.jpg");
+    height: 1400px;
+    object-fit: scale-down;
 }
