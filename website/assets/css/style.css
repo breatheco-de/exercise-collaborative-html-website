@@ -1,3 +1,6 @@
 body{
     background: #BDBDBD;
 }
+.img {
+    display: flex;
+}
