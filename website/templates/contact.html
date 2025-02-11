@@ -1,15 +1,22 @@
-<div class="w-75 bg-white justify-content-center mx-auto p-5">
+<div class="container bg-white mt-5">
     <h1>Contact</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quibusdam facere tempora dicta reprehenderit debitis laudantium nulla, eos pariatur omnis aliquam amet natus! Explicabo sit delectus natus odio nobis incidunt.</p>
-    <fieldset class="d-flex w-50 mx-auto border border-black p-3 bg-light rounded flex-column">
-        <div class="row d-flex mb-3 justify-content-between">
-            <label for="youremail" class="col-4"><strong>Your E-mail:</strong></label>
-            <input type="email" id="youremail" name="youremail" placeholder="Your email" class="col-7 rounded">
+    <form class="w-75 bg-light mx-auto p-4">
+      <div class="mb-3 row">
+        <label for="youremail" class="col-4 col-form-label text-end fw-bold">Your E-mail:</label>
+        <div class="col-8">
+          <input type="email" class="form-control" id="youremail" placeholder="Your email">
         </div>
-        <div class="row d-flex mb-3 justify-content-between">
-            <label for="Your message" class="col-4"><strong>Your message:</strong></label>
-            <textarea id="message" name="message" placeholder="Please enter your message here..." class="col-7 rounded"></textarea><br>
+      </div>
+      <div class="mb-3 row">
+        <label for="message" class="col-4 col-form-label text-end fw-bold">Your message:</label>
+        <div class="col-8">
+          <textarea class="form-control" id="message" rows="4" placeholder="Please enter your message here..."></textarea>
         </div>
-        <button type="submit" class="btn btn-primary mb-2">Submit</button>
-    </fieldset>
-</div>
+      </div>
+      <div class="text-end">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+  
