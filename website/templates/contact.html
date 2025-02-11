@@ -1,11 +1,15 @@
-<div class="w-50 bg-light justify-content-center mx-auto p-5">
+<div class="w-75 bg-white justify-content-center mx-auto p-5">
     <h1>Contact</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quibusdam facere tempora dicta reprehenderit debitis laudantium nulla, eos pariatur omnis aliquam amet natus! Explicabo sit delectus natus odio nobis incidunt.</p>
-    <fieldset class="border border-primary p-3 bg-body-secondary">
-        <label for="youremail">Your E-mail:</label>
-        <input type="email" id="youremail" name="youremail" placeholder="Your email"><br>
-        <label for="Your message">Your message:</label>
-        <textarea id="message" name="message" placeholder="Please enter your message here..."></textarea><br>
-        <button type="submit" class="btn btn-primary">Submit</button>
+    <fieldset class="d-flex w-50 mx-auto border border-black p-3 bg-light rounded flex-column">
+        <div class="row d-flex mb-3 justify-content-between">
+            <label for="youremail" class="col-4"><strong>Your E-mail:</strong></label>
+            <input type="email" id="youremail" name="youremail" placeholder="Your email" class="col-7 rounded">
+        </div>
+        <div class="row d-flex mb-3 justify-content-between">
+            <label for="Your message" class="col-4"><strong>Your message:</strong></label>
+            <textarea id="message" name="message" placeholder="Please enter your message here..." class="col-7 rounded"></textarea><br>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
     </fieldset>
 </div>
