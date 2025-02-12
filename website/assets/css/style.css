@@ -1,4 +1,8 @@
 
+body {
+
+    background: #BDBDBD;
+}
 
 .firstHeading{
 
@@ -53,10 +57,14 @@
 }
 .aColor{
     color: #BDBDBD;
-}body{
-    background: #BDBDBD;
+
+.general {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    flex-wrap: nowrap; 
 }
 
-body{
-    background: #BDBDBD;
+.text {
+    margin-left: 20px;
 }
