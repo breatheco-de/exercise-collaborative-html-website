@@ -1,3 +1,31 @@
 body{
-    background: #BDBDBD;
+    background-color: white;
+}
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .img-container img {
+    width: 100%;
+    height: auto;
+} */
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.titulo h1 {
+    font-size: 150px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5); 
+
+    
+}
+
+.titulo h2 {
+    font-size: 100px;
+    background-color: rgba(255, 255, 255, 0.5); 
 }
