@@ -1,4 +1,8 @@
 
+body {
+
+    background: #BDBDBD;
+}
 
 .firstHeading{
 
@@ -41,16 +45,27 @@
 }
 
 #firstTitle{
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .breakBad{
     width: 250px;
-    height: 250px;
+    height: 300px;
     border-radius: 100%;
     align-self: self-end;
 
 }
 .aColor{
     color: #BDBDBD;
+}
+
+.general {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+}
+
+.text {
+    margin-left: 20px;
 }
