@@ -45,12 +45,12 @@ body {
 }
 
 #firstTitle{
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .breakBad{
     width: 250px;
-    height: 250px;
+    height: 300px;
     border-radius: 100%;
     align-self: self-end;
 
