@@ -3,7 +3,7 @@ color:grey;
 }
 body{
 
-    display:flex;
+    /* display:flex; */
     justify-content:center;
     align-items: center;
     height: 95vh;
