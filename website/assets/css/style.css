@@ -1,3 +1,19 @@
 body{
-    background: #BDBDBD;
+    background-color: #ffff;
+}
+#jumbotron {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 800px;
+}
+
+h1.display-5.fw-bold.text-center.bg-light {
+    font-size: 120px;
+    margin-bottom: 25px;
+}
+
+h2.display-5.fw-bold.text-center.bg-light {
+    font-size: 70px
 }
