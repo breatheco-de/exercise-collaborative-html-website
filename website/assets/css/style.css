@@ -36,3 +36,9 @@ h2.display-5.fw-bold.text-center.bg-light {
     font-size: 70px
 
 }
+
+img {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+}
