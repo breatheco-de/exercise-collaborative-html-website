@@ -1,5 +1,23 @@
+span{
+color:grey;
+}
 body{
-    background-color: #ffff;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 95vh;
+    width:100vw;
+}
+.black{
+    padding-left:10px;
+}
+.container{
+    display:flex;
+}
+img{
+    border-radius: 50%;
+
 }
 #jumbotron {
     background-image: url('../img/bg.jpg');
@@ -16,4 +34,5 @@ h1.display-5.fw-bold.text-center.bg-light {
 
 h2.display-5.fw-bold.text-center.bg-light {
     font-size: 70px
+
 }
