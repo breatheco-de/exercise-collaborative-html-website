@@ -42,3 +42,18 @@ img {
     width: 200px;
     height: 200px;
 }
+
+.submit {
+    margin-left: 885px;
+}
+.footer {
+  width: 1000px;
+  padding: 20px;
+  margin-left: 140px;
+}
+.email {
+    margin-left: 70px;
+}
+.header {
+    margin-top: 50px;
+}
