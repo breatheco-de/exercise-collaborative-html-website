@@ -1,3 +1,37 @@
 <!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<!---- Background con imagen---->
+<div class="container-fluid p-0" 
+  style="
+    background: url('/website/assets/img/bg.jpg') center center / cover no-repeat;
+    height: 400px;
+  "
+  >
+  <!-- Contenedor flex para centrar el recuadro de texto -->
+  <div class="container-fluid p-0"
+    style="
+    background: url('ruta/de/imagen.jpg') center center / cover no-repeat;
+    height: 400px;
+    ">
+    <div class="d-flex flex-column align-items-center justify-content-center h-100">
+      <!-- Primer recuadro (para el h1) -->
+      <div style="
+        background-color: rgba(255, 255, 255, 0.8); 
+        padding: 1rem 30.6rem; 
+        margin-bottom: 1rem;
+      ">
+      <div>
+        <h1 class="fw-bold text-center mb-0">One Page Wonder</h1>
+      </div>
+        
+      </div>
+
+      <!-- Segundo recuadro (para el h2) -->
+      <div style="
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 1rem 29.5rem;
+      ">
+      <div>
+        <h2 class="text-center mb-0">Will Knock Your Socks Off</h2>
+      </div>
+      </div>
+    </div>
