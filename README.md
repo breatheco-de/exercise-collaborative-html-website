@@ -1,6 +1,4 @@
-Viridiana De la cruz Loya:
--first_heading.html
--services.html
+
 
 <!-- hide -->
 # Making a website as a team (Git collaboration)
