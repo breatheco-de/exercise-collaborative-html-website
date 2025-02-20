@@ -8,16 +8,15 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 ## 📝 Bastian Team
 Colaboracion
-    1. Carlos Melchor = navbar - tagline
-    2. De la cruz Viridiana= first-heading
-    3. Carlos Villareal= services
-    4. Felix Lara= contact - footer
-    5. Bastian Cartagena= Portafolio
-   
-
+1. Carlos Melchor ==> navbar - tagline
+2. De la Cruz Viridiana ==> first-heading
+3. Felix Lara ==> contac - footer
+4. Carlos Villareal ==> services
+5. Bastian Cartagena ==> portafolio
+     
 ## 📝 Instrucciones
 
-1. El líder del equipo debe hacerle fork a este repositorio de github.com e [invitar a otros colaboradores a ese repositorio](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif).
+1.  El líder del equipo debe hacerle fork a este repositorio de github.com e [invitar a otros colaboradores a ese repositorio](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif).
 
 2. Vamos a realizar [este diseño](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/thumb.jpg), y [de esta forma pueden dividirlo entre los estudiantes](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/guide.jpg?raw=true).
 
