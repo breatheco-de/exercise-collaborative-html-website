@@ -6,10 +6,17 @@ Practica tus habilidades en Git mientras desarrollas un sitio web típico.
 
 Cada alumno trabajará en un archivo diferente para cada parte diferente del sitio web y aquel con más experiencia puede trabajar como líder de equipo (para integración y despliegue), a menos que el profesor prefiera ser el líder de equipo de toda la clase. La librería Html-Template-Engine se encargará de juntar todas las piezas.
 
-
+## 📝 Bastian Team
+Colaboracion
+1. Carlos Melchor ==> navbar - tagline
+2. De la Cruz Viridiana ==> first-heading
+3. Felix Lara ==> contac - footer
+4. Carlos Villareal ==> services
+5. Bastian Cartagena ==> portafolio
+     
 ## 📝 Instrucciones
 
-1. El líder del equipo debe hacerle fork a este repositorio de github.com e [invitar a otros colaboradores a ese repositorio](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif).
+1.  El líder del equipo debe hacerle fork a este repositorio de github.com e [invitar a otros colaboradores a ese repositorio](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif).
 
 2. Vamos a realizar [este diseño](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/thumb.jpg), y [de esta forma pueden dividirlo entre los estudiantes](https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/guide.jpg?raw=true).
 
@@ -69,3 +76,10 @@ Cada estudiante debe presentar el repositorio de su líder de equipo.
 La [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) se utiliza como motor para crear plantillas para la creación de tu landing page.
 
 Este y otros proyectos son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+
+Colaboracion:
+    -Carlos Melchor= navbar - tagline
+    -De la cruz Viridiana= first-heading
+    -Carlos Villareal= services
+    -Felix Lara= contact - footer
+    -Bastian Cartagena= Portafolio

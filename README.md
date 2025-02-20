@@ -1,3 +1,5 @@
+
+
 <!-- hide -->
 # Making a website as a team (Git collaboration)
 <!-- endhide -->
@@ -5,6 +7,15 @@
 Practice your skills in Git while developing a typical website.
 
 Each student works on a different file, for a different part of the website, and the most senior can work as Team Leader (for integration and deployment), unless the teacher prefers to be the team leader of the whole class. The Html-Template-Engine library will take care of putting all the pieces together.
+
+## 📝 Bastian Team
+
+1. Carlos Melchor ==> navbar - tagline
+2. De la Cruz Viridiana ==> first-heading
+3. Felix Lara ==> contac - footer
+4. Carlos Villareal ==> services
+5. Bastian Cartagena ==> portafolio
+
 
 ## 📝 Instructions
 

@@ -1,3 +1,16 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+#image {
+    background-image: url("./../img/bg.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+#text1 {
+    font-size: 9rem;
+    margin-top: 12vh;
+}
+#text2 {
+    font-size: 5rem;
+
 }
