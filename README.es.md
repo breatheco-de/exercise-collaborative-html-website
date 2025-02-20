@@ -8,11 +8,11 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 
 ## 📝 Bastian Team
 Colaboracion:
-    -Carlos Melchor = navbar - tagline
-    -De la cruz Viridiana = first-heading
-    -Carlos Villareal = services
-    -Felix Lara = contact - footer
-    -Bastian Cartagena = Portafolio
+    *Carlos Melchor = navbar - tagline
+    *De la cruz Viridiana = first-heading
+    *Carlos Villareal = services
+    *Felix Lara = contact - footer
+    *Bastian Cartagena = Portafolio
 
 
 ## 📝 Instrucciones
