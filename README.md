@@ -6,6 +6,15 @@ Practice your skills in Git while developing a typical website.
 
 Each student works on a different file, for a different part of the website, and the most senior can work as Team Leader (for integration and deployment), unless the teacher prefers to be the team leader of the whole class. The Html-Template-Engine library will take care of putting all the pieces together.
 
+## 📝 Adonai Team
+
+**Tareas**
+
+* Kimberly --> Navbar y Tagline
+* Adonai (Forked Repo owner y capitán del team)--> First Heading y Services 
+* Julian --> Portfolio
+* Alison --> Contact, index.html y Readme update
+
 ## 📝 Instructions
 
 1. The Team Leader should fork this repository on github.com and [invite other collaborators to the repo](https://github.com/breatheco-de/exercise-git-collabration/blob/master/iOBmU5zYqA.gif). Give access to the other team members on the newly forked GitHub repository, and make sure they are cloning from this new repository, not the original!
