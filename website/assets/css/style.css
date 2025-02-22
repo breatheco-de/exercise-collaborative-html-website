@@ -1,3 +1,31 @@
-body{
-    background: #BDBDBD;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.section:first-child {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.section:last-child {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: right;
+    
+
+}
+
+.round-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
 }
