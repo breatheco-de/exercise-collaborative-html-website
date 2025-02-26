@@ -1,22 +1,12 @@
 
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        
             background-color: #f4f4f4;
             margin: 0;
         }
 
-        .container {
-            width: 400px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
+        
 
         .contact-box {
             display: flex;
@@ -58,4 +48,16 @@
             float: right; 
             margin-left: 10px; 
         }
-    
+        
+       
+        .hero-section {
+            background: url('/website/assets/img/bg.jpg') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+   
