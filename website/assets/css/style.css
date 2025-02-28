@@ -1,3 +1,7 @@
 body{
-    background: #BDBDBD;
+    background:  white;
+}
+.contenedor-texto {
+    top: 110px;
+    position: absolute;
 }
