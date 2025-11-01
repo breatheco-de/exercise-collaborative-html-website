@@ -1,3 +1,29 @@
 body{
     background: #BDBDBD;
 }
+
+.img-porfolio {
+
+        aspect-ratio: 2/1;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 20px;
+}
+
+.titulos-porfolio {
+        text-align: left;
+        padding-bottom: 0px;
+        margin-bottom: 8px;
+        margin-top: 14px;
+        color: rgb(51, 96, 180);
+      
+
+
+}
+
+.parrafo-porfolio {
+        text-align: left;
+        font-size: 15px;
+
+
+}
