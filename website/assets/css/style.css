@@ -1,3 +1,7 @@
-body{
-    background: #BDBDBD;
+body {
+    background: #bdbdbd;
+}
+
+.position-top {
+    top: 30%;
 }
