@@ -2,6 +2,14 @@ body {
     background: #bdbdbd;
 }
 
-.position-top {
+#tagline .text-position {
     top: 30%;
+}
+
+#tagline .text-position .title {
+    font-size: 9rem;
+}
+
+#tagline .text-position .subtitle {
+    font-size: 5rem;
 }
