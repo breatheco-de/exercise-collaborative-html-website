@@ -1,3 +1,40 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<style>
+  .hero-wrapper {
+    background: url("assets/img/hero-bg.jpg") no-repeat center bottom/cover;
+    background-color: rgba(9, 49, 49, 0.781);
+    background-blend-mode: multiply;
+    height: 40vh;
+  }
+
+  .img-lawyer {
+    height: 115%;
+    width: auto;
+    display: block;
+    align-self: flex-end;
+  }
+
+  
+</style>
+
+<div class="container-fluid px-0 pt-3">
+  <div class="container hero-wrapper d-flex justify-content-around pb-0 pt-5 border-3 border-bottom border-warning">
+    
+    <div class="w-50">
+
+      <div>
+        <h1 class="text-warning mb-0">Advogado Criminal</h1>
+        <p class="text-white fs-2 w-75">Especializado na defesa dos seus direitos</p>
+      </div>
+
+      <p class="text-white-50 w-50">Atuação técnico o compromisso em processos criminais</p>
+
+      <div class="">
+        <a href="#contact" class="btn btn-warning text-white fw-bold rounded-pill">Fale com advogado</a>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-end">
+      <img src="assets/img/lawyer-web.png" alt="lawyer" class="img-lawyer">
+    </div>
+  </div>
+</div>
