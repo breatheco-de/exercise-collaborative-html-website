@@ -1,2 +1,44 @@
-<!-- your html code here -->
-<p>Hello, I'm the navbar.html</p>
+<style>
+  .img-nav {
+    height: 3rem;
+    width: auto;
+    display: block;
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.662);
+    transition: color 0.3s;
+  }
+
+  .nav-link:hover {
+    color: #ffc107 !important;
+  }
+</style>
+
+<div class="container-fluid px-0 nav-seccion">
+  <div class="container border-bottom border-secondary">
+    <nav class="d-flex align-items-center justify-content-between py-3">
+      <div class="d-flex align-items-center">
+        <img src="assets/img/logo-empresa.png" alt="Logo" class="img-nav" />
+
+        <span class="d-flex flex-column ms-2 gap-0 mb-0 border-start border-secondary ps-2">
+          <h5 class="mb-0 text-warning">ATTORNEY</h5>
+          <p class="text-white-50 my-0">Especialistas em Direito</p>
+        </span>
+      </div>
+
+      <ul class="nav gap-4">
+        <li class="nav-item"><a class="nav-link p-0" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link p-0" href="#">Areas de atuação</a></li>
+        <li class="nav-item"><a class="nav-link p-0" href="#">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link p-0" href="#">Depoimentos</a></li>
+        <li class="nav-item"><a class="nav-link p-0" href="#">Sobre nós</a></li>
+        <li class="nav-item"><a class="nav-link p-0" href="#">Contato</a></li>
+      </ul>
+
+      <div class="d-flex flex-column">
+        <a href="#contacto" class="btn btn-warning text-white fw-bold rounded-pill">Fale com advogado</a>
+      </div>
+    </nav>
+  </div>
+</div>
