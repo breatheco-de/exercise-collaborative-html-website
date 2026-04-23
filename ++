@@ -1,0 +1,750 @@
+[33mcommit 900f95a402883c1d61e57009b776a23721a865bb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mnavbar/mauson[m[33m, [m[1;31morigin/navbar/mauson[m[33m)[m
+Author: MauSon1971 <110358138+MauSon1971@users.noreply.github.com>
+Date:   Fri Sep 27 21:02:53 2024 +0000
+
+    Added Contact
+
+[33mcommit 10c08acc6d9aef60a19ac15bdc7e04dfd12bc5fa[m
+Author: MauSon1971 <110358138+MauSon1971@users.noreply.github.com>
+Date:   Fri Sep 27 20:22:54 2024 +0000
+
+    Added first commit contact
+
+[33mcommit d896438a1aa007ef9a43f1fea5ce175fcc885d7e[m
+Merge: 8ae9046 089edea
+Author: Vichum <100027914+ElVichum@users.noreply.github.com>
+Date:   Fri Sep 27 22:34:19 2024 +0200
+
+    Merge pull request #4 from ElVichum/portfolio/Vichum
+    
+    portfolio added
+
+[33mcommit 8ae9046e77165932441d3661875b09b05dcc2663[m
+Merge: fefaef3 6ef0d14
+Author: entelequeia <olaia96tb@gmail.com>
+Date:   Fri Sep 27 22:28:52 2024 +0200
+
+    Merge pull request #3 from ElVichum/tagline/olaia
+    
+    Tagline/olaia
+
+[33mcommit 6ef0d140706139b6af7c5a8274ef52077134b567[m
+Author: entelequeia <olaia96tb@gmail.com>
+Date:   Fri Sep 27 20:13:12 2024 +0000
+
+    tagline_done
+
+[33mcommit 089edea54379c08e5fd407b2d06a534502d01d30[m
+Author: Vichum <100027914+ElVichum@users.noreply.github.com>
+Date:   Fri Sep 27 20:10:41 2024 +0000
+
+    portfolio added
+
+[33mcommit 9cad4125aff543ef874c38301ee4d5b0b396b15d[m
+Author: entelequeia <olaia96tb@gmail.com>
+Date:   Fri Sep 27 19:45:40 2024 +0000
+
+    tagline
+
+[33mcommit fefaef39b82152491d51923770eb856e8cdc98cb[m
+Merge: 8ef9c91 d3507fd
+Author: Vichum <100027914+ElVichum@users.noreply.github.com>
+Date:   Fri Sep 27 21:43:20 2024 +0200
+
+    Merge pull request #2 from ElVichum/services/Vichum
+    
+    Services/vichum
+
+[33mcommit d3507fdd2aee73a5343eba91135fa27b11177160[m
+Author: Vichum <100027914+ElVichum@users.noreply.github.com>
+Date:   Fri Sep 27 19:38:26 2024 +0000
+
+    services corregido
+
+[33mcommit 7011a8568e4911e13ad6af5571d8cff285527380[m
+Author: Vichum <100027914+ElVichum@users.noreply.github.com>
+Date:   Fri Sep 27 19:15:59 2024 +0000
+
+    Services added
+
+[33mcommit 47d30b800984c2a42f5715091bf1e16d2e881fb4[m
+Author: MauSon1971 <110358138+MauSon1971@users.noreply.github.com>
+Date:   Fri Sep 27 19:09:23 2024 +0000
+
+    Added NavBar
+
+[33mcommit 8ef9c913509be32e14d0b034932b440e6476df17[m
+Merge: d12b942 b6b890d
+Author: MauSon1971 <110358138+MauSon1971@users.noreply.github.com>
+Date:   Fri Sep 27 21:12:10 2024 +0200
+
+    Merge pull request #1 from ElVichum/navbar/mauson
+    
+    Added NavBar
+
+[33mcommit b6b890d870058efb569723f9e4d9faa0099cdb58[m
+Author: MauSon1971 <110358138+MauSon1971@users.noreply.github.com>
+Date:   Fri Sep 27 19:09:23 2024 +0000
+
+    Added NavBar
+
+[33mcommit 26d9d0dc99439c7724e7d601c657f5f733cc6658[m
+Author: Vichum <100027914+ElVichum@users.noreply.github.com>
+Date:   Fri Sep 27 19:06:10 2024 +0000
+
+    pagina services prueba de cambio
+
+[33mcommit 4ee30481e009b65a668cf8322d931d6bf6f22445[m
+Author: Vichum <100027914+ElVichum@users.noreply.github.com>
+Date:   Fri Sep 27 19:02:35 2024 +0000
+
+    Commit services Vichum
+
+[33mcommit 2f0706e1d8da5e77be51508a7136e6bb92007912[m
+Author: Vichum <100027914+ElVichum@users.noreply.github.com>
+Date:   Fri Sep 27 18:58:35 2024 +0000
+
+    Services (segundo párrafo)
+
+[33mcommit d12b94274d4985aee97a63c4bb73339769a48bd3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Tue Jul 16 15:56:59 2024 -0400
+
+    Update learn.json
+
+[33mcommit f4179ad560c2c40b0d35ac90571ed15918b1dd13[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Tue Jul 16 15:56:08 2024 -0400
+
+    Update learn.json
+
+[33mcommit bebc1582d6d9445b4d2a040c1960e2ad1cccd900[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu Jul 11 22:17:43 2024 -0400
+
+    Update learn.json
+
+[33mcommit 963408d5656bd0a31605b1d30f895feec662447a[m
+Merge: a79ec97 70811f0
+Author: Tomas Gonzalez <56565994+tommygonzaleza@users.noreply.github.com>
+Date:   Thu May 9 09:54:44 2024 -0400
+
+    Merge pull request #904 from lbdelilla/patch-1
+    
+    Cambio : modificado URL de 'este diseño' por la correcta
+
+[33mcommit 70811f03c5f4d8d6c65a915a58d194e82f5e1782[m
+Author: Lucía Belén <lbdelilla@gmail.com>
+Date:   Wed May 8 11:48:14 2024 +0200
+
+    Cambio : modificado URL de 'este diseño' por la correcta
+    
+    Se cambia la URL  https://raw.githubusercontent.com/breatheco-de/exercise-collaborative-html-website/master/website1/designs/thumb.jpg
+    Por esta
+    https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/designs/thumb.jpg
+
+[33mcommit a79ec97130499bb273aafb9ff6780c52c8a13d89[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu Aug 31 15:44:43 2023 -0400
+
+    Update learn.json
+
+[33mcommit 5f12499755a342d7b90d9e5ba0ed9946c40fa37c[m
+Merge: e639709 dd64b31
+Author: Tomas Gonzalez <56565994+tommygonzaleza@users.noreply.github.com>
+Date:   Wed Aug 23 14:39:25 2023 -0400
+
+    Merge pull request #626 from josemoracard/jose2-remove-image
+    
+    removed image
+
+[33mcommit dd64b3111ac144ebe10a40f2bca619e5f28fba18[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 23 14:43:42 2023 +0200
+
+    Update README.es.md
+
+[33mcommit 779d69ec62b747e34e8b4517dbb7855f585673bd[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 23 14:43:17 2023 +0200
+
+    Update README.md
+
+[33mcommit e639709d7e3738ab945115bd16aa7d3330650985[m
+Merge: 7615672 3f6fdd6
+Author: Tomas Gonzalez <56565994+tommygonzaleza@users.noreply.github.com>
+Date:   Wed Aug 16 17:03:54 2023 -0400
+
+    Merge pull request #621 from josemoracard/jose1-README
+    
+    fixed text README
+
+[33mcommit 3f6fdd660082f59c99a516d569dc12a7cb29a914[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 13:19:41 2023 +0200
+
+    Update README.es.md
+
+[33mcommit aaa068e79b36c9cdc1b7484b0058f36e92831f8c[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 13:14:14 2023 +0200
+
+    Update README.md
+
+[33mcommit 5356b89b5278ca5cbc878fe5bf2d1134b1c00669[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 13:12:23 2023 +0200
+
+    Update README.es.md
+
+[33mcommit 39a01c1b56a6ad17a7c5fd997d90289343e91eea[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 13:01:31 2023 +0200
+
+    Update README.md
+
+[33mcommit dc4c88ca54c43ba3a0c0496aa77fe999f37ad528[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 12:35:45 2023 +0200
+
+    Update README.md
+
+[33mcommit 0762417e7b13ac458fe9152bb95fe26133b25c78[m
+Author: Jose Mora <109150320+josemoracard@users.noreply.github.com>
+Date:   Wed Aug 16 12:31:41 2023 +0200
+
+    Update README.md
+
+[33mcommit 761567284984fd382e5fa11b50ecac7ffea6216d[m
+Merge: 87c7232 b5b37b3
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu May 18 10:39:32 2023 -0400
+
+    Merge pull request #532 from mobilerevamp/patch-1
+    
+    Updated periods to README.md
+
+[33mcommit b5b37b3b9e41eea6a444eea0a8db465590de3a70[m
+Author: Nick Shwaery <nick@mobilerevamp.com>
+Date:   Wed May 17 19:03:20 2023 -0400
+
+    Update README.md
+    
+    Just added some periods to the list items
+
+[33mcommit 87c72325b27d80aa7a1343e2b8a05d792971e606[m
+Merge: 14cf428 6c1151e
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Sun Apr 2 20:11:05 2023 -0400
+
+    Merge pull request #475 from breatheco-de/collaborative-html-website
+    
+    the footnotes were added
+
+[33mcommit 6c1151ea995997f05b0409c2c2c1f4c332b6c99a[m
+Author: Lorenagubaira <lgubaira@4geeksacademy.com>
+Date:   Sun Apr 2 13:11:34 2023 +0000
+
+    the footnotes were added
+
+[33mcommit 14cf42841041b1ceeba4151cb7900adc031b0890[m
+Merge: 20729ad 9d8fbcc
+Author: Lorenagubaira <102861577+Lorenagubaira@users.noreply.github.com>
+Date:   Fri Sep 23 09:11:25 2022 -0400
+
+    Merge pull request #276 from danielmoret/patch-1
+    
+    Update README.es.md
+
+[33mcommit 20729ad1042f12c5d754922d3867bfed257a8e01[m
+Author: Tomas <gonzalez.tommy2001@gmail.com>
+Date:   Wed Sep 14 14:29:12 2022 -0400
+
+    Github action validating integrity
+
+[33mcommit e9882a5ab41852b43dd5895dfd89f54e3de07912[m
+Author: Tomas <gonzalez.tommy2001@gmail.com>
+Date:   Wed Sep 14 14:18:35 2022 -0400
+
+    Github action validating integrity
+
+[33mcommit c83696cf3d0373eb3b9dbaf223de996926702c63[m
+Author: Tomas <gonzalez.tommy2001@gmail.com>
+Date:   Wed Sep 14 14:15:57 2022 -0400
+
+    Github action validating integrity
+
+[33mcommit 9d8fbccbc64183c5ce8d9cf7264b46bd12df50bb[m
+Author: danielmoret <110257534+danielmoret@users.noreply.github.com>
+Date:   Sat Aug 27 16:56:45 2022 +0200
+
+    Update README.es.md
+    
+    The img tag of the README.es.md file was updated because it is not being shown in the preview
+
+[33mcommit 2dfa3619574ba72a8af1a996d71a6b303587d5b4[m
+Merge: e83ca8f 10dd630
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Mon Mar 28 09:33:58 2022 -0700
+
+    Merge pull request #154 from AbreuY/master
+    
+    Updated bootstrap to the latest version available
+
+[33mcommit 10dd630c9780fc651d5ab0494b71828e2dbfc6f7[m
+Author: AbreuY <yolfran12@gmail.com>
+Date:   Fri Mar 25 19:27:58 2022 -0500
+
+    Updated bootstrap to the latest version available
+
+[33mcommit 4710d73966a638ebe73acb4fe2ce2f9620539c67[m
+Author: AbreuY <yolfran12@gmail.com>
+Date:   Fri Mar 25 19:27:42 2022 -0500
+
+    Updated bootstrap to the latest version available
+
+[33mcommit e83ca8fd837ffd8e111b185ad34929084ce04c6b[m
+Merge: 9ecc743 1f521fa
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu Mar 17 02:30:59 2022 -0400
+
+    Merge pull request #125 from jsoares07/patch-1
+    
+    Update README.md
+
+[33mcommit 1f521fa8bd525957275a342aaa3923d6e1d86b55[m
+Author: jsoares07 <50368271+jsoares07@users.noreply.github.com>
+Date:   Mon Mar 14 15:32:34 2022 +0000
+
+    Update README.md
+    
+    Just noticed a misspell word.
+
+[33mcommit 9ecc7430aee3d8b4c49991458dc10d50e6324983[m
+Merge: 5670d67 eb10f30
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Wed Jan 26 15:12:51 2022 -0300
+
+    Merge pull request #111 from ljavierrodriguez/master
+    
+    Update Index Structure
+
+[33mcommit eb10f3031a7cd4bee319cbfdf19a405ff570972f[m
+Author: Luis J. Rodriguez O <ljavierrodriguez@gmail.com>
+Date:   Tue Jan 18 12:47:36 2022 -0300
+
+    Update Index Structure
+
+[33mcommit 5670d6756563aafeab811fcb44783704946e7337[m
+Merge: f502fe7 59d917e
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Sat Dec 18 12:49:29 2021 -0300
+
+    Merge pull request #104 from learnpack/master
+    
+    https://github.com/breatheco-de/exercise-collaborative-html-website/pull/103
+
+[33mcommit 59d917e72cb0293ec76ded20a1596e0fa402d3e2[m
+Author: Elvira Quiroz <elvira.quiroz.dp@gmail.com>
+Date:   Sat Dec 18 15:47:47 2021 +0000
+
+    https://github.com/breatheco-de/exercise-collaborative-html-website/pull/103
+
+[33mcommit f502fe7f8556b95f9f5539df423a87541713fe92[m
+Merge: 04d192b ec07491
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Fri Dec 17 19:10:19 2021 -0300
+
+    Merge pull request #103 from gmihov001/patch-1
+    
+    Corrected conflicting info in How to start this project
+
+[33mcommit ec074912f35d1d64dbc8759426c37cff5f553b8f[m
+Author: George Mihov <53583283+gmihov001@users.noreply.github.com>
+Date:   Fri Dec 17 12:22:15 2021 -0500
+
+    Corrected conflicting info in How to start this project
+    
+    We only do this project in class and the students need to clone the repository forked by their instructor, not the original repo of the project. Corrected How to start this project  to match the Instructions.
+
+[33mcommit 04d192b000f4de22c17ae77e7373ac269126cf24[m
+Merge: bea23ec b7c2dcd
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Sun Dec 12 13:15:40 2021 -0300
+
+    Merge pull request #101 from kant/patch-1
+    
+    Minor fixes (paragraph 05, 16, 41)
+
+[33mcommit b7c2dcd11cd74e6029247ddf8d39e7693752155c[m
+Author: Darío Hereñú <magallania@gmail.com>
+Date:   Sat Dec 11 22:45:25 2021 -0300
+
+    Minor fixes (paragraph 05, 16, 41)
+
+[33mcommit bea23ec2536d900723d14b44cfac56bdfb0e76e8[m
+Merge: a492418 1f17405
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Oct 13 11:18:41 2021 -0400
+
+    Merge pull request #83 from silviatrz/patch-1
+    
+    Update README.es.md
+
+[33mcommit a492418b6819367b2bf6b4cd2ec6519172cfbc3f[m
+Merge: f25cda0 237011e
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Oct 13 11:17:58 2021 -0400
+
+    Merge pull request #85 from ColbyWTaylor/patch-1
+    
+    Forgot to update readme example file paths
+
+[33mcommit 237011e93f64fad2a80290e3820cacbdec4bb19d[m
+Author: ColbyWTaylor <colbyt.093@gmail.com>
+Date:   Tue Sep 21 22:13:25 2021 -0400
+
+    Forgot to update readme example file paths
+    
+    Updated from website1 to website for clarity, realized that path still existed on the readme and was a broken
+
+[33mcommit f25cda08a3696293d311fb0b25ec2a04414c3703[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Tue Sep 21 22:47:24 2021 +0000
+
+    update to bootstrap 5, fixed typos, include footer as template, update instructions for clarity
+
+[33mcommit 1f174050b65b786a715891a44fa592197628a5e4[m
+Author: Silvia <77939152+silviatrz@users.noreply.github.com>
+Date:   Tue Sep 21 23:51:01 2021 +0200
+
+    Update README.es.md
+
+[33mcommit 1afe0e635b0ba6d715b7e4b48184db89b0dde57b[m
+Merge: 7b3b96a b34c5fc
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Tue Sep 21 12:38:54 2021 -0400
+
+    Merge pull request #78 from ricardodsb/patch-1
+    
+    Update README.es.md
+
+[33mcommit b34c5fc04a5c5c6b3ff6d6111bb27d35efb2c78c[m
+Author: Ricardo Da Silva <88863584+ricardodsb@users.noreply.github.com>
+Date:   Tue Sep 21 12:49:00 2021 +0200
+
+    Update README.es.md
+
+[33mcommit 7b3b96a46151d2147a7ba2b69dd3526f52c46f44[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Tue Jun 1 11:54:08 2021 -0400
+
+    Update learn.json
+
+[33mcommit 6e3c2529d3d6f0e0cb4643dc68409184657a3297[m
+Merge: 8595314 6c912aa
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Fri May 28 16:54:30 2021 -0400
+
+    Merge pull request #52 from breatheco-de/revert-49-cristiangutie-01-desarrollar-menu
+    
+    Revert "navbar"
+
+[33mcommit 6c912aafe4a1c9108d9ed839f6c821dcaefeff2c[m
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Fri May 28 16:54:11 2021 -0400
+
+    Revert "navbar"
+
+[33mcommit 8595314ec8e9d02737c0589f4fcf04f92010e20d[m
+Merge: e894ed0 ab274a0
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Fri May 28 16:53:16 2021 -0400
+
+    Merge pull request #49 from alejojimenez/cristiangutie-01-desarrollar-menu
+    
+    navbar
+
+[33mcommit ab274a0ca03a87faad9dd38cc9772ad7d1e8e44d[m
+Author: Cristian <cristian.gutie@gmail.com>
+Date:   Sat May 22 11:35:02 2021 -0400
+
+    Correccion de hipervinculos
+
+[33mcommit acc8f62f2e44eaaedec95d3cfdf83c14ab2589c6[m
+Author: Cristian <cristian.gutie@gmail.com>
+Date:   Sat May 22 10:45:49 2021 -0400
+
+    navbar
+
+[33mcommit e894ed07187c68beb8b6cc45daf00b2c8b7cd4ec[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Apr 7 20:31:45 2021 -0400
+
+    Update README.es.md
+
+[33mcommit adceaaa7a80120d6ddf3c880c1916e6773a9f8ff[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Apr 7 20:31:25 2021 -0400
+
+    Update README.md
+
+[33mcommit 5be877ec803c1ee968aa30dec3817179d65e5003[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Apr 7 20:24:47 2021 -0400
+
+    Update README.md
+
+[33mcommit 0a868b4e490fdd0de33761174f9c0e305ac5b534[m
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Tue Apr 6 13:15:10 2021 -0400
+
+    Update README.es.md
+
+[33mcommit faf73506c276309c783b01bcb303386ee62bcb2b[m
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Tue Apr 6 13:10:56 2021 -0400
+
+    Update README.es.md
+
+[33mcommit 398889ff31e05da021d534aa1a48ddf22eccf5bc[m
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Tue Apr 6 13:08:46 2021 -0400
+
+    Update README.es.md
+
+[33mcommit 44ad5093ef36b8aa91c8626f50e073ebf88ebb33[m
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Tue Apr 6 13:07:25 2021 -0400
+
+    Create README.es.md
+
+[33mcommit 75a8390d40d4b41404eae5112e9f74cdaa154aff[m
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Tue Apr 6 12:39:39 2021 -0400
+
+    Update README.md
+
+[33mcommit 0d395f1622dd7f44b65e98ad4c873d91ac2db8c7[m
+Merge: 8670ad3 5445665
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Mar 24 18:50:26 2021 -0400
+
+    Merge pull request #42 from ElviraQDP/patch-1
+    
+    Instructions updated
+
+[33mcommit 544566573751b7528bdc895a64328aadf6fc72a9[m
+Author: Elvira Quiroz <elvira.quiroz.dp@gmail.com>
+Date:   Wed Mar 24 22:40:41 2021 +0000
+
+    missing command
+
+[33mcommit 48290f99dd253c2bf99a1fc05c14339004a07da3[m
+Author: Elvira Quiroz <elvira.quiroz.dp@gmail.com>
+Date:   Wed Mar 24 21:18:37 2021 +0000
+
+    layout fixed
+
+[33mcommit 04f21f0a986ce4b8f074da3d9f2ebf7fe45171dc[m
+Author: Elvira Quiroz <elvira.quiroz.dp@gmail.com>
+Date:   Wed Mar 24 21:16:28 2021 +0000
+
+    instructions updated
+
+[33mcommit 59c12605a8f1a2b8cf9898f7e80455634e88a1de[m
+Author: Elvira Quiroz <63673743+ElviraQDP@users.noreply.github.com>
+Date:   Mon Mar 8 12:44:40 2021 -0300
+
+    Instructions updated
+
+[33mcommit 8670ad32cd75223b32ff0f4ded38e2252455a0d0[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Oct 21 21:26:35 2020 -0400
+
+    Update README.md
+
+[33mcommit dbda145c890c09f423b73a92ddc5976b6916146e[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Oct 21 21:25:51 2020 -0400
+
+    Update README.md
+
+[33mcommit 641317e25a9540228f345f6f801b7e6f838c3442[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Oct 21 21:25:28 2020 -0400
+
+    Update README.md
+
+[33mcommit f0f7ed491913847675b9966d77b09bc45407076e[m
+Merge: 317aba1 d089e18
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Tue Jul 21 18:52:11 2020 -0400
+
+    Merge pull request #17 from JimenaEB/patch-1
+    
+    Update README
+
+[33mcommit d089e18fd85625d64f6e3744870c8983f7d482c3[m
+Author: Jimena Escobar Bermúdez <jime.ebermudez@gmail.com>
+Date:   Tue Jul 21 23:15:35 2020 +0200
+
+    Update README
+    
+    Add the option for the teacher to be the team lead
+
+[33mcommit 317aba19786ce24f1dd4fe5263f1dd47e798d50d[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Sun May 24 18:39:49 2020 -0400
+
+    Update README.md
+
+[33mcommit 6716ae3acaa236a0028d142a46a45799525950f0[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 11:22:16 2020 -0400
+
+    Update learn.json
+
+[33mcommit 92d779ac1eabc4f96cc882d60c53194b59887869[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 11:21:02 2020 -0400
+
+    Update learn.json
+
+[33mcommit 24bb8226588be5ab1e13d3b0f7b81920ddb82db5[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 11:20:53 2020 -0400
+
+    Update learn.json
+
+[33mcommit 0e372f3508fa9dc5fa1b4785f3fbdde27fad4c7f[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 11:19:40 2020 -0400
+
+    Update README.md
+
+[33mcommit 77e40784eb7217ed69f92c9ff9423f8c7cd655ec[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 15:18:32 2020 +0000
+
+    preview
+
+[33mcommit 9b0e0299cb06ae6a26d6269a8d619fb9fde9062b[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 11:03:44 2020 -0400
+
+    Create learn.json
+
+[33mcommit 1f8275504e8332d09839028e98e09534aeddc87c[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 10:58:10 2020 -0400
+
+    Update README.md
+
+[33mcommit 2471bcfc1a756e258c3c9ac71400682d38bca37b[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 10:57:25 2020 -0400
+
+    Update README.md
+
+[33mcommit 4b7bae09bb166698415022fa45fc9f1ab0e3599f[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 10:57:07 2020 -0400
+
+    Update README.md
+
+[33mcommit 960ef2f7be463f52df78e7b16e0638184867a310[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 10:29:35 2020 -0400
+
+    Add files via upload
+
+[33mcommit ae518afa5d524b8aca31ca35c746632382748a2c[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Fri May 22 10:24:22 2020 -0400
+
+    Update README.md
+
+[33mcommit 73aaf53db84c42a85abd9a03ec97abd659bf7245[m
+Merge: cea192c df1e298
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Mon May 4 10:17:26 2020 -0400
+
+    Merge pull request #3 from nachovz/patch-2
+    
+    Update index.html
+
+[33mcommit cea192cb5f8635db93e4f771807f7d834cb9b068[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Tue Apr 21 14:59:38 2020 -0400
+
+    Update README.md
+
+[33mcommit 605bb97c8aca413bf88f8a32b2ed8f335ac7e2d4[m
+Merge: fd8226b 4c7e69e
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu Oct 18 15:40:46 2018 -0400
+
+    Merge pull request #2 from nachovz/patch-1
+    
+    Update to Bootstrap 4
+
+[33mcommit df1e2981d8b1edf555466e71394fafce41dd9629[m
+Author: Ignacio Cordoba <icordoba@4geeks.co>
+Date:   Wed Oct 17 15:14:23 2018 -0400
+
+    Update index.html
+
+[33mcommit 4c7e69e09bc634081478d9bb7201f5cb199e7398[m
+Author: Ignacio Cordoba <icordoba@4geeks.co>
+Date:   Wed Oct 17 15:06:50 2018 -0400
+
+    Update to Bootstrap 4
+
+[33mcommit fd8226b3c4d7846de3ac6df1130ada6056627629[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Sat Jun 23 01:22:47 2018 -0400
+
+    Update README.md
+
+[33mcommit 53fe892bda8062e29f63f397ee4e6b00589df0db[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Sat Jun 23 01:21:53 2018 -0400
+
+    Update README.md
+
+[33mcommit f9dcaba09104b051113ea22245faa53f25eb946b[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Mar 21 18:36:26 2018 -0400
+
+    Update README.md
+
+[33mcommit e3b72c06d51f2609ac07e11843fb32e7c785b1e3[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Mar 21 22:31:13 2018 +0000
+
+    update for the template engine including autoload
+
+[33mcommit 9e6332ca887e1740b20ec8766f8534c2880f4ffa[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Wed Mar 21 20:01:52 2018 +0000
+
+    using the html-template-engine library for loading the HTML templates
+
+[33mcommit 669c895c5be5f679250dec9ace622a235dec0316[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu Feb 15 23:09:56 2018 +0000
+
+    initial commit
+
+[33mcommit d73f9af7fb614ab271e2f4d54aeb739c41bae16e[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu Feb 15 22:59:02 2018 +0000
+
+    initial commit
+
+[33mcommit f88ed7b34edafb11aacd1007aacad2a328ca4db6[m
+Author: Alejandro Sanchez <aalejo@gmail.com>
+Date:   Thu Feb 15 22:56:42 2018 +0000
+
+    initial commit
