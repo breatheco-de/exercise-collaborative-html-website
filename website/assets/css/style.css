@@ -1,3 +1,16 @@
 body{
-    background: #BDBDBD;
+    background: #fcfcfc;
+}
+.hero-img {
+    background: url("https://equivocos.com/wp-content/uploads/2015/04/10363371446_7d32fefa1a_h.jpg");
+    object-fit: cover;
+    width: auto%;
+    height: 60vh;
+    background-position: inherit;
+    background-size: auto;
+
+}
+p {
+    height: 10vh;
+    align-content: space-evenly;
 }
