@@ -1,3 +1,70 @@
 <!-- your html code here -->
-<p>Hello, I'm the services.html</p>
-<p>Hello, I'm the services section and I was loaded using ajax from templates/services.html</p>
+<section class="features-section py-5">
+    <div class="container-fluid px-4 px-lg-5">
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-card light-card">
+                    <h3 class="feature-title">Capital that grows</h3>
+                    <p class="feature-text">
+                        Earn passive income as your stablecoins are deployed into high-performing DeFi protocols.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-card dark-card">
+                    <h3 class="feature-title">Always liquid, always stable</h3>
+                    <p class="feature-text">
+                        Stay fully dollar-pegged with instant access to your funds — no lockups or delays.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-card dark-card">
+                    <h3 class="feature-title">100% hands-free</h3>
+                    <p class="feature-text">
+                        No need to manage strategies manually. USD Bloom works in the background for you.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style>
+    .features-section {
+        background-color: #fafafa;
+    }
+
+    .feature-card {
+        border-radius: 20px;
+        padding: 35px 30px;
+        height: 100%;
+        transition: transform 0.3s ease;
+    }
+
+    .light-card {
+        background: linear-gradient(145deg, #f0f4ff, #9568be);
+        color: #1e2937;
+    }
+
+    .dark-card {
+        background-color: #400775;
+        color: white;
+    }
+
+    .feature-title {
+        font-size: 1.55rem;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+
+    .feature-text {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        opacity: 0.95;
+    }
+    .feature-card:hover {
+        transform: translateY(-8px);
+    }
+</style>
