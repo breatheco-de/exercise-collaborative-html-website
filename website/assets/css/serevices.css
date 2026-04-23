@@ -1,0 +1,20 @@
+.contenedor{
+    border: 1px solid red;
+    display: flex;
+    text-align: end;
+}
+
+.foto-tag{
+    height: 100%;
+    padding: 0px;
+}
+
+.foto-tag-perfil{
+    display: flex;
+    border-radius: 180px;
+    text-align: end;
+}
+
+.textH{
+    text-align: left;
+}
