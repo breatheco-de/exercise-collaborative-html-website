@@ -1,3 +1,29 @@
 body{
-    background: #BDBDBD;
+    background: black;
+}
+#cuadro1 {
+    position: absolute;
+    width: 93%;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: rgb(44, 44, 44);
+    text-align: center;
+  }
+#texto1{
+    font-size: 140px;
+}
+#cuadro2 {
+    position: absolute;
+    width: 93%;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: rgb(44, 44, 44);
+    text-align: center;
+  }
+  #texto2{
+    font-size: 90px;
 }
