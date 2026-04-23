@@ -31,7 +31,7 @@ $ npx http-server --yes -c-1
 
 **Si eres un estudiante:**
 
-Espera a que tu profesor te indique como iniciar este proyecto.
+Espera a que tu profesor te indique cómo iniciar este proyecto.
 
 **Si eres profesor o líder de equipo:**
 
