@@ -1,2 +1,76 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulario</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #ffffff;
+      padding: 40px 0;
+    }
+
+    .form-box {
+      background-color: #e7f0f9;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      max-width: 900px; 
+      width: 90%;
+      margin: auto;
+    }
+
+    .email-style {
+      border: 2px solid #cecece;
+      background-color: #e9f5ff;
+      border-radius: 8px;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+      flex: 1;
+    }
+
+    .message-style {
+      border: 2px solid #cecece;
+      background-color: #eaffea;
+      border-radius: 8px;
+      height: 200px;
+      resize: none;
+      padding: 10px;
+      flex: 1;
+    }
+
+    h1, h2 {
+      max-width: 900px;
+      margin: auto;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="text-start mb-4">
+    <h1>¿Quieres llevar tus ideas al siguiente nivel?</h1>
+    <h2 class="text-muted"> Este formulario está pensado para quienes desean obtener más información y dar el primer paso hacia la realización de proyectos, guiados por la experiencia de nuestros profesores Javier y Roberto.
+    Cuéntanos qué te interesa, qué te gustaría aprender o crear, y estaremos encantados de ayudarte a hacerlo realidad.</h2>
+  </div>
+
+  <div class="form-box">
+    <form>
+      <div class="mb-4 form-label-inline">
+        <label for="email" class="form-label mb-0">Your E-mail</label>
+        <input type="email" class="form-control email-style" id="email" placeholder="Email">
+      </div>
+      <div class="mb-4 form-label-inline align-top">
+        <label for="message" class="form-label mb-0">Message</label>
+        <textarea class="form-control message-style" id="message" placeholder="Message"></textarea>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
