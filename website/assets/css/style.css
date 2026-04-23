@@ -1,3 +1,51 @@
-body{
-    background: #BDBDBD;
+/* Modificado por: Juan Manuel */
+:root {
+    --navbar-height: 56px;
+}
+
+body {
+    background: #bdbdbd;
+}
+
+#tagline > div {
+    top: 4vw;
+}
+
+#tagline > img {
+    width: 100%;
+    max-height: calc(100vh - var(--navbar-height));
+}
+
+#tagline > div h1,
+#tagline > div h2 {
+    margin: 1vw 3vw;
+    animation: showtext 1.5s ease-out alternate forwards;
+    opacity: 0;
+    z-index: 10;
+}
+
+#tagline > div h1 {
+    --font-size-final: 8vw;
+    animation-delay: 0.5s;
+}
+
+#tagline > div h2 {
+    --font-size-final: 5vw;
+    animation-delay: 1.5s;
+}
+
+@keyframes showtext {
+    0% {
+        opacity: 0;
+        font-size: 0;
+        border-radius: 50px;
+        transform: translateZ(0) scale(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        font-size: var(--font-size-final);
+        border-radius: 0;
+        transform: translateZ(1) scale(1);
+    }
 }
