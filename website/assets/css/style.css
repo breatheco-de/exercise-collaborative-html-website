@@ -1,3 +1,7 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+.image-first-heading img{
+    width:400px; 
+    height:400px;
 }
