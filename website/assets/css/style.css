@@ -1,3 +1,23 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+
+.portfolio-container {
+    margin-top: 3%;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+#services-img{
+    border-radius: 50%;
+}
+#services-title-color{
+    color:#adabab;
+}
+#services-text{
+    font-family:sans-serif;
+}
+.services-container{
+    border-top:1px solid rgba(128, 128, 128, 0.607);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.605);
 }
