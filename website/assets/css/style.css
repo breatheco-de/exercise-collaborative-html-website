@@ -1,3 +1,14 @@
 body{
-    background: #BDBDBD;
+    background: black;
+    margin: 0 auto;
+}
+.cuerpo-pagina{
+    max-width: 1024px;
+}
+.texto-pequeño{
+    font-size: 0.7rem;
+}
+.contenedor-principal{
+  
+    background: whitesmoke;
 }

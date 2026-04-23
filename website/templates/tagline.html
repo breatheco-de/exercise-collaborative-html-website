@@ -1,3 +1,106 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="3000"
+    data-bs-pause="false">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active " data-bs-interval="10000">
+            <img src="https://giffiles.alphacoders.com/375/37500.gif" class="d-block w-100 object-fit-cover"
+                alt="corporative-img-1" style="height: 400px;">
+            <div class="carousel-caption caption-green">
+                <h3 class="caption-chip mb-3">
+                    One page wonder</h3>
+                <h4 class="caption-chip">
+                    will knock your socks off</h4>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://giffiles.alphacoders.com/215/215985.gif" class="d-block w-100  object-fit-cover"
+                alt="corporative-img-2" style="height: 400px;">
+            <div class="carousel-caption caption-pink">
+                <h3 class="caption-chip mb-3">
+                    A single scroll</h3>
+                <h4 class="caption-chip">
+                    that changes everything</h4>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://giffiles.alphacoders.com/215/215982.gif" class="d-block w-100 object-fit-cover"
+                alt="corporative-img-3" style="height: 400px;">
+            <div class="carousel-caption caption-red">
+                <h3 class="caption-chip mb-3">
+                    This landing page</h3>
+                <h4 class="caption-chip">
+                    will blow your mind</h4>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+
+</div>
+<style>
+    .carousel .carousel-caption {
+        font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .4rem;
+    }
+
+    .caption-chip {
+        padding: 8px 0px;
+        border-radius: 10px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, .65),
+            0 2px 8px rgba(0, 0, 0, .5);
+        backdrop-filter: saturate(120%) blur(2px);
+        display: inline-block;
+        width: auto;
+        margin: 4px;
+    }
+
+
+
+    .caption-green h3.caption-chip,
+    .caption-green h4.caption-chip {
+        background-color: rgba(67, 125, 100, 0.664);
+        color: #ffffff;
+    }
+
+    .caption-pink h3.caption-chip,
+    .caption-pink h4.caption-chip {
+        background-color: rgba(205, 95, 150, 0.7);
+        color: #ffffff;
+    }
+
+    .caption-red h3.caption-chip,
+    .caption-red h4.caption-chip {
+        background-color: rgba(146, 67, 40, 0.6);
+        color: #ffffff;
+    }
+
+    .carousel .carousel-caption {
+        padding-bottom: 32px;
+    }
+
+    .carousel .object-fit-cover {
+        object-fit: cover;
+    }
+
+    #carouselExampleDark .carousel-item {
+        transition: transform 1.5s ease, opacity 0.8s ease-in-out;
+    }
+
+    .caption-chip {
+        padding: 8px clamp(20px, 10vw, 80px);
+    }
+</style>
