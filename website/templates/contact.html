@@ -1,2 +1,33 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+
+<div class="container-md my-5">
+    <h1 class="contact"><strong>Contact</strong></h1>
+    <div class="row">
+        <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent
+            commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+
+
+    <div class="container-md d-flex justify-content-center">
+        <form class="border p-1 mx-5 bg-light w-75">
+            <div class="row mb-3 px-4">
+                <label for="email" class="col-sm-2 col-form-label fw-bold d-flex justify-content-center">Your E-mail</label>
+                <div class="col-sm-9">
+                    <input type="email" class="form-control" id="email" placeholder="Your email">
+                </div>
+            </div>
+            <div class="row mb-3 px-4">
+                <label for="message" class="col-sm-2 col-form-label fw-bold d-flex justify-content-center">Your message</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="message" rows="4"
+                        placeholder="Please enter your message here..."></textarea>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="offset-sm-2 col-sm-10 d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
