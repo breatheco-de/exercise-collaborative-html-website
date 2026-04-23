@@ -1,3 +1,38 @@
-body{
-    background: #BDBDBD;
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
 }
+
+#fondo{
+      background-image: url('https://www.qcpetstudies.com/blog/wp-content/uploads/2018/04/group-of-dogs-header.jpg');
+      background-size: cover;
+      background-position: center bottom;
+      height: 600px;
+}
+.container-general {
+    background-color: white;
+    width: 100%;
+}
+
+.card-img-top {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.circle-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.heading-strong {
+    font-weight: 700;
+}
+
+.heading-muted {
+    color: gray;
+  }
