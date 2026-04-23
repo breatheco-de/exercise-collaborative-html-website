@@ -1,3 +1,22 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<div class="tagline-background ">
+    <div class="d-flex flex-column align-items-center w-100 justify-content-center h-100">
+        <h1 class="text-center fw-bold bg-white w-100">One Page Wonder</h1>
+    
+        <h3 class="text-center fw-bold bg-white w-100">Will Know Your Socks Off</h3>
+</div>
+</div>
+<style>
+    .tagline-background{
+        background-image: url("./assets/img/bg.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+    }
+    .tagline-background > div > h1 {
+        font-size: 100px;
+    }
+    .tagline-background > div > h3 {
+        font-size: 60px;
+    }
+</style>
