@@ -1,3 +1,31 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tagline</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+<!-- Hero Section -->
+<section class="position-relative text-center my-3">
+    <!-- Full-width background image -->
+    <img src="/website/assets/img/bg.jpg" alt="bg" class="img-fluid w-100 d-block">
+
+    <div class="position-absolute start-50 translate-middle-x w-100" style="top:20%;">
+        <!--Frustrating stupid bar-->
+        <!-- Top bar -->
+        <h1 class="bg-white bg-opacity-40 py-2 fw-bold d-block mx-15px"
+            style="margin: 0 15px; font-family: Arial, sans-serif; font-size:120px; line-height:1.05; font-weight:700;">
+            One Page Wonder
+        </h1>
+        <!-- Bottom bar -->
+        <h2 class="bg-white bg-opacity-40 py-2 mt-3 fw-semibold d-block mx-15px"
+            style="margin: 0 15px; font-family: Arial, sans-serif; font-size:64px; line-height:1.1; font-weight:600;">
+            Will Knock Your Socks Off
+        </h2>
+    </div>
+</section>  
+</body>
+</html>
