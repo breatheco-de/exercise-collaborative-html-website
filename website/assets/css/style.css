@@ -1,3 +1,97 @@
-body{
-    background: #BDBDBD;
+body {
+    background: white;
+}
+
+.header {
+    height: 100vh;
+    background: url('../img/bg.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.header h1 {
+    font-size: 13rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.header h3 {
+    font-size: 7rem;
+    font-weight: 500;
+}
+
+@media (max-width: 1400px) {
+    .header-text h1 {
+        font-size: 5rem;
+    }
+
+    .header-text h3 {
+        font-size: 3rem;
+    }
+
+    .header-text {
+        top: 30%;
+    }
+}
+@media (max-width: 1200px) {
+    .header-text h1 {
+        font-size: 4rem;
+    }
+
+    .header-text h3 {
+        font-size: 2.3rem;
+    }
+
+    .header-text {
+        top: 25%;
+    }
+}
+@media (max-width: 992px) {
+    .header-text h1 {
+        font-size: 3rem;
+    }
+
+    .header-text h3 {
+        font-size: 1.7rem;
+    }
+
+    .header-text {
+        top: 20%;
+    }
+}
+@media (max-width: 768px) {
+    .header-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .header-text {
+        top: 15%;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-text h1 {
+        font-size: 2rem;
+    }
+
+    .header-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .header-text {
+        top: 10%;
+    }
 }
