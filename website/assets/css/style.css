@@ -1,3 +1,16 @@
 body{
-    background: #BDBDBD;
+    background:;
+} 
+img{
+    border-radius: 175px;
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+}
+.card-img-top{
+    
+}
+.card{
+    border: none;
 }
