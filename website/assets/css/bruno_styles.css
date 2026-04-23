@@ -1,0 +1,101 @@
+header{
+    background-image: url(/assets/img/header_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh; 
+    padding: 100px 0;
+}
+
+.gta-main-title {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 10rem;
+    line-height: 0.8;
+    -webkit-text-stroke: 1.5px black;
+    letter-spacing: 1px;
+    text-shadow: 
+        -3px -3px 0 #000,  
+         3px -3px 0 #000,
+        -3px  3px 0 #000,
+         3px  3px 0 #000,
+         5px  5px 10px rgba(0,0,0,0.5);
+}
+
+
+.gta-six-title {
+    font-family: 'Bungee', sans-serif;
+    font-size: 20rem;
+    line-height: 1;
+    background: linear-gradient(180deg, #01cdfe 0%, #ff71ce 50%, #ffeb3b 100%);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 10px rgba(255, 113, 206, 0.4));
+    margin-left: -10px;
+    filter: 
+        drop-shadow(2px 2px 0px black) 
+        drop-shadow(-2px -2px 0px black) 
+        drop-shadow(2px -2px 0px black) 
+        drop-shadow(-2px 2px 0px black)        
+        drop-shadow(0 0 15px rgba(255, 113, 206, 0.6));
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.modal-content {
+    border: 3px solid #01cdfe !important;
+    box-shadow: 0 0 30px rgba(255, 113, 206, 0.6) !important;
+}
+
+section{
+    background-color: #000000;
+}
+
+.spoiler-title{
+    font-family: 'Staatliches', sans-serif;
+    font-size: 5rem;
+}
+
+section img{
+    object-fit: cover;
+    min-height: 450px;
+}
+
+section h3{
+    font-size: 2.8rem; 
+    font-family: 'Staatliches';
+}
+
+.gta-card-fixed {       
+    border-radius: 0 !important;
+    border: none;
+    overflow: hidden;
+    max-width: 1100px;
+}
+
+.card-title.text-info {    
+    letter-spacing: 1px;
+}
+
+.card-text.fs-4 {
+    font-size: 1.5rem !important;
+    color: #e0e0e0 !important;
+    line-height: 1.6;
+}
+
+.img-fluid {
+    border-radius: 0 !important;
+}
+
+.spoiler-1{
+    color: #01cdfe !important;
+}
+
+.spoiler-2{
+    color: #ff71ce !important;
+}
+.spoiler-3{
+    color: #ffeb3b !important;
+}

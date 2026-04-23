@@ -1,3 +1,55 @@
 body{
     background: #BDBDBD;
 }
+
+body {
+    background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') center/cover no-repeat;
+}
+
+.main-nav {
+    background: rgba(73, 80, 87, 0);
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.main-nav .nav-link {
+    font-weight: 600;
+    font-size: 10px;
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    -webkit-text-stroke: 1px orange;
+    letter-spacing: 3px;
+}
+
+.main-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.brand {
+    color: orange;
+    font-size: 30px;
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    -webkit-text-stroke: 1px black;
+    letter-spacing: 3px;
+}
+
+.top-bar {
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 3px 0;
+}
+
+.top-bar a {
+    color: white;
+    margin-left: 12px;
+    cursor: pointer;
+}
