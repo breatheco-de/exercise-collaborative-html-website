@@ -5,40 +5,73 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
     <body>
-        <div class="container">
-            <h1 class="mb-5">GIT & Bootstrap Collaborative Project</h1>
-            <div class="row">
-                <div class="col-sm-4 bg-dark text-center">
-                    <a href="./website/designs/thumb.jpg"><img style="max-height: 400px;" class="img-responsive" src="website/designs/thumb.jpg"></img></a>
-                </div>
-                <div class="col-sm">
-                    <h2>One Page Wonder - Start Bootstrap Template</h2>
-                    <a class="btn btn-primary" href="./website/">Live Version</a>
-                    <a class="btn btn-warning" href="./website/designs/thumb.jpg">How it Should Look</a>
-                    <a class="btn btn-danger" href="./website/designs/guide.jpg">See the Guide</a>
+     
+    <div class="container-fluid">  
+    <h1><b>Porfolio</b></h1>  
+    
+        <p>Desarrollador Full Stack enfocado en construir aplicaciones escalables y código limpio. Mi objetivo es transformar ideas complejas en experiencias digitales fluidas, optimizando siempre el rendimiento y la mantenibilidad."</p>
+    <!--IMAGENES-->
 
-                    <div>
-                        <h2>Tips:</h2>
-                        <p>Copy and tweak components from <a href="https://getbootstrap.com/" target="_blank" >getbootstrap.com</a>.</p>
-                        <p>If you are looking at an example from <a href="https://getbootstrap.com/docs/5.1/examples/" target="_blank">https://getbootstrap.com/docs/5.1/examples/</a>, you can use the inspector (right mouse click to open this panel up) and then select the section you want in the "Elements" tab. Then go to copy, and copy element to quickly add to your project.</p>
-                        <p>To push changes to the website, remember this sequence:</p>
-                            <ul>
-                                <li>git add .</li>
-                                <li>git commit -m "what you modified"</li>
-                                <li>git push</li>
-                            </ul>
-                            <p>To see changes from teammates:</p>
-                                <ul>
-                                    <li>git pull</li>
-                                </ul>
-                                <p>To customize elements, use the style.css file located in assets/css.</p>
-                    </div>
-                </div>
-            </div>
+  <div class="row align-items-start">
 
+    <!-- Primera columna -->
+    <div class="col-md-4">
+      <img src="https://img.freepik.com/foto-gratis/codificacion-programas-informaticos-pantalla_53876-138060.jpg?semt=ais_hybrid&w=740&q=80" class="img-fluid" style="height: 250px; width: 100%; object-fit: cover;">
+      
+      <p>Experto en múltiples lenguajes de programación</p>
+    </div>
+
+    <!-- Segunda columna -->
+    <div class="col-md-4">
+      <img src="https://img.freepik.com/vector-gratis/vector-smartphone-3d-nubes-e-iconos-aplicaciones-aplicaciones_1284-43208.jpg" class="img-fluid" style="height: 250px; width: 100%; object-fit: cover;">
+      <p>Experto en desarrollo de aplicaciones móviles</p>
+    </div>
+
+    <!-- Tercera columna -->
+    <div class="col-md-4">
+      <img src="https://img.freepik.com/foto-gratis/codificacion-pantalla-computadora_53876-138110.jpg?w=740&t=st=1700544800~exp=1700545400~hmac=2b7f7b9fcee43b9a1d847de39d3e5b2c" class="img-fluid" style="height: 250px; width: 100%; object-fit: cover;">
+      <p>Experto en seguridad informática</p>
+    </div>
+
+  </div>
+
+  <!--FORMULARIO-->
+  <div class="container my-5">
+  <h2 class="text-center mb-4">Contacto</h2>
+  
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        
+        <!-- Email -->
+        <div class="row mb-3">
+          <label for="email" class="form-label">Tu email</label>
+          <input type="email" class="form-control" id="email" placeholder="Tu email">
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Mensaje -->
+        <div class="row mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="message" row="4" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+
+        <!-- Botón -->
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+       
+     
+     
+     
+     
+     
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     </body>
 </html>
