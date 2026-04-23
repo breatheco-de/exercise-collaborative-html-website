@@ -1,0 +1,52 @@
+#portfolio {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#portfolio h2 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #333;
+}
+
+#portfolio p {
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#portfolio .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#portfolio .card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#portfolio .card-body {
+    padding: 1.2rem;
+}
+
+#portfolio .card-title {
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+#portfolio .card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 0.5rem;
+}

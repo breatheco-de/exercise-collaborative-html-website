@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-top: 1px solid #e5e5e5;
+}
+
+#contact h2 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #333;
+}
+
+#contact p {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+#contact .form-control {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    transition: border-color 0.3s ease;
+}
+
+#contact .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, .25);
+}
+
+#contact button {
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 10px 25px;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}
