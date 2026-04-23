@@ -1,3 +1,14 @@
+INTEGRANTES
+
+Julian David Pineda: First_heading
+Ricardo Funez: Navbar and footer
+Gabriel: Portfolio
+Ramses: services
+Sindy: Tagline
+Camilo: contac
+
+
+
 <!-- hide -->
 # Sitio Web colaborativo (Git collaboration)
 <!-- endhide -->
