@@ -1,3 +1,48 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
 }
+
+
+
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+.tagLine {
+    height   : 400px;
+    width    : 100%;
+    position : relative;
+}
+
+.imgTagLine{
+    height        : auto; /* Ajusta esto según sea necesario */
+    display       : block;
+    border-radius : 0%;
+    margin-right  : 0px;
+    margin-left   : 0px;
+    width         : 100%;
+}
+
+.overTxt1, .overTxt2 {
+    position:absolute;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5); 
+  }
+  
+  .overTxt1 {
+    top:3rem;
+    font-size: clamp(1rem, 10vw, 6rem); 
+  }
+  .overTxt2 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    
+  }
+
+  .formContact {
+    background-color: aliceblue;
+  }
