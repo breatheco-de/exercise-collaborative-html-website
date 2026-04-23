@@ -1,3 +1,59 @@
 body{
     background: #BDBDBD;
 }
+
+.img-fix{
+    width: 70%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.cover-settings{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.cover-settings img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1600px){
+    .cover-settings{
+        height: 60vh;
+    }
+}
+
+
+@media (max-width: 1400px){
+    .cover-settings{
+        height: 60vh;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .cover-settings{
+        height: 40vh;
+    }
+}
+
+@media (max-width: 992px){
+    .cover-settings{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 768px) {
+  .cover-settings {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .cover-settings {
+    height: 30vh;
+  }
+}
+
