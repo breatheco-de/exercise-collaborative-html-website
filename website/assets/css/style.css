@@ -1,3 +1,63 @@
-body{
-    background: #BDBDBD;
+.entrada{
+    display: inline-block;
+    text-align: center;
+}
+.firstIMG{
+    width: 100%;
+    margin-left: .1%;
+}
+
+.textoArriba{
+    position: absolute;
+    top: 25%;
+    margin-left: 48.5%;
+    transform: translate(-50%, -50%);
+    font-size: 140px;
+    background-color: aliceblue;
+    width: 95%;
+    
+}
+
+.textoArriba1{
+    position: absolute;
+    top: 50%;
+    margin-left:48.5%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    background-color: aliceblue;
+    width: 95%;
+    margin-right: -10;
+}
+.texto{
+    margin-top: 10%;
+}
+.walterW{
+    border-radius: 50%;
+    width: 350px;;
+    float: right;
+    margin-top: -20%;
+}
+
+.serviceIMG{
+    border-radius: 50%;
+    width: 350px;;
+    float: left;
+    margin-top: -20%;
+}
+
+.secondTittle{
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.portfolio{
+    margin-top: 10%;
+}
+.card{
+    min-width: 350px;
+}
+.formContact{
+    background-color: rgb(236, 236, 236);
+    max-width: 800px;
+    margin-left: 20%;
 }
