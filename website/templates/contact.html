@@ -1,2 +1,42 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container-fluid mt-4" id="contacto-nav" style="width: 90%">
+  <div class="mb-5">
+
+    <h1>Contact</h1>
+    <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulu, id ligula porta felis euismod semper.
+      Praesent commodo cursus magna,vel scelerisque nisl consectetus. Fusce dapibus, tellus ac cursus comodo.</p>
+    <!--Creamos el row con el justify y el col para que ocupe cierto tamaño de pantalla y se quede en medio-->
+    <div class=" row d-flex justify-content-center ">
+      <div class="col-10 col-md-8">
+        <!--Creamos el formulario y dentro de el los label e input-->
+        <!--con el p-3 le damos padding de arriba y de los lados-->
+        <form class="p-3" style="background-color:#F5F5F5">
+          <!--Creamos un row y entonces en la etiqueta label si que nos deja poner col- pero en un input
+              no podemos por lo tanto tenemos que crear un div y asi lo esparcimos  -->
+          <div class="row mb-3">
+            <!-- el col-form-label es para que la label aparezca al lado del texto, el text-md-end para que 
+           en el espacio que tiene aparezca al final y ademas cuando sea pequeña se ponga al lado y el fw-bold para poner negrita-->
+            <label for="inputEmail" class=" col-12 col-md-3 col-form-label text-md-end fw-bold">Your E-mail</label>
+            <div class=" col-12 col-md-9">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Your email">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <label for="inputMessage" class=" col-12 col-md-3 col-form-label text-md-end fw-bold">Your message</label>
+            <div class="col-12 col-md-9">
+
+              <textarea class="form-control " id="inputMessage" placeholder="Please enter your message here..."
+                style="height: 100px"></textarea>
+            </div>
+          </div>
+
+          <div class="text-end  pb-3">
+            <button class=" btn btn-primary rounded-lg  " type="submit">Submit</button>
+          </div>
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

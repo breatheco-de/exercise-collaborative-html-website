@@ -1,3 +1,10 @@
+Patricia = navbar
+Arantxa = contact
+Sergio = portfolio y services
+Bruno = Tagline y First heading
+
+
+
 <!-- hide -->
 # Making a website as a team (Git collaboration)
 <!-- endhide -->
