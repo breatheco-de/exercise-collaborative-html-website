@@ -1,0 +1,80 @@
+[33mcommit 4161cfd65f3730a464e9953fb590dd07d968f06e[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: e24b6d7 fc7e06a
+Author: Juan Martínez <37555866+snackstty@users.noreply.github.com>
+Date:   Mon Jul 14 14:00:24 2025 +0200
+
+    Merge pull request #5 from munyiihc/Juan
+    
+    Juan
+
+[33mcommit fc7e06a1cd586bacb6b3cf4fd6f6dea8cc036f3a[m[33m ([m[1;31morigin/Juan[m[33m)[m
+Merge: 00e6ff0 e24b6d7
+Author: Juan Martínez <je.martinez19@outlook.com>
+Date:   Mon Jul 14 13:56:17 2025 +0200
+
+    Merge branch 'master' of https://github.com/munyiihc/Grupo
+
+[33mcommit 00e6ff032b3201540b6df25ebe9ec4ef324e00a2[m
+Author: Juan Martínez <je.martinez19@outlook.com>
+Date:   Mon Jul 14 13:55:25 2025 +0200
+
+    :memo: Contact.html has been modified!
+
+[33mcommit e24b6d7293d2eb9e809fde1a17abdc4a6cd61a34[m
+Merge: 9e09a45 6f07099
+Author: Kevin Erazo Romero <120631866+Kevinero25@users.noreply.github.com>
+Date:   Mon Jul 14 13:54:16 2025 +0200
+
+    Merge pull request #4 from munyiihc/kevin
+    
+    tagline y services
+
+[33mcommit 6f0709967368cd2443f96105493261ec3d47d2dd[m[33m ([m[1;31morigin/kevin[m[33m)[m
+Merge: 2bdcc16 9e09a45
+Author: Kevin Erazo Romero <120631866+Kevinero25@users.noreply.github.com>
+Date:   Mon Jul 14 13:54:05 2025 +0200
+
+    Merge branch 'master' into kevin
+
+[33mcommit 2bdcc16c8861c67383994f6650f10add68c12410[m
+Author: Kevinero25 <kevin-erazoromero@hotmail.com>
+Date:   Mon Jul 14 13:46:48 2025 +0200
+
+    tagline y services
+
+[33mcommit 9e09a45ad792eed1cb93c937bbc867cdbd390082[m
+Merge: 4cfbee7 ee047ec
+Author: Marta M <Munyii.hc@gmail.com>
+Date:   Mon Jul 14 13:28:46 2025 +0200
+
+    Merge pull request #3 from munyiihc/Genis
+    
+    Modificacion de navbar y servises
+
+[33mcommit ee047ecd5e399cb3da03d427b49583e9389f9f19[m
+Merge: 77f7168 4cfbee7
+Author: Marta M <Munyii.hc@gmail.com>
+Date:   Mon Jul 14 13:28:35 2025 +0200
+
+    Merge branch 'master' into Genis
+
+[33mcommit 77f71686adcea1ed3761dbb24e6f6b7b07735ac3[m
+Author: GenisPe <onlinegenis@gmail.com>
+Date:   Mon Jul 14 13:22:49 2025 +0200
+
+    Modificacion de navbar y servises
+
+[33mcommit 4cfbee7b68db91e917c38d46be207d846fe9b426[m
+Merge: 61c81c9 04335f1
+Author: Marta M <Munyii.hc@gmail.com>
+Date:   Mon Jul 14 13:18:42 2025 +0200
+
+    Merge pull request #1 from munyiihc/Marta
+    
+    Navbar y portfolio por Marta
+
+[33mcommit 04335f1cd4c3a0a288631148f9bdf608c39162ce[m[33m ([m[1;31morigin/Marta[m[33m)[m
+Author: PhoenixGabba <phoenixgabba@gmail.com>
+Date:   Mon Jul 14 13:16:51 2025 +0200
+
+    Navbar y portfolio por Marta

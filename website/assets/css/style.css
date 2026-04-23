@@ -1,3 +1,11 @@
 body{
     background: #BDBDBD;
+    font-size: 'Roboto';
+    font-style: italic;
+}
+
+input, textarea, select {
+    font-size: 'Roboto';
+    font-style: italic;
+    font-size: 16px;
 }
