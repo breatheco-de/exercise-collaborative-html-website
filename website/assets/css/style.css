@@ -1,3 +1,20 @@
 body{
     background: #BDBDBD;
 }
+
+.bg-image {
+background-image: url('https://as2.ftcdn.net/v2/jpg/05/30/11/41/1000_F_530114130_TYglhi5JbHEm36bw2Hkb8BIes5KMHQtq.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.tittleHead1 {
+    color: black;
+    background-color: white;
+    width: 100%;
+}
+/* .tittleHead2 { */
+    color: black;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+/* } */
