@@ -1,0 +1,229 @@
+/* Variables de tema */
+:root {
+  --bg-color: #050505;
+  --surface-color: rgba(25, 25, 25, 0.6);
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --accent-color: #ff0033; /* Rojo Nothing */
+  --cyber-cyan: #00f0ff; /* Acento Cyberpunk */
+  --border-radius: 12px;
+  --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.tech-store-wrapper {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Grid de Productos */
+.product-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: var(--surface-color);
+  border: var(--glass-border);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--cyber-cyan); /* Toque ciberpunk al pasar el ratón */
+  box-shadow: 0 10px 30px rgba(0, 240, 255, 0.1);
+}
+
+.product-image-placeholder img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #111;
+}
+
+.product-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.product-info p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 0 0 1.5rem 0;
+  flex: 1;
+}
+
+.product-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-family: monospace; /* Toque tech/código */
+  font-size: 1.1rem;
+  color: var(--cyber-cyan);
+}
+
+button.add-to-cart-btn {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+button.add-to-cart-btn:hover {
+  background: var(--text-primary);
+  color: var(--bg-color);
+}
+
+/* Sidebar del Carrito (Estilo Apple Glass) */
+.cart-sidebar {
+  width: 320px;
+  background: rgba(15, 15, 15, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: var(--glass-border);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  position: sticky;
+  top: 2rem;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--glass-border);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cart-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#cart-count {
+  background: var(--accent-color);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.cart-items-container {
+  min-height: 150px;
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.empty-cart-msg {
+  color: var(--text-secondary);
+  text-align: center;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+/* Items individuales en el carrito */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.item-details h4 {
+  margin: 0 0 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+.item-details p {
+  margin: 0;
+  font-family: monospace;
+  color: var(--text-secondary);
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: opacity 0.2s;
+}
+
+.remove-btn:hover {
+  opacity: 0.7;
+}
+
+.cart-footer {
+  border-top: var(--glass-border);
+  padding-top: 1rem;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.checkout-btn {
+  width: 100%;
+  background: var(--text-primary);
+  color: var(--bg-color);
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.checkout-btn:disabled {
+  background: var(--text-secondary);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.checkout-btn:not(:disabled):hover {
+  opacity: 0.9;
+}

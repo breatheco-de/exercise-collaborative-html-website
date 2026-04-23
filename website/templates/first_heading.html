@@ -1,2 +1,97 @@
-<!-- your html code here -->
-<p>Hello, I'm the first_heading.html</p>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tech</title>
+    <link rel="stylesheet" href="/website/assets/css/cart.css">
+</head>
+
+<body>
+
+    <div class="tech-store-wrapper">
+        <section class="product-grid">
+
+            <article class="product-card">
+                <div class="product-image-placeholder">
+                    <img src="/website/assets/img/vision-pro.jpg" alt="Apple Vision Pro">
+                </div>
+                <div class="product-info">
+                    <h3>Apple Vision Pro</h3>
+                    <p>Computación espacial. Minimalismo absoluto.</p>
+                    <div class="product-action">
+                        <span class="price">$3499.00</span>
+                        <button class="add-to-cart-btn" data-id="1" data-name="Apple Vision Pro" data-price="3499.00">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-placeholder">
+                    <img src="/website/assets/img/nothing-headphone.jpg" alt="Nothing Ear">
+                </div>
+                <div class="product-info">
+                    <h3>Nothing Ear</h3>
+                    <p>Sonido puro. Diseño transparente.</p>
+                    <div class="product-action">
+                        <span class="price">$149.00</span>
+                        <button class="add-to-cart-btn" data-id="2" data-name="Nothing Ear" data-price="149.00">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-placeholder">
+                    <img src="/website/assets/img/descarga3.jpg" alt="Cyber Item">
+                </div>
+                <div class="product-info">
+                    <h3>Cyberdeck K-84</h3>
+                    <p>Teclado mecánico de acrílico.</p>
+                    <div class="product-action">
+                        <span class="price">$250.00</span>
+                        <button class="add-to-cart-btn" data-id="3" data-name="Cyberdeck K-84" data-price="250.00">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image-placeholder">
+                    <img src="/website/assets/img/descarga5.jpg" alt="Cyber Item">
+                </div>
+                <div class="product-info">
+                    <h3>Technologies</h3>
+                    <p>Cyber technologies</p>
+                    <div class="product-action">
+                        <span class="price">$5.000</span>
+                        <button class="add-to-cart-btn" data-id="4" data-name="technologies" data-price="5000.00">Añadir</button>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <aside class="cart-sidebar">
+            <div class="cart-header">
+                <h2>Cesta</h2>
+                <span id="cart-count">0</span>
+            </div>
+
+            <div class="cart-items-container" id="cart-items">
+                <p class="empty-cart-msg">Tu cesta está vacía.</p>
+            </div>
+
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total</span>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                <button class="checkout-btn" id="checkout-btn" disabled>Proceder al pago</button>
+            </div>
+        </aside>
+    </div>
+
+    <script src="/website/assets/js/cart.js"></script>
+</body>
+
+</html>

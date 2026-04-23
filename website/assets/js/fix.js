@@ -69,4 +69,3 @@ function closeMenusOnResize() {
 
 // Event listeners
 window.addEventListener('resize', closeMenusOnResize, false);
-toggle.addEventListener('click', toggleMenu, false);
