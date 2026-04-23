@@ -1,3 +1,6 @@
-body{
-    background: #BDBDBD;
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=BBH+Sans+Hegarty&family=Bitcount+Grid+Single:wght@100..900&family=Cookie&family=Mynerve&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Yellowtail&display=swap');
+
+body {
+    background: white;
+    font-family: "Open Sans", sans-serif;
 }
