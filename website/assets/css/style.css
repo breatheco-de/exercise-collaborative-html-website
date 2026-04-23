@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+.image {
+    width: auto;
+    max-height: 150px;
+}
+.card {
+    max-height: 370px;
+}
