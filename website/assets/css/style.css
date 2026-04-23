@@ -1,3 +1,28 @@
 body{
     background: #BDBDBD;
 }
+
+ .custom-navbar {
+      background-color: #212529;
+      max-width: auto px;
+      margin: 0 auto; /* centra la barra */
+      padding: 10px 20px;
+    }
+
+    .navbar-nav .nav-link {
+      color: #adb5bd;
+      margin-left: 15px;
+    }
+
+    .navbar-nav .nav-link.active {
+      color: #ffffff;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #ffffff;
+    }
+
+    .navbar-brand {
+      color: #ffffff;
+      margin-right: 30px;
+    }
