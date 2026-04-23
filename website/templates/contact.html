@@ -1,2 +1,22 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="row bg-white p-5">
+    <h2>Contact</h2>
+    <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+        Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+        commodo.</p>
+</div>
+<div class="row bg-white d-flex justify-content-center">
+    <form class="card bg-secondary p-3" style="width: 550px; height: 250px">
+        <div class="d-flex justify-content-center">
+            <label class="col-3 m-1" for="email"><strong>Your e-mail</strong></label>
+            <input class="col-9 m-1" type="email" class="form-control" id="email" placeholder=" Your email" required>
+        </div>
+        <div class="form-group d-flex justify-content-center">
+            <label class="col-3 m-1" for="message"><strong>Your message</strong></label>
+            <textarea class="col-9 m-1" id="message" rows="4" placeholder=" Please enter your message here..."
+                required></textarea>
+        </div>
+        <div class="d-flex justify-content-end m-2">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
