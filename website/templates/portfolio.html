@@ -1,2 +1,78 @@
-<!-- your html code here -->
-<p>Hello, I'm the portfolio.html</p>
+<title>Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    .lead {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .row {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+    }
+
+    .card {
+      flex: 1;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+    }
+
+    .card-title {
+      font-size: 20px;
+      color: #007bff;
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+
+    .card-text {
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Portafolio</h1>
+    <p class="lead">
+      Aca tendras varios de mis proyectos para que puedas visualizarlos cuando quieras, todos funcionales.
+    </p>
+    
+    <div class="row">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/2560px-Star_Wars_Logo.svg.png" alt="Project Image">
+        <div class="card-title">Star wars Web</div>
+        <p class="card-text">Web de Star Wars donde puedes aprender mas de este maravilloso mundo.</p>
+      </div>
+      <div class="card">
+        <img src="https://play-lh.googleusercontent.com/mrT2AQyGwUh07v4w3qnoeqORfV2LstjXKRB3L2KW573RbAxVFcyZxnERYJHT9fkcgkw" alt="Project Image">
+        <div class="card-title">SuperUtil</div>
+        <p class="card-text">Una app de un supermercado, con una interfaz amigable para el usuario.</p>
+      </div>
+      <div class="card">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.9UbJkKEmppOpQuzHn9BX_QHaEK&pid=Api&P=0&h=220" alt="Project Image">
+        <div class="card-title">E-Commerce</div>
+        <p class="card-text">Version beta de aplicacion para un e-commerce, mas detalles en un futuro cercano.</p>
+      </div>
+    </div>
+  </div>
+</body>
