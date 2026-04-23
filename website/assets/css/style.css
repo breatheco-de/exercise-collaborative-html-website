@@ -1,3 +1,45 @@
+
 body{
     background: #BDBDBD;
+}
+
+/*---first-heading---*/
+
+/*Fondo*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 400px;
+}
+
+/*Imagen*/
+img {
+    object-fit: cover;
+    height: 280px;
+    width: 280px;
+}
+.first-heading-image {
+    margin-top: -40px;
+}
+/*Titulo*/
+.title-first-words {
+    color: black;
+}
+.title-second-words {
+    color: dimgrey;
+}
+.title-first-heading {
+    padding-left: 140px;
+    margin-top: -65px;
+}
+/*Texto*/
+.first-heading-paragraph {
+    font-size: medium;
+}
+
+/*---footer---*/
+footer{
+    text-align: center;
 }
