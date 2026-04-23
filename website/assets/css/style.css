@@ -1,3 +1,104 @@
-body{
-    background: #BDBDBD;
+body {
+    background: white;
+}
+
+.subtitulo {
+    font-size: 1rem;
+}
+
+.card-title {
+    color: blue;
+}
+
+.card {
+    border: none;
+    border-radius: 0%;
+}
+
+#form {
+    background-color: lightgray;
+    padding: 1.5rem;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 2px;
+    box-sizing: border-box;
+
+}
+
+#copyright {
+    margin: 4rem auto 0 auto;
+    max-width: 1350px;
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.contact-parrafo {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: Helvetica Neue;
+}
+
+#staticEmail {
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#form {
+    background-color: rgb(232, 232, 232);
+    /* fondo claro como la segunda imagen */
+    padding: 1.5rem;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 14px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+#label1 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+button[type="submit"] {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.tagline-hero-bg {
+    background-image: url(../img/bg.jpg);
+    /* Ajusta la ruta a tu imagen */
+    background-size: 100% 100%;
+    /* Hace que la imagen cubra todo el contenedor */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    /* Puedes ajustar el color del texto si es necesario para que contraste con la imagen de fondo */
+    /* color: white; */
 }
