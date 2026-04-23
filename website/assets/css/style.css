@@ -1,3 +1,30 @@
 body{
-    background: #BDBDBD;
+    background: #000;
+    justify-content: center;
+    display: flex;
+}
+
+/* tagline img background */
+.background {
+    background: url('https://imgcap.capturetheatlas.com/wp-content/uploads/2019/02/Ascen-Pano.jpg') no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.divPrincipal{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.contact{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
