@@ -1,3 +1,27 @@
 body{
+    background: white;
+}
+
+.hero {
+  min-height: 70vh;
+  background-image: url(../img/bg.jpg); 
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 15rem;
+}
+
+.hero h1 { 
+    font-size: 7rem; 
+}
+
+.hero h2 { 
+    font-size: 5rem; 
     background: #BDBDBD;
+}
+
+/* services */
+.services-img-2 {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    border-radius: 100%;
 }
