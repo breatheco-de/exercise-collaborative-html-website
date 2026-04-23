@@ -1,3 +1,42 @@
 body{
     background: #BDBDBD;
+    background: white;
+}
+
+/* cambios de Rai */
+
+.ventana-contacto{
+    border: #eeeeee solid 3px;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    padding: 10px 10px 25px 120px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.form-control{
+    color: gray;
+    background-color: white !important;
+}
+
+.col-form-label{
+    font-weight: bold;
+    text-align: right;
+}
+
+#text-message{
+    height: 100px;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+
+}
+
+.contact-header{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.contact-form{
+    margin-bottom: 50px;
 }
