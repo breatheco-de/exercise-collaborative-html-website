@@ -1,2 +1,44 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div>
+  <hr style="width: 80%; border-top: 1px solid ; margin: 6rem auto;">
+</div>
+
+<div class="container py-5 bg-white">
+  <!-- Título -->
+  <h1 class="text-start mb-3">Contact</h1>
+
+  <!-- Texto descriptivo -->
+  <p class="text-muted mb-4">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Praesent eget tortor at quam porta tincidunt.
+    Integer vel quam in sem posuere elementum.
+    Curabitur ac mi non justo volutpat placerat.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Praesent eget tortor at quam porta tincidunt.
+    Integer vel quam in sem posuere elementum.
+    Curabitur ac mi non justo volutpat placerat.
+  </p>
+
+  <!-- Formulario -->
+  <div class="container">
+    <form class="form-container m-auto bg-body-secondary p-2 rounded-1">
+
+      <!-- E-mail -->
+      <div class="row mb-3">
+        <div class="col-3 text-end pe-0">
+          <label for="email" class="col-form-label fw-semibold d-block">Your E-mail</label>
+          <label for="message" class="col-form-label fw-semibold d-block">Your message</label>
+        </div>
+        <div class="col-9">
+          <input type="email" class="form-control" id="email" placeholder="Your email">
+          <textarea class="form-control mt-2" id="message" rows="4"
+            placeholder="Please enter your message here..."></textarea>
+        </div>
+      </div>
+
+      <div class="text-end">
+        <input type="submit" class="btn btn-primary px-4" value="Submit">
+      </div>
+    </form>
+  </div>
+
+</div>
