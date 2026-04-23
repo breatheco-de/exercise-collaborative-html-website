@@ -26,14 +26,14 @@ $ npx http-server --yes -c-1
 
 <onlyfor saas="false" withBanner="false">
   
-## 🌱 How to start this project
+  ## 🌱 How to start this project
 
-**If you are a student:**
+  **If you are a student:**
 
-Wait for your instructor to advise you how to start the project!
+  Wait for your instructor to advise you how to start the project!
 
-**If you are an instructor or team leader:**
-
+  **If you are an instructor or team leader:**
+  
 This project comes with the necessary files to start working, which can be found in the following GitHub repository:
 
 ```text
