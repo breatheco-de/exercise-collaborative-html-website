@@ -1,2 +1,48 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!-- SECCIÓN - Formulario de Contacto-->
+
+<div class="container-fluid bg-white p-0 mb-5" id="contact">
+
+    <!-- Línea separadora -->
+    <div class="border-top my-5"></div>
+
+    <!-- Sección Formulario de contacto -->
+<div class="row w-30 bg-light text-dark justify-content-md-center">
+    <h1 class="col-9">Contact</h1>
+</div>
+<div class="row w-30 bg-light text-dark justify-content-md-center">
+    <p class="col-9 fs-4 fw-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus quia maiores voluptatem
+        officia unde. Eos nam
+        sunt deleniti, id earum itaque voluptatem repudiandae hic, nulla quae inventore eligendi? Fugiat,
+        perspiciatis.</p>
+</div>
+
+
+    <!-- Formulario que ocupa el 70% del ancho -->
+    <form action="/send method=" post">
+        <div class="mx-auto bg-secondary bg-opacity-10 p-4" style="width: 70%;">
+            <div class="row mb-3 align-items-center">
+                <div class="col-3 text-end">
+                    <label for="user_email" class="form-label fw-bold fs-6">Email address</label>
+                </div>
+                <div class="col-9">
+                    <input type="email" class="form-control" id="user_email" placeholder="Your email">
+                </div>
+            </div>
+            <div class="row mb-3 align-items-top">
+                <div class="col-3 text-end">
+                    <label for="exampleFormControlTextarea1" class="form-label fw-bold">Your Message</label>
+                </div>
+                <div class="col-9">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                        placeholder="Please enter your message here..."></textarea>
+                </div>
+            </div>
+            <!-- Botón de Submit -->
+            <div class="row">
+                <div class="col-12 text-end">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
