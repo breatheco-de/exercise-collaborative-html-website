@@ -1,2 +1,52 @@
 <!-- your html code here -->
-<p>Hello, I'm the first_heading.html</p>
+
+<div class="content">
+    <div class="text">
+        <h1> This First Heading <span style="color: grey;"> Will Catch Your Eye</span></h1>
+        <p> Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+    </div>
+    <div class="image">
+            <img src="assets/img/1.jpg"> 
+    </div>
+</div>
+
+<style>
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .text {
+            margin-right: 20px;
+        }
+
+        .text h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .text p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            background-color: #a9d0c5;
+            overflow: hidden;
+        }
+
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
