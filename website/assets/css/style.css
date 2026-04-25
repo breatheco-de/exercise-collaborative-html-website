@@ -1,3 +1,24 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
+.card-img-top {
+    height: 200px;
+    width: 200px; 
+    object-fit: cover;
+}
+.tagline {
+    background-image: url("/website/assets/img/bg.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.tagline h1 {
+    font-size: 5rem;
+}
+.tagline h2 {
+    font-size: 3rem;
+}
+
