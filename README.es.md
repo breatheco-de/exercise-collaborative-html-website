@@ -63,7 +63,7 @@ Vercel, Netlify o GitHub pages permiten publicar tu aplicación web y poder obte
 
 ## Entrega
 
-Cada estudiante debe presentar el repositorio de su líder de equipo.
+Cada estudiante debe presentar el repositorio a su líder de equipo.
 
 ## Información complementaria
 La [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) se utiliza como motor para crear plantillas para la creación de tu landing page.
