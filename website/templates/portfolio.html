@@ -1,2 +1,147 @@
 <!-- your html code here -->
-<p>Hello, I'm the portfolio.html</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Café</a>
+
+        <div class="ms-auto">
+            <button class="btn btn-outline-light rounded-pill px-4 position-relative"
+                type="button" 
+                data-bs-toggle="modal" 
+                data-bs-target="#modalCarrito">
+                Carrito
+                </button>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold">Nuestros Cafés</h2>
+    </div>
+    <div class="row row-cols-4 g-3" id="lista-cafes"></div>
+            
+    <div class="text-center mb-4 mt-5">
+        <h2 class="fw-bold">Nuestra Pastelería</h2>
+    </div>
+    <div class="row row-cols-4 g-3" id="lista-pasteleria"></div> 
+</div>
+
+<div class="modal fade" id="modalCarrito" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content rounded-4 border-0 shadow">
+        
+        <div class="modal-header border-0 pb-0">
+            <h5 class="modal-title fw-bold fs-4">Mi Pedido</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="lista-carrito">
+                <p class="text-center text-muted py-5">Tu carrito está vacío</p>
+            </div>
+            <div class="border-top mt-3 pt-3">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="h4 fw-bold mb-0">Total:</span>
+                    <span class="h4 fw-bold mb-0">$<span id="precio-total">0.00</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer border-0 pt-0">
+            <button type="button" class="btn btn-outline-danger rounded-pill px-4" data-bs-dismiss="modal">Volver</button>
+            <button type="button" class="btn btn-success rounded-pill px-4" data-bs-toggle="modal" 
+                data-bs-target="#modalPago">Pagar</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPago" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content rounded-4 border-0 shadow">
+            <div class="modal-body p-4">
+                <div class="row g-4">
+                    <div class="col-md-6 border-end">
+                        <h6 class="fw-bold mb-3  small text-muted">
+                            <i class="bi bi-receipt"></i> Tu Pedido
+                        </h6>
+                        <div class="bg-light p-3 rounded-3 listado-pago" >
+                            <div class="d-flex justify-content-between fw-bold text-muted small mb-2 border-bottom pb-1">
+                                <span>Producto</span>
+                                <span>Total</span>
+                            </div>
+                            <div id="lista-resumen-pago" >
+                                <p class="text-center text-muted small mt-4">Cargando productos...</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mt-3 px-1">
+                            <span class="h5 fw-bold mb-0">Total:</span>
+                            <span class="h5 fw-bold mb-0">$ <span id="precio-total-pago">0.00</span></span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h6 class="fw-bold mb-3 small text-muted">
+                            <i class="bi bi-credit-card"></i> Datos de Pago
+                        </h6>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <label class="form-label small fw-bold mb-1">Nombre en la tarjeta</label>
+                                <input id="input-nombre" type="text" class="form-control form-control-sm rounded-pill border-secondary-subtle" placeholder="Juan Pérez" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label small fw-bold mb-1">Número de tarjeta</label>
+                                <input id="input-numero" type="number" class="form-control form-control-sm rounded-pill border-secondary-subtle" placeholder="0000 0000 0000 0000" required>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label small fw-bold mb-1">Vencimiento</label>
+                                <input id="input-vencimiento" type="number" class="form-control form-control-sm rounded-pill border-secondary-subtle" placeholder="MM/AA" required>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label small fw-bold mb-1">CVV</label>
+                                <input id="input-cvv" type="number" class="form-control form-control-sm rounded-pill border-secondary-subtle" placeholder="123" required>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <span class="alert alert-info py-2 px-3 rounded-3 border-0 d-inline-block">
+                                 Sus datos están protegidos por encriptación de grado bancario.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p id="error-pago" class="text-danger small text-center mb-2 d-none">
+                Por favor completá todos los datos de pago.
+            </p>
+
+            <div class="modal-footer border-0 bg-light rounded-bottom-4 p-3">
+                <button type="button" class="btn btn-outline-danger rounded-pill px-4 small" data-bs-toggle="modal" 
+                    data-bs-target="#modalCarrito">Cancelar</button>
+                <button type="button" class="btn btn-success rounded-pill px-4 small" id="btn-finalizar">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="toastAgregar" class="toast align-items-center bg-warning border-0 rounded-4" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+            ¡Producto añadido al carrito!
+            </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+
+    <div id="toastExito" class="toast align-items-center bg-success text-white border-0 rounded-4" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+               ¡Pago exitoso! Tu pedido se está preparando.
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
+
+
+

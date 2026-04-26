@@ -1,0 +1,19 @@
+.imagen-carrito{
+    width: 45px; 
+    height: 45px; 
+    object-fit: cover"
+}
+
+.listado-pago{
+    min-height: 220px;
+}
+
+#lista-resumen-pago {
+    max-height: 150px; 
+    overflow-y: auto;
+}
+
+.imagen-card {
+    height: 300px;
+    object-fit: cover;
+}
