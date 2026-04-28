@@ -1,3 +1,46 @@
 body{
     background: #BDBDBD;
 }
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url('img/Interior\ del\ Crustác.png') center/cover no-repeat;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 100px;
+
+}
+
+/* Contenido encima */
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* TÍTULO */
+.hero-title {
+    font-size: 100px;
+    font-weight: 800;
+    background: rgba(255, 255, 255, 0.95);
+    
+    display: block;
+    width: 100%;             
+    
+    padding: 10px 30px;       
+    margin-bottom: 20px;
+    color: rgb(42, 42, 42);
+}
+
+/* SUBTÍTULO */
+.hero-subtitle {
+    font-size: 45px;
+    font-weight: 800;
+    background: rgba(255, 255, 255, 0.95);
+    
+    display: block;
+    width: 100%;              
+    
+    padding: 15px 30px;
+    color: rgb(42, 42, 42);
+}

@@ -1,6 +1,11 @@
 <!-- hide -->
 # Making a website as a team (Git collaboration)
 <!-- endhide -->
+- Navbar: Erik
+- Hero: Daniel
+- First heading: Yiselle
+- Portfolio: Benjamin
+- Contact: Adrian
 
 Practice your skills in Git while developing a typical website.
 
