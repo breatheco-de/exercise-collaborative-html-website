@@ -1,3 +1,82 @@
 body{
     background: #BDBDBD;
 }
+
+/*Template portfolio*/
+.contenedor-tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.tarjeta-cafe {
+    background-color: white;
+    border-radius: 10px;
+    width: 22%;
+}
+
+.foto-cafe {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btn-cafe {
+    background-color: #8B5E3C;
+    color: white;
+}
+
+.btn-cafe:hover {
+    background-color: #6b4530;
+    color: white;
+}
+
+/* Footer */
+.footer-principal {
+    background-color: #1a1a1a;
+}
+
+.contenedor-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 30px;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.texto-footer {
+    color: white;
+}
+
+/* Icono Instagram */
+.icono-instagram {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Logos Uber Eats y Glovo */
+.logo-delivery {
+    height: 50px;
+    width: auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/* Copyright */
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
