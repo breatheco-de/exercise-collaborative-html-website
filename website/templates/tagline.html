@@ -1,3 +1,65 @@
 <!-- your html code here -->
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tagline</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            background-image: url("https://www.telefonica.com/es/wp-content/uploads/sites/4/2022/05/ciudad-inteligente-post-20220505-thumbnail.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+
+        .hero h1 {
+            width: 100%;
+            /* FILA COMPLETA */
+            background-color: white;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+            margin: 0;
+            /* elimina espacios */
+        }
+
+        .hero p {
+            width: 100%;
+            /* FILA COMPLETA */
+            background-color: white;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+            margin: 10px 0 0;
+            /* elimina espacios */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+        <h1>Esto es el maravilloso Tagline</h1>
+        <p>Son las tres de la mañana, y no he dormido nada, pensando en arreglar esto, loca voy a parar...</p>
+    </div>
+
+</body>
+
+</html>
