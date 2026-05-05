@@ -1,3 +1,38 @@
 body{
     background: #BDBDBD;
 }
+
+.header-hero {
+  height: 100vh; /* Ocupa toda la pantalla */
+  background-image: url("https://img.freepik.com/foto-gratis/gran-ciudad_1127-3102.jpg?semt=ais_hybrid&w=740&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 60px 20px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 40px;
+  display: inline-block;
+}
+
+.hero-subtitle {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 40px;
+  display: inline-block;
+}
