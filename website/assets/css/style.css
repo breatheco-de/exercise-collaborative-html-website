@@ -1,3 +1,29 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px ;
+}
+.contact-01 {
+    padding-top: 50px;
+}
+.formulario-contact {    
+    padding-bottom: 50px;
+    
+    
+}
+.input-subm  {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.form-fondo {
+    background: grey;
+    padding: 20px;
+    border-radius: 5px;
+}
+.input-email {
+    color: white !important;
 }
