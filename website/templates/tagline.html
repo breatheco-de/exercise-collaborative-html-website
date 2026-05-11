@@ -1,3 +1,38 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<style>
+    .masthead {
+  /* Sustituye la URL por la ruta de tu imagen de la ciudad */
+  background-image: url(https://wallpapercave.com/wp/wp2767312.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
+  width: 100%;
+}
+
+/* Clase para el fondo blanco semitransparente */
+.bg-white-80 {
+  background-color: rgba(255, 255, 255, 0.85); /* El 0.85 es la opacidad */
+}
+
+/* Ajustes para que las letras se vean grandes como en la imagen */
+h1 {
+    font-size: clamp(3rem, 8vw, 6rem); /* Se ajusta según el tamaño de pantalla */
+}
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+</style>
+<header class="masthead">
+  <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center">
+    
+    <div class="bg-white-80 w-100 py-4 mb-2">
+      <h1 class="display-1 fw-bolder text-dark">One Page Wonder</h1>
+    </div>
+    
+    <div class="bg-white-80 w-100 py-2">
+      <h2 class="display-4 fw-normal text-dark">Will Knock Your Socks Off</h2>
+    </div>
+
+  </div>
+</header>

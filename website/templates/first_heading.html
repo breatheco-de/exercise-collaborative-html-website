@@ -1,2 +1,53 @@
-<!-- your html code here -->
-<p>Hello, I'm the first_heading.html</p>
+<style>
+        
+        .featurette-heading {
+            font-size: 50px;
+            font-weight: 300; 
+            line-height: 1;
+            letter-spacing: -1px;
+        }
+
+        .featurette-heading .text-muted {
+            font-weight: 500; 
+            color: #6c757d !important;
+        }
+
+        .featurette-image {
+            width: 500px;
+            height: 500px;
+        }
+
+      
+        @media (max-width: 991px) {
+            .featurette-heading {
+                font-size: 40px;
+            }
+        }
+    </style>
+    <div class="container my-5">
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">
+                    <span class="text-dark">This First Heading</span>
+                    <span class="text-muted">Will Catch Your Eye</span>
+                </h2>
+                <p class="lead">
+                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+                </p>
+            </div>
+            
+            <div class="col-md-5 order-md-1">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-circle" 
+                     src="https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png"
+                     alt="Ilustración circular del avatar de Walter White">
+                </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
