@@ -1,3 +1,13 @@
 body{
     background: #BDBDBD;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text { 
+    font-size: large;
+}
+.header {
+    font-size: xx-large;
 }
