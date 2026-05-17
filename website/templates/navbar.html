@@ -1,2 +1,156 @@
-<!-- your html code here -->
-<p>Hello, I'm the navbar.html</p>
+<style>
+  /* --- BARRA DE NAVEGACIÓN PRINCIPAL --- */
+  .barra-navegacion {
+    background-color: #e9d1d1;
+    color: white;
+    margin-top: 0.7em;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Los botones generales no tienen subrayado */
+  a {
+    text-decoration: none;
+  }
+
+  /* --- LOGO --- */
+  .icono-letra-logo {
+    font-size: 1.5em;
+    margin-right: 0.2em;
+  }
+
+  /* --- BOTONES DEL MENÚ (Home, Shop, About, etc.) --- */
+  .boton-menu {
+    color: rgb(0, 0, 0);
+    margin-left: 1em;
+    font-size: 1.2em;
+  }
+
+  /* --- BOTONES E ICONOS DE LA DERECHA --- */
+  .boton-login,
+  .boton-carrito,
+  .boton-busqueda {
+    color: rgb(0, 0, 0);
+    margin-left: 1em;
+  }
+
+  .boton-login {
+    font-size: 1.2em;
+  }
+
+  .boton-carrito,
+  .boton-busqueda {
+    font-size: 1.2em;
+  }
+
+  .boton-carrito {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+  }
+
+  #numero-articulos-carrito {
+    display: inline-block;
+    min-width: 1.6em;
+    font-size: 0.9em;
+    color: rgb(0, 0, 0);
+  }
+
+  /* --- BOTÓN DEL FORMULARIO DE LOGIN (El que dice "Sign in") --- */
+  #boton-enviar-login {
+    background-color: rgba(0, 0, 0, 0.867);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1.2em;
+  }
+</style>
+
+<div>
+  <div class="barra-navegacion">
+    
+    <div>
+      <a class="logo-principal" href="">
+        <i class="icono-letra-logo fa-solid fa-v" style="color: rgb(0, 0, 0)"> </i>
+        <i class="icono-letra-logo fa-solid fa-shop" style="color: rgb(0, 0, 0)"></i>
+        <i class="icono-letra-logo fa-solid fa-s" style="color: rgb(0, 0, 0)"> </i>
+        <i class="icono-letra-logo fa-solid fa-h" style="color: rgb(0, 0, 0)"></i>
+        <i class="icono-letra-logo fa-solid fa-o" style="color: rgb(0, 0, 0)"></i>
+        <i class="icono-letra-logo fa-solid fa-p" style="color: rgb(0, 0, 0)"></i>
+      </a>
+      
+      <a class="boton-menu" href="">Home</a>
+      <a class="boton-menu" href="">Shop</a>
+      <a class="boton-menu" href="">About us</a>
+      <a class="boton-menu" href="">Contact us</a>
+    </div>
+
+    <div class="contenedor-botones-derecha">
+      <a class="boton-login" href="#" data-bs-toggle="modal" data-bs-target="#ventana-login">
+        Login
+      </a>
+      
+      <a class="boton-carrito" href="#">
+        <i class="fa-solid fa-cart-shopping" style="color: rgb(0, 0, 0)"></i>
+        <span id="numero-articulos-carrito">0</span>
+      </a>
+      
+      <a class="boton-busqueda" href="">
+        <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0)"></i>
+      </a>
+    </div>
+    
+  </div>
+</div>
+
+<div class="modal fade" id="ventana-login" tabindex="-1" aria-labelledby="etiqueta-titulo-login" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title" id="etiqueta-titulo-login">Iniciar Sesión</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+
+      <div class="modal-body">
+        <form>
+          
+          <div class="row mb-3">
+            <label for="entrada-correo" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="entrada-correo" />
+            </div>
+          </div>
+          
+          <div class="row mb-3">
+            <label for="entrada-contrasena" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="entrada-contrasena" />
+            </div>
+          </div>
+          
+          <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="casilla-compromiso-angel" required />
+                <label class="form-check-label" for="casilla-compromiso-angel">
+                  Soy Angel y me comprometo a aprobar este proyecto
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" id="boton-enviar-login" class="btn w-100 mt-3">
+            Sign in
+          </button>
+          
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>

@@ -1,2 +1,127 @@
-<!-- your html code here -->
-<p>Hello, I'm the first_heading.html</p>
+<style>
+
+  .tarjeta-producto {
+    margin-top: 1em;
+    background-color: #e9d1d1;
+    position: relative;
+    width: 100%;
+    min-height: 35em;
+    overflow: hidden;
+  }
+
+  #subtitulo-marca {
+    padding-top: 2em;
+    margin-top: 0.5em;
+    margin-left: 5%;
+    font-size: 2em;
+  }
+
+  #titulo-principal {
+    margin-left: 5%;
+    font-size: clamp(3em, 8vw, 5em);
+    font-weight: bold;
+  }
+
+  #texto-gigante-fondo {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    font-size: 13.5em;
+  }
+
+  #contenedor-foto {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    z-index: 2;
+    width: 35%;
+    max-width: 300px;
+  }
+
+  #contenedor-foto img {
+    width: 100%;
+    height: auto;
+  }
+
+  #contenedor-boton-comprar {
+    position: absolute;
+    bottom: 10%; 
+    left: 5%;
+    z-index: 3;
+  }
+
+  #contenedor-boton-comprar a {
+    display: inline-flex;  
+    justify-content: center;
+    align-items: center;
+    width: 8em;           
+    height: 2.5em;       
+    background-color: #1a1a1a; 
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 150px;
+    text-decoration: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease; 
+  }
+
+  #contenedor-boton-comprar a:hover {
+    background-color: #333333; 
+    transform: translateY(-3px); 
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3); 
+  }
+
+  #boton-cerrar-ventana {
+    background-color: rgba(72, 57, 57, 0.867);
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #boton-agregar-al-carrito {
+    background-color: rgba(0, 0, 0, 0.867);
+    color: white;
+    border-radius: 10px;
+  }
+</style>
+
+<div class="tarjeta-producto">
+  <div id="subtitulo-marca">Skullcandy Inkd2</div>
+  <div id="titulo-principal">Wireless</div>
+  <div id="texto-gigante-fondo">HEADPHONES</div>
+  
+  <div id="contenedor-foto">
+    <img src="https://pngimg.com/uploads/headphones/headphones_PNG7628.png" alt="Auriculares Sony WH-1000XM4"/>
+  </div>
+  
+  <div id="contenedor-boton-comprar">
+    <a href="#" data-bs-toggle="modal" data-bs-target="#ventana-emergente-detalles">Buy Now</a>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1" id="ventana-emergente-detalles">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title">Auriculares Universales INKd 2 Skullcandy</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal-body">
+        <img src="https://i.ebayimg.com/images/g/IsMAAeSwICVp23Yg/s-l1600.webp" alt="Detalle de los auriculares" style="width: 100%;"/>
+      </div>
+      
+      <div class="modal-footer">
+        <h4>$24.99</h4>
+        <button type="button" id="boton-cerrar-ventana" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" id="boton-agregar-al-carrito" class="btn btn-primary">Add to Cart</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<script></script>
