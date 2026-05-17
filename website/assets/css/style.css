@@ -1,3 +1,50 @@
 body{
-    background: #BDBDBD;
+    font-family: "roboto";
+}
+
+
+/*Estilos Navbar*/
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #979797;
+}
+
+    
+.tagline {
+  position: relative;
+  width: 100%;
+  height: 550px; 
+  background-image: url("/website/assets/img/bg.jpg"); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 80px; 
+}
+
+.primer-texto {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  margin-bottom: 15px;
+}
+
+.segundo-texto {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 60px;
 }
