@@ -1,3 +1,6 @@
-body{
-    background: #BDBDBD;
+.bg-image {
+    background-image: url('https://wallpapers.com/images/hd/4k-ultra-hd-landscape-wallpaper-sa8ffsciekildmug.jpg');
+    height: auto;
+    background-size: cover;
+    background-position: center;
 }
