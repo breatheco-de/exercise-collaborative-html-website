@@ -1,3 +1,28 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+.container-img {
+    position: relative;
+   
+}
+.text-img {
+    position: absolute;
+    top: 25%; 
+    left: 0%;
+    width: 100%;
+    text-align: center;
+}
+.text-img h1, h2{
+    font-size: 10rem;
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 98%;
+    padding-top: 0;
+    margin: 0px 10px 13px 10px;
+}
+.text-img h2{
+    font-size: 6rem;
 }
