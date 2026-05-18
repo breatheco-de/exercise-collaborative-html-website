@@ -4,7 +4,7 @@
 
 Practica tus habilidades en Git mientras desarrollas un sitio web típico.
 
-Cada alumno trabajará en un archivo diferente para cada parte diferente del sitio web y aquel con más experiencia puede trabajar como líder de equipo (para integración y despliegue), a menos que el profesor prefiera ser el líder de equipo de toda la clase. La librería Html-Template-Engine se encargará de juntar todas las piezas.
+Cada alumno trabajará en un archivo diferente para cada parte diferente del sitio web y aquel con más experiencia puede trabajar como lídernpx http-server --yes -c-1 de equipo (para integración y despliegue), a menos que el profesor prefiera ser el líder de equipo de toda la clase. La librería Html-Template-Engine se encargará de juntar todas las piezas.
 
 
 ## 📝 Instrucciones
@@ -16,7 +16,7 @@ Cada alumno trabajará en un archivo diferente para cada parte diferente del sit
 3. Cada colaborador tendrá que clonar el nuevo repositorio forkeado por el líder de equipo y desarrollar una parte del sitio web escogido, cada proyecto está dividido en partes dentro del directorio `website/templates/`. Cuando todos tengan su editor de código abierto, pueden iniciar el proyecto con este comando:
 
 ```bash
-$ npx http-server --yes -c-1
+$ 
 ```
 
 + Se te ofrecerá una opción para abrirlo en el navegador y tendrás botones para ver el sitio en vivo, cómo debería verse y las referencias sobre cada parte del sitio web. Si recibes un error, espera un momento y refresca la página.
@@ -69,3 +69,11 @@ Cada estudiante debe presentar el repositorio de su líder de equipo.
 La [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) se utiliza como motor para crear plantillas para la creación de tu landing page.
 
 Este y otros proyectos son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+
+## Seccion de cada integrante 
+
+- Navbar, first heading, services: Kevin Israel
+- tagline: Enrique de Jesus
+- Portfolio: Adrian Granada
+- Contacto: Jessica
+- Footer: Cristian
