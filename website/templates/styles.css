@@ -1,0 +1,17 @@
+/* .skyscraper-background {
+background-image: url("../assets/img/skyscraper.jpg");
+background-repeat: no-repeat;
+width: 100%;
+height: 300px;
+background-size: cover;
+}
+npx http-server --yes -c-1 */
+
+.skyscraper-background {
+  /* Use viewport height (vh) to make it large and responsive. 70vh = 70% of the screen's height. */
+  height: 70vh;  /* The next 3 properties ensure the image always looks good */
+  background-image: url("../assets/img/skyscraper.jpg");
+  background-size: cover; /* This is key for HD: it scales the image to cover the area without distortion */
+  background-position: center center; /* Keeps the image centered as it scales */
+  background-repeat: no-repeat;  /* The next 4 properties are for centering the text on top */
+}
