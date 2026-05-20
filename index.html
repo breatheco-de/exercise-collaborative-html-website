@@ -1,44 +1,139 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Choose a website</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="container">
-            <h1 class="mb-5">GIT & Bootstrap Collaborative Project</h1>
-            <div class="row">
-                <div class="col-sm-4 bg-dark text-center">
-                    <a href="./website/designs/thumb.jpg"><img style="max-height: 400px;" class="img-responsive" src="website/designs/thumb.jpg"></img></a>
-                </div>
-                <div class="col-sm">
-                    <h2>One Page Wonder - Start Bootstrap Template</h2>
-                    <a class="btn btn-primary" href="./website/">Live Version</a>
-                    <a class="btn btn-warning" href="./website/designs/thumb.jpg">How it Should Look</a>
-                    <a class="btn btn-danger" href="./website/designs/guide.jpg">See the Guide</a>
 
-                    <div>
-                        <h2>Tips:</h2>
-                        <p>Copy and tweak components from <a href="https://getbootstrap.com/" target="_blank" >getbootstrap.com</a>.</p>
-                        <p>If you are looking at an example from <a href="https://getbootstrap.com/docs/5.1/examples/" target="_blank">https://getbootstrap.com/docs/5.1/examples/</a>, you can use the inspector (right mouse click to open this panel up) and then select the section you want in the "Elements" tab. Then go to copy, and copy element to quickly add to your project.</p>
-                        <p>To push changes to the website, remember this sequence:</p>
-                            <ul>
-                                <li>git add .</li>
-                                <li>git commit -m "what you modified"</li>
-                                <li>git push</li>
-                            </ul>
-                            <p>To see changes from teammates:</p>
-                                <ul>
-                                    <li>git pull</li>
+<head>
+    <title>Página Colaborativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="website/assets/css/style.css">
+    <style>
+    </style>
+
+</head>
+
+<body>
+    <div class="website">
+        <div class="container">
+            <!-- Esta es la parte de Analía -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary W-100">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown link
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
-                                <p>To customize elements, use the style.css file located in assets/css.</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
+            <div class="conteiner2">
+                <h1>One Page Wonder</h1>
+                <h2> Will Knock Your Socks Off</h2>
 
+            </div>
+        </div>
+        <div class="body">
+            <!-- Parte de Daniel-->
+            <div class="container">
+                <hr class="border border-1 opacity-50">
+                <div class="row p-2">
+                    <div class="col p-5">
+                        <h1 class="heading-black">This First Heading <span class="heading-gray">Will Catch Your
+                                Eye</span></h1>
+                        <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                            semper. Praesent commodo cursus magna, vel scelerisque nis! consectetur. Fusce dapibus,
+                            tellus ac cursus commodo.</p>
+
+                    </div>
+                    <div class="col p-5 d-flex justify-content-end">
+                        <img src="https://imgcdn.stablediffusionweb.com/2024/9/25/5014bfff-618a-403c-b7da-65c54f7b1d83.jpg"
+                            width="400" height="400" class="img-fluid rounded-circle" alt="Walter White">
+                    </div>
+                </div>
+                <hr class="border border-1 opacity-50">
+                <div class="row p-2">
+                    <div class="col p-5 d-flex justify-content-start">
+                        <img src="https://www.readandspell.com/sites/default/files//KeyboardFingerPositions.jpeg"
+                            width="400" height="400" class="rounded-circle" alt="Keyboard">
+                    </div>
+                    <div class="col p-5 d-flex justify-content-start">
+                        <div>
+                            <h1 class="heading-black">The Second Heading <span class="heading-gray">Is Pretty Cool
+                                    Too.</span></h1>
+                            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                                euismod semper. Praesent commodo cursus magna, vel scelerisque nis! consectetur. Fusce
+                                dapibus, tellus ac cursus commodo.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border border-1 opacity-50">
+            </div>
+            <!--Parte de Javier-->
+            <div id="portfolio" class="container m-3 p-2">
+                <div class="p-0">
+                    <h2>Porfolio</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto quae animi officiis eum eius. Quae adipisci accusamus maxime tempore, deleniti architecto magni enim eum tempora. Eaque totam in error.</p>
+                </div>
+                
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/1fa95f4f-11e1-4a68-9574-965efd32fb69/tomate_industrial.jpg" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://img.freepik.com/fotos-premium/tablero-digital-que-muestra-datos-riego-uso-agua-tiempo-real_1104763-15201.jpg?w=1800" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://zeus.vision/wp-content/uploads/2024/09/fotos-zeus-ford-1-scaled-e1725349844960.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+        <div class="footer">
+            <!--Parte de Esneider -->
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
 
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
 </html>
