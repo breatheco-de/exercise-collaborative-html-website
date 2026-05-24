@@ -1,0 +1,65 @@
+<section class="page-header">
+  <div class="container">
+    <p class="page-sub">Resumen de compra</p>
+    <h1 class="page-title">Tu <span>cesta</span></h1>
+  </div>
+</section>
+
+<!-- CART SECTION -->
+<section class="cart-section">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- LEFT: ITEMS -->
+      <div class="col-lg-7">
+        <p class="footer-copy mb-3" id="items-count">0 productos</p>
+
+        <!-- Lista de items -->
+        <div id="cart-items">
+
+          <!-- ESTADO VACÍO (visible por defecto) -->
+          <div class="empty-state" id="empty-state">
+            <p class="empty-title">Tu cesta está vacía</p>
+            <p class="empty-sub">Todavía no has añadido ningún producto</p>
+            <a href="shop.html" class="cart-btn">Ver colección</a>
+          </div>
+
+          <!-- PRODUCTOS (se generan con JS) -->
+          <div id="products-list"></div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT: RESUMEN -->
+      <div class="col-lg-5">
+        <div class="summary-box">
+          <h2 class="summary-title">Resumen del pedido</h2>
+
+          <div class="summary-row">
+            <span class="summary-label">Subtotal</span>
+            <span id="subtotal">0,00 €</span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">Envío</span>
+            <span id="shipping" class="summary-free">Gratis</span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">IVA (21%)</span>
+            <span id="iva">0,00 €</span>
+          </div>
+
+          <div class="summary-row total">
+            <span>Total</span>
+            <span id="total">0,00 €</span>
+          </div>
+
+          <button class="checkout-btn" id="checkout-btn" disabled>
+            Finalizar pedido
+          </button>
+          <a href="shop.html" class="continue-link">← Continuar comprando</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
