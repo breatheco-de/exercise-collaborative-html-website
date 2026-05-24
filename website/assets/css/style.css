@@ -1,3 +1,41 @@
-body{
-    background: #BDBDBD;
+/* 1. Contenedor principal: Reparte el espacio en 3 bloques */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Izquierda, Centro, Derecha */
+    align-items: center;            
+    padding: 15px 20px;
+    background-color: white;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid #c9c9c9; 
+}
+
+/* 2. Bloque Central: El menú de navegación */
+.navbar-centro {
+    display: flex;                  /* Pone los li uno al lado del otro */
+    list-style: none;               /* Quita los puntos */
+    margin: 0;
+    padding: 0;
+    gap: 30px;                      /* Espacio entre cada enlace */
+}
+
+/* 3. Bloque Derecha: Login y Carrito */
+.navbar-derecha {
+    display: flex;
+    align-items: center;
+    gap: 20px;                      /* Espacio entre Login y Cart */
+}
+
+
+.login, .cart, .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;                       /* Espacio entre el texto y el icono/contador */
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
 }

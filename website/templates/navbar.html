@@ -1,2 +1,192 @@
-<!-- your html code here -->
-<p>Hello, I'm the navbar.html</p>
+<!-- estilos modal LNKR -->
+<style>
+    .fade-enter { opacity: 0; transform: scale(0.95); transition: opacity 0.4s ease-out, transform 0.4s ease-out; }
+    .fade-enter-active { opacity: 1; transform: scale(1); }
+    .glass-panel { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.4); }
+    .minimal-input { width: 100%; background: transparent; border: none; border-bottom: 1px solid #d1d5db; padding: 0.75rem 0; outline: none; transition: border-color 0.3s ease; }
+    .minimal-input:focus { border-bottom-color: #000000; }
+    .check-anim { stroke-dasharray: 50; stroke-dashoffset: 50; animation: drawCheck 0.6s ease forwards; animation-delay: 0.3s; }
+    @keyframes drawCheck { to { stroke-dashoffset: 0; } }
+</style>
+<!-- FIN de estilos modal LNKR -->
+
+<nav class="navbar">
+  <div class="navbar-izquierda">
+    <div class="logo">
+      <span class="icono-circulo">O</span>
+      <span class="icono-mas">+</span>
+    </div>
+  </div>
+
+  <ul class="navbar-centro">
+    <li><a href="#">ALL</a></li>
+    <li><a href="#">HIS</a></li>
+    <li><a href="#">HERS</a></li>
+    <li><a href="#">NEW IN</a></li>
+    <li><a href="#">ABOUT</a></li>
+  </ul>
+
+  <div class="navbar-derecha">
+    <!-- disparador modal LNKR -->
+       <div class="login">
+          <button id="openModalBtn" class="text-black border-b border-transparent hover:border-black transition-all duration-300 pb-1 uppercase text-[10px] tracking-widest font-semibold">
+             LOG IN
+           </button>
+          <span class="dropdown-item">▾</span>
+        </div>
+<!-- FIN disparador modal LNKR -->
+
+    <div class="cart">
+      <a href="cart.html">CART</a>
+      <span class="cart-counter">2</span>
+    </div>
+  </div>
+</nav>
+<!-- HTML, modal LNKR -->
+    <div id="authModal" class="fixed inset-0 z-50 flex items-center justify-center px-4 hidden">
+        <!-- Fondo oscuro con desenfoque (Backdrop) -->
+        <div id="modalBackdrop" class="absolute inset-0 bg-black/30 backdrop-blur-sm opacity-0 transition-opacity duration-400" onclick="closeModal()"></div>
+        
+        <!-- Contenedor del Modal -->
+        <div id="modalContent" class="glass-panel w-full max-w-md rounded-3xl p-8 relative z-10 shadow-2xl fade-enter">
+            
+            <!-- Botón Cerrar -->
+            <button onclick="closeModal()" class="absolute top-5 right-5 text-gray-400 hover:text-black transition-colors">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+
+            <!-- VISTA 1: FORMULARIO DE INGRESO -->
+            <div id="viewForm" class="transition-opacity duration-300">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold tracking-widest uppercase mb-2">Sé Parte</h3>
+                    <p class="text-xs text-gray-500 uppercase tracking-wide">Únete para una experiencia exclusiva</p>
+                </div>
+
+                <form id="joinForm" class="space-y-6">
+                    <div>
+                        <input type="text" id="userName" required placeholder="Tu Nombre" class="minimal-input" autocomplete="off">
+                    </div>
+
+                    <div>
+                        <input type="email" id="userEmail" required placeholder="Correo Electrónico" class="minimal-input" autocomplete="off">
+                    </div>
+
+                    <div>
+                        <input type="password" id="userPassword" required placeholder="Escribe tu clave" class="minimal-input" autocomplete="new-password">
+                    </div>
+                    
+                    <button type="submit" class="w-full mt-4 bg-black text-white rounded-2xl py-3.5 text-xs font-bold tracking-[0.15em] uppercase hover:bg-gray-800 transform hover:scale-[1.02] transition-all duration-300 shadow-lg hover:shadow-xl">
+                        Ingresar a la tienda
+                    </button>
+                </form>
+                <div class="mt-6 text-center">
+                    <p class="text-[10px] text-gray-400 uppercase tracking-wider">* Al ingresar aceptas nuestros términos de diseño y estilo.</p>
+                </div>
+            </div>
+
+            <!-- VISTA 2: MENSAJE DE BIENVENIDA (Oculto por defecto) -->
+            <div id="viewWelcome" class="hidden text-center py-6 opacity-0 transition-opacity duration-500">
+
+                <!-- Icono animado -->
+                <div class="w-20 h-20 mx-auto bg-green-50 rounded-full flex items-center justify-center mb-6 shadow-inner border border-green-100">
+                    <svg class="w-10 h-10 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path class="check-anim" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </div>
+                
+                <h3 class="text-3xl font-light tracking-wider mb-2">¡Bienvenido!</h3>
+                <p id="welcomeMessage" class="text-sm font-medium text-gray-600 mb-8 uppercase tracking-wide"></p>
+                
+                <button onclick="closeModal()" class="border border-black text-black rounded-2xl px-8 py-3 text-xs font-bold tracking-[0.15em] uppercase hover:bg-black hover:text-white transition-all duration-300">
+                    Comenzar a explorar
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <!-- FIN HTML, modal LNKR -->
+
+    <!-- SCRIPT, modal LNKR -->
+    <script>
+        const modal = document.getElementById('authModal');
+        const backdrop = document.getElementById('modalBackdrop');
+        const content = document.getElementById('modalContent');
+        const formView = document.getElementById('viewForm');
+        const welcomeView = document.getElementById('viewWelcome');
+        const joinForm = document.getElementById('joinForm');
+        const welcomeMessage = document.getElementById('welcomeMessage');
+
+        // Función para abrir el modal
+        function openModal() {
+            // Resetear vistas a su estado inicial
+            formView.style.display = 'block';
+            formView.style.opacity = '1';
+            welcomeView.style.display = 'none';
+            welcomeView.style.opacity = '0';
+            joinForm.reset();
+
+            // Mostrar contenedor principal
+            modal.classList.remove('hidden');
+            
+            // Trigger reflow para que las animaciones de entrada funcionen
+            void modal.offsetWidth;
+
+            // Animar entrada
+            backdrop.classList.replace('opacity-0', 'opacity-100');
+            content.classList.add('fade-enter-active');
+            
+            // Bloquear scroll del body
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Función para cerrar el modal
+        function closeModal() {
+            // Animar salida
+            backdrop.classList.replace('opacity-100', 'opacity-0');
+            content.classList.remove('fade-enter-active');
+            content.classList.add('fade-exit-active');
+
+            // Esperar a que termine la transición para ocultar el elemento del DOM
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                content.classList.remove('fade-exit-active');
+                document.body.style.overflow = ''; // Restaurar scroll
+            }, 300);
+        }
+
+        // Manejar el envío del formulario
+        joinForm.addEventListener('submit', function(e) {
+            e.preventDefault(); 
+
+            // Obtener el nombre del usuario
+            const userName = document.getElementById('userName').value;
+
+            // 1. Desvanecer el formulario
+            formView.style.opacity = '0';
+
+            setTimeout(() => {
+                // 2. Ocultar formulario y preparar vista de bienvenida
+                formView.style.display = 'none';
+                welcomeMessage.textContent = `Hola, ${userName}`;
+                
+                welcomeView.style.display = 'block';
+                
+                // Trigger reflow
+                void welcomeView.offsetWidth;
+                
+                // 3. Aparecer vista de bienvenida suavemente
+                welcomeView.style.opacity = '1';
+                
+                // Reiniciar animación del check (truco CSS)
+                const checkPath = document.querySelector('.check-anim');
+                checkPath.style.animation = 'none';
+                void checkPath.offsetWidth; 
+                checkPath.style.animation = null;
+
+            }, 300); // Esperar que el form se desvanezca
+        });
+    </script>
+
+    <!-- fin SCRIPT, modal LNKR -->
