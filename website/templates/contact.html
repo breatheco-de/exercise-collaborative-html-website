@@ -1,2 +1,46 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container py-5">
+
+    <!--Encabezado-->
+    <h1 class="fw-bold mb-2">Contact</h1>
+    <p class="mb-4 text-secondary">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+        euismod semper.
+        Praesent comodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+
+            <form class="bg-secondary-subtle rounded-3 p-4">
+
+
+                <div class="row align-items-center mb-3">
+                    <div class="col-12 col-sm-3 text-sm-end">
+                        <label for="emailInput" class="form-label fw-semibold mb-0">Your E-mail</label>
+                    </div>
+                    <div class="col-12 col-sm-9">
+                        <input type="email" class="form-control" id="emailInput" placeholder="Your email" required />
+                    </div>
+                </div>
+
+
+
+
+                <div class="row align-items-start mb-3">
+                    <div class="col-12 col-sm-3 text-sm-end pt-sm-2">
+                        <label for="messageInput" class="form-label fw-semibold mb-0">Your message</label>
+                    </div>
+                    <div class="col-12 col-sm-9">
+                        <textarea class="form-control" id="messageInput" rows="5"
+                            placeholder="Please enter your message here..." required></textarea>
+                    </div>
+                </div>
+
+                <!-- Submit-->
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary px-4">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
