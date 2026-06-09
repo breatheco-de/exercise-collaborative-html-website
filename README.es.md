@@ -1,3 +1,9 @@
+<!-- Integrantes -->
+Carlos - first_heading.html
+Juan Diego - services.html
+Estefania - portfolio.html
+Mario - contact.html
+
 <!-- hide -->
 # Sitio Web colaborativo (Git collaboration)
 <!-- endhide -->
