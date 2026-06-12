@@ -1,3 +1,27 @@
 body{
     background: #BDBDBD;
 }
+
+.jumbotron {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.jumbotext {
+    background-color: white;
+}
+
+.jt {
+    margin-bottom: 300px;
+}
+
+h1.jumbotext {
+    font-size: 6rem;
+}
+
+h2.jumbotext {
+    font-size: 4rem;
+}
+
