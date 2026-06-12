@@ -1,3 +1,19 @@
 body{
-    background: #BDBDBD;
+    background-color: grey;
+}
+.heading-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/website/assets/img/bg.jpg'); 
+    height: 70rem;
+     background-size: contain; 
+     background-repeat: no-repeat; 
+     width: 100%; 
+     object-fit: cover;
+}
+
+.heading{
+    background-color: white;
 }
