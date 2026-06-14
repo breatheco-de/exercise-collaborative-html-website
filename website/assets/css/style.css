@@ -1,3 +1,6 @@
-body{
-    background: #BDBDBD;
+.hero{
+    background-image: url(https://imagenes.20minutos.es/files/image_990_556/uploads/imagenes/2022/10/12/istock-1301579230.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
