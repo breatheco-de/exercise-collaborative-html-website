@@ -1,2 +1,43 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <!-- Left aligned heading + text -->
+        <h2 class="fw-bold">Contact</h2>
+        <p class="mb-4">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+        </p>
+
+        <form>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="p-4 bg-secondary bg-opacity-10 rounded shadow-sm">
+
+                        <!-- Email row -->
+                        <div class="row mb-3 align-items-center">
+                            <label for="email" class="col-sm-2 col-form-label">Your E-mail</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="email" placeholder="Your email" required>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3 align-items-center">
+                            <label for="message" class="col-sm-2 col-form-label">Your message</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="message" rows="4"
+                                    placeholder="Please enter your message here..." required></textarea>
+                            </div>
+                        </div>
+
+
+                        <!-- Submit button -->
+                        <div class="text-end">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
