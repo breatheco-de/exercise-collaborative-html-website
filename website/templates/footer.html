@@ -1,7 +1,198 @@
 <footer>
-    <div class="row">
-        <div class="col-lg-12">
-            <p>Copyright &copy; Your Website Name 2021</p>
+    <section> 
+    <style>
+        :root {
+            --dark-brown: #4A2E1B;   
+            --light-brown: #A08066;  
+            --cream-bg: #F5EFE6;     
+            --text-light: #FDFBF7;   
+            --accent-color: #D4A373; 
+        }
+    
+        /* SECCIÓN: PRE-FOOTER */
+        .pre-footer {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-brown);
+            color: var(--text-light);
+            padding: 40px 10%; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            position: relative;
+            overflow: hidden;
+            margin-top: auto; 
+        }
+
+        .pre-footer-content {
+            flex: 1.2; 
+            min-width: 300px;
+            max-width: 700px;
+            z-index: 2;
+        }
+
+        /* Título estilo Revista  */
+        .pre-footer-content h2 {
+            font-size: 3rem; 
+            margin-bottom: 15px;
+            font-weight: 800; 
+            letter-spacing: -1px; 
+            line-height: 1;
+            text-transform: uppercase;
+            color: rgba(253, 251, 247, 0.85); 
+            font-family: 'Arial Black', sans-serif;
+        }
+
+        .pre-footer-content p {
+            font-size: 1.05rem; 
+            line-height: 1.6;
+            margin-bottom: 0;
+            opacity: 0.95;
+        }
+
+        .pre-footer-images {
+            flex: 0.8;
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center;
+            z-index: 2;
+            min-width: 250px;
+        }
+
+        /* Imagen circular */
+        .img-cafe-circulo {
+            width: 260px; 
+            height: 260px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+            border: 8px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .img-cafe-circulo:hover {
+            transform: scale(1.80);
+        }
+
+        .decoracion-fondo {
+            position: absolute;
+            bottom: -50px;
+            left: -40px;
+            width: 400px;
+            height: 400px;
+            background-color: rgba(24, 12, 12, 0.658);
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        /* SECCIÓN: FOOTER */
+        .main-footer {
+            background-color: var(--dark-brown);
+            color: var(--text-light);
+            padding: 12px 10%; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem; 
+        }
+
+        .footer-left {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            opacity: 0.8;
+            letter-spacing: 0.5px;
+        }
+
+        .footer-right {
+            display: flex;
+            align-items: center;
+            gap: 15px; 
+        }
+
+        .footer-right span {
+            font-weight: 600;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            margin-right: 5px;
+        }
+
+        .footer-right a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            opacity: 0.8;
+        }
+
+        .footer-right a:hover {
+            color: var(--accent-color);
+            opacity: 1;
+            transform: translateY(-2px);
+        }
+
+        /* Responsividad */
+        @media (max-width: 950px) {
+            .pre-footer {
+                flex-direction: column-reverse; 
+                text-align: center;
+                padding: 40px 5%;
+            }
+
+            .pre-footer-content h2 {
+                font-size: 2.5rem;
+            }
+
+            .pre-footer-images {
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+
+            .img-cafe-circulo {
+                width: 220px;
+                height: 220px;
+            }
+
+            .main-footer {
+                flex-direction: column;
+                gap: 10px;
+                padding: 15px 5%;
+            }
+        }
+    </style>
+
+    <section class="pre-footer">
+        <div class="decoracion-fondo"></div>
+        
+        <div class="pre-footer-content">
+            <h2>MAÑANAS FELICES, DÍA FELIZ</h2>
+            <p>Comienza tu día con el mejor sabor y energía. 
+                Disfruta de nuestras promociones especiales 
+                todas las mañanas en bebidas seleccionadas. 
+                Un buen café es el inicio de grandes ideas,
+                visítanos y descubre por qué somos tu lugar favorito.</p>
         </div>
-    </div>
+        
+        <div class="pre-footer-images">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" 
+            alt="[Imagen de Taza de café sobre una mesa]" class="img-cafe-circulo">
+        </div>
+    </section>
+
+     <!-- INICIO DEL FOOTER -->
+    
+    
+    <section class="main-footer">
+        <div class="footer-left">
+            &copy; 2026 Facundo, Adrian y Lainneker. Todos los derechos reservados.
+        </div>
+        <div class="footer-right">
+            <span>SÍGUENOS:</span>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+
+    </section>
 </footer>

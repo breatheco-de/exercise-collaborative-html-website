@@ -1,2 +1,149 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<section id="contact-section" class="contact-layout">
+    <style>
+          
+        /* tipografía */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        /* Contenedor del top-bar (contacto) */
+        .top-bar {
+            background-color: #3b2519; 
+            color: #f5f5dc; 
+            padding: 10px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* Lado izquierdo: Información de contacto */
+        .top-bar-info {
+            display: flex;
+            gap: 25px;
+        }
+
+        .top-bar-info span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            opacity: 0.9;
+        }
+       
+        /* Lado derecho: Contenedor de redes sociales */
+        .top-bar-cont-redes {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .sigueme-texto {
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            font-weight: 600;
+            opacity: 0.8;
+            letter-spacing: 1px;
+        }
+
+        .top-bar-socials {
+            display: flex;
+            gap: 15px;
+        }
+
+        .top-bar-socials a {
+            color: #f5f5dc;
+            text-decoration: none;
+            font-size: 1.05rem;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        /* Efecto al pasar el mouse sobre los iconos */
+        .top-bar-socials a:hover {
+            color: #d2b48c; 
+            transform: translateY(-2px);
+        }
+
+    /* Estilo del botón de WhatsApp */
+        .boton-whatsapp {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: all 0.3s ease; 
+            display: inline-block;
+            opacity: 0.8;
+        }
+
+        .top-bar-info a.boton-whatsapp:hover {
+            color: #25d366; 
+            opacity: 1;
+            transform: scale(1.2);
+        }
+
+        /* Ajustes para  móviles */
+        @media (max-width: 768px) {
+            .top-bar {
+                flex-direction: column;
+                gap: 12px;
+                padding: 12px 20px;
+                text-align: center;
+            }
+            
+            .top-bar-info {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .top-bar-cont-redes {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
+
+    <!-- Estructura de la Barra Superior -->
+    
+        
+        <div class="top-bar">
+            <!-- Información de contacto o mensaje (Lado Izquierdo) -->
+            <div class="top-bar-info">
+                <span><i class="fa-solid fa-clock"></i> Lun - Sáb: 8:00 AM - 9:00 PM</span>
+                <span><i class="fa-solid fa-location-dot"></i> Calle Principal 123, Madrid</span>
+                <a href="https://wa.me/123456789" class="boton-whatsapp" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            </div>
+
+            <!-- Redes Sociales (Lado Derecho) -->
+            <div class="top-bar-cont-redes">
+                <span class="sigueme-texto">Síguenos:</span>
+                <div class="top-bar-socials">
+                    <!-- X (antes Twitter) -->
+                    <a href="https://x.com" target="_blank" aria-label="X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <!-- Facebook -->
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <!-- TikTok -->
+                    <a href="https://tiktok.com" target="_blank" aria-label="TikTok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <!-- YouTube -->
+                    <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+</section>

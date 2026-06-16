@@ -1,3 +1,7 @@
-body{
-    background: #BDBDBD;
+#facundo-body{
+    background-color: #FFE4B5;
+
+}
+.card-body{
+    background-color: #F5F5DC;
 }
