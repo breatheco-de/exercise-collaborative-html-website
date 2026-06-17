@@ -69,3 +69,26 @@ Cada estudiante debe presentar el repositorio de su líder de equipo.
 La [Html-Template-Engine library](https://github.com/alesanchezr/html-template-engine) se utiliza como motor para crear plantillas para la creación de tu landing page.
 
 Este y otros proyectos son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+
+<<<<<<< HEAD
+Elmer: Portfolio y Contact 
+Guisielo: Navbar y Tagline
+David: Pendiente 
+Dany: Pendiente 
+Santiago: Pendiente
+=======
+
+Equipo:
+
+Guisella Barboza
+- navbar
+- tagline
+
+Elmer Menjivar
+- portfolio.html
+- footer.html
+
+David Velasquez y Dany Martinez
+- first_heading.html
+- services.html
+>>>>>>> a364e3409c86a293e44b502e0f53f3456da7b746

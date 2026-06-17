@@ -1,3 +1,9 @@
-body{
-    background: #BDBDBD;
+body {
+    background: black;
+}
+.container-fluid.tagline {
+    background-image: url('https://images.pexels.com/photos/771881/pexels-photo-771881.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
 }
