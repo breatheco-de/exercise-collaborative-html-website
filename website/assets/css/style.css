@@ -1,3 +1,9 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+.hero{
+    background-image: url(https://i1.sndcdn.com/visuals-000166122442-ETGT8b-original.jpg);
+    background-size: cover;
+    min-height: 30vh;
+    height: 40vh;
 }
