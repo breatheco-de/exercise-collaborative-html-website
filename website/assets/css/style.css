@@ -1,3 +1,20 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
+
+.hero {
+  min-height: 70vh;
+  background-image: url(../img/bg.jpg); 
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 15rem;
+}
+
+.hero h1 { 
+    font-size: 7rem; 
+}
+
+.hero h2 { 
+    font-size: 5rem; 
+}
+
