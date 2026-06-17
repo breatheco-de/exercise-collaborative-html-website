@@ -1,2 +1,94 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!-- Sección de Contacto Profesional con Bootstrap 5 -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body p-0">
+                        <div class="row g-0">
+                            <!-- Columna Izquierda: Información de Contacto -->
+                            <div class="col-md-5 bg-primary text-white p-5 bg-dark">
+                                <h3 class="mb-4">Información de Contacto</h3>
+                                <p class="mb-5">¿Tienes alguna duda? Nuestro equipo te responderá en menos de 24 horas.</p>
+                                
+                                <div class="d-flex mb-4">
+                                    <i class="bi bi-geo-alt-fill me-3 fs-4"></i>
+                                    <p class="mb-0">Calle Falsa 123, Ciudad Digital</p>
+                                </div>
+                                
+                                <div class="d-flex mb-4">
+                                    <i class="bi bi-telephone-fill me-3 fs-4"></i>
+                                    <p class="mb-0">+34 600 000 000</p>
+                                </div>
+                                
+                                <div class="d-flex mb-4">
+                                    <i class="bi bi-envelope-fill me-3 fs-4"></i>
+                                    <p class="mb-0">hola@tuproyecto.com</p>
+                                </div>
+
+                                <!-- Redes Sociales -->
+                                <div class="mt-5">
+                                    <a href="#" class="text-white me-3 fs-4"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="text-white me-3 fs-4"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="text-white fs-4"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Columna Derecha: Formulario de Contacto -->
+                            <div class="col-md-7 p-5">
+                                <form id="contactForm">
+                                    <div class="row g-3">
+                                        <!-- Nombre con Floating Label -->
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3">
+                                                <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                                                <label for="name">Nombre Completo</label>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Email con Floating Label -->
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3">
+                                                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                                                <label for="email">Correo Electrónico</label>
+                                            </div>
+                                        </div>
+
+                                        <!-- Asunto (Select) -->
+                                        <div class="col-12">
+                                            <div class="form-floating mb-3">
+                                                <select class="form-select" id="subject" aria-label="Asunto del mensaje">
+                                                    <option selected>Consulta General</option>
+                                                    <option value="1">Soporte Técnico</option>
+                                                    <option value="2">Ventas / Presupuestos</option>
+                                                    <option value="3">Sugerencias</option>
+                                                </select>
+                                                <label for="subject">Asunto</label>
+                                            </div>
+                                        </div>
+
+                                        <!-- Mensaje -->
+                                        <div class="col-12">
+                                            <div class="form-floating mb-3">
+                                                <textarea class="form-control" placeholder="Escribe tu mensaje aquí" id="message" style="height: 150px" required></textarea>
+                                                <label for="message">Mensaje</label>
+                                            </div>
+                                        </div>
+
+                                        <!-- Botón de Envío -->
+                                        <div class="col-12">
+                                            <button class="btn btn-primary btn-lg w-100" type="submit">
+                                                Enviar Mensaje <i class="bi bi-send ms-2"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
