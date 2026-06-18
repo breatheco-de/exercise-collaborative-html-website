@@ -1,3 +1,15 @@
 body{
     background: #BDBDBD;
 }
+        
+.card { transition: transform 0.3s; 
+}
+        
+.card:hover { transform: translateY(-5px); 
+}
+        
+.bg-custom-crema { background-color: #f8f3ed; 
+}
+        
+.btn-dark { background-color: #2b2520; border: none; 
+}
