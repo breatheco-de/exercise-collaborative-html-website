@@ -1,3 +1,38 @@
 body{
-    background: #BDBDBD;
+    background:white;
 }
+.container-portfolio{
+    position: relative;
+    padding-left: 5px;
+    width: 100%;
+}
+.font{
+    font-weight: 2rem;
+}
+
+.portfolio h1{
+    font-size: 3rem;
+    font-weight: 5px;
+    
+}
+.portfolio{
+    margin-left: 8rem;
+    width: 83%;
+   
+}
+
+img{
+    width: 400px;
+    height: auto;
+}
+
+.col-4 h3{
+  width: 400px;
+
+}
+.portfolio-texto{
+  width: 400px; /* Ajusta el ancho del contenedor */
+  word-wrap: break-word; /* Permite que las palabras largas se dividan */
+  overflow-wrap: break-word; /* Alternativa moderna */
+}
+
