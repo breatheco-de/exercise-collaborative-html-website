@@ -1,3 +1,54 @@
 body{
     background: #BDBDBD;
 }
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.encabezado{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.service-body{
+    width: 480px;
+    margin-left: 20px;
+}
+
+.first_heading {
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    max-width: 1200px;
+    gap: 100px;
+}
+.heading_bold {
+    text-decoration: solid;
+}
+.heading_grey {
+    color: grey;
+}
+.text-first-heading {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    
+
+}
+
+.img-walter {
+    border-radius: 100%;
+    height: 250px;
+    weight: 250px;
+    width: 300px;
+    height: auto;
+}
+
+
