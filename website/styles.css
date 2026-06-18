@@ -1,0 +1,37 @@
+#tagline {
+  background-image: url('https://imgs.search.brave.com/iQmmGZpO-M5Fxr1vOktwD7hQMk0Ut0m6za8kjMFVxCI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ0/NTE5NjgxOC9lcy9m/b3RvL2dydXBvLWRl/LWxpbmRhcy1tYXNj/b3Rhcy1zb2JyZS1m/b25kby1ibGFuY28t/ZGlzZSVDMyVCMW8t/ZGUtYmFubmVyLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1K/VFVrXzl5aVNFajFh/aEQ0SzY4ZDEzb2lU/c3Axa3M5UG1DeEsx/YlB6eEtJPQ');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+#tagline h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  padding: 5px 15px;
+}
+
+#tagline h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  padding: 5px 15px;
+}
+
+.foto-redonda {
+  width: 220px;
+  height: 220px;
+  max-width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+    }
+ 
