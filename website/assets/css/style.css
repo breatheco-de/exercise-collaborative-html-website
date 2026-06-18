@@ -1,3 +1,22 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-card{
+    border-radius: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.hero-card .card-img{
+    width: 100%;
+    object-fit: cover;
 }
