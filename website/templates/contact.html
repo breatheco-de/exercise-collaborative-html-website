@@ -1,2 +1,48 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+
+<div class="container mt-5" id="contact">
+    <div class="contact-text">
+        <h1 class="display-4 fw-bold">
+            Let us know.
+        </h1>
+        <h5 class="text-secondary mt-3">
+            Share your opinion with us.
+
+        </h5>
+    </div>
+    <div class="row justify-content-center mt-4">
+        <div class="col-lg-8">
+            <div class="border p-4 bg-ldark rounded-3">
+                <form class="need-validacion">
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-md-3">
+                            <label for="validacionServerEmail" class="form-label fw-bold">Email</label>
+                        </div>
+                        <div class="col-md-9">
+                            <input type="email" class="form-control" id="validacionServerEmail"
+                                aria-describedby="validacionServerEmailFeedback" required>
+                            <div id="validacionServerEmailFeedback" class="invalid-feedback">
+                                Please enter a valid email address.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-3">
+                            <label for="validacionServerTextarea" class="form-label fw-bold">Your opinion</label>
+                        </div>
+                        <div class="col-md-9">
+                            <textarea class="form-control" id="validacionServerTextarea"
+                            aria-describedby="validacionServerTextareaFeedback" rows="3" required></textarea>
+                            <div id="validacionServerTextareaFeedback" class="invalid-feedback">
+                                Please enter a message.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-end">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
