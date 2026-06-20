@@ -1,3 +1,25 @@
-body{
-    background: #BDBDBD;
+body {
+    background: white;
 }
+
+.bg-image {
+    background-image: url('../img/bg.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center bottom;
+    min-height: 600px;
+}
+
+#start {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+}
+
