@@ -1,3 +1,26 @@
 body{
     background: #BDBDBD;
 }
+.backgroundOfJumb {
+    height:600px;
+    align-items:center;
+    background:url("../img/bg.jpg") center center;
+    background-size: 100% 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.styleOfNavbar {
+margin-left: 10px;
+}
+#square1 {
+    width:400px !important;
+    height:300px !important;
+}
+#square2 {
+    width:400px !important;
+    height:300px !important;
+}
+#square3 {
+    width:400px !important;
+    height:300px !important;
+}
