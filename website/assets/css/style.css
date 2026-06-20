@@ -1,3 +1,38 @@
 body{
     background: #BDBDBD;
 }
+.bg-container {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-overlay {
+  position: relative;
+  color: black;
+  background-color: white;
+  z-index: 10;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: auto;
+}
+.text-overlay h1 {
+  font-size: 5rem;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.text-overlay h2 {
+   font-size: 3rem;
+  margin: 0;
+  font-family: Arial, sans-serif;
+    background:rgb(255, 255, 255);
+}
+.botones{
+    width: 100%; 
+}
