@@ -1,3 +1,33 @@
-body{
-    background: #BDBDBD;
+#divbg{
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+
+#htext1 {
+    position: absolute;
+    width: 98%;
+    top: 20%;
+    left: 1%;
+    height: 150px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 140px;
+    background-color: white;
+}
+
+#htext2 {
+    position: absolute;
+    width: 98%;
+    top: 40%;
+    left: 1%;
+    height: 90px;
+    text-align: center;
+    font-size: 70px;
+    background-color: white;
+}
+.text_project{
+    color:rgb(53, 118, 211)
 }
