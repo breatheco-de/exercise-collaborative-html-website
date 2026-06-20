@@ -1,3 +1,21 @@
 <!-- your html code here -->
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+
+<div class="position-relative  text-bg-dark mb-5">
+    <div class="ratio ratio-21x9">
+        <img src="https://cdn.pixabay.com/photo/2020/02/20/11/03/landscape-4864474_1280.jpg">
+    </div>
+    <div class="card-img-overlay">
+        <!-- para pantallas grandes -->
+        <h1 class="display-1 d-none d-lg-block fw-bold bg-white text-center mt-5">One Page Wonder</h1>
+        <h1 class="display-5 d-none d-lg-block fw-bold bg-white text-center mt-3">Will Knock Your Socks Off</h1>
+
+        <!-- para pantallas medianas -->
+        <h1 class="display-2 d-lg-none d-none d-md-block fw-bold bg-white text-center mt-5">One Page Wonder</h1>
+        <h1 class="display-6 d-none d-lg-none d-md-block bg-white text-center mt-3">Will Knock Your Shocks Off</h1>
+
+        <!-- para pantallas pequeñas -->
+        <h1 class="display-5 d-md-none d-sm-block fw-bold bg-white text-center my-auto">One Page Wonder</h1>
+        <h1 class="fs-4 d-md-none d-sm-block bg-white text-center mt-3">Will Knock Your Shocks Off</h1>
+    </div>
+</div>
