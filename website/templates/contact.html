@@ -1,2 +1,40 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container mt-4">
+  
+  <div class="mb-4 ps-3"> 
+    <h3><strong>Contact</strong></h3>
+    <p>
+      You can reach us by filling out the form below. We'll get back to you as soon as possible.
+    </p>
+  </div>
+
+  <div class="p-4 rounded border" style="background-color: #f8f9fa;">
+    <form>
+      <div class="row mb-3">
+        <div class="col-12 mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input 
+            type="email" 
+            class="form-control" 
+            id="email" 
+            placeholder="Your email" 
+            required>
+        </div>
+
+        <div class="col-12">
+          <label for="message" class="form-label">Message</label>
+          <textarea 
+            class="form-control" 
+            id="message" 
+            rows="3" 
+            placeholder="Please enter your message here..." 
+            required></textarea>
+          
+        </div>
+      </div>
+
+      <div class="text-end">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
