@@ -1,3 +1,18 @@
 body{
     background: #BDBDBD;
 }
+
+.customCont {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.customDiv {
+    width: 40%;
+    margin-top: 3%;
+}
+
+.customImg {
+    margin-top: 20%;
+}
