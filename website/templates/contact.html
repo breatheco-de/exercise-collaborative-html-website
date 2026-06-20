@@ -1,2 +1,48 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container">
+    <div class="container-contact">
+        <div class="row">
+
+            <div class="img-col col-md-6"><!--img bg chocobo--></div>
+            <div class="form-col col-md-6">
+                <h1 class="h1form">Contáctanos</h1><br>
+                <p class="pform">Si quieres contactar con nuestros chocobos, rellena el siguiente Choco-Formulario...
+                </p>
+                <form id="contact-form" method="get">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="nombre">Nombre Completo</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="email">Correo Electrónico</label>
+                                <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea rows="4" placeholder="Tu Mensaje" id="mensaje" name="mensaje"
+                                    required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <img
+                                    src="https://raw.githubusercontent.com/stromcer/exercise-collaborative-html-website/master/imagenes_chocobo/FF2Chocobo.webp">
+                                <button class="buttonform" type="submit" id="submit" name="submit">Enviar</button>
+                                <img src="https://raw.githubusercontent.com/stromcer/exercise-collaborative-html-website/master/imagenes_chocobo/FF2Chocobo.webp"
+                                    style="transform: scaleX(-1);"><br>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
