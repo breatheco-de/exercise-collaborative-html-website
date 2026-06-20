@@ -1,3 +1,26 @@
-body{
-    background: #BDBDBD;
+body {
+    background: ffffff;
+}
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+#jumbotron {
+    background-image: url('https://github.com/breatheco-de/exercise-collaborative-html-website/blob/solution/website/assets/img/bg.jpg?raw=true');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    min-width: 100px;
+    padding: 0;
+}
+
+#jumbotron h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+    
+}
+
+#jumbotron h2 {
+    font-size: 40px
 }
