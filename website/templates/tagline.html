@@ -1,3 +1,48 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Evita que los mÃ¡rgenes y paddings desborden el viewport */
+    }
+    .jumbotron {
+        position: relative;
+        width: 100%;
+        height: 100vh; /* Ocupar toda la pantalla */
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        overflow: hidden; 
+    }
+    .jumbotron img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+    .jumbotron .content {
+        position: relative;
+        background: rgba(255, 255, 255, 0.9);
+        color: rgba(23, 23, 23, 0.9);
+        text-align: center;
+        font-size: clamp(4rem, 5vw, 5rem); 
+        font-weight: bold;
+        width: 99%; 
+        margin: 5vh;
+    }
+    .separator {
+        height: 0vh; 
+    }
+</style>
+<div class="jumbotron">
+    <img src="assets/img/bg.jpg" alt="Fondo">
+    <div class="content">
+        One Page Wonder
+    </div>
+    <div class="separator"></div>
+    <div class="content">
+        Will Knock Your Socks Off
+    </div>
+</div>
