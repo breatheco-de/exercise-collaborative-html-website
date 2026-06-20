@@ -1,3 +1,15 @@
 body{
+<<<<<<< HEAD
     background: #BDBDBD;
+}
+
+.texto1{
+    font-size: 80px;
+}
+
+.texto2{
+    font-size: 50px;
+=======
+    background: white;
+>>>>>>> master
 }
