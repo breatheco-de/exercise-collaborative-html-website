@@ -1,3 +1,50 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<style>
+    .banner {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        color: black;
+        padding: 0; /* Elimina el padding para evitar desajustes */
+        text-align: center;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+        display: block; /* Asegura que no haya espacio extra alrededor de la imagen */
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        width: 100%; /* Asegura que el contenido ocupe todo el ancho */
+        box-sizing: border-box; /* Incluye padding en el ancho total */
+    }
+
+    .full-width {
+        background-color: white;
+        padding: 20px;
+        width: 100%; /* Asegura que ocupe el 100% del ancho */
+        box-sizing: border-box;
+        margin: 0; /* Elimina márgenes adicionales */
+        margin-top: 30px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+</style>
+
+<div class="jumbotron text-center banner">
+    <img src="assets/img/bg.jpg" alt="">
+    <div class="banner-content">
+        <h1 class="display-1 full-width"><strong>One Page Wonder</strong></h1>
+        <p class="lead display-6 full-width"><strong>Will Knock Your Socks Off</strong></p>
+    </div>
+</div>
