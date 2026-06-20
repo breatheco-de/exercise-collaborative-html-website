@@ -1,3 +1,79 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<div class="Imagen d-flex flex-column justify-content-center align-items-center"  
+    style="background: url('https://images.unsplash.com/photo-1543783207-ec64e4d95325?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFkcmlkfGVufDB8fDB8fHww') center/cover; height: 400px;">
+
+
+    <div class="p-2  d-flex text-white justify-content-center gap-2 align-items-center ">
+
+        <a class="  fs-1 nav-link" style="width: 60px; height: 60px;" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="  bi bi-house" viewBox="0 0 16 16">
+                <path
+                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+            </svg>
+        </a>
+
+        <a class="fs-2 ms-5 nav-link" href="#">Quienes somos</a>
+
+
+        <a class="fs-2 ms-5 nav-link" href="#">Venta de pisos</a>
+
+
+        <a class="fs-2 ms-5 nav-link" href="#">Compra</a>
+
+
+        <a class="fs-2 ms-5 nav-link" href="#">Financiación</a>
+
+
+
+        <a class="fs-2 nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+            aria-expanded="false" >Nuestros servicios</a>
+        <ul class="dropdown-menu"  >
+            <li class="Margen"><a class="dropdown-item" href="#">Alquiler</a></li>
+            <li class="Margen"><a class="dropdown-item" href="#">Vacacional</a></li>
+            <li class="Margen"><a class="dropdown-item" href="#">Gestión de compraventa</a></li>
+            <li class="Margen"><a class="dropdown-item" href="#">Gestion de alquiler</a></li>
+            <li class="Margen"><a class="dropdown-item" href="#">Promotores</a></li>
+            <li class="Margen"><a class="dropdown-item" href="#">Reformas</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Mas</a></li>
+        </ul>
+
+        <a class=" fs-2 ms-5 nav-link" href="#">Blog</a>
+
+
+        <a class="fs-2 ms-5  nav-link" href="#">Contacto</a>
+
+
+    </div>
+
+    <div class="Imagen d-flex flex-column justify-content-center align-items-center">
+           <ul class=" w-25  nav nav-tabs" id="myTab" role="tablist">
+
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Compra</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Alquiler</button>
+            </li>
+
+        </ul>
+
+        <div class="row g-3">
+            <div class="col-sm-7">
+                <input type="text" class="form-control" placeholder="Ciudad" aria-label="City">
+            </div>
+            <div class="col-sm">
+                <input type="text" class="form-control" placeholder="Habitaciones" aria-label="State">
+            </div>
+            <div class="col-sm">
+                <input type="text" class="form-control" placeholder="ID de propiedad" aria-label="Zip">
+            </div>
+        </div>
+
+    </div>
+
+</div>

@@ -1,3 +1,14 @@
+
 body{
     background: #BDBDBD;
+}
+.Imagen{
+width: 100%;
+height: 700px;
+
+}
+
+.Margen{
+    
+    margin-right: 30px;
 }
