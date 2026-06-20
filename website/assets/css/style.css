@@ -1,3 +1,19 @@
 body{
-    background: #BDBDBD;
+    background: #FFFFFF;
+}
+
+.services{
+    background: white;
+}
+
+.breakingbad{
+    width: 350px;
+    height: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
