@@ -1,3 +1,289 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body{
+    background: #ffffff;
+}
+
+.color-nav {
+    background-color: #222222 !important; 
+    
+}
+
+.color-nav a {
+    color: #767676 !important;
+}
+
+.grey-title {
+    color: #767676;
+}
+
+.image-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-sec {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #fbfbfb;
+    text-align: center;
+}
+
+.first-text {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.first-text h1 {
+    font-size: 130px;
+}
+
+.text-sec h2 {
+    font-size: 60px;
+}
+
+.image-container{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.first-image {
+    background-image: url(../img/1.jpg);
+}
+
+.second-image{
+    background-image: url(../img/2.jpg);
+}
+
+.firstHeadingSection {
+    padding: 7.5% 15% 2% 7.5%;
+}
+
+.line-sec {
+    width: 90%;
+    padding-bottom: 7.5%;
+}
+
+.line-sec hr {
+    width: 1100px;
+}
+
+
+.FHcontainer-one {
+    text-align: start;
+    padding-right: 50px;
+}
+
+.service-container {
+    padding-left: 150px;
+}
+
+.col-9 p {
+    font-size: 20px;
+}
+
+.line-secTwo {
+    padding-top: 7.5%;
+}
+.card-text {
+    color: rgb(65, 183, 252);
+}
+.header {
+    padding-bottom: 2%;
+}
+/* .container {
+    margin-left: 15%;
+    margin-right: 15%;
+    background: #ffffff;
+} */
+
+.color-nav {
+    background-color: #222222 !important; 
+    
+}
+
+.color-nav a {
+    color: #767676 !important;
+}
+
+.grey-title {
+    color: #767676;
+}
+
+.image-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-sec {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #fbfbfb;
+    text-align: center;
+}
+
+.first-text {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.first-text h1 {
+    font-size: 130px;
+}
+
+.text-sec h2 {
+    font-size: 60px;
+}
+
+.image-container{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.first-image {
+    background-image: url(../img/1.jpg);
+}
+
+.second-image{
+    background-image: url(../img/2.jpg);
+}
+
+.firstHeadingSection,
+.secondHeadingSection {
+    padding: 7.5% 15% 2% 7.5%;
+}
+
+.line-sec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    padding-bottom: 7.5%;
+}
+
+.line-sec hr {
+    width: 1100px;
+}
+
+
+.FHcontainer-one {
+    text-align: start;
+    padding-right: 50px;
+}
+
+.col-9 p {
+    font-size: 20px;
+    width: 80%;
+}
+
+.line-secTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    padding-bottom: 7.5%;
+}
+
+.service-container {
+    float: right;
+    padding-left: 20px;
+}
+
+
+.FHcontainer-two {
+    text-align: start;
+}
+
+.secondP {
+    padding-left: 150px;
+}
+
+.secondH2 {
+    padding-left: 100px;
     background: #BDBDBD;
+    background: white;
+}
+
+/* cambios de Rai */
+
+.ventana-contacto{
+    border: #eeeeee solid 3px;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    padding: 10px 10px 25px 120px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.form-control{
+    color: gray;
+    background-color: white !important;
+}
+
+.col-form-label{
+    font-weight: bold;
+    text-align: right;
+}
+
+#text-message{
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: top;
+        -ms-flex-align: top;
+            align-items: top;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+
+}
+
+.contact-header{
+    margin-top: 100px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.contact-form{
+    margin-bottom: 50px;
 }
