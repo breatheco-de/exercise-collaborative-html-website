@@ -1,7 +1,14 @@
-<footer>
-    <div class="row">
-        <div class="col-lg-12">
-            <p>Copyright &copy; Your Website Name 2021</p>
-        </div>
-    </div>
+<!-- your html code here -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">Copyright © Your Website 2024</p>
 </footer>
+
+<script>
+    document.querySelectorAll('.nav-link').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+</script>
