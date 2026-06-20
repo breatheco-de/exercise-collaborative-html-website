@@ -1,3 +1,90 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+
+/*Style for navbar*/
+.navbar-expand-lg{
+    background-color: black;
+}
+.nav-option,
+.nav-container-fluid{
+    display: flex;
+    padding-left: 0.5%;
+}
+.container-fluid{
+    padding: 0%;
+}
+.nav-option a{
+    color: lightgray;
+}
+.nav-option a:hover{
+    color:  white !important;
+}
+.nav-option a:visited{
+    color: lightgray;
+}
+
+/*Style for tagline*/
+.tagline{
+    background-image:url("https://picsum.photos/seed/picsum/1500/500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.tagline h1{
+    background: rgba(255, 255, 255, 0.724);
+    text-align: center;
+    font-size: 8vw;
+    position: relative;
+    top: 15%;
+}
+.tagline h2{
+    background: rgba(255, 255, 255, 0.724);
+    text-align: center;
+    font-size: 4.5vw;
+    position: relative;
+    top: 20%;
+}
+.rounded-circle{
+    float: left;
+    width: 40%;
+    margin: 5%;
+    margin-right: 5%;
+}
+.container{
+    width: 95%!important;
+    margin:auto;
+    font-weight: 200;
+    line-height: 1.2;
+}   
+/*Style for portfolio*/
+
+/*Style for contact*/
+.container-fluid .contact-header{
+    width: 90%;
+    margin: 5%;
+    text-align: justify;
+}
+.container-fluid .contact-header form{
+    width: 55%;
+    margin: auto;
+    padding: 1%;
+}
+.container-fluid .contact-header label{
+    width: 25%;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 3%;
+}
+.mb-3{
+    display: flex;
+}
+.container-fluid .contact-header button{
+    position: relative;
+    float:right;
+}
+/*Style for footer*/
+footer{
+    width: 90%;
+    margin: auto;
 }
