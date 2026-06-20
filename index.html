@@ -1,44 +1,163 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Choose a website</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="container">
-            <h1 class="mb-5">GIT & Bootstrap Collaborative Project</h1>
-            <div class="row">
-                <div class="col-sm-4 bg-dark text-center">
-                    <a href="./website/designs/thumb.jpg"><img style="max-height: 400px;" class="img-responsive" src="website/designs/thumb.jpg"></img></a>
-                </div>
-                <div class="col-sm">
-                    <h2>One Page Wonder - Start Bootstrap Template</h2>
-                    <a class="btn btn-primary" href="./website/">Live Version</a>
-                    <a class="btn btn-warning" href="./website/designs/thumb.jpg">How it Should Look</a>
-                    <a class="btn btn-danger" href="./website/designs/guide.jpg">See the Guide</a>
+<html lang="en">
 
-                    <div>
-                        <h2>Tips:</h2>
-                        <p>Copy and tweak components from <a href="https://getbootstrap.com/" target="_blank" >getbootstrap.com</a>.</p>
-                        <p>If you are looking at an example from <a href="https://getbootstrap.com/docs/5.1/examples/" target="_blank">https://getbootstrap.com/docs/5.1/examples/</a>, you can use the inspector (right mouse click to open this panel up) and then select the section you want in the "Elements" tab. Then go to copy, and copy element to quickly add to your project.</p>
-                        <p>To push changes to the website, remember this sequence:</p>
-                            <ul>
-                                <li>git add .</li>
-                                <li>git commit -m "what you modified"</li>
-                                <li>git push</li>
-                            </ul>
-                            <p>To see changes from teammates:</p>
-                                <ul>
-                                    <li>git pull</li>
-                                </ul>
-                                <p>To customize elements, use the style.css file located in assets/css.</p>
-                    </div>
+<head>
+    <meta charset="utf-8">
+    <title>One Page Wonder - Start Bootstrap Template</title>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css?v0.1" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Parte tagline -->
+    <div class="card text-bg-dark border-0 rounded-0">
+        <img src="https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/website/assets/img/bg.jpg?raw=true" class="card-img" alt="...">
+        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center px-3">
+            <h1 class="card-title bg-white text-black p-3">One Page Wonder</h1>
+            <h2 class="card-text bg-white text-black">Will Knock Your Socks Off</h2>
+        </div>
+    </div>
+
+    <!-- first heading -->
+    <div class="card mb-3 border-0 px-5">
+        <div class="row g-0">
+            <div class="col-8 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>First Heading </strong> Will Catch Your Eye</h5>
+                    <p class="card-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Present commodo cursus magna, vel scelerisque nist consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 </div>
             </div>
-
+            <div class="col-4 mt-5">
+                <img src="https://github.com/SergioGarcia95/Ejercicio-colaborativo-g3/blob/master/website/assets/img/1.jpg?raw=true"
+                    class="img-fluid rounded-circle" alt="...">
+            </div>
         </div>
+    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- second heading -->
+    <div class="card mb-3 border-0 px-5">
+        <div class="row g-0">
+            <div class="col-4 mt-5">
+                <img src="https://github.com/SergioGarcia95/Ejercicio-colaborativo-g3/blob/master/website/assets/img/2.jpg?raw=true"
+                    class="img-fluid rounded-circle" alt="...">
+            </div>
+            <div class="col-8 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>The Second Heading </strong> Is Pretty Cool Too.</h5>
+                    <p class="card-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Present commodo cursus magna, vel scelerisque nisi consectetur.
+                        Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- /.container -->
+    <!-- Portfolio -->
+    <div class="bs-body-bg px-5 mt-5">
+        <h3>Portfolio</h3>
+        <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis eusismod semper. Praesent
+            commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4 px-5">
+        <div class="col">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png"
+                    class="card-img-top" alt="..." width="700" height="400">
+                <div class="card-body">
+                    <h5 class="card-title">Project Name</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra eusimod odio,
+                        gravida pellentesque urna varius vitae.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Jesse_Pinkman_S5B.png"
+                    class="card-img-top" alt="..." width="700" height="400">
+                <div class="card-body">
+                    <h5 class="card-title">Project Name</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra eusimod odio,
+                        gravida pellentesque urna varius vitae.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="data:image/jpeg;base64,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"
+                    class="card-img-top" alt="..." width="700" height="400">
+                <div class="card-body">
+                    <h5 class="card-title">Project Name</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra eusimod odio,
+                        gravida pellentesque urna varius vitae.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
-    </body>
+    <!-- contacto -->
+    <div class="container-fluid px-lg-5 px-3 mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10 col-12">
+                <h2 class="text-center mb-4">Contact</h2>
+                <p class="text-center mb-5">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <div class="bg-light p-4 rounded">
+                    <form>
+                        <div class="mb-4">
+                            <label for="emailInput" class="form-label fw-bold">Your E-mail</label>
+                            <input type="email" class="form-control form-control-lg" id="emailInput" placeholder="your.email@example.com">
+                        </div>
+                        <div class="mb-4">
+                            <label for="messageTextarea" class="form-label fw-bold">Your Message</label>
+                            <textarea class="form-control form-control-lg" id="messageTextarea" rows="5" placeholder="Please enter your message here..."></textarea>
+                        </div>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="submit" class="btn btn-primary btn-lg px-4">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript"
+        src="https://cdn.rawgit.com/alesanchezr/html-template-engine/master/dist/html-template-engine.js?autoload"></script>
+    <script type="text/javascript" src="assets/js/fix.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
 </html>
