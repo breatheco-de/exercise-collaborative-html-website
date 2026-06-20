@@ -1,0 +1,25 @@
+{
+  "name": "html-template-engine",
+  "version": "0.0.5",
+  "description": "Include other HTML files into your code using pure HTML tags, no need to know Javascript (or any other language).",
+  "main": "dist/html-template-engine.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alesanchezr/html-template-engine.git"
+  },
+  "keywords": [],
+  "author": "Alejandro Sanchez",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/alesanchezr/html-template-engine/issues"
+  },
+  "homepage": "https://github.com/alesanchezr/html-template-engine#readme",
+  "devDependencies": {
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12"
+  }
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple with autoload</title>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+    </head>
+    <body log-template-requests="true" base-template-path="./parts/">
+        <span require-file="header.html"></span>
+        <section>
+            <h1>The template parts are being autoloaded using ?autoload on the script source URL. </h1>
+        </section>
+        <span require-file="footer.html"></span>
+        <script type="text/javascript" src="../dist/html-template-engine.js?autoload"></script>
+    </body>
+</html>

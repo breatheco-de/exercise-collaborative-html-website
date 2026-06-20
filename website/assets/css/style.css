@@ -1,3 +1,32 @@
-body{
+body {
     background: #BDBDBD;
+}
+
+.redonda {
+    width: 250px;
+    height: 250px;
+}
+
+.bgImg {
+    background-image: url("https://www.latercera.com/resizer/AjC8SGp7cYgso9yLcJa7Z5HOXQE=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/2Q75SUKMBZCYNIZHF4MXYQBHZY.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.taglineBG {
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+.mainTitle {
+    font-size: 6em;
+}
+
+.subTitle {
+    font-size: 3em;
+}
+
+.marginMT {
+    margin-left: 5px;
+    margin-right: 5px;
 }

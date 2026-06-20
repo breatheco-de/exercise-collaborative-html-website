@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Footer and Header</title>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+    </head>
+    <body log-template-requests="true" base-template-path="./parts/">
+        <span require-file="header.html"></span>
+        <section>
+            <h1>No autoloading, you have to use HTMLTemplateEngine.start() for the engine to start loading</h1>
+        </section>
+        <span require-file="footer.html"></span>
+        <script type="text/javascript">
+            window.onload = function(){ HTMLTemplateEngine.start(); }
+        </script>
+        <script type="text/javascript" src="../dist/html-template-engine.js"></script>
+    </body>
+</html>
