@@ -1,3 +1,97 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+
+
+.Container1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.imgBG{
+    background-color: aqua;
+    width: max-content;
+}
+
+.text1{
+    font-size: 90px;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+.text1 > p{
+    background-color: white;
+    padding: 0px;
+}
+
+.Proyect1, .Proyect2{
+    display: flex;
+    padding: 20px 75px;
+}
+
+.img{
+    border-radius: 50%;
+}
+
+.text3, .text6{
+    font-size: xx-large;
+}
+
+.text3 > span{
+    color: #BDBDBD;
+}
+
+.text2{
+    margin-right: 30px;
+}
+.text5{
+    margin-left: 30px;
+}
+
+.text4, .text7{
+    font-size: larger;
+    text-align: justify;
+}
+
+.text6 > span{
+    color: #BDBDBD;
+}
+
+.cardHeader{
+    display: flex;
+    margin: 0px 25px;
+}
+
+.card1{
+    margin: 20px;
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight:bold;
+    color: rgb(107, 107, 233);
+
+}
+
+.card-body{
+    padding: 0px !important;
+}
+
+.container_contact{
+    margin: 10px;
+    padding: 30px;
+    margin-bottom: 10px;
+   
+}
+  
+.form{
+    background-color: #9195bd;
+    border: solid 1px black;
+    padding: 5px;
+    width: 60%;
+    margin-left: 20em;
 }
