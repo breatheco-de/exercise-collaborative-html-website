@@ -1,0 +1,21 @@
+header.navbar {
+    background: #1f003b;
+    box-shadow: 0px -3px 19px 1px #fe6e42;
+}
+
+header .navbar-brand img {
+    max-height: 49px;
+}
+
+.navbar-toggler,
+header .btn-primary {
+    border: 1px solid #ff5d2c !important;
+    background: #fe6e42;
+    letter-spacing: 1.5px;
+}
+
+header .btn-primary:hover,
+header .btn-primary:active {
+    background: #ff5d2c;
+}
+
