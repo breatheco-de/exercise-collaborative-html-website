@@ -1,2 +1,22 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container-sm-md-lg-xl-xxl m-5" id="brachContacts">
+  <h1>Contacto</h1>
+  <h6>Dejanos tu comentario, duda, o sugerencia, ademas de tu correo electronico y te contactaremos en la brevedad posible.</h6>
+  <div class="formContact rounded-1 bg-secondary-subtle mx-auto my-3 p-2" style="width: 60%">
+    <form>
+      <div class="row g-3 ms-5 mb-3">
+        <label for="inputEmail" class="col-2 d-flex justify-content-end col-form-label">Your E-mail</label>
+        <div class="col-10">          
+          <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Your E-mail" required>
+        </div>
+        <label for="inputText" class="col-2 d-flex justify-content-end form-label">Your Message</label>
+        <div class="col-10">          
+          <textarea class="form-control" id="inputText" rows="5" placeholder="Please enter your message here" required></textarea>
+        </div>
+        <div class="col d-flex justify-content-end mb-1">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>            
+    </form>
+  </div>
+</div>
