@@ -1,3 +1,27 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Choose a website</title>
+        <style>
+            .bg-image {
+                background-image: url(https://images.pexels.com/photos/1292843/pexels-photo-1292843.jpeg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 100px 20px;
+            }
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"></head>
+    <body>
+        <div class="container bg-image">
+            <div class="container-fluid py-5" id="jumbotron">
+                <div class="pt-5">
+                    <h1 class="display-5 fw-bold text-center bg-light">One Page Wonder</h1>
+                </div> 
+                <h2 class="display-5 fw-bold text-center bg-light">Will Knock Your Socks Off </h2>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    </body>
+</html>
