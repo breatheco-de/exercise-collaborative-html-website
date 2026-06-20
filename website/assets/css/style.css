@@ -1,3 +1,40 @@
 body{
     background: #BDBDBD;
 }
+.box {
+    width: 100%;
+    height: 200px;
+}
+
+.header {
+    padding: 0;
+}
+
+.area-contact {
+    width: 800px;
+    height: 240px;
+    background: gainsboro;
+    margin: 0 auto;
+    padding: 15px 15px 20px 45px;
+}
+
+.letters {
+    text-align: center;
+    text-align: justify;
+}
+
+#jumbotron {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+#jumbotron h1 {
+    font-size: 120px;
+}
+
+#jumbotron h2 {
+    font-size: 60px
+}
