@@ -1,3 +1,24 @@
+
 body{
-    background: #BDBDBD;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.container-general{
+background-color: white;
+width: 80%;
+}
+
+.card-img-top {
+  height: 200px;   
+  width: 100%;     
+  object-fit: cover; 
+  object-position: top;  
+}
+
+#fondo{
+      background-image: url('../img/bg.jpg');
+      background-size: cover;
+      background-position: center bottom;
+      height: 600px;
 }
