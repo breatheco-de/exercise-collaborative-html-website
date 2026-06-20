@@ -1,2 +1,54 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+
+    <section class="bg-light py-5">
+        <div class="container" style="max-width: 1300px;">
+            
+            <!-- Header -->
+            <div class="mb-4">
+                <h1 class="fw-bold">Contact</h1>
+                <p class="text-secondary">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="bg-white p-5 rounded">
+                <form>
+                    <!-- Email Input -->
+                    <div class="row mb-4 align-items-center">
+                        <label for="email" class="col-sm-3 col-form-label fw-bold">Your E-mail</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control" id="email" placeholder="Your email">
+                        </div>
+                    </div>
+
+                    <!-- Message Textarea -->
+                    <div class="row mb-4 align-items-start">
+                        <label for="message" class="col-sm-3 col-form-label fw-bold">Your message</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" id="message" rows="6" placeholder="Please enter your message here..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="row">
+                        <div class="col-sm-9 offset-sm-3 text-end">
+                            <button type="submit" class="btn btn-primary px-4 py-2">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
