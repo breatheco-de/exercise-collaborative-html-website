@@ -1,3 +1,46 @@
 body{
-    background: #BDBDBD;
+
+    background: white;
 }
+
+/*First head  NELCY*/
+
+.contenedor-principal {
+    background-color: white;
+  }
+
+  .linea-separador {
+    border-top: 1px solid lightgrey;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .text-contenido {
+    font-size: 1.2rem; 
+    line-height: 1.2; 
+    font-family: serif sans-serif; 
+  }
+
+ /* Footer Nelcy*/
+ footer {
+    margin-top: 20px;
+    text-align: left;
+    background-color: white; 
+    padding: 10px 0; 
+    border-top: 1px solid lightgrey; 
+}
+
+footer .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 500;
+    color:black ; 
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+
