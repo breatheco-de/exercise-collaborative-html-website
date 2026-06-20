@@ -1,3 +1,21 @@
 body{
     background: #BDBDBD;
 }
+   #tagline1 {
+        position: relative;
+        width: auto;
+        height: 500px;
+        background-image: url(https://mott.pe/noticias/wp-content/uploads/2019/03/rio-de-7-colores-en-Colombia.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    .tagline {
+        font-size: 100px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+    }
