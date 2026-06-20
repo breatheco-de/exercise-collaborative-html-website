@@ -1,3 +1,8 @@
+
+
+
+
+
 <!-- hide -->
 # Making a website as a team (Git collaboration)
 <!-- endhide -->
