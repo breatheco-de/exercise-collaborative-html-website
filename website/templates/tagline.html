@@ -1,3 +1,27 @@
 <!-- your html code here -->
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+
+<div class="container-fluid"><!--pongo container fluid para que me ocupe toda la pagina -->
+
+    <!--Creo aqui una linea row para despues crear las columnas-->
+    <div class="row p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <!--columna 1 textos -->
+        <div class=" col-sm-12 col-md-6 px-0">
+            <h1 class="display-4 fst-italic">El Gran invento de la Inteligencia artificial</h1>
+            <p class="lead my-3">A lo largo de los últimos años, el uso de la inteligencia artificial ha ido
+                creciendo significativamente. Pero, ¿realmente esta tecnología está beneficiándonos? ¿Deberíamos
+                implementarla obligatoriamente en el trabajo? ¿Es recomendable llevarla también al ámbito
+                personal? Todo esto y mucho más lo encontrarás en nuestra página web.</p>
+            <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continúe leyendo...</a></p>
+        </div>
+
+        <!--columna 2 imagen-->
+        <!--aqui añado la imagen y le doy un margen para cuando se haga pantalla pequeña se separe del texto de continue leyendo...-->
+        <div class="col-sm-12 col-md-6 mt-2">
+            <img class="img-fluid"
+                src="https://www.pandasecurity.com/es/mediacenter/src/uploads/2025/02/pandasecurity-las-consecuencias-de-que-las-ia-generativas-si-permitan-vulnerar-los-derechos-de-privacidad-1920x1097.webp"
+                alt="">
+        </div>
+    </div>
+
+</div>
