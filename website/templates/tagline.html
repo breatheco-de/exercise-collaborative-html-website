@@ -1,3 +1,22 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<div class="container-fluid p-0">
+    <div class="position-relative" style="min-height: 50vh;">
+        <!-- Imagen hero con altura máxima para evitar solapamientos -->
+        <img src="https://media.istockphoto.com/id/1306869356/es/vector/horizonte-abstracto-de-la-ciudad-moderna-patr%C3%B3n-vectorial-sin-costuras.jpg?s=612x612&w=0&k=20&c=xeuUUeaMPeDsnT1rPz2RvIbuFrkww023FF66RwBoKGE=" 
+             class="img-fluid w-100" alt="Imagen Hero" style="max-height: 50vh; object-fit: cover;">
+        
+        <!-- Contenedor centrado y con márgenes adaptativos -->
+        <div class="position-absolute top-0 start-50 translate-middle-x w-100 mt-3 mt-md-4 mt-lg-5">
+            
+            <!-- Primer recuadro blanco responsivo -->
+            <div class="bg-white shadow p-1 text-center w-100 w-md-75 w-lg-50 mx-auto">
+                <h1 class="display-4 display-md-2 text-dark fw-bold mb-0">One Page Wonder</h1>
+            </div>
+            
+            <!-- Segundo recuadro blanco responsivo con menos margen en pantallas pequeñas -->
+            <div class="bg-white shadow p-1 mt-2 mt-md-3 text-center w-100 w-md-75 w-lg-50 mx-auto">
+                <h2 class="h5 text-dark fw-semibold mb-0">Will Knock Your Socks Off</h2>
+            </div>
+            
+        </div>
+    </div>
+</div>
