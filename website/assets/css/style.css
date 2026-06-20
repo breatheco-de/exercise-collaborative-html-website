@@ -1,3 +1,13 @@
 body{
     background: #BDBDBD;
 }
+.card-img-overlay{
+    margin-top: 3rem;
+  }
+.card-title1{
+    font-size: 7rem;
+    margin-bottom: 1.5rem;
+  }
+  .card-text2{
+    font-size: 4rem;
+  }
