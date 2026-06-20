@@ -1,3 +1,23 @@
+
+
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+    margin: 0%;
+    padding:0%;
 }
+nav  {
+    width: 100%;
+}
+
+.contenedor {
+    background-image: url('../img/bg.jpg') ;
+    width: 100%;
+    margin: 0%;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 600px;
+
+}
+
+
