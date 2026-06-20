@@ -1,0 +1,12 @@
+PARA CREAR UNA RAMA Y SUBIRLA AL MASTER
+
+git add .
+git merge [nombre rama]
+git push origin {nombre rama}
+
+
+PARA CAMBIAR CAMBIOS
+ git add .
+ git commit -m "nombre-commit"
+ git push origin nombre rama actual o modificada
+ 
