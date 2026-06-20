@@ -1,3 +1,21 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
+
+
+.form{
+    background-color: rgba(187, 187, 187, 0.104);
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
+    border: 1px solid;
+}
+
+h1{
+    margin-left: 75px;
+}
+
+p{
+    margin-left: 75px;
+}
+
