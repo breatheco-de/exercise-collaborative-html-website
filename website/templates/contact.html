@@ -1,2 +1,27 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="line d-flex justify-content-center">
+  <hr width="80%" color="gray" class="m-5"/>
+</div>
+<div class="d-flex justify-content-center">
+  <div class="col-10 p-4">
+    <h1>Contact</h1>
+    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <div class="d-flex justify-content-center">
+      <form class="contactForm col-8 d-flex flex-column align-items-end p-2 pb-4 mt-2 border rounded bg-light" method="post">
+        <div class="mb-3 row col-12">
+          <label for="staticEmail" class="col-sm-3 col-form-label text-end fw-bold">Your E-mail</label>
+          <div class="col-9">
+            <input type="text" class="form-control" id="staticEmail" placeholder="Your email">
+          </div>
+        </div>
+        <div class="mb-3 row col-12">
+          <label for="inputPassword" class="col-sm-3 col-form-label text-end fw-bold">Your message</label>
+          <div class="col-9">
+            <textarea rows="4" class="form-control" id="inputPassword" placeholder="Please enter your message here..."></textarea>
+          </div>
+        </div>
+        <button class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
