@@ -1,3 +1,15 @@
-body{
-    background: #BDBDBD;
+body {
+    background: #bdbdbd;
+}
+
+#tagline .text-position {
+    top: 30%;
+}
+
+#tagline .text-position .title {
+    font-size: 8rem;
+}
+
+#tagline .text-position .subtitle {
+    font-size: 5rem;
 }
