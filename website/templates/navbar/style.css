@@ -1,0 +1,31 @@
+body{
+    
+
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    flex-flow: column ;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex-grow: 1;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddddddd8;
+    color: black;
+    border-radius: 1vh;
+  }
+  .naybar a:active{
+    background-color: rgb(0, 0, 0);
+    
+  }
