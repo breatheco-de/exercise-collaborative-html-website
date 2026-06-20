@@ -1,3 +1,55 @@
 body{
-    background: #BDBDBD;
+
+    background: rgb(255, 255, 255);
+}
+.gris{
+    color: gray;
+}
+img{
+  
+    border-radius:100%;
+    width: 300px;
+    height: 300px;
+    float: right; 
+    
+    
+}
+.col-8{
+    margin-left: 60px;
+   margin-right: 50px;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    text-align: justify;
+}
+.container-fluid{
+    align-content: space-evenly;
+
+    background: #fffefe;
+}
+
+.Wonder{
+    font-size: 650%;
+    font-style: normal;
+    
+}
+
+.Will{
+    font-size: 400%;
+}
+
+.ciudad{
+ background: no-repeat center/120% url('../img/bg.jpg');
+ z-index: 100;
+}
+
+.height{
+    height: 600px;
+}
+
+.fila{
+    display: flex;
+
 }
