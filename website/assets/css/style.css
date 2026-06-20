@@ -1,3 +1,17 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.portfolio-item h3 {
+    margin-top: 15px;
+    color: #2f6ca1;
+}
+.divider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid #818181;
+    width: 100%;
 }
