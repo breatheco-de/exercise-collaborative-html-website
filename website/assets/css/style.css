@@ -1,3 +1,37 @@
+/*
+
+Css para otra forma de crear el tagline 
+
 body{
-    background: #BDBDBD;
+    margin: 0;
+    padding: 0;
+    background: white;
 }
+
+.card-title-tagline {
+    font-size: 7vw;
+    color: #333333;
+}
+
+
+.card-subtittle-tagline{
+    font-size: 4vw;
+    color: #333333;
+}
+
+
+.container-fluid{
+    padding: 0;
+    
+.img_portfolio{
+
+    height: 220px;
+    object-fit: cover;
+}
+.firstheading_span{
+    display: inline-block;
+}
+
+
+*/
+

@@ -1,3 +1,43 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<!--
+Otra forma de Crear el Tagline 
+<section class="tagline">
+    <div class="container" class="p-0">
+        <div class="image_tagline">
+            <div class="card bg-dark text-white br-0 rounded-0 ">
+                <img src="https://photolari.com/wp-content/uploads/2017/06/MontBlancGigapixel-01.jpg"
+                    class="card-img img-fluid" alt="..." style=" width: auto ;height: auto; object-fit: cover;">
+                <div class="card-img-overlay text-wrap d-flex flex-column  text-center">
+                    <h3 class="card-title-tagline bg-light pb-1 mt-5">One Page Wonder</h3>
+                    <h4 class="card-subtittle-tagline  bg-light mt-2">Will Knock Your Shocks Off</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+
+
+    <!--
+    Motivo por el cual hacer todo el contenido con container sin
+    <div class="container p-0">
+    En el caso de hacer container con fluid
+     y que occupe el ancho  total de la pantalla colocar p-o en 
+      div.container y en el index.html tambien en el apartado navigation 
+        -->
+   <div class="container">
+
+        <div class="p-5 text-center bg-image" style="
+    background-image: url('https://wallpapers.com/images/hd/4k-ultra-hd-landscape-wallpaper-sa8ffsciekildmug.jpg');
+    height: auto; background-size: cover; background-position: center;
+  ">
+            <div class="mask p-5">
+                <div class="  d-flex justify-content-center align-items-center flex-column h-100 ">
+                    
+                        <h1 class="mb-3 bg-light bg-opacity-75 p-3  display-1 fw-bold w-100">One Page Wonder</h1>
+                        <h4 class="mb-3 bg-light bg-opacity-75 p-2  my-5 display-6 fw-bold w-100">Will Knock Your Shocks Off</h4>
+        
+                </div>
+            </div>
+        </div>
+    </div>
