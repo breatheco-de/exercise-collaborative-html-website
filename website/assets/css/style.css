@@ -1,3 +1,35 @@
 body{
-    background: #BDBDBD;
+    background: black;
+}
+
+#tagline {
+    background-image: url("/website/assets/img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 450px;
+}
+
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 4rem;
+} 
+.footer {
+    background-color: #1b1e20;
+    padding: 1rem 0;
+    text-align: center;
+    color: #ffffff;
+    border-top: 5px solid #1b1e20;
+    width: auto;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
 }
