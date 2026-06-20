@@ -1,3 +1,22 @@
 body{
-    background: #BDBDBD;
+    background: #a6a2a2;
+}
+
+  
+
+.container-jumbotron{
+    height: 350px;
+    background-image: url('https://images.photowall.com/products/60710/manhattan-skyline.jpg?h=699&q=85');
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    
+}
+.content-jumbotron {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
 }
