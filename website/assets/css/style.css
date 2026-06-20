@@ -1,3 +1,22 @@
-body{
+body {
     background: #BDBDBD;
 }
+
+.bg-image {
+    height: 400px;
+    background-image: url('../img/bg.jpg');
+}
+
+#start {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+}
+
