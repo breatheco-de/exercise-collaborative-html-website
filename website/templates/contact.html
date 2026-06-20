@@ -1,2 +1,64 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<style>  
+    .container {  
+        background: white;  
+        padding: 30px;  
+    }  
+    form {  
+        background: rgb(234, 231, 231);  
+        border: 1px solid lightgrey;  
+        width: 700px; 
+        margin: auto; 
+    }  
+    input, textarea {  
+        border: 1px solid rgb(232, 239, 239);
+        width: 100px;
+    }
+
+    .type-email {
+        padding-top: 10px;
+        padding-left: 60px;
+    }
+    .Your-message {
+        margin-left: 45px;
+        margin-bottom: 95px;
+    }
+    label {
+        margin-right: 30px;
+    }
+    .mybutton {   
+        padding: 10px;
+        margin-bottom: 10px; 
+    }  
+    .form-control{  
+        width: 500px;
+        margin-right: 20px;  
+    }  
+    
+</style>  
+<div class="container">  
+    <h2 id="Contact">Contact</h2>  
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam, odit ex adipisci aliquid quasi nesciunt voluptatem dignissimos ab repudiandae corrupti qui vel voluptatibus, sint corporis? Autem earum exercitationem corporis.</p>  
+    <div class="d-flex align-items-center">  
+        <form class="d-flex justify-content-center">  
+            <div class="my-content">  
+                <div class="type-email justify-content-right">
+                    <div class="mb-3 d-flex align-items-center">  
+                        <label for="exampleInputEmail1" class="form-label"><strong>Your E-mail</strong></label>  
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email" required aria-describedby="emailHelp">  
+                    </div> 
+                </div>
+                <div class="type-message">
+                    <div class="d-flex align-items-center">
+                        <label form="floatingTextarea2" class="Your-message"><strong>Your message</strong></label> 
+                        <textarea rows="4" class="form-control" placeholder="Please enter your message here..." id="floatingTextarea2"></textarea>
+                    </div>  
+                </div>
+                <div class="mybutton">  
+                    <div class="d-grid d-md-flex justify-content-md-end">  
+                        <button class="btn btn-primary me-md-2" type="submit">Submit</button>  
+                    </div>  
+                </div>  
+            </div>  
+        </form>  
+    </div>  
+</div> 
