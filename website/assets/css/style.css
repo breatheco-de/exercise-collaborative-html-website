@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+
+.portada{
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+} 
