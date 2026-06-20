@@ -2,44 +2,170 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>One Page Wonder - Start Bootstrap Template</title>
-    <!-- Required meta tags -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <title>One Page Wonder - Start Bootstrap Template</title>
+  <!-- Required meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link href="assets/css/style.css?v0.1" rel="stylesheet">
+  <style>
+  body{
+    background-color: white;
+}
+#heading-img{
+  background-image: url('/website/assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+#h1{
+  font-size: 5rem;
+}
+#h2{
+  font-size: 3rem;
+}
+.contact{
+  width: 50%;
+    background-color: lightgrey;
+    padding: 15px;
+}
 
-    <!-- Custom CSS -->
-    <link href="assets/css/style.css?v0.1" rel="stylesheet">
+</style>
 </head>
 
 <body>
-
-    <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <span require-file="./templates/navbar.html"></span>
-        <!-- Full Width Image Header -->
-        <span require-file="./templates/tagline.html"></span>
+      <a class="navbar-brand" href="#">Start Boostrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <!-- Page Content -->
-    <div class="container-fluid">
-        <!-- First Featurette -->
-        <span require-file="./templates/first_heading.html"></span>
-        <span require-file="./templates/services.html"></span>
-        <span require-file="./templates/portfolio.html"></span>
-        <span require-file="./templates/contact.html"></span>
-        <span require-file="./templates/footer.html"></span>
+  </nav>
+
+  <div class="container-fluid py-5" id="heading-img">
+    <div class="pt-5">
+      <h1 class="display-5 fw-bold text-center bg-light" id="h1">One Page Wonder</h1>
     </div>
-    <!-- /.container -->
-    <script type="text/javascript"
-        src="https://cdn.rawgit.com/alesanchezr/html-template-engine/master/dist/html-template-engine.js?autoload"></script>
-    <script type="text/javascript" src="assets/js/fix.js"></script>
+    <div>
+      <h2 class="display-5 fw-bold text-center bg-light" id="h2">Will Knock Your Socks Off</h2>
+    </div>
+  </div>
+    <div class="container text-center">
+        <div class="row p-3">
+          <div class="col-xl-7 col-md-6 col-sm-12 p-2 justify-content-center">
+            <h4 class="text-start" >This First Heading <span class="color-span">Will Catch Your Eye</span></h4>
+            <p class="text-start" >Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis eusmod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-xl-5 col-md-6 col-sm-12 p-2  d-flex justify-content-center">
+            <img src="/website/assets/img/1.jpg" class="rounded-circle " height="300px" width="300px">
+          </div>
+        </div>
+    </div>
+      <div class="container text-center">
+        <div class="row p-3">
+          <div class="col-xl-5 col-md-6 col-sm-12 p-2   d-flex justify-content-center">
+            <img src="/website/assets/img/2.jpg" class="rounded-circle" height="300px" width="300px">
+          </div>
+          <div class="col-xl-7 col-md-6 col-sm-12 p-2 justify-content-center">
+            <h4 class="text-start" >The Second Headinf <span class="color-span"> Is Pretty Cool Too.</span></h4>
+            <p class="text-start" >Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis eusmod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+        </div>
+      </div>
 
+    <div class="container text-center">
+        <div class="row p-3">
+          <div class="col-xl-12 col-md-12 col-sm-12 p-2 justify-content-center">
+            <h4 class="text-start" >Porfolio</h4>
+            <p class="text-start" >Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis eusmod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+        </div>
+    </div>
 
-    <!-- Optional JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <div class="container text-center ">
+        <div class="row p-3">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2  justify-content-center">
+            <div class="card border0" style="width: 18rem;">
+                <img src="/website/assets/img/big-project-image.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text"><h5 class="text-start color-h5">Project Name</h5><p class="text-jus">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vi</p></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2  justify-content-center">
+            <div class="card border0" style="width: 18rem;">
+                <img src="/website/assets/img/big-project-image.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text"><h5 class="text-start color-h5">Project Name</h5><p class="text-jus">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vi</p></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 p-2  justify-content-center">
+            <div class="card border0" style="width: 18rem;">
+                <img src="/website/assets/img/big-project-image.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text"><h5 class="text-start color-h5">Project Name</h5><p class="text-jus">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vi</p></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container text-center">
+      <div class="row p-3">
+        <div class="col-xl-12 col-md-12 col-sm-12 p-2 justify-content-center">
+          <h4 class="text-start" >Contact</h4>
+          <p class="text-start" >Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus
+            magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+      </div>
+  </div>
+  <div class="d-flex justify-content-center">
+    <form class="contact">
+      <div class="row mb-4">
+          <label for="colFormLabel" class="col-sm-2 col-form-label"><strong>Your Email</strong></label>
+          <div class="col-sm-10">
+              <input type="email" class="form-control"placeholder="Your email">
+          </div>
+      </div>
+      <div class="row mb-4 ">
+          <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label"><strong>Your
+                  message</strong></label>
+          <div class="col-sm-10">
+              <textarea class="form-control" rows="3"
+                  placeholder="Please enter your message here...."></textarea>
+          </div>
+      </div>
+      <div class="col-12 justify-content-end d-flex">
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+  </form>
 
+  </div>
+       
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
 </body>
 
 </html>

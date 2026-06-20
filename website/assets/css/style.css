@@ -1,3 +1,42 @@
 body{
-    background: #BDBDBD;
+<<<<<<< HEAD
+    
+}
+.color-span{
+    color: rgb(153, 151, 151);
+}
+.hwauto{
+    height: auto;
+    width: auto;
+}
+.border0{
+    border: none;
+}
+.color-h5{
+    color: rgb(6, 167, 167);
+}
+.text-jus{
+    text-align: justify;
+=======
+body{
+    background-color: white;
+}
+#heading-img{
+  background-image: url('/website/assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+#h1{
+  font-size: 5rem;
+}
+#h2{
+  font-size: 3rem;
+}
+.contact{
+  width: 50%;
+    background-color: lightgrey;
+    padding: 15px;
 }
