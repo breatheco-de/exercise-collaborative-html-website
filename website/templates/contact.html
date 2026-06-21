@@ -1,2 +1,21 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container-fluid contact bg-white p-5">
+    <div class="contactHead">
+        <h2>Contact</h2>
+        <div class="contactBody">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque minus minima soluta sit sunt dignissimos fuga distinctio commodi aperiam quae?</p>
+            <div class="contactFomr w-50 p-2 m-auto" style="background-color: lightgrey;">
+                <form class="p-2">
+                    <lebel class="ms-4" for="email"><strong>Your E-mail</strong></lebel>
+                    <input class="border border-secondary m-3" type="email" id="email"
+                    pattern=".+@globex\.com" placeholder="Your email" name="email" size="48"><br/>
+                    <lebel for="textBox"><strong>Your messages</strong></lebel>
+                    <textarea class="border border-secondary mx-3" id="textBox" name="textBox" placeholder="Please enter your messages here ..." cols="50" rows="5"></textarea>
+                </form>
+                <div class="formFooter m-2" style="display: flex; justify-content: flex-end;">
+                <button type="button" class="btn btn-primary" >Submit</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

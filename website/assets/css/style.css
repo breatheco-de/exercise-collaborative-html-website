@@ -1,3 +1,21 @@
 body{
     background: #BDBDBD;
 }
+.container{
+    background-image: url("..//img/bg.jpg");
+    background-size: cover;
+    height: 500px;
+    padding: top 50px;
+}
+.display-4{
+    margin: 15px 0px 15px 0px;
+    width: auto;
+    background-color: white;
+    font-weight:bold ;
+    justify-items: center;
+    text-align: center;
+    font-size:100px;
+}
+.coolimg{
+    background-image: url("https://i.picsum.photos/id/1028/5184/3456.jpg?hmac=WhttNfn25eTgLTNnhRujSq4IVjx2mMa6wvPG1c6qMVc");
+}
