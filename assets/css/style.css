@@ -1,0 +1,99 @@
+/* TAGLINE */
+.tagline {
+    position: relative;
+}
+
+.tagline-textWrapper {
+    position:absolute;
+    top: calc(50% - 50px);
+    display: block;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.tagline-text {
+    background-color: white;
+    text-align: center;
+}
+
+.tagline-text--title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.tagline-text--subtitle {
+    font-size: 20px
+}
+
+.tagline-signature {
+    color:yellow;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    background: white;
+}
+
+/* SECTION SEPARATOR */
+.section {
+    border-top: 1px solid #ECECEC;
+    padding: 40px 0;
+}
+
+/* ROUNDED-IMG */
+.rounded-img {
+    width: 100%;
+    height: auto;
+}
+
+/* HEADINGS */
+.first-heading-img,
+.services-img {
+    display: none;
+}
+
+/* PORTFOLIO */
+.portfolio-card {
+    margin-bottom: 15px;
+}
+
+.portfolio-link {
+    text-decoration: none;
+}
+
+.portfolio-link:hover {
+    text-decoration: none;
+}
+
+/* CONTACT FORM */
+.contact-form {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+.contact-label {
+    font-weight: bold;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 768px) {
+    .tagline-textWrapper {
+        top: calc(50% - 100px);
+    }
+
+    .tagline-text--title {
+        font-size: 80px;
+    }
+    
+    .tagline-text--subtitle {
+        font-size: 50px
+    }
+
+    .first-heading-img,
+    .services-img {
+        display: block;
+    }
+
+    .portfolio-card {
+        margin-bottom: 0;
+    }
+}
